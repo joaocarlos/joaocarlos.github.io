@@ -17,4 +17,8 @@
 "js/publications.js" }} {{- if $publicationsJS }} {{- $publicationsJS :=
 $publicationsJS | resources.Minify }}
 <script defer src="{{ $publicationsJS.RelPermalink }}"></script>
+{{- end }} {{- end }} {{/* Custom CSS for books page */}} {{- if eq .Section
+"books" }} {{- $booksCSS := resources.Get "css/custom/books.css" }} {{- if
+$booksCSS }} {{- $booksCSS := $booksCSS | resources.Minify }}
+<link rel="stylesheet" href="{{ $booksCSS.RelPermalink }}" />
 {{- end }} {{- end }}

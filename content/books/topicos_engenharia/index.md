@@ -2,9 +2,11 @@
 title: "Tópicos em Engenharia de Computação da UFRB"
 date: 2021-05-28
 tags: ["Computer science", "informatics", "computing"]
+language: "pt"
+role: "organizer"
 author:
     [
-        "Camila Bezerra da Silva, João Carlos N. Bittencourt, André Luiz Carvalho Ottoni, José Valentim dos Santos Filho (Org.).",
+        "Camila Bezerra da Silva, João Carlos N. Bittencourt, André Luiz Carvalho Ottoni, José Valentim dos Santos Filho",
     ]
 description: "The book brings together successful cases in research and innovation by students and professors from the Computer Engineering course at the Federal University of Recôncavo da Bahia."
 summary: "The book presents a selection of final projects, research projects, and technological innovation projects carried out by students and faculty members of the Center for Exact and Technological Sciences at the Federal University of Recôncavo da Bahia, in the Computer Engineering program."
@@ -42,13 +44,13 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 #### View
 
-Download [here](https://www1.ufrb.edu.br/editora/component/phocadownload/category/2-e-books?download=223:topicos-em-engenharia-da-computacao) or read it [online](https://online.fliphtml5.com/sjtcu/ylob/).
+Download the book [here](https://www1.ufrb.edu.br/editora/component/phocadownload/category/2-e-books?download=223:topicos-em-engenharia-da-computacao) or read it [online](https://online.fliphtml5.com/sjtcu/ylob/).
 
 <!-- -   [Chapter 1: History of the Portuguese language](chapter1.pdf)
 -   [Chapter 2: Review of regular verbs](chapter2.pdf)
 -   [Chapter 3: Analysis of irregular verbs](chapter3.pdf) -->
 
----
+<!-- --- -->
 
 <!-- #### Excerpt from Chapter 1: Basic mathematical results from Portuguese philology
 
@@ -68,14 +70,14 @@ Praesent at eros a sapien sagittis scelerisque at a nulla. Aliquam erat volutpat
 
 #### Citation
 
-Moritz-Maria von Igelfeld. 1997. _Portugese Irregular Verbs_. Regensburg, Germany: Regensburg University Press. <http://www.alexandermccallsmith.com/book/portuguese-irregular-verbs>.
+Silva, C. B., Bittencourt, J. C. N., Ottoni, A. L. C., & Santos Filho, J. V. (Org.). (2021). _Tópicos em Engenharia de Computação da UFRB_. Editora UFRB. <[https://www1.ufrb.edu.br/editora/component/phocadownload/category/2-e-books?download=223:topicos-em-engenharia-da-computacao](https://www1.ufrb.edu.br/editora/component/phocadownload/category/2-e-books?download=223:topicos-em-engenharia-da-computacao)>
 
 ```BibTeX
-@book{I97,
-author = {Moritz-Maria von Igelfeld},
-year = {1997},
-title = {Portugese Irregular Verbs},
-publisher = {Regensburg University Press},
-address = {Regensburg, Germany},
-url = {http://www.alexandermccallsmith.com/book/portuguese-irregular-verbs}}
+@book{Silva2021,
+author = {Camila Bezerra da Silva and João Carlos N. Bittencourt and André Luiz Carvalho Ottoni and José Valentim dos Santos Filho},
+year = {2021},
+title = {Tópicos em Engenharia de Computação da UFRB},
+publisher = {Editora UFRB},
+address = {Cruz das Almas, BA},
+url = {https://www1.ufrb.edu.br/editora/component/chronoforms5/?chronoform=ver-livro&id=133}}
 ```
