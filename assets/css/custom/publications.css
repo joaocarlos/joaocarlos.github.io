@@ -260,6 +260,10 @@ html body .post-content .publications-filters .filter-button.active {
     background: #ad85ba;
 }
 
+.badge-preprint {
+    background: #949494;
+}
+
 .badge-highly-cited {
     background: #c88691;
 }

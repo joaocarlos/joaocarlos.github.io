@@ -75,6 +75,11 @@ async function loadPublications() {
 
         console.log(`✅ Loaded ${publications.length} publications`)
 
+        // Update last updated timestamp if available
+        if (data.meta && data.meta.lastUpdated) {
+            updateLastUpdatedDisplay(data.meta.lastUpdated)
+        }
+
         // Filter out thesis and excluded publications
         const originalCount = publications.length
         publications = publications.filter((pub) => {
@@ -183,6 +188,9 @@ async function loadPublications() {
 
                     // Display publications
                     displayPublications(publications)
+
+                    // Update last updated display (fallback - no specific timestamp available)
+                    updateLastUpdatedDisplay(null)
                     updateStats(publications)
                     setupFilters()
 
@@ -394,9 +402,22 @@ function displayPublications(publications) {
                     type.toLowerCase().includes("proceedings")) &&
                     !isBookChapter)
 
+            // Preprint detection
+            const isPreprint =
+                pub.publicationType === "posted-content" ||
+                venue.toLowerCase().includes("arxiv") ||
+                venue.toLowerCase().includes("biorxiv") ||
+                venue.toLowerCase().includes("medrxiv") ||
+                venue.toLowerCase().includes("preprint") ||
+                venue.toLowerCase().includes("research square") ||
+                venue.toLowerCase().includes("ssrn") ||
+                venue.toLowerCase().includes("researchgate")
+
             // Generate badges
             let badges = ""
-            if (isJournal) {
+            if (isPreprint) {
+                badges += '<span class="badge badge-preprint">Preprint</span>'
+            } else if (isJournal) {
                 badges += '<span class="badge badge-journal">Journal</span>'
             } else if (isConference) {
                 badges +=
@@ -576,6 +597,49 @@ function filterPublications() {
         // Hide year groups with no visible publications
         yearGroup.style.display = hasVisiblePublications ? "block" : "none"
     })
+}
+
+// Function to update the last updated display
+function updateLastUpdatedDisplay(lastUpdatedISO) {
+    const lastUpdatedEl = document.getElementById("last-updated")
+    if (!lastUpdatedEl) return
+
+    try {
+        const lastUpdatedDate = new Date(lastUpdatedISO)
+        const now = new Date()
+
+        // Calculate time difference
+        const timeDiff = now - lastUpdatedDate
+        const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24))
+        const hoursDiff = Math.floor(timeDiff / (1000 * 60 * 60))
+
+        let relativeTime
+        if (daysDiff === 0) {
+            if (hoursDiff === 0) {
+                relativeTime = "less than an hour ago"
+            } else if (hoursDiff === 1) {
+                relativeTime = "1 hour ago"
+            } else {
+                relativeTime = `${hoursDiff} hours ago`
+            }
+        } else if (daysDiff === 1) {
+            relativeTime = "1 day ago"
+        } else if (daysDiff < 30) {
+            relativeTime = `${daysDiff} days ago`
+        } else {
+            // For older dates, show the actual date
+            relativeTime = lastUpdatedDate.toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+            })
+        }
+
+        lastUpdatedEl.innerHTML = `<em>Last updated: ${relativeTime}</em>`
+    } catch (error) {
+        console.error("Error parsing last updated date:", error)
+        lastUpdatedEl.innerHTML = `<em>Last updated: ${lastUpdatedISO}</em>`
+    }
 }
 
 // Expose to global scope for retry button

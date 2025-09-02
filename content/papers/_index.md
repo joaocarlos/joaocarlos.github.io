@@ -52,4 +52,7 @@ Retry
 
 <div id="disclaimer" class="disclaimer">
 <p><strong>Data Attribution:</strong> Bibliographic data are sourced from the <a href="https://help.openalex.org/hc/en-us/articles/24396686889751-About-us" target="_blank">OpenAlex</a> open scientific knowledge base. For the most complete and current publication record, please refer to my <a href="https://orcid.org/0000-0002-4540-512X" target="_blank">ORCID profile</a>.</p>
+<p id="last-updated" class="last-updated" style="margin-top: 10px; font-size: 0.9em; color: var(--secondary);">
+<em>Loading update information...</em>
+</p>
 </div>
