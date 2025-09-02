@@ -1,4 +1,4 @@
 ---
-title: "Books"
-description: "Books by Professor Dr von Igelfeld's."
+title: "Books & Chapters"
+description: "Books and chapters by Professor João Carlos N. Bittencourt."
 ---

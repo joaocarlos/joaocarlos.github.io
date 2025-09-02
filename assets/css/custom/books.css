@@ -1,0 +1,241 @@
+/* Books List Layout Styles */
+.book-entry {
+  margin-bottom: 2.5rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: var(--entry);
+}
+
+.book-entry:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.first-book-entry {
+  margin-bottom: 2.5rem;
+  border: 2px solid var(--primary);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: var(--entry);
+}
+
+.first-book-entry:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+.book-entry-container {
+  display: flex;
+  align-items: stretch;
+  min-height: 250px;
+}
+
+.book-cover-container {
+  flex-shrink: 0;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--code-bg);
+  padding: 1rem;
+}
+
+.book-cover {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.book-cover:hover {
+  transform: scale(1.05);
+}
+
+.book-cover img {
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.book-content-container {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-entry-header {
+  margin-bottom: 1rem;
+}
+
+.book-entry-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.book-entry-title a {
+  color: var(--content);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.book-entry-title a:hover {
+  color: var(--primary);
+}
+
+.book-authors {
+  margin-bottom: 0.75rem;
+  color: var(--secondary);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.book-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: var(--secondary);
+}
+
+.book-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.book-tag {
+  background: var(--theme);
+  color: var(--primary);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid var(--primary);
+}
+
+.book-entry-content {
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.book-entry-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: var(--content);
+}
+
+.book-entry-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.book-publisher a {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.book-publisher a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.book-read-more {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--primary);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.book-read-more:hover {
+  background: var(--primary);
+  color: var(--theme);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .book-entry-container {
+    flex-direction: column;
+    min-height: auto;
+  }
+  
+  .book-cover-container {
+    width: 100%;
+    padding: 1.5rem;
+    justify-content: center;
+  }
+  
+  .book-cover {
+    max-width: 180px;
+  }
+  
+  .book-content-container {
+    padding: 1.5rem;
+  }
+  
+  .book-entry-title {
+    font-size: 1.3rem;
+  }
+  
+  .book-entry-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .book-cover-container {
+    padding: 1rem;
+  }
+  
+  .book-cover {
+    max-width: 150px;
+  }
+  
+  .book-content-container {
+    padding: 1rem;
+  }
+  
+  .book-entry-title {
+    font-size: 1.2rem;
+  }
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .book-entry {
+  border-color: var(--border);
+  background: var(--entry);
+}
+
+[data-theme="dark"] .book-entry:hover {
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .book-cover-container {
+  background: var(--code-bg);
+}
+
+[data-theme="dark"] .book-tag {
+  background: var(--code-bg);
+  color: var(--primary);
+  border-color: var(--primary);
+}
