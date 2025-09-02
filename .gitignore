@@ -3,3 +3,9 @@ public/
 resources/
 .hugo_build.lock
 node_modules/
+.DS_Store
+
+# Build tools
+hugo
+hugo.tar.gz
+*.exe

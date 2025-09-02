@@ -10,7 +10,7 @@ title: "Publications"
 <span>Loading publications...</span>
 </div>
 
-<div id="publications-stats" class="publications-stats" style="display: none;">
+<!-- <div id="publications-stats" class="publications-stats" style="display: none;">
 <div class="stat-item">
 <span class="stat-number" id="total-papers">0</span>
 <span class="stat-label">Papers</span>
@@ -27,7 +27,7 @@ title: "Publications"
 <span class="stat-number" id="open-access-count">0</span>
 <span class="stat-label">Open Access</span>
 </div>
-</div>
+</div> -->
 
 <div id="publications-filters" class="publications-filters" style="display: none;">
 <button class="filter-button active" data-filter="all">All</button>
@@ -36,11 +36,8 @@ title: "Publications"
 <!-- <button class="filter-button" data-filter="book">Book Chapters</button> -->
 <button class="filter-button" data-filter="open-access">Open Access</button>
 <!-- <button class="filter-button" data-filter="highly-cited">Highly Cited</button> -->
+<button class="filter-button" data-filter="books" onclick="window.location.href='/books/'">Books</button>
 </div>
-</div>
-
-<div id="disclaimer" class="disclaimer">
-<p><strong>Data Attribution:</strong> Publication metrics and bibliographic data are sourced from the <a href="https://help.openalex.org/hc/en-us/articles/24396686889751-About-us" target="_blank">OpenAlex</a> open scientific knowledge base. For the most complete and current publication record, please refer to my <a href="https://orcid.org/0000-0002-4540-512X" target="_blank">ORCID profile</a>.</p>
 </div>
 
 <div id="publications-content"></div>
@@ -51,4 +48,8 @@ title: "Publications"
 Retry
 </button>
 </div>
+</div>
+
+<div id="disclaimer" class="disclaimer">
+<p><strong>Data Attribution:</strong> Bibliographic data are sourced from the <a href="https://help.openalex.org/hc/en-us/articles/24396686889751-About-us" target="_blank">OpenAlex</a> open scientific knowledge base. For the most complete and current publication record, please refer to my <a href="https://orcid.org/0000-0002-4540-512X" target="_blank">ORCID profile</a>.</p>
 </div>
