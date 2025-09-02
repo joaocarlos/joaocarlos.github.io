@@ -18,77 +18,154 @@ if not .IsHome | and .Title }}
 </div>
 {{- end }}
 
-{{- $pages := .RegularPages }}
-{{- $paginator := .Paginate $pages }}
+<div class="books-container">
+    <div class="books-grid">
+        {{- $pages := .RegularPages }} {{- range $index, $page := $pages }}
 
-{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
-{{- partial "home_info.html" . }}
-{{- end }}
+        <div class="book-card">
+            {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param
+            "cover.hidden") | default false }} {{- if not $isHidden }}
+            <div class="book-cover-wrapper">
+                {{- if .Params.cover.image }} {{- $alt := (.Params.cover.alt |
+                default .Params.cover.caption | plainify) }} {{-
+                $pageBundleCover := (.Resources.ByType "image").GetMatch (printf
+                "*%s*" (.Params.cover.image)) }} {{- $globalResourcesCover :=
+                (resources.ByType "image").GetMatch (printf "*%s*"
+                (.Params.cover.image)) }} {{- $cover := (or $pageBundleCover
+                $globalResourcesCover)}}
 
-{{- $term := .Data.Term }}
-{{- range $index, $page := $paginator.Pages }}
+                <div class="book-cover">
+                    <a
+                        href="{{ .Permalink }}"
+                        aria-label="Go to {{ .Title | plainify }}"
+                    >
+                        {{- if $cover }}
+                        <img
+                            src="{{ $cover.Permalink }}"
+                            alt="{{ $alt | default .Title }}"
+                            loading="lazy"
+                        />
+                        {{- else }}
+                        <img
+                            src="{{ .Params.cover.image | absURL }}"
+                            alt="{{ $alt | default .Title }}"
+                            loading="lazy"
+                        />
+                        {{- end }}
+                    </a>
+                </div>
+                {{- end }}
+            </div>
+            {{- end }}
 
-{{- $class := "post-entry" }}
+            <div class="book-details">
+                {{/* Book type classification using explicit role field */}} {{-
+                $bookType := .Params.role | default "authored" }}
 
-{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-entry" }}
-{{- else if $term }}
-{{- $class = "post-entry tag-entry" }}
-{{- end }}
+                <div class="book-type-badge">
+                    {{- if eq $bookType "organizer" }}
+                    <span class="badge badge-organizer">Organizer</span>
+                    {{- else if eq $bookType "editor" }}
+                    <span class="badge badge-editor">Editor</span>
+                    {{- else if eq $bookType "chapter" }}
+                    <span class="badge badge-chapter">Chapter Author</span>
+                    {{- else }}
+                    <span class="badge badge-authored">Author</span>
+                    {{- end }} {{/* Language badge - inline with type badge */}}
+                    {{- if .Params.language }} {{- $lang := .Params.language }}
+                    {{- $langName := "" }} {{- if eq $lang "pt" }} {{- $langName
+                    = "Portuguese" }} {{- else if eq $lang "en" }} {{- $langName
+                    = "English" }} {{- else if eq $lang "es" }} {{- $langName =
+                    "Spanish" }} {{- else if eq $lang "fr" }} {{- $langName =
+                    "French" }} {{- else if eq $lang "de" }} {{- $langName =
+                    "German" }} {{- else if eq $lang "it" }} {{- $langName =
+                    "Italian" }} {{- else }} {{- $langName = (upper $lang) }}
+                    {{- end }}
 
-<article class="{{ $class }}">
-  {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
-  {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">
-      {{- .Title }}
-      {{- if .Draft }}
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
-      {{- end }}
-    </h2>
-  </header>
-  {{- if (ne (.Param "hideSummary") true) }}
-  <div class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-  </div>
-  {{- end }}
-  {{- if not (.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
-  </footer>
-  {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-</article>
-{{- end }}
+                    <span
+                        class="badge badge-language-{{ $lang }}"
+                        title="{{ $langName }}"
+                    >
+                        {{ $langName }}
+                    </span>
+                    {{- end }}
+                </div>
 
-{{- if gt $paginator.TotalPages 1 }}
-<footer class="page-footer">
-  <nav class="pagination">
-    {{- if $paginator.HasPrev }}
-    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
-      «&nbsp;{{ i18n "prev_page" }}&nbsp;
-      {{- if (.Param "ShowPageNums") }}
-      {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
-      {{- end }}
-    </a>
-    {{- end }}
-    {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
-      {{- i18n "next_page" }}&nbsp;
-      {{- if (.Param "ShowPageNums") }}
-      {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
-      {{- end }}&nbsp;»
-    </a>
-    {{- end }}
-  </nav>
-</footer>
-{{- end }}
+                <div class="book-title">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    {{- if .Draft }}
+                    <span class="entry-hint" title="Draft">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="16"
+                            viewBox="0 -960 960 960"
+                            fill="currentColor"
+                        >
+                            <path
+                                d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z"
+                            />
+                        </svg>
+                    </span>
+                    {{- end }}
+                </div>
 
-{{- end }}{{/* end profileMode */}}
+                {{/* Show chapter title below book title if this is a chapter
+                */}} {{- if and (eq $bookType "chapter") .Params.chapter_title
+                }}
+                <div class="book-chapter-title">
+                    {{ .Params.chapter_title }}
+                </div>
+                {{- end }} {{- if .Params.author }}
+                <div class="book-authors">
+                    {{- if reflect.IsSlice .Params.author }} {{- delimit
+                    .Params.author ", " }} {{- else }} {{- .Params.author }} {{-
+                    end }}
+                </div>
+                {{- end }} {{- if .Params.editPost.Text }}
+                <div class="book-publisher">{{ .Params.editPost.Text }}</div>
+                {{- end }} {{- if (ne (.Param "hideSummary") true) }}
+                <div class="book-description">
+                    {{- if .Params.description }} {{ .Params.description |
+                    plainify | htmlUnescape }} {{- else if .Summary }} {{
+                    .Summary | plainify | htmlUnescape }} {{- end }}
+                </div>
+                {{- end }}
 
-{{- end }}{{/* end main */}}
+                <div class="book-meta">
+                    <span class="book-year-badge">{{ .Date.Year }}</span>
+                    {{- if .Params.editPost.URL }}
+                    <span class="book-link">
+                        <a
+                            href="{{ .Params.editPost.URL }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Publisher Link
+                            <svg
+                                class="external-link-icon"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                                ></path>
+                                <polyline points="15,3 21,3 21,9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </span>
+                    {{- end }}
+                </div>
+            </div>
+        </div>
+        {{- end }}
+    </div>
+</div>
+
+{{- end }}{{/* End profileMode */}} {{- end }}{{/* End Main */}}
