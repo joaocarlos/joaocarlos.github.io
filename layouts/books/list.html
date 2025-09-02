@@ -38,113 +38,41 @@
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
-{{- $class := "book-entry" }}
+{{- $class := "post-entry" }}
 
 {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-book-entry" }}
+{{- $class = "first-entry" }}
 {{- else if $term }}
-{{- $class = "book-entry tag-entry" }}
+{{- $class = "post-entry tag-entry" }}
 {{- end }}
 
 <article class="{{ $class }}">
-  <div class="book-entry-container">
-    {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
-    
-    {{- if not $isHidden }}
-    <div class="book-cover-container">
-      {{- if .Params.cover.image }}
-      {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
-      {{- $pageBundleCover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
-      {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
-      {{- $cover := (or $pageBundleCover $globalResourcesCover)}}
-      
-      <figure class="book-cover">
-        <a href="{{ .Permalink }}" aria-label="Go to {{ .Title | plainify }}">
-          {{- if $cover }}
-          <img src="{{ $cover.Permalink }}" 
-               alt="{{ $alt | default .Title }}" 
-               loading="lazy"
-               width="{{ $cover.Width }}" 
-               height="{{ $cover.Height }}">
-          {{- else }}
-          <img src="{{ .Params.cover.image | absURL }}" 
-               alt="{{ $alt | default .Title }}" 
-               loading="lazy">
-          {{- end }}
-        </a>
-      </figure>
+  {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+  {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">
+      {{- .Title }}
+      {{- if .Draft }}
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
       {{- end }}
-    </div>
-    {{- end }}
-    
-    <div class="book-content-container">
-      <header class="book-entry-header">
-        <h2 class="book-entry-title">
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-          {{- if .Draft }}
-          <span class="entry-hint" title="Draft">
-            <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-              <path d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-            </svg>
-          </span>
-          {{- end }}
-        </h2>
-        
-        {{- if .Params.author }}
-        <div class="book-authors">
-          <strong>Author(s):</strong>
-          {{- if reflect.IsSlice .Params.author }}
-            {{- delimit .Params.author ", " }}
-          {{- else }}
-            {{- .Params.author }}
-          {{- end }}
-        </div>
-        {{- end }}
-        
-        {{- if not (.Param "hideMeta") }}
-        <div class="book-meta">
-          {{- if .Date }}
-          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-            Published: {{ .Date.Format "January 2, 2006" }}
-          </time>
-          {{- end }}
-          {{- if .Params.tags }}
-          <div class="book-tags">
-            {{- range .Params.tags }}
-            <span class="book-tag">{{ . }}</span>
-            {{- end }}
-          </div>
-          {{- end }}
-        </div>
-        {{- end }}
-      </header>
-      
-      {{- if (ne (.Param "hideSummary") true) }}
-      <div class="book-entry-content">
-        {{- if .Params.description }}
-        <p><strong>Description:</strong> {{ .Params.description | plainify | htmlUnescape }}</p>
-        {{- end }}
-        {{- if .Summary }}
-        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-        {{- end }}
-      </div>
-      {{- end }}
-      
-      <footer class="book-entry-footer">
-        {{- if .Params.editPost.URL }}
-        <div class="book-publisher">
-          <a href="{{ .Params.editPost.URL }}" target="_blank" rel="noopener noreferrer">
-            <strong>{{ .Params.editPost.Text | default "Publisher" }}</strong>
-          </a>
-        </div>
-        {{- end }}
-        <a class="book-read-more" href="{{ .Permalink }}" aria-label="Read more about {{ .Title | plainify }}">
-          Read More →
-        </a>
-      </footer>
-    </div>
+    </h2>
+  </header>
+  {{- if (ne (.Param "hideSummary") true) }}
+  <div class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
+  {{- end }}
+  {{- if not (.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}
 
