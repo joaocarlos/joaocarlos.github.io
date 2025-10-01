@@ -116,7 +116,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.289Z",
+      "lastUpdated": "2025-10-01T02:33:07.780Z",
       "display_name": "On the Role of AI in Building Generative Urban Intelligence",
       "publication_year": 2025,
       "publication_date": "2025-07-24",
@@ -327,7 +327,7 @@
       },
       "cited_by_percentile_year": {
         "min": 0,
-        "max": 89
+        "max": 88
       },
       "biblio": {
         "volume": null,
@@ -581,9 +581,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/11",
           "score": 0.49,
-          "display_name": "Sustainable cities and communities",
-          "id": "https://metadata.un.org/sdg/11"
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "grants": [],
@@ -1038,10 +1038,9 @@
           174
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4412640748",
       "counts_by_year": [],
-      "updated_date": "2025-08-26T15:31:19.652444",
+      "updated_date": "2025-09-23T10:30:25.244662",
       "created_date": "2025-07-25"
     },
     {
@@ -1180,7 +1179,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.289Z",
+      "lastUpdated": "2025-10-01T02:33:07.780Z",
       "display_name": "On the spatiotemporal knowledge-driven vulnerability assessment of urban areas: A clustering-based approach",
       "publication_year": 2025,
       "publication_date": "2025-07-15",
@@ -1327,7 +1326,7 @@
       },
       "cited_by_percentile_year": {
         "min": 0,
-        "max": 89
+        "max": 88
       },
       "biblio": {
         "volume": "127",
@@ -1515,9 +1514,9 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/11",
           "score": 0.77,
-          "display_name": "Sustainable cities and communities",
-          "id": "https://metadata.un.org/sdg/11"
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "grants": [
@@ -1602,10 +1601,9 @@
         "https://openalex.org/W1496728123"
       ],
       "abstract_inverted_index": null,
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4412451150",
       "counts_by_year": [],
-      "updated_date": "2025-09-01T14:37:30.166641",
+      "updated_date": "2025-09-29T12:04:59.005084",
       "created_date": "2025-07-16"
     },
     {
@@ -1643,7 +1641,7 @@
       "date": "2025-04-29",
       "doi": "https://doi.org/10.3390/smartcities8030077",
       "url": "https://doi.org/10.3390/smartcities8030077",
-      "citations": 2,
+      "citations": 3,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.3390/smartcities8030077",
       "publicationType": "journal-article",
@@ -1737,7 +1735,7 @@
           "cited_by_count": 2
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.289Z",
+      "lastUpdated": "2025-10-01T02:33:07.780Z",
       "display_name": "The Road to Intelligent Cities",
       "publication_year": 2025,
       "publication_date": "2025-04-29",
@@ -1966,17 +1964,17 @@
         "currency": "CHF",
         "value_usd": 1515
       },
-      "fwci": 8.743,
+      "fwci": 11.118,
       "has_fulltext": false,
-      "cited_by_count": 2,
+      "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.99978,
+        "value": 0.999817,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 96,
-        "max": 98
+        "min": 98,
+        "max": 99
       },
       "biblio": {
         "volume": "8",
@@ -2723,7 +2721,6 @@
           191
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4410069375",
       "counts_by_year": [
         {
@@ -2731,7 +2728,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-08-25T16:03:47.212574",
+      "updated_date": "2025-09-22T09:56:31.574128",
       "created_date": "2025-05-05"
     },
     {
@@ -2861,7 +2858,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.289Z",
+      "lastUpdated": "2025-10-01T02:33:07.780Z",
       "display_name": "Evaluation of Machine Learning Methods for Fire Risk Assessment from Satellite Imagery",
       "publication_year": 2024,
       "publication_date": "2024-11-15",
@@ -2993,7 +2990,7 @@
       },
       "cited_by_percentile_year": {
         "min": 0,
-        "max": 70
+        "max": 69
       },
       "biblio": {
         "volume": null,
@@ -3126,9 +3123,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/13",
           "score": 0.7,
-          "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "display_name": "Climate action"
         }
       ],
       "grants": [],
@@ -3170,10 +3167,9 @@
         "https://openalex.org/W2013329914"
       ],
       "abstract_inverted_index": null,
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4404356577",
       "counts_by_year": [],
-      "updated_date": "2025-08-31T07:07:14.615282",
+      "updated_date": "2025-09-28T03:59:53.448671",
       "created_date": "2024-11-15"
     },
     {
@@ -3317,7 +3313,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.290Z",
+      "lastUpdated": "2025-10-01T02:33:07.780Z",
       "display_name": "A method to promote safe cycling powered by large language models and AI agents",
       "publication_year": 2024,
       "publication_date": "2024-07-27",
@@ -3588,17 +3584,17 @@
         "currency": "USD",
         "value_usd": 500
       },
-      "fwci": 0.417,
+      "fwci": 0.366,
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.640461,
+        "value": 0.614078,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 70,
-        "max": 82
+        "min": 69,
+        "max": 81
       },
       "biblio": {
         "volume": "13",
@@ -4351,7 +4347,6 @@
           193
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4401046855",
       "counts_by_year": [
         {
@@ -4359,7 +4354,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-08-30T06:41:32.336824",
+      "updated_date": "2025-09-27T02:54:00.446166",
       "created_date": "2024-07-31"
     },
     {
@@ -4446,7 +4441,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.290Z",
+      "lastUpdated": "2025-10-01T02:33:07.781Z",
       "display_name": "Towards Lightweight Fire Detection at the Extreme Edge based on Decision Trees",
       "publication_year": 2024,
       "publication_date": "2024-06-25",
@@ -4641,17 +4636,17 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.37,
+      "fwci": 1.21,
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.999811,
+        "value": 0.999809,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 82,
-        "max": 88
+        "min": 81,
+        "max": 87
       },
       "biblio": {
         "volume": null,
@@ -4783,7 +4778,6 @@
         "https://openalex.org/W2001405890"
       ],
       "abstract_inverted_index": null,
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4401113675",
       "counts_by_year": [
         {
@@ -4795,7 +4789,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-08-20T07:55:18.319408",
+      "updated_date": "2025-09-18T01:43:34.940071",
       "created_date": "2024-07-31",
       "_venue_override": {
         "applied": true,
@@ -4880,7 +4874,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.291Z",
+      "lastUpdated": "2025-10-01T02:33:07.781Z",
       "display_name": "Smart Cities for Equitable Societies: Promoting Digital Equality, Trust, and Ethical Governance",
       "publication_year": 2024,
       "publication_date": "2024-05-29",
@@ -5075,17 +5069,17 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.752,
+      "fwci": 0.667,
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.743039,
+        "value": 0.722479,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 70,
-        "max": 82
+        "min": 69,
+        "max": 81
       },
       "biblio": {
         "volume": null,
@@ -5205,7 +5199,6 @@
         "https://openalex.org/W1548924100"
       ],
       "abstract_inverted_index": null,
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4403022638",
       "counts_by_year": [
         {
@@ -5213,7 +5206,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-09-01T13:41:12.941659",
+      "updated_date": "2025-09-29T11:10:42.090686",
       "created_date": "2024-10-02",
       "_venue_override": {
         "applied": true,
@@ -5321,7 +5314,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.291Z",
+      "lastUpdated": "2025-10-01T02:33:07.781Z",
       "display_name": "MobiAlert: A Data-Driven Embedded System Approach to Enhance Safety for Cyclists",
       "publication_year": 2024,
       "publication_date": "2024-05-29",
@@ -5478,7 +5471,7 @@
       },
       "cited_by_percentile_year": {
         "min": 0,
-        "max": 70
+        "max": 69
       },
       "biblio": {
         "volume": null,
@@ -5570,10 +5563,9 @@
         "https://openalex.org/W2001405890"
       ],
       "abstract_inverted_index": null,
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4403022658",
       "counts_by_year": [],
-      "updated_date": "2025-09-01T08:40:17.236560",
+      "updated_date": "2025-09-29T06:24:47.895012",
       "created_date": "2024-10-02",
       "_venue_override": {
         "applied": true,
@@ -5724,7 +5716,7 @@
           "cited_by_count": 5
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.291Z",
+      "lastUpdated": "2025-10-01T02:33:07.781Z",
       "display_name": "A data-driven clustering approach for assessing spatiotemporal vulnerability to urban emergencies",
       "publication_year": 2024,
       "publication_date": "2024-05-06",
@@ -5970,11 +5962,11 @@
         "currency": "USD",
         "value_usd": 4210
       },
-      "fwci": 7.786,
+      "fwci": 8.063,
       "has_fulltext": false,
       "cited_by_count": 14,
       "citation_normalized_percentile": {
-        "value": 0.99975,
+        "value": 0.999748,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -6233,9 +6225,9 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/11",
           "score": 0.7,
-          "display_name": "Sustainable cities and communities",
-          "id": "https://metadata.un.org/sdg/11"
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "grants": [
@@ -6874,7 +6866,6 @@
           231
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4396677387",
       "counts_by_year": [
         {
@@ -6886,7 +6877,7 @@
           "cited_by_count": 5
         }
       ],
-      "updated_date": "2025-08-30T09:05:31.771504",
+      "updated_date": "2025-09-17T21:53:08.234926",
       "created_date": "2024-05-07"
     },
     {
@@ -6930,7 +6921,7 @@
       "date": "2024-01-11",
       "doi": "https://doi.org/10.3390/su16020640",
       "url": "https://doi.org/10.3390/su16020640",
-      "citations": 35,
+      "citations": 37,
       "isOpenAccess": true,
       "oaUrl": "https://www.mdpi.com/2071-1050/16/2/640/pdf?version=1704965720",
       "publicationType": "journal-article",
@@ -7034,7 +7025,7 @@
           "cited_by_count": 17
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.291Z",
+      "lastUpdated": "2025-10-01T02:33:07.782Z",
       "display_name": "Achieving Sustainable Smart Cities through Geospatial Data-Driven Approaches",
       "publication_year": 2024,
       "publication_date": "2024-01-11",
@@ -7320,12 +7311,12 @@
         "currency": "CHF",
         "value_usd": 2382
       },
-      "fwci": 22.061,
+      "fwci": 20.158,
       "has_fulltext": true,
       "fulltext_origin": "pdf",
-      "cited_by_count": 35,
+      "cited_by_count": 37,
       "citation_normalized_percentile": {
-        "value": 0.99975,
+        "value": 0.999748,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -7547,9 +7538,9 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/11",
           "score": 0.46,
-          "display_name": "Sustainable cities and communities",
-          "id": "https://metadata.un.org/sdg/11"
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "grants": [],
@@ -8159,7 +8150,6 @@
           181
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4390751318",
       "counts_by_year": [
         {
@@ -8171,7 +8161,7 @@
           "cited_by_count": 17
         }
       ],
-      "updated_date": "2025-08-29T19:44:18.197758",
+      "updated_date": "2025-09-26T15:58:43.798189",
       "created_date": "2024-01-13"
     },
     {
@@ -8203,7 +8193,7 @@
       "date": "2024-01-01",
       "doi": "https://doi.org/10.1109/rita.2024.3458850",
       "url": "https://doi.org/10.1109/rita.2024.3458850",
-      "citations": 0,
+      "citations": 1,
       "isOpenAccess": false,
       "oaUrl": null,
       "publicationType": "journal-article",
@@ -8265,7 +8255,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.291Z",
+      "lastUpdated": "2025-10-01T02:33:07.782Z",
       "display_name": "An FPGA Integrated 2D Graphic Processor for Enhanced Digital Design and Computer Architecture Education",
       "publication_year": 2024,
       "publication_date": "2024-01-01",
@@ -8369,15 +8359,15 @@
       "apc_paid": null,
       "fwci": 0,
       "has_fulltext": false,
-      "cited_by_count": 0,
+      "cited_by_count": 1,
       "citation_normalized_percentile": {
         "value": 0,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 0,
-        "max": 70
+        "min": 69,
+        "max": 81
       },
       "biblio": {
         "volume": null,
@@ -8539,10 +8529,9 @@
         "https://openalex.org/W1579891439"
       ],
       "abstract_inverted_index": null,
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4402435481",
       "counts_by_year": [],
-      "updated_date": "2025-09-01T00:02:39.784759",
+      "updated_date": "2025-09-28T21:44:27.034406",
       "created_date": "2024-09-12"
     },
     {
@@ -8580,7 +8569,7 @@
       "date": "2024-01-01",
       "doi": "https://doi.org/10.1109/access.2024.3433381",
       "url": "https://doi.org/10.1109/access.2024.3433381",
-      "citations": 6,
+      "citations": 7,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.1109/access.2024.3433381",
       "publicationType": "journal-article",
@@ -8678,7 +8667,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.291Z",
+      "lastUpdated": "2025-10-01T02:33:07.782Z",
       "display_name": "A Survey on Adaptive Smart Urban Systems",
       "publication_year": 2024,
       "publication_date": "2024-01-01",
@@ -8901,16 +8890,16 @@
         "currency": "USD",
         "value_usd": 1850
       },
-      "fwci": 3.598,
+      "fwci": 3.724,
       "has_fulltext": false,
-      "cited_by_count": 6,
+      "cited_by_count": 7,
       "citation_normalized_percentile": {
         "value": 0.999961,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 94,
+        "min": 95,
         "max": 96
       },
       "biblio": {
@@ -9015,9 +9004,9 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/11",
           "score": 0.77,
-          "display_name": "Sustainable cities and communities",
-          "id": "https://metadata.un.org/sdg/11"
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "grants": [],
@@ -9735,7 +9724,6 @@
           233
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4400975104",
       "counts_by_year": [
         {
@@ -9747,7 +9735,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-08-31T04:47:08.256241",
+      "updated_date": "2025-09-18T18:21:57.076818",
       "created_date": "2024-07-26"
     },
     {
@@ -9868,7 +9856,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.291Z",
+      "lastUpdated": "2025-10-01T02:33:07.782Z",
       "display_name": "Optimisation Techniques for Compact CNN on Embedded Systems for Gesture Recognition",
       "publication_year": 2023,
       "publication_date": "2023-11-24",
@@ -10251,9 +10239,9 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/9",
           "score": 0.54,
-          "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "grants": [],
@@ -10669,7 +10657,6 @@
           161
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4389045321",
       "counts_by_year": [],
       "updated_date": "2025-08-26T08:03:02.622734",
@@ -10836,7 +10823,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.291Z",
+      "lastUpdated": "2025-10-01T02:33:07.782Z",
       "display_name": "Exploiting geospatial data of connectivity and urban infrastructure for efficient positioning of emergency detection units in smart cities",
       "publication_year": 2023,
       "publication_date": "2023-11-21",
@@ -11184,11 +11171,11 @@
         "currency": "USD",
         "value_usd": 3740
       },
-      "fwci": 3.181,
+      "fwci": 3.26,
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.999749,
+        "value": 0.999748,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -11412,9 +11399,9 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/11",
           "score": 0.68,
-          "display_name": "Sustainable cities and communities",
-          "id": "https://metadata.un.org/sdg/11"
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "grants": [
@@ -12184,7 +12171,6 @@
           301
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4388842249",
       "counts_by_year": [
         {
@@ -12200,7 +12186,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-09-02T07:28:41.598724",
+      "updated_date": "2025-09-20T21:45:15.724741",
       "created_date": "2023-11-21"
     },
     {
@@ -12332,7 +12318,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.291Z",
+      "lastUpdated": "2025-10-01T02:33:07.782Z",
       "display_name": "Dynamic Sensor Configuration for Multi-target Emergency Detection in Smart Cities",
       "publication_year": 2023,
       "publication_date": "2023-09-24",
@@ -12565,11 +12551,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.645,
+      "fwci": 0.617,
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.50236,
+        "value": 0.490637,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12762,9 +12748,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/11",
           "score": 0.49,
-          "display_name": "Sustainable cities and communities",
-          "id": "https://metadata.un.org/sdg/11"
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "grants": [],
@@ -13163,7 +13149,6 @@
           154
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4388088101",
       "counts_by_year": [
         {
@@ -13171,7 +13156,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-08-29T02:13:26.114670",
+      "updated_date": "2025-09-16T14:25:20.438698",
       "created_date": "2023-11-01"
     },
     {
@@ -13248,7 +13233,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.291Z",
+      "lastUpdated": "2025-10-01T02:33:07.782Z",
       "display_name": "Desenvolvimento de um sistema de visão computacional aplicado ao futebol de robôs",
       "publication_year": 2022,
       "publication_date": "2022-12-05",
@@ -13731,7 +13716,6 @@
           130
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4402510102",
       "counts_by_year": [],
       "updated_date": "2025-08-11T22:49:51.451576",
@@ -13853,7 +13837,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.292Z",
+      "lastUpdated": "2025-10-01T02:33:07.782Z",
       "display_name": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
       "publication_year": 2022,
       "publication_date": "2022-01-01",
@@ -14692,7 +14676,6 @@
           120
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4312384372",
       "counts_by_year": [],
       "updated_date": "2025-08-05T20:20:03.804644",
@@ -14822,7 +14805,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.292Z",
+      "lastUpdated": "2025-10-01T02:33:07.782Z",
       "display_name": "ITUBERÁBots: uma visão extensionista para o futebol de robôs no baixo Sul da Bahia",
       "publication_year": 2022,
       "publication_date": "2022-01-01",
@@ -15055,9 +15038,9 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/4",
           "score": 0.65,
-          "display_name": "Quality education",
-          "id": "https://metadata.un.org/sdg/4"
+          "display_name": "Quality education"
         }
       ],
       "grants": [],
@@ -15382,7 +15365,6 @@
           124
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4312248886",
       "counts_by_year": [],
       "updated_date": "2025-08-13T03:20:42.938733",
@@ -15491,7 +15473,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.292Z",
+      "lastUpdated": "2025-10-01T02:33:07.783Z",
       "display_name": "Modelagem e Controle PID de Robos Móveis Aplicados a Categoria Very Small Size de Futebol de Robôs",
       "publication_year": 2021,
       "publication_date": "2021-10-25",
@@ -16173,7 +16155,6 @@
           161
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4285342487",
       "counts_by_year": [],
       "updated_date": "2025-03-27T21:14:25.950856",
@@ -16290,7 +16271,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.292Z",
+      "lastUpdated": "2025-10-01T02:33:07.783Z",
       "display_name": "Avaliando a Eficácia de Redes Neurais Artificiais para Reconhecimento de Face Utilizando Raspberry Pi",
       "publication_year": 2021,
       "publication_date": "2021-10-25",
@@ -16859,7 +16840,6 @@
           103
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4285342612",
       "counts_by_year": [],
       "updated_date": "2025-03-27T20:04:31.690970",
@@ -17016,7 +16996,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.292Z",
+      "lastUpdated": "2025-10-01T02:33:07.783Z",
       "display_name": "Uma Revisão sobre Tecnologias Aplicadas ao Futebol de Robôs",
       "publication_year": 2020,
       "publication_date": "2020-12-08",
@@ -17995,7 +17975,6 @@
           165
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W3113358243",
       "counts_by_year": [],
       "updated_date": "2025-01-18T22:31:38.431194",
@@ -18097,7 +18076,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.292Z",
+      "lastUpdated": "2025-10-01T02:33:07.783Z",
       "display_name": "Metodologia Extensionista para o Ensino de Futebol de Robôs",
       "publication_year": 2020,
       "publication_date": "2020-12-08",
@@ -18807,7 +18786,6 @@
           129
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W3111267421",
       "counts_by_year": [],
       "updated_date": "2025-01-18T22:48:15.395372",
@@ -18952,7 +18930,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.292Z",
+      "lastUpdated": "2025-10-01T02:33:07.783Z",
       "display_name": "SEISMIC IMAGING USING FPGA APPLIED FOR REVERSE TIME MIGRATION",
       "publication_year": 2020,
       "publication_date": "2020-06-08",
@@ -19227,9 +19205,9 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/10",
           "score": 0.56,
-          "display_name": "Reduced inequalities",
-          "id": "https://metadata.un.org/sdg/10"
+          "display_name": "Reduced inequalities"
         }
       ],
       "grants": [],
@@ -19250,7 +19228,6 @@
         "https://openalex.org/W2062240575"
       ],
       "abstract_inverted_index": null,
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W3035676811",
       "counts_by_year": [],
       "updated_date": "2025-01-01T22:43:36.738977",
@@ -19341,7 +19318,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.292Z",
+      "lastUpdated": "2025-10-01T02:33:07.783Z",
       "display_name": "SISTEMA DE MEDIÇÃO DE DISTÂNCIA BASEADO EM VISÃO COMPUTACIONAL UTILIZANDO LASER DE LINHA",
       "publication_year": 2020,
       "publication_date": "2020-04-21",
@@ -19957,7 +19934,6 @@
           161
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W3041937156",
       "counts_by_year": [],
       "updated_date": "2025-01-18T08:26:42.263806",
@@ -20133,7 +20109,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.292Z",
+      "lastUpdated": "2025-10-01T02:33:07.783Z",
       "display_name": "Performance and Energy Efficiency Analysis of Reverse Time Migration on a FPGA Platform",
       "publication_year": 2019,
       "publication_date": "2019-11-01",
@@ -20645,7 +20621,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.587236,
+        "value": 0.588246,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -20831,9 +20807,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "score": 0.89,
-          "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "display_name": "Affordable and clean energy"
         }
       ],
       "grants": [],
@@ -21247,7 +21223,6 @@
           148
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2998133484",
       "counts_by_year": [
         {
@@ -21263,7 +21238,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2025-08-19T10:32:33.978381",
+      "updated_date": "2025-09-17T05:02:56.963646",
       "created_date": "2020-01-10",
       "_venue_override": {
         "applied": true,
@@ -21424,7 +21399,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.293Z",
+      "lastUpdated": "2025-10-01T02:33:07.783Z",
       "display_name": "IMAGEAMENTO SÍSMICO COM FPGA APLICADO A MIGRAÇÃO REVERSA NO TEMPO",
       "publication_year": 2019,
       "publication_date": "2019-11-01",
@@ -22003,9 +21978,9 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/10",
           "score": 0.44,
-          "display_name": "Reduced inequalities",
-          "id": "https://metadata.un.org/sdg/10"
+          "display_name": "Reduced inequalities"
         }
       ],
       "grants": [],
@@ -22310,7 +22285,6 @@
           111
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2986411918",
       "counts_by_year": [],
       "updated_date": "2025-01-19T16:45:25.562177",
@@ -22384,7 +22358,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-09-02T21:23:45.293Z",
+      "lastUpdated": "2025-10-01T02:33:07.783Z",
       "display_name": "Implementação em hardware reconfigurável do algoritmo de criptografia clefia com suporte completo à expansão de chaves",
       "publication_year": 2019,
       "publication_date": "2019-03-15",
@@ -22514,7 +22488,6 @@
       "referenced_works": [],
       "related_works": [],
       "abstract_inverted_index": null,
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2939288824",
       "counts_by_year": [],
       "updated_date": "2024-12-13T20:27:23.537540",
@@ -22651,7 +22624,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.293Z",
+      "lastUpdated": "2025-10-01T02:33:07.783Z",
       "display_name": "Availability issues for relevant area coverage in wireless visual sensor networks",
       "publication_year": 2017,
       "publication_date": "2017-10-01",
@@ -22804,7 +22777,7 @@
       "fulltext_origin": "ngrams",
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.719738,
+        "value": 0.719833,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23018,9 +22991,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/9",
           "score": 0.46,
-          "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "grants": [],
@@ -23447,7 +23420,6 @@
           162
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2782499739",
       "counts_by_year": [
         {
@@ -23471,7 +23443,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-08-22T21:43:24.099417",
+      "updated_date": "2025-09-19T14:33:24.944190",
       "created_date": "2018-01-12",
       "_venue_override": {
         "applied": true,
@@ -23614,7 +23586,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.293Z",
+      "lastUpdated": "2025-10-01T02:33:07.785Z",
       "display_name": "VLSI architecture design and implementation of a LDPC encoder for the IEEE 802.22 WRAN standard",
       "publication_year": 2015,
       "publication_date": "2015-09-01",
@@ -23803,7 +23775,7 @@
       "fulltext_origin": "ngrams",
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.499084,
+        "value": 0.499431,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23989,9 +23961,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/7",
           "score": 0.41,
-          "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "display_name": "Affordable and clean energy"
         }
       ],
       "grants": [],
@@ -24265,7 +24237,6 @@
           91
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2184065042",
       "counts_by_year": [
         {
@@ -24281,7 +24252,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-08-18T09:59:21.598789",
+      "updated_date": "2025-09-16T05:00:07.204194",
       "created_date": "2016-06-24",
       "_venue_override": {
         "applied": true,
@@ -24414,7 +24385,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.293Z",
+      "lastUpdated": "2025-10-01T02:33:07.785Z",
       "display_name": "CLEFIA Implementation with Full Key Expansion",
       "publication_year": 2015,
       "publication_date": "2015-08-01",
@@ -24551,7 +24522,7 @@
       "fulltext_origin": "ngrams",
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.442236,
+        "value": 0.442749,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -25080,7 +25051,6 @@
           132
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1927039319",
       "counts_by_year": [
         {
@@ -25096,7 +25066,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-08-20T21:31:45.494885",
+      "updated_date": "2025-09-18T15:17:07.515257",
       "created_date": "2016-06-24",
       "_venue_override": {
         "applied": true,
@@ -25239,7 +25209,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.293Z",
+      "lastUpdated": "2025-10-01T02:33:07.785Z",
       "display_name": "The Simple Genetic Algorithm Performance: A Comparative Study on the Operators Combination",
       "publication_year": 2011,
       "publication_date": "2011-10-23",
@@ -25380,7 +25350,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.738127,
+        "value": 0.738366,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -25887,7 +25857,6 @@
           105
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W334391379",
       "counts_by_year": [
         {
@@ -25903,7 +25872,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-08-22T17:06:01.037676",
+      "updated_date": "2025-09-19T10:12:09.982754",
       "created_date": "2016-06-24",
       "_venue_override": {
         "applied": true,
@@ -26043,7 +26012,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-09-02T21:23:45.293Z",
+      "lastUpdated": "2025-10-01T02:33:07.785Z",
       "display_name": "PBL Manager: Uma ferramenta de compartilhamento de problemas para auxílio à metodologia de ensino PBL",
       "publication_year": 2010,
       "publication_date": "2010-01-01",
@@ -26242,7 +26211,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.690284,
+        "value": 0.690312,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -26351,9 +26320,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/4",
           "score": 0.61,
-          "display_name": "Quality education",
-          "id": "https://metadata.un.org/sdg/4"
+          "display_name": "Quality education"
         }
       ],
       "grants": [],
@@ -26562,7 +26531,6 @@
           77
         ]
       },
-      "abstract_inverted_index_v3": null,
       "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1835217957",
       "counts_by_year": [
         {
@@ -26570,13 +26538,13 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-08-20T10:37:00.718975",
+      "updated_date": "2025-09-18T05:04:05.247105",
       "created_date": "2016-06-24"
     }
   ],
   "meta": {
     "count": 32,
-    "lastUpdated": "2025-09-02T21:23:45.302Z",
+    "lastUpdated": "2025-10-01T02:33:07.793Z",
     "venueOverridesApplied": 13
   }
 }
