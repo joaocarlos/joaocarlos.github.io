@@ -9,3 +9,6 @@ node_modules/
 hugo
 hugo.tar.gz
 *.exe
+
+.github/agents
+.github/docs

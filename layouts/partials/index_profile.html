@@ -1,71 +1,186 @@
-<div class="profile">
-    {{- with site.Params.profileMode }}
-    <div class="profile_inner">
-        {{- if .imageUrl -}}
-        {{- $img := "" }}
-        {{- if not (urls.Parse .imageUrl).IsAbs }}
-            {{- $img = resources.Get .imageUrl }}
-        {{- end }}
-        {{- if $img }}
-            {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
-            {{- if hugo.IsExtended -}}
-                {{- $processableFormats = $processableFormats | append "webp" -}}
-            {{- end -}}
-            {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
-            {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
-                {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
-                    {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
-                {{- else if .imageHeight }}
-                    {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
-                {{ else if .imageWidth }}
-                    {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
-                {{ else }}
-                    {{- $img = $img.Resize "150x150" }}
-                {{- end }}
-            {{- end }}
-            <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
-                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
-        {{- else }}
-        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
-            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
-        {{- end }}
-        {{- end }}
-        
-        <div class="profile-content">
-            <div class="profile-text">
-                <h1 class="profile-title">{{ .title | default site.Title | markdownify }}</h1>
-                {{- if .position }}
-                <div class="profile-position">{{ .position | markdownify }}</div>
-                {{- end }}
-                {{- if .intro }}
-                <div class="profile-intro">{{ .intro | markdownify }}</div>
-                {{- else if .subtitle }}
-                <div class="profile-intro">{{ .subtitle | markdownify }}</div>
-                {{- end }}
-            </div>
-            
-            {{- partial "social_icons.html" -}}
+{{- with site.Params.profileMode }}
 
-            {{- with .buttons }}
-            <div class="buttons">
-                {{- range . }}
-                <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
-                    <span class="button-inner">
-                        {{ .name }}
-                        {{- if (findRE "://" .url) }}&nbsp;
-                        <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                            stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
-                            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                            <path d="M15 3h6v6"></path>
-                            <path d="M10 14L21 3"></path>
-                        </svg>
-                        {{- end }}
-                    </span>
-                </a>
-                {{- end }}
-            </div>
+<!-- Sticky Navigation Bar + Mobile Menu (placed at top) -->
+{{- with .buttons }} {{- $currentPath := $.RelPermalink -}}
+
+<!-- Sticky Navigation Bar -->
+<div class="sticky-nav">
+    <div class="sticky-nav-inner">
+        <!-- Mobile: Hamburger menu button -->
+        <div class="sticky-nav-mobile">
+            <button
+                onclick="openMobileMenu()"
+                class="mobile-menu-trigger"
+                aria-label="Open Menu"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                >
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Desktop: Navigation buttons -->
+        <nav class="nav-buttons" role="navigation" aria-label="Main navigation">
+            {{- range . }} {{- $buttonURL := trim .url " " | relLangURL -}} {{-
+            $isCurrent := eq $buttonURL $currentPath -}}
+            <a
+                class="nav-button{{ if $isCurrent }} nav-button-active{{ end }}"
+                href="{{ $buttonURL }}"
+                rel="noopener"
+                title="{{ .name }}"
+                aria-label="Navigate to {{ .name }}"
+                {{-
+                if
+                $isCurrent
+                }}
+                aria-current="page"
+                {{-
+                end
+                }}
+            >
+                {{ .name }}
+            </a>
             {{- end }}
+        </nav>
+    </div>
+</div>
+
+<!-- Mobile Navigation Drawer (hidden by default) -->
+<div id="mobile-menu-overlay" class="mobile-menu-overlay">
+    <div class="mobile-menu-backdrop" onclick="closeMobileMenu()"></div>
+    <div id="mobile-menu-drawer" class="mobile-menu-drawer">
+        <div class="mobile-menu-header">
+            <span class="mobile-menu-title">Menu</span>
+            <button
+                onclick="closeMobileMenu()"
+                class="mobile-menu-close"
+                aria-label="Close Menu"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                >
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <nav class="mobile-menu-nav">
+            {{- range . }} {{- $buttonURL := trim .url " " | relLangURL -}} {{-
+            $isCurrent := eq $buttonURL $currentPath -}}
+            <a
+                href="{{ $buttonURL }}"
+                class="mobile-menu-item{{ if $isCurrent }} mobile-menu-item-active{{ end }}"
+                {{-
+                if
+                $isCurrent
+                }}
+                aria-current="page"
+                {{-
+                end
+                }}
+            >
+                {{ .name }}
+            </a>
+            {{- end }}
+        </nav>
+        <div class="mobile-menu-footer">
+            <p class="mobile-menu-footer-title">Socials</p>
+            <div class="mobile-menu-socials">
+                {{- partial "social_icons.html" -}}
+            </div>
         </div>
     </div>
-    {{- end}}
 </div>
+
+<script>
+    function openMobileMenu() {
+        document
+            .getElementById("mobile-menu-overlay")
+            .classList.add("mobile-menu-open")
+        document
+            .getElementById("mobile-menu-drawer")
+            .classList.add("mobile-menu-drawer-open")
+        document.body.style.overflow = "hidden"
+    }
+
+    function closeMobileMenu() {
+        document
+            .getElementById("mobile-menu-overlay")
+            .classList.remove("mobile-menu-open")
+        document
+            .getElementById("mobile-menu-drawer")
+            .classList.remove("mobile-menu-drawer-open")
+        document.body.style.overflow = ""
+    }
+</script>
+{{- end }}
+
+<!-- Main Header - Profile Info (matches TSX structure) -->
+<header class="profile-header">
+    <div class="profile-header-inner">
+        {{- if .imageUrl -}} {{- $img := "" }} {{- if not (urls.Parse
+        .imageUrl).IsAbs }} {{- $img = resources.Get .imageUrl }} {{- end }} {{-
+        if $img }} {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif"
+        "bmp" "gif") -}} {{- if hugo.IsExtended -}} {{- $processableFormats =
+        $processableFormats | append "webp" -}} {{- end -}} {{- $prod :=
+        (hugo.IsProduction | or (eq site.Params.env "production")) }} {{- if and
+        (in $processableFormats $img.MediaType.SubType) (eq $prod true)}} {{- if
+        (not (and (not .imageHeight) (not .imageWidth))) }} {{- $img =
+        $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }} {{- else if
+        .imageHeight }} {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
+        {{- else if .imageWidth }} {{- $img = $img.Resize (printf "%dx"
+        .imageWidth) }} {{- else }} {{- $img = $img.Resize "128x128" }} {{- end
+        }} {{- end }}
+        <div class="profile-avatar">
+            <img draggable="false" src="{{ $img.Permalink }}" alt="{{
+            .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            />
+        </div>
+        {{- else }}
+        <div class="profile-avatar">
+            <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{
+            .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            />
+        </div>
+        {{- end }} {{- end }}
+
+        <h1 class="profile-title">
+            {{ .title | default site.Title | markdownify }}
+        </h1>
+
+        {{- if .position }}
+        <p class="profile-subtitle">{{ .position | markdownify }}</p>
+        {{- end }} {{- if .intro }}
+        <p class="profile-institution">{{ .intro | markdownify }}</p>
+        {{- else if .subtitle }}
+        <p class="profile-institution">{{ .subtitle | markdownify }}</p>
+        {{- end }}
+
+        <!-- Social icons: Desktop only, hidden on mobile since they're in the menu -->
+        <div class="profile-header-socials">
+            {{- partial "social_icons.html" -}}
+        </div>
+    </div>
+</header>
+
+{{- end}}

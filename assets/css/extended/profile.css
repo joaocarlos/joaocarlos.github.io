@@ -1,7 +1,7 @@
 /* Enhanced Profile Typography - Minimalistic & Aesthetic */
 
-/* Import elegant fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap");
+/* Import IBM Plex fonts */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600&display=swap");
 
 /* Profile container enhancements */
 .profile {
@@ -50,7 +50,7 @@
 }
 
 .profile-title {
-    font-family: "Playfair Display", serif;
+    font-family: "IBM Plex Serif", Georgia, serif;
     font-size: 2.5rem;
     font-weight: 600;
     line-height: 1.2;
@@ -60,7 +60,7 @@
 }
 
 .profile-position {
-    font-family: "Inter", sans-serif;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
     color: var(--accent);
@@ -71,7 +71,7 @@
 }
 
 .profile-intro {
-    font-family: "Inter", sans-serif;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.7;
@@ -97,36 +97,47 @@
 }
 
 /* Social icons enhancements */
-.social_icons {
-    margin: 1.5rem 0;
+.social-icons {
+    margin: 1.5rem 0 0 0;
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-.social_icons a {
+.social-icons a {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.6rem 1rem;
-    background: var(--entry);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    color: var(--secondary);
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    color: var(--primary);
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.social-icons a svg {
+    width: 24px;
+    height: 24px;
+    stroke-width: 1.5;
     transition: all 0.2s ease;
 }
 
-.social_icons a:hover {
-    background: var(--accent);
-    color: var(--theme);
-    border-color: var(--accent);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.social-icons a:hover {
+    color: var(--secondary);
+    background: transparent;
+    border: none;
+    transform: none;
+    box-shadow: none;
+}
+
+.social-icons a:hover svg {
+    opacity: 0.7;
 }
 
 /* Button enhancements */
@@ -147,7 +158,7 @@
     border-radius: 10px;
     color: var(--primary);
     text-decoration: none;
-    font-family: "Inter", sans-serif;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-size: 0.95rem;
     font-weight: 500;
     transition: all 0.3s ease;
@@ -190,7 +201,7 @@
         align-items: center;
     }
 
-    .social_icons {
+    .social-icons {
         justify-content: center;
     }
 
@@ -211,13 +222,13 @@
         padding: 0 1rem;
     }
 
-    .social_icons {
+    .social-icons {
         gap: 0.8rem;
     }
 
-    .social_icons a {
-        padding: 0.5rem 0.8rem;
-        font-size: 0.85rem;
+    .social-icons a svg {
+        width: 22px;
+        height: 22px;
     }
 
     .buttons {
@@ -262,7 +273,6 @@
         box-shadow: 0 12px 40px rgba(255, 255, 255, 0.08);
     }
 
-    .social_icons a:hover,
     .button:hover {
         box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
     }
@@ -293,5 +303,628 @@
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* ============================================
+   Enhanced Button Styles - Material Design
+   ============================================ */
+
+/* CSS Custom Properties for Buttons - Using theme tokens for dark mode compatibility */
+
+/* Button Container - Adaptive Grid Layout */
+.profile .profile_inner .buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 1rem;
+    justify-content: center;
+    max-width: 800px;
+    margin: 2rem auto 0;
+    padding: 0;
+}
+
+/* Button Base Styles - Material Design with Theme Tokens */
+.profile .profile_inner .button {
+    /* Base Styling */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    margin: 0; /* Override default margins */
+
+    /* Material Design Surface - Theme-aware */
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+
+    /* Typography - IBM Plex Sans for modern clarity */
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Helvetica, Arial, sans-serif;
+    font-size: clamp(0.95rem, 0.9rem + 0.3vw, 1.05rem);
+    font-size-adjust: 0.52; /* Reduce CLS during font swap */
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+    color: var(--primary);
+    text-decoration: none;
+
+    /* Interaction - Motion preference aware */
+    cursor: pointer;
+
+    /* Touch Target - WCAG 2.1 AAA */
+    min-height: 44px;
+    min-width: 44px;
+}
+
+/* Motion-enabled transitions */
+@media (prefers-reduced-motion: no-preference) {
+    .profile .profile_inner .button {
+        transition: all 200ms ease-out;
+    }
+    
+    .profile .profile_inner .button .button-inner svg {
+        transition: transform 150ms ease-out;
+    }
+}
+
+/* Reduced motion: no transitions */
+@media (prefers-reduced-motion: reduce) {
+    .profile .profile_inner .button,
+    .profile .profile_inner .button .button-inner svg {
+        transition: none;
+    }
+}
+
+/* Hover State - Elevated with theme-aware styling */
+@media (prefers-reduced-motion: no-preference) {
+    .profile .profile_inner .button:hover {
+        background: var(--primary);
+        border-color: var(--primary);
+        color: var(--theme);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        transform: translateY(-2px);
+    }
+    
+    .profile .profile_inner .button:hover .button-inner svg {
+        transform: translateX(4px);
+    }
+}
+
+.profile .profile_inner .button:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: var(--theme);
+}
+
+/* Focus-Visible State - Keyboard Navigation Accessibility */
+.profile .profile_inner .button:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+
+/* Remove default focus for mouse users */
+.profile .profile_inner .button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* Active/Pressed State - Theme-aware */
+.profile .profile_inner .button:active {
+    background: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--theme);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .profile .profile_inner .button:active {
+        transform: translateY(0) scale(0.98);
+    }
+}
+
+/* External Link Icon Styling */
+.profile .profile_inner .button .button-inner {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+/* Responsive Adjustments - Tablet */
+@media (max-width: 768px) {
+    .profile .profile_inner .buttons {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 0.875rem;
+        max-width: 600px;
+    }
+
+    .profile .profile_inner .button {
+        padding: 0.875rem 1.25rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* Responsive Adjustments - Mobile */
+@media (max-width: 480px) {
+    .profile .profile_inner .buttons {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        max-width: 100%;
+    }
+
+    .profile .profile_inner .button {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+        letter-spacing: 0.02em;
+    }
+
+    /* Ensure buttons maintain minimum touch target */
+    .profile .profile_inner .button {
+        min-height: 48px; /* Slightly larger for better mobile UX */
+    }
+}
+
+/* Dark Mode - Theme tokens handle most styling automatically */
+@media (prefers-color-scheme: dark) {
+    .profile .profile_inner .button {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }\n    \n    .profile .profile_inner .button:hover {\n        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+}
+
+/* ============================================
+   TSX-Inspired Layout: Separate Header + Sticky Nav
+   Matches screenshot and React implementation
+   ============================================ */
+
+/* Profile Header - Continues gradient flow from navigation */
+.profile-header {
+    background: linear-gradient(to bottom, #f5f5f5 0%, #fafafa 100%);
+    padding: 2rem 1.5rem 3rem;
+    text-align: center;
+}
+
+/* Dark theme profile header gradient */
+.dark .profile-header {
+    background: linear-gradient(to bottom, #1f1f1f 0%, #1a1a1a 100%);
+}
+
+.profile-header-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profile-avatar {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--theme);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-header .profile-title {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0.5rem 0;
+    color: var(--primary);
+}
+
+.profile-subtitle {
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    /* Using --content for better contrast (7:1) while maintaining visual hierarchy */
+    color: var(--content);
+    margin: 0;
+    max-width: 700px;
+}
+
+.profile-institution {
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    /* Keeping --secondary here as body text can use 4.5:1 minimum (currently ~4.54:1) */
+    color: var(--secondary);
+    margin: 0;
+    max-width: 700px;
+}
+
+/* Social Icons - Desktop only (hidden on mobile, shown in menu instead) */
+.profile-header-socials {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .profile-header-socials {
+        display: block;
+        margin-top: 1.5rem;
+    }
+    
+    .profile-header-socials .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    
+    .profile-header-socials .social-icons a {
+        padding: 0.5rem;
+        border-radius: 50%;
+        background: transparent;
+        /* Using --content for icons to meet WCAG AA for graphical objects (3:1 minimum) */
+        /* Current contrast: ~7:1 (WCAG AAA compliant) */
+        color: var(--content);
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .profile-header-socials .social-icons a:hover {
+        background: var(--entry);
+        color: var(--primary);
+    }
+    
+    .profile-header-socials .social-icons a svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* Navigation Bar - At top of page with gradient flow */
+.sticky-nav {
+    width: 100% !important;
+    background: linear-gradient(to bottom, #fafafa 0%, #f5f5f5 100%) !important;
+    padding: 1rem 0;
+    margin-bottom: 0;
+}
+
+/* Dark theme navigation gradient */
+.dark .sticky-nav {
+    background: linear-gradient(to bottom, #1a1a1a 0%, #1f1f1f 100%) !important;
+}
+
+.sticky-nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    min-height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.nav-button {
+    padding: 0.625rem 1.5rem;
+    border-radius: 20px;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    background: transparent;
+    border: none;
+    color: var(--primary);
+    text-decoration: none;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap;
+    position: relative;
+}
+
+.nav-button:hover {
+    background: rgba(var(--primary-rgb, 0, 0, 0), 0.08);
+}
+
+/* Active state - Material Design filled button */
+.nav-button-active,
+.nav-button[aria-current="page"] {
+    background: var(--primary);
+    color: var(--theme);
+    font-weight: 600;
+}
+
+.nav-button-active:hover,
+.nav-button[aria-current="page"]:hover {
+    background: var(--primary);
+    color: var(--theme);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile Navigation - Hidden on desktop */
+.sticky-nav-mobile {
+    display: none;
+}
+
+.mobile-menu-trigger {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    background: transparent;
+    border: none;
+    border-radius: 12px;
+    color: var(--primary);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-trigger:hover {
+    background: rgba(var(--primary-rgb, 0, 0, 0), 0.08);
+}
+
+.mobile-menu-trigger:active {
+    transform: scale(0.98);
+}
+
+.mobile-menu-trigger svg {
+    width: 24px;
+    height: 24px;
+    stroke-width: 2;
+}
+
+/* Desktop: Hide mobile elements, show nav buttons centered */
+@media (min-width: 1024px) {
+    .sticky-nav-mobile {
+        display: none !important;
+    }
+    
+    .mobile-menu-trigger {
+        display: none !important;
+    }
+    
+    .sticky-nav-inner {
+        justify-content: center;
+    }
+    
+    .nav-buttons {
+        display: flex !important;
+    }
+}
+
+/* Medium screens: Adjust button sizing if needed */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .nav-button {
+        padding: 0.625rem 1rem;
+        font-size: 0.85rem;
+    }
+    
+    .nav-buttons {
+        gap: 0.4rem;
+    }
+}
+
+/* Mobile: Show mobile elements, hide nav buttons */
+@media (max-width: 1023px) {
+    .nav-buttons {
+        display: none !important;
+    }
+    
+    .sticky-nav {
+        padding: 0.75rem 0;
+        margin-bottom: 0;
+    }
+    
+    .profile-header {
+        padding: 2rem 1.5rem 2rem;
+    }
+    
+    .sticky-nav-inner {
+        justify-content: flex-end;
+        padding: 0;
+    }
+    
+    .sticky-nav-mobile {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    
+    .mobile-menu-trigger {
+        display: flex;
+    }
+}
+
+/* Mobile Menu Overlay */
+.mobile-menu-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.mobile-menu-overlay.mobile-menu-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Backdrop */
+.mobile-menu-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+/* Drawer */
+.mobile-menu-drawer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 18rem;
+    max-width: 85vw;
+    background: var(--theme);
+    box-shadow: -4px 0 24px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+
+.mobile-menu-drawer.mobile-menu-drawer-open {
+    transform: translateX(0);
+}
+
+/* Menu Header */
+.mobile-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.mobile-menu-title {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+.mobile-menu-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background: transparent;
+    border: none;
+    border-radius: 9999px;
+    /* Changed from --secondary to --content for better contrast (7:1 vs 4.54:1) */
+    color: var(--content);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.mobile-menu-close:hover {
+    background: var(--entry);
+    color: var(--primary);
+}
+
+/* Menu Navigation */
+.mobile-menu-nav {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.mobile-menu-item {
+    display: block;
+    padding: 0.875rem 1rem;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    /* Changed from --secondary to --content for WCAG AA compliance */
+    /* Contrast: ~7:1 (WCAG AAA) instead of ~4.54:1 */
+    color: var(--content);
+    text-decoration: none;
+    border-radius: 0.75rem;
+    transition: all 0.2s ease;
+}
+
+.mobile-menu-item:hover {
+    background: var(--entry);
+    color: var(--primary);
+}
+
+.mobile-menu-item-active {
+    background: var(--entry);
+    color: var(--primary);
+}
+
+/* Menu Footer */
+.mobile-menu-footer {
+    padding: 1.5rem;
+    margin-top: auto;
+    background: var(--entry);
+    border-top: 1px solid var(--border);
+}
+
+.mobile-menu-footer-title {
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    /* Using --content for better contrast on --entry background */
+    color: var(--content);
+    margin-bottom: 1rem;
+}
+
+.mobile-menu-socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.mobile-menu-socials .social-icons {
+    margin: 0;
+    gap: 1rem;
+}
+
+.mobile-menu-socials .social-icons a {
+    /* Using --content for proper contrast (7:1) on --entry background */
+    color: var(--content);
+    padding: 0;
+    background: transparent;
+}
+
+.mobile-menu-socials .social-icons a:hover {
+    color: var(--primary);
+}
+
+.mobile-menu-socials .social-icons a svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Dark mode - Update background opacity and ensure proper contrast */
+@media (prefers-color-scheme: dark) {
+    .sticky-nav {
+        background: var(--theme);
+    }
+    
+    .profile-avatar {
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+    
+    /* In dark mode, inactive nav buttons should use lighter color for contrast */
+    .nav-button {
+        color: var(--secondary); /* rgb(155, 156, 157) provides ~6.5:1 on dark backgrounds */
+    }
+    
+    /* Hamburger icon in dark mode - ensure high contrast */
+    .mobile-menu-trigger {
+        color: var(--primary); /* Light text on dark background */
+    }
+    
+    .mobile-menu-backdrop {
+        background: rgba(15, 23, 42, 0.7);
     }
 }

@@ -4,9 +4,16 @@
     href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
 />
 
-{{/* Load custom social icons CSS */}} {{- $socialIconsCSS := resources.Get
-"css/custom/social-icons.css" }} {{- if $socialIconsCSS }} {{- $socialIconsCSS
-:= $socialIconsCSS | resources.Minify }}
+{{/* Load IBM Plex Sans font on home page for buttons */}} {{- if .IsHome }}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+/>
+{{- end }} {{/* Load custom social icons CSS */}} {{- $socialIconsCSS :=
+resources.Get "css/custom/social-icons.css" }} {{- if $socialIconsCSS }} {{-
+$socialIconsCSS := $socialIconsCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $socialIconsCSS.RelPermalink }}" />
 {{- end }} {{/* Custom CSS and JS for publications page */}} {{- if eq .Section
 "papers" }} {{/* Load CSS */}} {{- $publicationsCSS := resources.Get
