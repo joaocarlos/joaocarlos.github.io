@@ -1,0 +1,492 @@
+/* About page layout inspired by the mockup */
+
+.about-page {
+    position: relative;
+    background: transparent;
+    padding: clamp(1.2rem, 2.4vw, 2rem) clamp(1.35rem, 4vw, 3.25rem)
+        clamp(3.2rem, 5vw, 4.4rem);
+    border-radius: 12px;
+    color: var(--primary);
+}
+
+.dark .about-page {
+    background: transparent;
+}
+
+.about-shell {
+    max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.about-section {
+    margin-bottom: clamp(2.8rem, 4vw, 4.4rem);
+    scroll-margin-top: 120px;
+}
+
+.about-section-header {
+    margin-bottom: 1.25rem;
+}
+
+.about-section-header h1 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1;
+    color: rgb(17 24 39);
+    letter-spacing: -0.025em;
+}
+
+.about-title {
+    font-family: "Merriweather", Georgia, serif;
+    font-size: clamp(2.1rem, 2.5vw, 2.8rem);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin: 0;
+    color: var(--primary);
+}
+
+.about-divider {
+    display: block;
+    width: 64px;
+    height: 2px;
+    background: #cbd5e1;
+    border-radius: 999px;
+    margin-top: 0.75rem;
+}
+
+.dark .about-divider {
+    background: #475569;
+}
+
+.about-body p,
+.about-lead {
+    margin: 0 0 1.15rem 0;
+    font-size: 0.95rem;
+    /* color: var(--secondary); */
+    line-height: 1.625;
+    color: rgb(75 85 99);
+    font-weight: 300;
+    max-width: 42rem;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.about-body p:last-child {
+    margin-bottom: 0;
+}
+
+.about-subtitle {
+    font-family: "Merriweather", Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--primary);
+    margin: 0 0 1.1rem 0;
+}
+
+/* Hide the default Hugo post header on the About page */
+.post-single .post-header {
+    display: none;
+}
+
+.post-single .post-content {
+    margin-top: 0;
+}
+
+/* Sticky side navigation */
+.about-sidenav {
+    position: fixed;
+    right: clamp(1.25rem, 4vw, 3.5rem);
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    flex-direction: column;
+    gap: 1.35rem;
+    align-items: flex-end;
+    z-index: 10;
+    pointer-events: none;
+}
+
+@media (min-width: 1100px) {
+    .about-sidenav {
+        display: flex;
+    }
+}
+
+.about-sidenav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    text-decoration: none !important;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #c8ccd6;
+    transition: color 0.25s ease, opacity 0.25s ease, margin-left 0.25s ease;
+    pointer-events: auto;
+    box-shadow: none !important;
+    padding: 0;
+    text-align: right;
+    width: max-content;
+}
+
+.about-sidenav-link .about-sidenav-bar {
+    display: block;
+    width: 1.2rem;
+    height: 1px;
+    background: #c8ccd6;
+    transition: width 0.3s ease, background 0.3s ease, opacity 0.3s ease;
+    opacity: 0.5;
+}
+
+.about-sidenav-link:hover {
+    color: #95a3b8;
+}
+
+.about-sidenav-link.is-active {
+    color: #121826;
+    margin-left: 0.1rem;
+}
+
+.about-sidenav-link.is-active .about-sidenav-bar {
+    width: 2.6rem;
+    background: #121826;
+    opacity: 1;
+}
+
+.dark .about-sidenav-link {
+    color: #64748b;
+}
+
+.dark .about-sidenav-link .about-sidenav-bar {
+    background: #334155;
+}
+
+/* Timeline */
+.about-timeline-group {
+    margin-bottom: 2.25rem;
+}
+
+/* Timeline container and line */
+.about-timeline {
+    position: relative;
+    margin-top: 1.2rem;
+    padding-left: clamp(1.2rem, 1.5vw, 2rem);
+}
+
+.about-timeline-item {
+    position: relative;
+    --node-left: 0px;
+    --node-size: 2.9rem;
+    --node-top: 0.4rem;
+    --line-extra: 1.2rem;
+    padding-top: 0;
+    padding-left: clamp(5.6rem, 4.2vw, 3.4rem);
+    margin-bottom: clamp(2.4rem, 4vw, 3.2rem);
+}
+
+.about-timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.about-timeline-item:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    left: calc(var(--node-left) + (var(--node-size) / 2));
+    top: calc(var(--node-top) + (var(--node-size) / 2));
+    height: calc(100% + var(--line-extra) + (var(--node-size) / 2));
+    width: 1px;
+    background: #b8c0cc;
+}
+
+.about-node {
+    position: absolute;
+    top: var(--node-top);
+    left: var(--node-left);
+    width: var(--node-size);
+    height: var(--node-size);
+    border-radius: 999px;
+    border: 1px solid #b3b9c6;
+    background: #fff;
+    color: #637086;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    letter-spacing: -0.05em;
+    box-shadow: 0 6px 28px rgba(0, 0, 0, 0.08);
+    z-index: 1;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+.about-node span {
+    font: inherit;
+}
+
+.dark .about-node {
+    color: #cbd5e1;
+    box-shadow: 0 0 0 6px #0f172a;
+}
+
+.about-timeline-card {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0.65rem 0 0.2rem;
+    transition: none;
+}
+
+.about-timeline-card:hover {
+    border-color: none;
+    transform: none;
+    box-shadow: none;
+}
+
+.dark .about-timeline-card:hover {
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+.about-timeline-card h4 {
+    font-family: "Merriweather", Georgia, serif;
+    font-size: 1.05rem;
+    letter-spacing: 0.025em;
+    color: #131a23;
+    margin: 0 0 0.2rem 0;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.about-card-subtitle {
+    font-family: "IBM Plex Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    color: #9aa2b2;
+    margin-bottom: 0.55rem;
+}
+
+.dark .about-card-subtitle {
+    color: #cbd5e1;
+    opacity: 0.7;
+}
+
+.about-timeline-card p {
+    margin: 0;
+    line-height: 1.625;
+    color: #657084;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    max-width: 42rem;
+}
+
+/* Research area grid */
+.about-grid {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.about-research-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.about-card-panel {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    height: 100%;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.about-card-panel:hover {
+    border-color: rgba(15, 23, 42, 0.12);
+    transform: translateY(-3px);
+}
+
+.dark .about-card-panel:hover {
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+.about-icon {
+    width: 42px;
+    height: 42px;
+    color: #9ca3af;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card-panel h3,
+.about-card-panel h4 {
+    font-family: "Merriweather", Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: var(--primary);
+    margin: 0;
+}
+
+.about-card-panel p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.625;
+    color: #657084;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+}
+
+/* SDG */
+.about-sdg .about-subtitle {
+    margin-top: 1rem;
+}
+
+.about-sdg-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin-top: 1.25rem;
+}
+
+.about-sdg-card {
+    text-align: center;
+    gap: 0.75rem;
+}
+
+.about-sdg-card h4 {
+    font-size: 1.05rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.about-sdg-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: rgba(148, 163, 184, 0.16);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0.25rem;
+}
+
+.dark .about-sdg-icon {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+/* Impact */
+.about-impact .about-divider {
+    width: 72px;
+}
+
+.about-quote {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    padding: 0;
+}
+
+.quote-icon {
+    width: 34px;
+    height: 34px;
+    color: #a4abb8;
+    flex-shrink: 0;
+    margin-left: 0.1rem;
+}
+
+.dark .quote-icon {
+    color: #475569;
+}
+
+.about-quote blockquote {
+    margin: 0;
+    font-family: "Merriweather", Georgia, serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.6;
+    color: #1f2835;
+    font-weight: 400;
+    padding: 0;
+    border: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .about-page {
+        padding: 1.5rem 1.25rem 3rem;
+    }
+
+    .about-section {
+        scroll-margin-top: 96px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-page {
+        padding: 1.25rem 1rem 2.5rem;
+    }
+
+    .about-title {
+        font-size: 1.9rem;
+    }
+
+    .about-subtitle {
+        font-size: 1.15rem;
+    }
+
+    .about-body p,
+    .about-lead {
+        font-size: 0.95rem;
+    }
+
+    .about-timeline {
+        padding-left: 1.4rem;
+    }
+
+    .about-timeline-item {
+        --node-size: 2.6rem;
+        --line-extra: 2rem;
+        --node-top: 0.25rem;
+        padding-left: 2.8rem;
+        margin-bottom: 2.1rem;
+    }
+
+    .about-node {
+        width: var(--node-size);
+        height: var(--node-size);
+        font-size: 0.68rem;
+    }
+
+    .about-timeline-card {
+        padding: 0.65rem 0 0.2rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .about-page {
+        padding: 1rem 0.9rem 2rem;
+        border-radius: 8px;
+    }
+
+    .about-title {
+        font-size: 1.65rem;
+    }
+
+    .about-divider {
+        width: 52px;
+    }
+
+    .about-grid {
+        gap: 1rem;
+    }
+}

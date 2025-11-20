@@ -4,13 +4,18 @@
     href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
 />
 
-{{/* Load IBM Plex Sans font on home page for buttons */}} {{- if .IsHome }}
+{{/* Load IBM Plex fonts globally for all pages */}}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Merriweather:wght@400;500;600;700&display=swap"
     rel="stylesheet"
 />
+
+{{/* Load custom header navigation CSS (globally) */}} {{- $headerCSS :=
+resources.Get "css/custom/header.css" }} {{- if $headerCSS }} {{- $headerCSS :=
+$headerCSS | resources.Minify }}
+<link rel="stylesheet" href="{{ $headerCSS.RelPermalink }}" />
 {{- end }} {{/* Load custom social icons CSS */}} {{- $socialIconsCSS :=
 resources.Get "css/custom/social-icons.css" }} {{- if $socialIconsCSS }} {{-
 $socialIconsCSS := $socialIconsCSS | resources.Minify }}
@@ -28,4 +33,9 @@ $publicationsJS | resources.Minify }}
 "books" }} {{- $booksCSS := resources.Get "css/custom/books.css" }} {{- if
 $booksCSS }} {{- $booksCSS := $booksCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $booksCSS.RelPermalink }}" />
+{{- end }} {{- end }} {{/* Custom CSS for about page */}} {{- $isAbout := and .File
+(or (eq .File.TranslationBaseName "about") (eq .RelPermalink "/about/")) }} {{- if
+$isAbout }} {{- $aboutCSS := resources.Get "css/custom/about.css" }} {{- if $aboutCSS }} {{- $aboutCSS := $aboutCSS |
+resources.Minify | resources.Fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $aboutCSS.RelPermalink }}" integrity="{{ $aboutCSS.Data.Integrity }}" />
 {{- end }} {{- end }}

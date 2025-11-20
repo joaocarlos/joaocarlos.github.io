@@ -1,8 +1,5 @@
 /* Enhanced Profile Typography - Minimalistic & Aesthetic */
 
-/* Import IBM Plex fonts */
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600&display=swap");
-
 /* Profile container enhancements */
 .profile {
     margin: 4rem 0 3rem 0;
@@ -50,11 +47,11 @@
 }
 
 .profile-title {
-    font-family: "IBM Plex Serif", Georgia, serif;
-    font-size: 2.5rem;
+    font-family: Georgia, serif;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 1.2;
-    margin: 0;
+    margin: 0.5rem 0;
     color: var(--primary);
     letter-spacing: -0.02em;
 }
@@ -513,12 +510,13 @@
 }
 
 .profile-header .profile-title {
-    font-family: "IBM Plex Serif", Georgia, serif;
+    font-family: Georgia, serif;
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.2;
     margin: 0.5rem 0;
     color: var(--primary);
+    letter-spacing: -0.02em;
 }
 
 .profile-subtitle {
@@ -584,8 +582,8 @@
     }
 }
 
-/* Navigation Bar - At top of page with gradient flow */
-.sticky-nav {
+/* Navigation Bar - Home page only */
+#home .sticky-nav {
     width: 100% !important;
     background: linear-gradient(to bottom, #fafafa 0%, #f5f5f5 100%) !important;
     padding: 1rem 0;
@@ -593,11 +591,11 @@
 }
 
 /* Dark theme navigation gradient */
-.dark .sticky-nav {
+.dark #home .sticky-nav {
     background: linear-gradient(to bottom, #1a1a1a 0%, #1f1f1f 100%) !important;
 }
 
-.sticky-nav-inner {
+#home .sticky-nav-inner {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0.5rem 1rem;
@@ -607,7 +605,7 @@
     justify-content: center;
 }
 
-.nav-buttons {
+#home .nav-buttons {
     display: flex;
     gap: 0.25rem;
     align-items: center;
@@ -615,7 +613,7 @@
     justify-content: center;
 }
 
-.nav-button {
+#home .nav-button {
     padding: 0.625rem 1.5rem;
     border-radius: 20px;
     font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -631,31 +629,31 @@
     position: relative;
 }
 
-.nav-button:hover {
+#home .nav-button:hover {
     background: rgba(var(--primary-rgb, 0, 0, 0), 0.08);
 }
 
 /* Active state - Material Design filled button */
-.nav-button-active,
-.nav-button[aria-current="page"] {
+#home .nav-button-active,
+#home .nav-button[aria-current="page"] {
     background: var(--primary);
     color: var(--theme);
     font-weight: 600;
 }
 
-.nav-button-active:hover,
-.nav-button[aria-current="page"]:hover {
+#home .nav-button-active:hover,
+#home .nav-button[aria-current="page"]:hover {
     background: var(--primary);
     color: var(--theme);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
 }
 
 /* Mobile Navigation - Hidden on desktop */
-.sticky-nav-mobile {
+#home .sticky-nav-mobile {
     display: none;
 }
 
-.mobile-menu-trigger {
+#home .mobile-menu-trigger {
     display: none;
     align-items: center;
     justify-content: center;
@@ -668,15 +666,15 @@
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobile-menu-trigger:hover {
+#home .mobile-menu-trigger:hover {
     background: rgba(var(--primary-rgb, 0, 0, 0), 0.08);
 }
 
-.mobile-menu-trigger:active {
+#home .mobile-menu-trigger:active {
     transform: scale(0.98);
 }
 
-.mobile-menu-trigger svg {
+#home .mobile-menu-trigger svg {
     width: 24px;
     height: 24px;
     stroke-width: 2;
@@ -684,68 +682,68 @@
 
 /* Desktop: Hide mobile elements, show nav buttons centered */
 @media (min-width: 1024px) {
-    .sticky-nav-mobile {
+    #home .sticky-nav-mobile {
         display: none !important;
     }
     
-    .mobile-menu-trigger {
+    #home .mobile-menu-trigger {
         display: none !important;
     }
     
-    .sticky-nav-inner {
+    #home .sticky-nav-inner {
         justify-content: center;
     }
     
-    .nav-buttons {
+    #home .nav-buttons {
         display: flex !important;
     }
 }
 
 /* Medium screens: Adjust button sizing if needed */
 @media (min-width: 1024px) and (max-width: 1280px) {
-    .nav-button {
+    #home .nav-button {
         padding: 0.625rem 1rem;
         font-size: 0.85rem;
     }
     
-    .nav-buttons {
+    #home .nav-buttons {
         gap: 0.4rem;
     }
 }
 
 /* Mobile: Show mobile elements, hide nav buttons */
 @media (max-width: 1023px) {
-    .nav-buttons {
+    #home .nav-buttons {
         display: none !important;
     }
     
-    .sticky-nav {
+    #home .sticky-nav {
         padding: 0.75rem 0;
         margin-bottom: 0;
     }
     
-    .profile-header {
+    #home .profile-header {
         padding: 2rem 1.5rem 2rem;
     }
     
-    .sticky-nav-inner {
+    #home .sticky-nav-inner {
         justify-content: flex-end;
         padding: 0;
     }
     
-    .sticky-nav-mobile {
+    #home .sticky-nav-mobile {
         display: flex;
         width: 100%;
         justify-content: flex-end;
     }
     
-    .mobile-menu-trigger {
+    #home .mobile-menu-trigger {
         display: flex;
     }
 }
 
 /* Mobile Menu Overlay */
-.mobile-menu-overlay {
+#home .mobile-menu-overlay {
     position: fixed;
     inset: 0;
     z-index: 50;
@@ -754,13 +752,13 @@
     transition: opacity 0.3s ease;
 }
 
-.mobile-menu-overlay.mobile-menu-open {
+#home .mobile-menu-overlay.mobile-menu-open {
     opacity: 1;
     pointer-events: auto;
 }
 
 /* Backdrop */
-.mobile-menu-backdrop {
+#home .mobile-menu-backdrop {
     position: absolute;
     inset: 0;
     background: rgba(15, 23, 42, 0.5);
@@ -769,7 +767,7 @@
 }
 
 /* Drawer */
-.mobile-menu-drawer {
+#home .mobile-menu-drawer {
     position: absolute;
     right: 0;
     top: 0;
@@ -784,12 +782,12 @@
     transition: transform 0.3s ease;
 }
 
-.mobile-menu-drawer.mobile-menu-drawer-open {
+#home .mobile-menu-drawer.mobile-menu-drawer-open {
     transform: translateX(0);
 }
 
 /* Menu Header */
-.mobile-menu-header {
+#home .mobile-menu-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -797,14 +795,14 @@
     border-bottom: 1px solid var(--border);
 }
 
-.mobile-menu-title {
+#home .mobile-menu-title {
     font-family: "IBM Plex Serif", Georgia, serif;
     font-weight: 600;
     font-size: 1.5rem;
     color: var(--primary);
 }
 
-.mobile-menu-close {
+#home .mobile-menu-close {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -818,13 +816,13 @@
     transition: all 0.2s ease;
 }
 
-.mobile-menu-close:hover {
+#home .mobile-menu-close:hover {
     background: var(--entry);
     color: var(--primary);
 }
 
 /* Menu Navigation */
-.mobile-menu-nav {
+#home .mobile-menu-nav {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -833,7 +831,7 @@
     flex: 1;
 }
 
-.mobile-menu-item {
+#home .mobile-menu-item {
     display: block;
     padding: 0.875rem 1rem;
     font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -848,25 +846,25 @@
     transition: all 0.2s ease;
 }
 
-.mobile-menu-item:hover {
+#home .mobile-menu-item:hover {
     background: var(--entry);
     color: var(--primary);
 }
 
-.mobile-menu-item-active {
+#home .mobile-menu-item-active {
     background: var(--entry);
     color: var(--primary);
 }
 
 /* Menu Footer */
-.mobile-menu-footer {
+#home .mobile-menu-footer {
     padding: 1.5rem;
     margin-top: auto;
     background: var(--entry);
     border-top: 1px solid var(--border);
 }
 
-.mobile-menu-footer-title {
+#home .mobile-menu-footer-title {
     font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-size: 0.75rem;
     font-weight: 600;
@@ -877,29 +875,29 @@
     margin-bottom: 1rem;
 }
 
-.mobile-menu-socials {
+#home .mobile-menu-socials {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-.mobile-menu-socials .social-icons {
+#home .mobile-menu-socials .social-icons {
     margin: 0;
     gap: 1rem;
 }
 
-.mobile-menu-socials .social-icons a {
+#home .mobile-menu-socials .social-icons a {
     /* Using --content for proper contrast (7:1) on --entry background */
     color: var(--content);
     padding: 0;
     background: transparent;
 }
 
-.mobile-menu-socials .social-icons a:hover {
+#home .mobile-menu-socials .social-icons a:hover {
     color: var(--primary);
 }
 
-.mobile-menu-socials .social-icons a svg {
+#home .mobile-menu-socials .social-icons a svg {
     width: 24px;
     height: 24px;
 }
