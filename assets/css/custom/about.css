@@ -251,7 +251,7 @@
     border-color: rgba(255, 255, 255, 0.18);
 }
 
-.about-timeline-card h4 {
+.about-timeline-card h3 {
     font-family: "Merriweather", Georgia, serif;
     font-size: 1.05rem;
     letter-spacing: 0.025em;
@@ -269,7 +269,8 @@
     line-height: 1rem;
     font-weight: 400;
     color: #9aa2b2;
-    margin-bottom: 0.55rem;
+    margin-bottom: 0.65rem;
+    margin-top: 0.55rem;
 }
 
 .dark .about-card-subtitle {
