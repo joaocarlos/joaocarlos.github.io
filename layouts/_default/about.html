@@ -1,0 +1,47 @@
+{{- define "main" }}
+<div class="about-page">
+    {{- partial "about-sidenav.html" . }}
+
+    <div class="about-shell">
+        <section id="biography" class="about-section">
+            <header class="about-section-header">
+                <h1 class="about-title">Short Biography</h1>
+                <span class="about-divider" aria-hidden="true"></span>
+            </header>
+            <div class="about-body">
+                {{- range site.Data.about.biography }}
+                <p>{{ . | markdownify }}</p>
+                {{- end }}
+            </div>
+        </section>
+
+        <section id="trajectory" class="about-section about-trajectory">
+            {{- partial "about-timeline.html" site.Data.about.timeline }}
+        </section>
+
+        <section id="research" class="about-section">
+            {{- partial "about-research.html" site.Data.about.research_areas }}
+        </section>
+
+        <section id="sdg" class="about-section about-sdg">
+            {{- partial "about-sdg.html" site.Data.about.sdg_goals }}
+        </section>
+
+        <section id="impact" class="about-section about-impact">
+            {{- partial "about-impact.html" site.Data.about.impact_quote }}
+        </section>
+
+        {{- if .Content }}
+        <section class="about-section about-additional-content">
+            {{ .Content }}
+        </section>
+        {{- end }}
+    </div>
+</div>
+
+{{- $aboutJS := resources.Get "js/about.js" }}
+{{- if $aboutJS }}
+    {{- $aboutJS := $aboutJS | resources.Minify }}
+    <script defer src="{{ $aboutJS.RelPermalink }}"></script>
+{{- end }}
+{{- end }}

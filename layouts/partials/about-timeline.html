@@ -1,0 +1,44 @@
+<header class="about-section-header">
+    <h1 class="about-title">Academic Trajectory</h1>
+    <span class="about-divider" aria-hidden="true"></span>
+</header>
+
+<div class="about-timeline-group">
+    <h2 class="about-subtitle">Professional</h2>
+    <div class="about-timeline">
+        {{- range .professional }}
+        <article class="about-timeline-item">
+            <div class="about-node">
+                <span>{{ .year }}</span>
+            </div>
+            <div class="about-timeline-card">
+                <h3>{{ .institution }}</h3>
+                <div class="about-card-subtitle">{{ .title }}</div>
+                {{- if .description }}
+                <p>{{ .description | markdownify }}</p>
+                {{- end }}
+            </div>
+        </article>
+        {{- end }}
+    </div>
+</div>
+
+<div class="about-timeline-group">
+    <h2 class="about-subtitle">Education</h2>
+    <div class="about-timeline">
+        {{- range .education }}
+        <article class="about-timeline-item">
+            <div class="about-node">
+                <span>{{ .year }}</span>
+            </div>
+            <div class="about-timeline-card">
+                <h3>{{ .degree }}</h3>
+                <div class="about-card-subtitle">{{ .institution }}</div>
+                {{- if .description }}
+                <p>{{ .description | markdownify }}</p>
+                {{- end }}
+            </div>
+        </article>
+        {{- end }}
+    </div>
+</div>

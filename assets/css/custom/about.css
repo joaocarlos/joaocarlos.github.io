@@ -490,4 +490,33 @@
     .about-grid {
         gap: 1rem;
     }
+
+    /* Improved timeline spacing for very small screens */
+    .about-timeline {
+        padding-left: 0.8rem;
+    }
+
+    .about-timeline-item {
+        --node-size: 2.4rem;
+        --line-extra: 2.4rem;
+        --node-top: 0.2rem;
+        padding-left: 3.6rem;
+        margin-bottom: 2.6rem;
+    }
+
+    .about-timeline-card h3 {
+        font-size: 0.95rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .about-card-subtitle {
+        font-size: 0.7rem;
+        margin-bottom: 0.75rem;
+        margin-top: 0.6rem;
+    }
+
+    .about-timeline-card p {
+        font-size: 0.825rem;
+        line-height: 1.55;
+    }
 }

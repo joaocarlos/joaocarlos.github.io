@@ -1,0 +1,9 @@
+<nav class="about-sidenav" aria-label="About page sections">
+    {{- range site.Data.about.sidenav }}
+    {{- $isFirst := eq .id "biography" }}
+    <a class="about-sidenav-link{{ if $isFirst }} is-active{{ end }}" href="#{{ .id }}">
+        <span class="about-sidenav-label">{{ .label }}</span>
+        <span class="about-sidenav-bar" aria-hidden="true"></span>
+    </a>
+    {{- end }}
+</nav>

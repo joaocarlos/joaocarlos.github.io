@@ -12,5 +12,6 @@ hugo.tar.gz
 
 .github/agents
 .github/docs
+copilot-instructions.md
 
 mockups/

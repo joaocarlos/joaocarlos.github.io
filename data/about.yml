@@ -1,0 +1,72 @@
+biography:
+  - "João Carlos N. Bittencourt is an Assistant Professor at the Center of Exact Sciences and Technology (CETEC) at the Federal University of Recôncavo da Bahia (UFRB), Brazil. He holds a Master's degree in Computer Science and has dedicated his career to advancing research in Smart Cities, Internet of Things (IoT), Embedded Systems, and Reconfigurable Hardware Accelerators."
+  - "As an educator and researcher, Professor Bittencourt contributes to multiple undergraduate programs including Computer Engineering (ECP), Electrical Engineering (EELE), and Exact Sciences and Technology (BCET). His work bridges theoretical foundations with practical applications, fostering innovation in emerging technologies that address real-world challenges."
+
+timeline:
+  professional:
+    - year: "2017"
+      title: "Assistant Professor"
+      institution: "Federal University of Recôncavo da Bahia"
+      description: "Current professor of Digital Design, Computer Architecture and Embedded Systems Design."
+
+    - year: "2014"
+      title: "Substitute Professor"
+      institution: "State University of Feira de Santana"
+      description: "Taught courses in Digital Systems Design."
+
+  education:
+    - year: "2017"
+      degree: "Master of Science in Electrical Engineering"
+      institution: "Federal University of Bahia (UFBA), Brazil"
+      description: "Specialized in digital design and FPGA prototyping. Focused on reconfigurable hardware accelerators and embedded systems design for emerging applications."
+
+    - year: "2013"
+      degree: "Bachelor Degree in Computer Engineering"
+      institution: "State University of Feira de Santana (UEFS), Brazil"
+      description: ""
+
+research_areas:
+  - title: "Smart Cities"
+    icon: "building"
+    svg: '<path d="M2 22h20" /><path d="M6 22V10" /><path d="M6 10l4-4" /><path d="M10 6h4" /><path d="M14 6l4 4v12" /><rect x="8" y="12" width="2" height="2" /><rect x="8" y="16" width="2" height="2" /><rect x="14" y="12" width="2" height="2" /><rect x="14" y="16" width="2" height="2" />'
+    description: "Developing intelligent urban infrastructure solutions that leverage technology to improve quality of life, sustainability, and efficiency in metropolitan areas."
+
+  - title: "Internet of Things"
+    icon: "network"
+    svg: '<rect x="4" y="16" width="6" height="6" rx="1" /><rect x="14" y="16" width="6" height="6" rx="1" /><rect x="9" y="2" width="6" height="6" rx="1" /><path d="M12 8v8" /><path d="M7 16v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />'
+    description: "Creating interconnected systems of devices and sensors that enable seamless data collection, analysis, and automation across various applications."
+
+  - title: "Embedded Systems"
+    icon: "chip"
+    svg: '<rect x="4" y="4" width="16" height="16" rx="2" /><rect x="9" y="9" width="6" height="6" /><path d="M9 1v3" /><path d="M15 1v3" /><path d="M9 20v3" /><path d="M15 20v3" /><path d="M20 9h3" /><path d="M20 14h3" /><path d="M1 9h3" /><path d="M1 14h3" />'
+    description: "Designing specialized computing systems integrated into larger devices, focusing on real-time processing and resource optimization."
+
+  - title: "Reconfigurable Hardware"
+    icon: "lightning"
+    svg: '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />'
+    description: "Developing hardware solutions that can be programmed and reconfigured to optimize performance for computational tasks."
+
+sdg_goals:
+  - number: 9
+    title: "Industry, Innovation and Infrastructure"
+    description: "Research in Smart Cities and IoT directly supports the development of resilient infrastructure, promotes inclusive and sustainable industrialization, and fosters innovation through cutting-edge technology solutions."
+    svg: '<path d="M2 22h20" /><path d="M8 22v-6" /><path d="M4 22v-4" /><path d="M12 22v-8" /><path d="M16 22v-5" /><path d="M20 22v-3" /><path d="M3 20h2" /><path d="M7 16h2" /><path d="M11 14h2" /><path d="M15 17h2" /><path d="M19 19h2" /><path d="M14 9l-2-2-2 2" /><path d="M12 2v5" /><path d="M18 5l-2.5 2.5" /><path d="M6 5l2.5 2.5" />'
+
+  - number: 11
+    title: "Sustainable Cities and Communities"
+    description: "Smart Cities research focuses on making urban areas inclusive, safe, resilient, and sustainable by developing intelligent systems for traffic management, energy efficiency, and quality of life improvements."
+    svg: '<path d="M10 22v-8" /><path d="M14 22v-8" /><path d="M4 22V9l7-5 7 5v13" /><path d="M7 11h2" /><path d="M15 11h2" /><path d="M7 15h2" /><path d="M15 15h2" /><path d="M7 19h2" /><path d="M15 19h2" />'
+
+sdg_intro: "My research and academic work directly contribute to several UN Sustainable Development Goals, demonstrating a commitment to creating positive global impact through technology and education."
+
+impact_quote: "Technology must serve humanity's greatest challenges. Through research in Smart Cities and IoT, we're not just advancing scientific knowledge—we're building the foundation for a more sustainable, connected, and equitable future."
+
+sidenav:
+  - id: "biography"
+    label: "Biography"
+  - id: "trajectory"
+    label: "Academic Trajectory"
+  - id: "research"
+    label: "Research Focus"
+  - id: "sdg"
+    label: "Impact Goals"

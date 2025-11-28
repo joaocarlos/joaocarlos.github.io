@@ -4,22 +4,29 @@
     href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
 />
 
-{{/* Load IBM Plex fonts globally for all pages */}}
+{{/* Conditional font loading - only for home and about pages */}}
+{{- $needsCustomFonts := or .IsHome (eq .Layout "about") (and .File (eq .File.TranslationBaseName "about")) }}
+{{- if $needsCustomFonts }}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Merriweather:wght@400;500;600;700&display=swap"
     rel="stylesheet"
 />
+{{- end }}
 
-{{/* Load custom header navigation CSS (globally) */}} {{- $headerCSS :=
-resources.Get "css/custom/header.css" }} {{- if $headerCSS }} {{- $headerCSS :=
-$headerCSS | resources.Minify }}
-<link rel="stylesheet" href="{{ $headerCSS.RelPermalink }}" />
-{{- end }} {{/* Load custom social icons CSS */}} {{- $socialIconsCSS :=
-resources.Get "css/custom/social-icons.css" }} {{- if $socialIconsCSS }} {{-
-$socialIconsCSS := $socialIconsCSS | resources.Minify }}
-<link rel="stylesheet" href="{{ $socialIconsCSS.RelPermalink }}" />
+{{/* Load consolidated custom CSS from extended directory */}}
+{{- $customCSS := resources.Get "css/extended/custom.css" }}
+{{- if $customCSS }}
+  {{- $customCSS := $customCSS | resources.Minify }}
+  <link rel="stylesheet" href="{{ $customCSS.RelPermalink }}" />
+{{- end }}
+
+{{/* Load navigation JS globally */}}
+{{- $navigationJS := resources.Get "js/navigation.js" }}
+{{- if $navigationJS }}
+  {{- $navigationJS := $navigationJS | resources.Minify }}
+  <script defer src="{{ $navigationJS.RelPermalink }}"></script>
 {{- end }} {{/* Custom CSS and JS for publications page */}} {{- if eq .Section
 "papers" }} {{/* Load CSS */}} {{- $publicationsCSS := resources.Get
 "css/custom/publications.css" }} {{- if $publicationsCSS }} {{- $publicationsCSS

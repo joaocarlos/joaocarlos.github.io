@@ -9,7 +9,7 @@
         <!-- Mobile: Hamburger menu button -->
         <div class="sticky-nav-mobile">
             <button
-                onclick="openMobileMenu()"
+                data-action="open-menu"
                 class="mobile-menu-trigger"
                 aria-label="Open Menu"
             >
@@ -32,107 +32,12 @@
         </div>
 
         <!-- Desktop: Navigation buttons -->
-        <nav class="nav-buttons" role="navigation" aria-label="Main navigation">
-            {{- range . }} {{- $buttonURL := trim .url " " | relLangURL -}} {{-
-            $isCurrent := eq $buttonURL $currentPath -}}
-            <a
-                class="nav-button{{ if $isCurrent }} nav-button-active{{ end }}"
-                href="{{ $buttonURL }}"
-                rel="noopener"
-                title="{{ .name }}"
-                aria-label="Navigate to {{ .name }}"
-                {{-
-                if
-                $isCurrent
-                }}
-                aria-current="page"
-                {{-
-                end
-                }}
-            >
-                {{ .name }}
-            </a>
-            {{- end }}
-        </nav>
+        {{- partial "site-nav.html" $ }}
     </div>
 </div>
 
 <!-- Mobile Navigation Drawer (hidden by default) -->
-<div id="mobile-menu-overlay" class="mobile-menu-overlay">
-    <div class="mobile-menu-backdrop" onclick="closeMobileMenu()"></div>
-    <div id="mobile-menu-drawer" class="mobile-menu-drawer">
-        <div class="mobile-menu-header">
-            <span class="mobile-menu-title">Menu</span>
-            <button
-                onclick="closeMobileMenu()"
-                class="mobile-menu-close"
-                aria-label="Close Menu"
-            >
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                >
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>
-            </button>
-        </div>
-        <nav class="mobile-menu-nav">
-            {{- range . }} {{- $buttonURL := trim .url " " | relLangURL -}} {{-
-            $isCurrent := eq $buttonURL $currentPath -}}
-            <a
-                href="{{ $buttonURL }}"
-                class="mobile-menu-item{{ if $isCurrent }} mobile-menu-item-active{{ end }}"
-                {{-
-                if
-                $isCurrent
-                }}
-                aria-current="page"
-                {{-
-                end
-                }}
-            >
-                {{ .name }}
-            </a>
-            {{- end }}
-        </nav>
-        <div class="mobile-menu-footer">
-            <p class="mobile-menu-footer-title">Socials</p>
-            <div class="mobile-menu-socials">
-                {{- partial "social_icons.html" -}}
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    function openMobileMenu() {
-        document
-            .getElementById("mobile-menu-overlay")
-            .classList.add("mobile-menu-open")
-        document
-            .getElementById("mobile-menu-drawer")
-            .classList.add("mobile-menu-drawer-open")
-        document.body.style.overflow = "hidden"
-    }
-
-    function closeMobileMenu() {
-        document
-            .getElementById("mobile-menu-overlay")
-            .classList.remove("mobile-menu-open")
-        document
-            .getElementById("mobile-menu-drawer")
-            .classList.remove("mobile-menu-drawer-open")
-        document.body.style.overflow = ""
-    }
-</script>
+{{- partial "mobile-menu.html" $ }}
 {{- end }}
 
 <!-- Main Header - Profile Info (matches TSX structure) -->

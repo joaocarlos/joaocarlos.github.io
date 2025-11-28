@@ -1,0 +1,18 @@
+{{- /* Shared navigation component - used in both header and home page */}}
+{{- $currentPath := .RelPermalink }}
+<nav class="nav-buttons" role="navigation" aria-label="Main navigation">
+    {{- range site.Menus.main }}
+    {{- $buttonURL := trim .URL " " | relLangURL -}}
+    {{- $isCurrent := eq $buttonURL $currentPath -}}
+    <a
+        class="nav-button{{ if $isCurrent }} nav-button-active{{ end }}"
+        href="{{ $buttonURL }}"
+        rel="noopener"
+        title="{{ .Name }}"
+        aria-label="Navigate to {{ .Name }}"
+        {{- if $isCurrent }} aria-current="page" {{- end }}
+    >
+        {{ .Name }}
+    </a>
+    {{- end }}
+</nav>

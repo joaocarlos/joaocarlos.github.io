@@ -1,79 +1,7 @@
-/* Custom styles for publications page */
-
-/* Remove underlines from all links */
-/* .publications-container a,
-.publications-container a:hover, */
-/* .publication-title a,
-.publication-title a:hover,
-.publication-meta a,
-.publication-meta a:hover {
-    text-decoration: none !important;
-    border-bottom: none !important;
-} */
-
-/* Override post-content underline styling */
-/* .post-content .publications-container a,
-.post-content .publication-title a,
-.post-content .publication-meta a {
-    box-shadow: none !important;
-    text-decoration: none !important;
-    border-bottom: none !important;
-} */
-
-/* CRITICAL: Override theme link colors with maximum specificity */
-/* .post-content .publications-container a, */
-/* .post-content .publications-container a:link, */
-/* .post-content .publications-container a:visited, */
-/* .post-content .publications-container a:hover, */
-/* .post-content .publications-container a:active, */
-/* .post-content .publications-container a:focus, */
-/* html body .post-content .publications-container a, */
-html body .post-content .publications-container a:link
-/* html body .post-content .publications-container a:visited, */
-/* html body .post-content .publications-container a:hover, */
-/* html body .post-content .publications-container a:active, */
-/* html body .post-content .publications-container a:focus*/ {
-    /* text-decoration: none !important; */
-    /* border-bottom: none !important; */
-    box-shadow: none;
-}
-
-/* Filter button color overrides with maximum specificity */
-/* .post-content .publications-container .filter-button,
-.post-content .publications-filters .filter-button,
-html body .post-content .publications-container .filter-button,
-html body .post-content .publications-filters .filter-button {
-    background: white !important;
-    color: #374151 !important;
-    border: 2px solid #e5e7eb !important;
-    text-decoration: none !important;
-    border-bottom: 2px solid #e5e7eb !important;
-    box-shadow: none !important;
-} */
-
-/* .post-content .publications-container .filter-button:hover,
-.post-content .publications-filters .filter-button:hover,
-html body .post-content .publications-container .filter-button:hover,
-html body .post-content .publications-filters .filter-button:hover {
-    background: white !important;
-    color: #2563eb !important;
-    border: 2px solid #2563eb !important;
-    border-bottom: 2px solid #2563eb !important;
-    text-decoration: none !important;
-    box-shadow: none !important;
-} */
-
-/* .post-content .publications-container .filter-button.active,
-.post-content .publications-filters .filter-button.active,
-html body .post-content .publications-container .filter-button.active,
-html body .post-content .publications-filters .filter-button.active {
-    background: #2563eb !important;
-    color: white !important;
-    border: 2px solid #2563eb !important;
-    border-bottom: 2px solid #2563eb !important;
-    text-decoration: none !important;
-    box-shadow: none !important;
-} */
+/* ============================================
+   Publications Page Styles
+   Note: Link underline fixes are now in extended/custom.css
+   ============================================ */
 
 .publications-container {
     max-width: 900px;
@@ -475,55 +403,7 @@ html body .post-content .publications-filters .filter-button.active {
     }
 }
 
-/* Comprehensive link styling - ensure no underlines anywhere */
-.post-content a,
-.post-content a:hover,
-.post-content a:focus,
-.post-content a:active,
-.post-content a:visited {
-    text-decoration: none !important;
-    border-bottom: none !important;
-    text-decoration-line: none !important;
-    text-decoration-style: none !important;
-    text-decoration-color: transparent !important;
-}
-
-/* Specific overrides for publications container */
-.publications-container a,
-.publications-container a:hover,
-.publications-container a:focus,
-.publications-container a:active,
-.publications-container a:visited,
-.publications-container a::before,
-.publications-container a::after {
-    text-decoration: none !important;
-    border-bottom: none !important;
-    text-decoration-line: none !important;
-    text-decoration-style: none !important;
-    text-decoration-color: transparent !important;
-    text-underline-offset: 0 !important;
-    text-decoration-thickness: 0 !important;
-}
-
-/* Browser-specific rules */
-.publications-container a {
-    text-decoration: none !important;
-    -webkit-text-decoration: none !important;
-    -moz-text-decoration: none !important;
-    -ms-text-decoration: none !important;
-    -o-text-decoration: none !important;
-}
-
-/* Remove any potential theme-based underlines */
-.post-content .publications-container a {
-    text-decoration: none !important;
-    border-bottom: none !important;
-}
-
-.post-content .publications-container a:hover {
-    text-decoration: none !important;
-    border-bottom: none !important;
-}
+/* Note: Link underline overrides moved to extended/custom.css */
 
 /* Theme compatibility - moved from layout file */
 .post-single {

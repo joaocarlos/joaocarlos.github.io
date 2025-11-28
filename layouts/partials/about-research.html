@@ -1,0 +1,18 @@
+<header class="about-section-header">
+    <h1 class="about-title">Research Focus Areas</h1>
+    <span class="about-divider" aria-hidden="true"></span>
+</header>
+
+<div class="about-grid about-research-grid">
+    {{- range . }}
+    <article class="about-card-panel">
+        <div class="about-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                {{ .svg | safeHTML }}
+            </svg>
+        </div>
+        <h3>{{ .title }}</h3>
+        <p>{{ .description | markdownify }}</p>
+    </article>
+    {{- end }}
+</div>

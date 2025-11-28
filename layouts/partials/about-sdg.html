@@ -1,0 +1,19 @@
+<header class="about-section-header">
+    <h1 class="about-title">Commitment to UN Sustainable Development Goals</h1>
+    <span class="about-divider" aria-hidden="true"></span>
+</header>
+<p class="about-lead">{{ site.Data.about.sdg_intro }}</p>
+<h2 class="about-subtitle">Primary Contributions</h2>
+<div class="about-grid about-sdg-grid">
+    {{- range . }}
+    <article class="about-card-panel about-sdg-card">
+        <div class="about-icon about-sdg-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                {{ .svg | safeHTML }}
+            </svg>
+        </div>
+        <h3>SDG {{ .number }}: {{ .title }}</h3>
+        <p>{{ .description | markdownify }}</p>
+    </article>
+    {{- end }}
+</div>
