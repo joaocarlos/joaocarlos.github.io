@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Publications Layout Preview</title>
+        <script
+            src="https://unpkg.com/react@18/umd/react.development.js"
+            crossorigin
+        ></script>
+        <script
+            src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+            crossorigin
+        ></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Montserrat:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            /* Theme CSS Variables (matching academia theme) */
+            :root {
+                --font-serif: "Cormorant Garamond", Georgia, serif;
+                --font-sans: "Montserrat", system-ui, sans-serif;
+                --font-mono: "JetBrains Mono", monospace;
+
+                --fs-xs: 0.7rem;
+                --fs-sm: 0.8rem;
+                --fs-base: 0.9rem;
+                --fs-lg: 1rem;
+                --fs-xl: 1.15rem;
+                --fs-2xl: 1.35rem;
+
+                --sp-1: 0.25rem;
+                --sp-2: 0.5rem;
+                --sp-3: 0.75rem;
+                --sp-4: 1rem;
+                --sp-5: 1.25rem;
+                --sp-6: 1.5rem;
+                --sp-8: 2rem;
+                --sp-10: 2.5rem;
+
+                --color-bg: #fafafa;
+                --color-bg-alt: #f5f5f5;
+                --color-text: #1a1a1a;
+                --color-text-secondary: #4a4a4a;
+                --color-text-muted: #6a6a6a;
+                --color-accent: #8b5cf6;
+                --color-border: #e5e5e5;
+                --color-border-subtle: #ebebeb;
+
+                --radius-sm: 4px;
+                --radius-md: 8px;
+                --duration-fast: 150ms;
+                --ease-out: cubic-bezier(0.33, 1, 0.68, 1);
+
+                --max-width: 900px;
+                --toc-width: 200px;
+            }
+
+            [data-theme="dark"] {
+                --color-bg: #141414;
+                --color-bg-alt: #1a1a1a;
+                --color-text: #f5f5f5;
+                --color-text-secondary: #b0b0b0;
+                --color-text-muted: #888;
+                --color-accent: #a78bfa;
+                --color-border: #333;
+                --color-border-subtle: #2a2a2a;
+            }
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                font-family: var(--font-sans);
+                font-size: var(--fs-base);
+                line-height: 1.6;
+                color: var(--color-text);
+                background: var(--color-bg);
+                padding: var(--sp-8);
+            }
+
+            .preview-header {
+                max-width: var(--max-width);
+                margin: 0 auto var(--sp-8);
+                padding-bottom: var(--sp-6);
+                border-bottom: 2px solid var(--color-border);
+            }
+
+            .preview-header h1 {
+                font-family: var(--font-serif);
+                font-size: var(--fs-2xl);
+                margin-bottom: var(--sp-2);
+            }
+
+            .preview-header p {
+                color: var(--color-text-muted);
+                font-size: var(--fs-sm);
+            }
+
+            .theme-toggle {
+                position: fixed;
+                top: var(--sp-4);
+                right: var(--sp-4);
+                padding: var(--sp-2) var(--sp-4);
+                background: var(--color-bg-alt);
+                border: 1px solid var(--color-border);
+                border-radius: var(--radius-md);
+                font-size: var(--fs-sm);
+                cursor: pointer;
+                color: var(--color-text);
+            }
+
+            .layout-container {
+                display: grid;
+                grid-template-columns: 1fr var(--toc-width);
+                gap: var(--sp-8);
+                max-width: calc(
+                    var(--max-width) + var(--toc-width) + var(--sp-8)
+                );
+                margin: 0 auto;
+            }
+
+            @media (max-width: 900px) {
+                .layout-container {
+                    grid-template-columns: 1fr;
+                }
+                .toc {
+                    display: none;
+                }
+            }
+
+            /* Publications Styles */
+
+            /* Spotlight Section */
+            .publications-spotlight {
+                margin-bottom: var(--sp-10);
+                padding-top: var(--sp-4);
+                padding-left: var(--sp-6);
+                padding-right: var(--sp-6);
+                padding-bottom: var(--sp-6);
+                background: linear-gradient(
+                    135deg,
+                    var(--color-accent-light, rgba(139, 92, 246, 0.08)) 0%,
+                    var(--color-bg-alt) 100%
+                );
+                border-radius: var(--radius-md);
+                border: 1px solid
+                    var(--color-accent-border, rgba(139, 92, 246, 0.2));
+            }
+
+            [data-theme="dark"] .publications-spotlight {
+                background: linear-gradient(
+                    135deg,
+                    rgba(167, 139, 250, 0.1) 0%,
+                    var(--color-bg-alt) 100%
+                );
+                border-color: rgba(167, 139, 250, 0.25);
+            }
+
+            .publications-spotlight__header {
+                display: flex;
+                align-items: center;
+                gap: var(--sp-3);
+                margin-bottom: var(--sp-5);
+                cursor: default;
+            }
+
+            .publications-spotlight__icon {
+                font-size: var(--fs-xl);
+                display: inline-block;
+                transition: transform 0.3s ease;
+            }
+
+            .publications-spotlight__header:hover
+                .publications-spotlight__icon {
+                animation: sparkle 0.6s ease-in-out;
+            }
+
+            @keyframes sparkle {
+                0% {
+                    transform: scale(1) rotate(0deg);
+                }
+                25% {
+                    transform: scale(1.3) rotate(-10deg);
+                }
+                50% {
+                    transform: scale(1.1) rotate(10deg);
+                }
+                75% {
+                    transform: scale(1.25) rotate(-5deg);
+                }
+                100% {
+                    transform: scale(1) rotate(0deg);
+                }
+            }
+
+            .publications-spotlight__title {
+                font-family: var(--font-serif);
+                font-size: var(--fs-xl);
+                font-weight: 600;
+                color: var(--color-accent);
+            }
+
+            /* Harmonious style: spotlight uses same inline layout, 
+               differentiated only by the gradient container */
+            .publications-spotlight .publication {
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid var(--color-border-subtle);
+                border-radius: 0;
+                margin: 0;
+            }
+
+            .publications-spotlight .publication:last-child {
+                border-bottom: none;
+            }
+
+            .publications-spotlight .publication:hover {
+                background: rgba(139, 92, 246, 0.05);
+            }
+
+            [data-theme="dark"] .publications-spotlight .publication:hover {
+                background: rgba(167, 139, 250, 0.08);
+            }
+
+            .publications-year {
+                margin-bottom: var(--sp-10);
+            }
+
+            .publications-year__header {
+                display: flex;
+                align-items: baseline;
+                gap: var(--sp-3);
+                margin-bottom: var(--sp-5);
+                padding-bottom: var(--sp-3);
+                border-bottom: 2px solid var(--color-border-subtle);
+            }
+
+            .publications-year__title {
+                font-family: var(--font-serif);
+                font-size: var(--fs-2xl);
+                font-weight: 600;
+                color: var(--color-accent);
+            }
+
+            .publications-year__count {
+                font-size: var(--fs-xs);
+                font-weight: 500;
+                color: var(--color-text-muted);
+                background: var(--color-bg-alt);
+                padding: var(--sp-1) var(--sp-2);
+                border-radius: var(--radius-sm);
+            }
+
+            /* Category subsection within a year */
+            .publications-category {
+                margin-bottom: var(--sp-6);
+            }
+
+            .publications-category:last-child {
+                margin-bottom: 0;
+            }
+
+            .publications-category__title {
+                font-family: var(--font-sans);
+                font-size: var(--fs-sm);
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                color: var(--color-text-muted);
+                margin-bottom: var(--sp-3);
+            }
+
+            .publications-list {
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* Compact Inline Publication Item */
+            .publication {
+                display: grid;
+                grid-template-columns: 1fr auto;
+                gap: var(--sp-4);
+                align-items: center;
+                padding: var(--sp-4) var(--sp-3);
+                margin: 0 calc(-1 * var(--sp-3));
+                border-bottom: 1px solid var(--color-border-subtle);
+                border-radius: var(--radius-sm);
+                transition: background var(--duration-fast) var(--ease-out);
+            }
+
+            .publication:hover {
+                background: var(--color-bg-alt);
+            }
+
+            .publication:last-child {
+                border-bottom: none;
+            }
+
+            .publication__content {
+                min-width: 0;
+            }
+
+            .publication__title {
+                font-family: var(--font-serif);
+                font-size: var(--fs-lg);
+                font-weight: 600;
+                line-height: 1.4;
+                margin-bottom: var(--sp-1);
+            }
+
+            .publication__title a {
+                color: var(--color-text);
+                text-decoration: none;
+                transition: color var(--duration-fast) var(--ease-out);
+            }
+
+            .publication__title a:hover {
+                color: var(--color-accent);
+            }
+
+            .publication__meta {
+                font-size: var(--fs-sm);
+                color: var(--color-text-muted);
+                line-height: 1.5;
+            }
+
+            .publication__authors {
+                color: var(--color-text-secondary);
+            }
+
+            .publication__venue {
+                display: block;
+                font-style: italic;
+                margin-top: var(--sp-1);
+            }
+
+            .publication__links {
+                display: flex;
+                align-items: center;
+                gap: var(--sp-1);
+            }
+
+            .publication__link {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 32px;
+                height: 32px;
+                color: var(--color-text-muted);
+                background: transparent;
+                border: 1px solid var(--color-border);
+                border-radius: var(--radius-sm);
+                transition: all var(--duration-fast) var(--ease-out);
+                cursor: pointer;
+            }
+
+            .publication__link:hover {
+                color: var(--color-accent);
+                border-color: var(--color-accent);
+                background: var(--color-bg-alt);
+            }
+
+            .publication__link svg {
+                width: 16px;
+                height: 16px;
+            }
+
+            /* TOC Sidebar */
+            .toc {
+                position: sticky;
+                top: var(--sp-8);
+                height: fit-content;
+            }
+
+            .toc__title {
+                font-size: var(--fs-xs);
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                color: var(--color-text-muted);
+                margin-bottom: var(--sp-4);
+            }
+
+            .toc__nav {
+                border-left: 2px solid var(--color-border);
+            }
+
+            .toc__link {
+                display: block;
+                padding: var(--sp-2) var(--sp-4);
+                font-size: var(--fs-sm);
+                color: var(--color-text-muted);
+                text-decoration: none;
+                border-left: 2px solid transparent;
+                margin-left: -2px;
+                transition: all var(--duration-fast) var(--ease-out);
+            }
+
+            .toc__link:hover {
+                color: var(--color-text);
+            }
+
+            .toc__link.active {
+                color: var(--color-accent);
+                border-left-color: var(--color-accent);
+                font-weight: 500;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="theme-toggle" onclick="toggleTheme()">
+            Toggle Dark Mode
+        </button>
+
+        <header class="preview-header">
+            <h1>📄 Publications Layout Preview</h1>
+            <p>
+                Compact inline list design — approve this layout before Hugo
+                implementation
+            </p>
+        </header>
+
+        <div id="root"></div>
+
+        <script type="text/babel">
+            // Publication categories with their display order
+            const categoryOrder = ["journal", "conference", "book", "preprint"]
+            const categoryLabels = {
+                journal: "Journal Articles",
+                conference: "Conference Papers",
+                book: "Books & Chapters",
+                preprint: "Preprints",
+            }
+
+            // Spotlight publications (highlighted important articles)
+            const spotlightPublications = [
+                {
+                    title: "On the spatiotemporal knowledge-driven vulnerability assessment of urban areas: A clustering-based approach",
+                    authors: [
+                        "João Carlos N. Bittencourt",
+                        "Daniel G. Costa",
+                        "Paulo Portugal",
+                        "Maycon Peixoto",
+                        "Francisco Vasques",
+                    ],
+                    venue: "International Journal of Disaster Risk Reduction, v. 127, p. 105681",
+                    year: 2024,
+                    doi: "10.1016/j.ijdrr.2024.105681",
+                    pdf: "/papers/vulnerability-assessment.pdf",
+                },
+                {
+                    title: "Smart Cities: Foundations, Principles and Applications",
+                    authors: ["João Carlos N. Bittencourt", "Maria Santos"],
+                    venue: "Springer International Publishing",
+                    year: 2023,
+                    doi: "10.1007/978-3-030-12345-6",
+                },
+            ]
+
+            // Sample publication data organized by category
+            const publications = {
+                journal: [
+                    {
+                        title: "On the spatiotemporal knowledge-driven vulnerability assessment of urban areas: A clustering-based approach",
+                        authors: [
+                            "João Carlos N. Bittencourt",
+                            "Daniel G. Costa",
+                            "Paulo Portugal",
+                            "Maycon Peixoto",
+                            "Francisco Vasques",
+                        ],
+                        venue: "International Journal of Disaster Risk Reduction, v. 127, p. 105681",
+                        year: 2024,
+                        doi: "10.1016/j.ijdrr.2024.105681",
+                        pdf: "/papers/vulnerability-assessment.pdf",
+                    },
+                    {
+                        title: "Federated Learning Approaches for Privacy-Preserving Urban Analytics",
+                        authors: [
+                            "João Carlos N. Bittencourt",
+                            "Sophie Martin",
+                            "Ahmed Hassan",
+                        ],
+                        venue: "IEEE Transactions on Smart Cities",
+                        year: 2024,
+                        pdf: "/papers/federated-urban.pdf",
+                    },
+                    {
+                        title: "A Survey on Machine Learning for Predictive Maintenance in Industrial IoT",
+                        authors: ["João Carlos N. Bittencourt", "Paulo Santos"],
+                        venue: "Journal of Industrial Information Integration",
+                        year: 2024,
+                        doi: "10.1016/jiip.2024.100",
+                        pdf: "/papers/ml-maintenance.pdf",
+                    },
+                    {
+                        title: "Energy-Efficient Communication Protocols for Battery-Constrained Sensors",
+                        authors: ["João Carlos N. Bittencourt", "Yuki Tanaka"],
+                        venue: "ACM Transactions on Sensor Networks",
+                        year: 2024,
+                        doi: "10.1145/tosn.2024.333",
+                    },
+                    {
+                        title: "Context-Aware Resource Allocation in Mobile Edge Computing",
+                        authors: [
+                            "João Carlos N. Bittencourt",
+                            "Sarah Johnson",
+                            "Kim Park",
+                        ],
+                        venue: "IEEE Transactions on Mobile Computing",
+                        year: 2023,
+                        pdf: "/papers/mec-allocation.pdf",
+                        code: "https://github.com/jcbittencourt/mec-context",
+                    },
+                    {
+                        title: "Deep Reinforcement Learning for Traffic Signal Optimization",
+                        authors: [
+                            "João Carlos N. Bittencourt",
+                            "Carlos Mendes",
+                            "Fatima Al-Rashid",
+                        ],
+                        venue: "Transportation Research Part C",
+                        year: 2023,
+                        pdf: "/papers/drl-traffic.pdf",
+                        code: "https://github.com/jcbittencourt/drl-traffic",
+                    },
+                    {
+                        title: "Anomaly Detection in Smart Building Systems Using Graph Neural Networks",
+                        authors: [
+                            "João Carlos N. Bittencourt",
+                            "Julia Schmidt",
+                            "Omar Farouk",
+                        ],
+                        venue: "Building and Environment",
+                        year: 2023,
+                        doi: "10.1016/bae.2023.222",
+                        pdf: "/papers/gnn-buildings.pdf",
+                    },
+                ],
+                conference: [
+                    {
+                        title: "Adaptive Priority Scheduling for MQTT-Based Urban Monitoring Systems",
+                        authors: [
+                            "João Carlos N. Bittencourt",
+                            "Ana Silva",
+                            "Carlos Mendes",
+                        ],
+                        venue: "International Conference on Smart Cities and Urban Computing",
+                        year: 2024,
+                        doi: "10.1234/smartcities.2024.001",
+                        pdf: "/papers/mqtt-scheduling.pdf",
+                        code: "https://github.com/jcbittencourt/mqtt-scheduler",
+                    },
+                    {
+                        title: "Scalable Message Broker Architecture for Smart City Infrastructure",
+                        authors: [
+                            "João Carlos N. Bittencourt",
+                            "Elena Rossi",
+                            "Marco Polo",
+                        ],
+                        venue: "IEEE International Conference on Distributed Computing Systems",
+                        year: 2024,
+                        doi: "10.1109/ICDCS.2024.555",
+                        pdf: "/papers/broker-arch.pdf",
+                        code: "https://github.com/jcbittencourt/smart-broker",
+                    },
+                    {
+                        title: "Blockchain-Based Data Integrity for Urban Sensor Networks",
+                        authors: ["João Carlos N. Bittencourt", "Wei Zhang"],
+                        venue: "IEEE Blockchain Conference",
+                        year: 2024,
+                        doi: "10.1109/BC.2024.777",
+                        pdf: "/papers/blockchain-sensors.pdf",
+                    },
+                    {
+                        title: "Microservices Architecture for Real-Time Urban Data Processing",
+                        authors: ["João Carlos N. Bittencourt", "Roberto Lima"],
+                        venue: "IEEE International Conference on Web Services",
+                        year: 2023,
+                        doi: "10.1109/ICWS.2023.111",
+                        pdf: "/papers/microservices-urban.pdf",
+                    },
+                    {
+                        title: "Privacy-Preserving Data Aggregation for Smart Metering Systems",
+                        authors: ["João Carlos N. Bittencourt", "Hans Mueller"],
+                        venue: "IEEE SmartGridComm",
+                        year: 2023,
+                        doi: "10.1109/SGC.2023.888",
+                    },
+                ],
+                book: [
+                    {
+                        title: "Edge Computing Optimization for Low-Latency Applications in Smart Environments",
+                        authors: [
+                            "João Carlos N. Bittencourt",
+                            "Li Chen",
+                            "Raj Kumar",
+                        ],
+                        venue: "ACM Computing Surveys (Book Chapter)",
+                        year: 2024,
+                        doi: "10.1145/csur.2024.789",
+                        code: "https://github.com/jcbittencourt/edge-optimizer",
+                    },
+                    {
+                        title: "Smart Cities: Foundations, Principles and Applications",
+                        authors: ["João Carlos N. Bittencourt", "Maria Santos"],
+                        venue: "Springer International Publishing",
+                        year: 2023,
+                        doi: "10.1007/978-3-030-12345-6",
+                    },
+                ],
+                preprint: [
+                    {
+                        title: "Large Language Models for Urban Planning: A Comprehensive Survey",
+                        authors: [
+                            "João Carlos N. Bittencourt",
+                            "Alex Thompson",
+                            "Nina Patel",
+                        ],
+                        venue: "arXiv:2024.12345",
+                        year: 2024,
+                        pdf: "https://arxiv.org/pdf/2024.12345",
+                    },
+                    {
+                        title: "Quantum Computing Applications in Smart Grid Optimization",
+                        authors: ["João Carlos N. Bittencourt", "Chen Wei"],
+                        venue: "arXiv:2024.67890",
+                        year: 2024,
+                        pdf: "https://arxiv.org/pdf/2024.67890",
+                        code: "https://github.com/jcbittencourt/quantum-grid",
+                    },
+                ],
+            }
+
+            // Icon components
+            const IconDOI = () => (
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                >
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+            )
+
+            const IconPDF = () => (
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                >
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="12" y1="18" x2="12" y2="12" />
+                    <line x1="9" y1="15" x2="15" y2="15" />
+                </svg>
+            )
+
+            const IconCode = () => (
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                >
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+            )
+
+            // Publication component
+            const Publication = ({ pub }) => (
+                <article className="publication">
+                    <div className="publication__content">
+                        <h3 className="publication__title">
+                            <a href="#">{pub.title}</a>
+                        </h3>
+                        <div className="publication__meta">
+                            <span className="publication__authors">
+                                {pub.authors.join(", ")}
+                            </span>
+                            <span className="publication__venue">
+                                {pub.venue}
+                            </span>
+                        </div>
+                    </div>
+                    <div className="publication__links">
+                        {pub.doi && (
+                            <button className="publication__link" title="DOI">
+                                <IconDOI />
+                            </button>
+                        )}
+                        {pub.pdf && (
+                            <button className="publication__link" title="PDF">
+                                <IconPDF />
+                            </button>
+                        )}
+                        {pub.code && (
+                            <button className="publication__link" title="Code">
+                                <IconCode />
+                            </button>
+                        )}
+                    </div>
+                </article>
+            )
+
+            // Category subsection component (within a year)
+            const CategorySubsection = ({ label, pubs }) => (
+                <div className="publications-category">
+                    <h3 className="publications-category__title">{label}</h3>
+                    <div className="publications-list">
+                        {pubs.map((pub, idx) => (
+                            <Publication key={idx} pub={pub} />
+                        ))}
+                    </div>
+                </div>
+            )
+
+            // Year section component
+            const YearSection = ({ year, pubsByCategory }) => {
+                const totalPubs = Object.values(pubsByCategory).reduce(
+                    (sum, pubs) => sum + pubs.length,
+                    0,
+                )
+
+                return (
+                    <section className="publications-year" id={`year-${year}`}>
+                        <header className="publications-year__header">
+                            <h2 className="publications-year__title">{year}</h2>
+                            <span className="publications-year__count">
+                                {totalPubs}{" "}
+                                {totalPubs === 1 ? "paper" : "papers"}
+                            </span>
+                        </header>
+                        {categoryOrder.map((cat) => {
+                            const pubs = pubsByCategory[cat]
+                            if (!pubs || pubs.length === 0) return null
+                            return (
+                                <CategorySubsection
+                                    key={cat}
+                                    label={categoryLabels[cat]}
+                                    pubs={pubs}
+                                />
+                            )
+                        })}
+                    </section>
+                )
+            }
+
+            // TOC component
+            const TOC = ({ years, hasSpotlight }) => (
+                <aside className="toc">
+                    <p className="toc__title">Navigate</p>
+                    <nav className="toc__nav">
+                        {hasSpotlight && (
+                            <a href="#spotlight" className="toc__link active">
+                                ✦ Spotlight
+                            </a>
+                        )}
+                        {years.map((year, idx) => (
+                            <a
+                                key={year}
+                                href={`#year-${year}`}
+                                className={`toc__link ${
+                                    !hasSpotlight && idx === 0 ? "active" : ""
+                                }`}
+                            >
+                                {year}
+                            </a>
+                        ))}
+                    </nav>
+                </aside>
+            )
+
+            // Spotlight section component
+            const SpotlightSection = ({ pubs }) => (
+                <section className="publications-spotlight" id="spotlight">
+                    <header className="publications-spotlight__header">
+                        <span className="publications-spotlight__icon">✦</span>
+                        <h2 className="publications-spotlight__title">
+                            Spotlight
+                        </h2>
+                    </header>
+                    <div className="publications-list">
+                        {pubs.map((pub, idx) => (
+                            <Publication key={idx} pub={pub} />
+                        ))}
+                    </div>
+                </section>
+            )
+
+            // Main App - reorganize data by year, then category
+            const App = () => {
+                // Group all publications by year first, then by category
+                const pubsByYear = {}
+
+                categoryOrder.forEach((category) => {
+                    const pubs = publications[category] || []
+                    pubs.forEach((pub) => {
+                        const year = pub.year
+                        if (!pubsByYear[year]) {
+                            pubsByYear[year] = {}
+                        }
+                        if (!pubsByYear[year][category]) {
+                            pubsByYear[year][category] = []
+                        }
+                        pubsByYear[year][category].push(pub)
+                    })
+                })
+
+                const years = Object.keys(pubsByYear).sort((a, b) => b - a)
+                const hasSpotlight = spotlightPublications.length > 0
+
+                return (
+                    <div className="layout-container">
+                        <main className="publications-content">
+                            {hasSpotlight && (
+                                <SpotlightSection
+                                    pubs={spotlightPublications}
+                                />
+                            )}
+                            {years.map((year) => (
+                                <YearSection
+                                    key={year}
+                                    year={year}
+                                    pubsByCategory={pubsByYear[year]}
+                                />
+                            ))}
+                        </main>
+                        <TOC years={years} hasSpotlight={hasSpotlight} />
+                    </div>
+                )
+            }
+
+            const root = ReactDOM.createRoot(document.getElementById("root"))
+            root.render(<App />)
+        </script>
+
+        <script>
+            function toggleTheme() {
+                const html = document.documentElement
+                const current = html.getAttribute("data-theme")
+                html.setAttribute(
+                    "data-theme",
+                    current === "dark" ? "light" : "dark",
+                )
+            }
+        </script>
+    </body>
+</html>
