@@ -68,18 +68,18 @@ languages:
                 - name: "Publicações"
                   pageRef: "/papers"
                   weight: 20
-                - name: "Livros"
-                  pageRef: "/books"
-                  weight: 30
-                - name: "Projetos"
-                  pageRef: "/projects"
-                  weight: 40
-                - name: "Ensino"
-                  pageRef: "/courses"
-                  weight: 50
-                - name: "Orientações"
-                  pageRef: "/supervision"
-                  weight: 60
+                # - name: "Livros"
+                #   pageRef: "/books"
+                #   weight: 30
+                # - name: "Projetos"
+                #   pageRef: "/projects"
+                #   weight: 40
+                # - name: "Ensino"
+                #   pageRef: "/courses"
+                #   weight: 50
+                # - name: "Orientações"
+                #   pageRef: "/supervision"
+                #   weight: 60
 
 # Build settings
 buildDrafts: false

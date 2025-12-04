@@ -1,4 +1,0 @@
-[submodule "themes/academia"]
-	path = themes/academia
-	url = git@github.com:joaocarlos/Hugo-academia.git
-academia
