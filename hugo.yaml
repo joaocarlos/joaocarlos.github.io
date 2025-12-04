@@ -35,18 +35,18 @@ languages:
                 - name: "Publications"
                   pageRef: "/papers"
                   weight: 20
-                - name: "Books"
-                  pageRef: "/books"
-                  weight: 30
-                - name: "Projects"
-                  pageRef: "/projects"
-                  weight: 40
-                - name: "Teaching"
-                  pageRef: "/courses"
-                  weight: 50
-                - name: "Supervision"
-                  pageRef: "/supervision"
-                  weight: 60
+                # - name: "Books"
+                #   pageRef: "/books"
+                #   weight: 30
+                # - name: "Projects"
+                #   pageRef: "/projects"
+                #   weight: 40
+                # - name: "Teaching"
+                #   pageRef: "/courses"
+                #   weight: 50
+                # - name: "Supervision"
+                #   pageRef: "/supervision"
+                #   weight: 60
     pt-br:
         languageCode: "pt-BR"
         languageName: "Português"
@@ -194,7 +194,7 @@ params:
     # Theme settings
     theme:
         defaultMode: "auto" # auto, light, dark
-        showThemeToggle: true
+        showThemeToggle: false
         accentColor: "#4a5568" # Gray accent
 
     # Table of Contents settings
@@ -220,7 +220,7 @@ params:
 
     # SEO
     seo:
-        twitter: "@yourusername"
+        # twitter: "@yourusername"
         opengraph: true
 
     # Analytics (optional)
@@ -259,4 +259,4 @@ outputs:
 # =============================================================================
 # module:
 #   imports:
-#     - path: "github.com/yourusername/hugo-academia-theme"
+#     - path: "github.com/joaocarlos/Hugo-academia"
