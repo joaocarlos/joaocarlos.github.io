@@ -44,9 +44,9 @@ languages:
                 # - name: "Teaching"
                 #   pageRef: "/courses"
                 #   weight: 50
-                # - name: "Supervision"
-                #   pageRef: "/supervision"
-                #   weight: 60
+                - name: "Supervision"
+                  pageRef: "/supervision"
+                  weight: 60
     pt-br:
         languageCode: "pt-BR"
         languageName: "Português"
@@ -77,9 +77,9 @@ languages:
                 # - name: "Ensino"
                 #   pageRef: "/courses"
                 #   weight: 50
-                # - name: "Orientações"
-                #   pageRef: "/supervision"
-                #   weight: 60
+                - name: "Orientações"
+                  pageRef: "/supervision"
+                  weight: 60
 
 # Build settings
 buildDrafts: false
