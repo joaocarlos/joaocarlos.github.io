@@ -1,0 +1,79 @@
+# Fetch publications from OpenAlex and update site
+name: Update Publications
+
+on:
+    # Run monthly on the 1st at 02:00 UTC
+    schedule:
+        - cron: "0 2 1 * *"
+
+    # Allow manual trigger
+    workflow_dispatch:
+        inputs:
+            force_update:
+                description: "Force update even if no changes"
+                required: false
+                default: false
+                type: boolean
+
+jobs:
+    update-publications:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  submodules: recursive
+                  token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+
+            - name: Fetch publications from OpenAlex
+              run: node scripts/openalex-fetch-publications.js
+
+            - name: Generate paper markdown files
+              run: node scripts/generate-paper-pages.js
+
+            - name: Check for changes
+              id: changes
+              run: |
+                  if git diff --quiet -- data/ static/data/ content/papers/; then
+                    echo "detected=false" >> $GITHUB_OUTPUT
+                    echo "📊 No changes detected"
+                  else
+                    echo "detected=true" >> $GITHUB_OUTPUT
+                    echo "📊 Changes detected:"
+                    git diff --name-only -- data/ static/data/ content/papers/
+                  fi
+
+            - name: Commit and push
+              if: steps.changes.outputs.detected == 'true' || inputs.force_update == true
+              run: |
+                  git config --local user.email "action@github.com"
+                  git config --local user.name "GitHub Action"
+
+                  git add data/ static/data/ content/papers/
+
+                  DATE=$(date '+%Y-%m-%d')
+                  PUB_COUNT=$(jq '.publications | length' data/publications.json)
+
+                  git commit -m "📊 Auto-update: Publications ($DATE)
+
+                  Publications: $PUB_COUNT
+                  Source: OpenAlex API"
+
+                  git push
+
+            - name: Summary
+              run: |
+                  echo "### 📊 Publication Update Summary" >> $GITHUB_STEP_SUMMARY
+                  if [ -f "data/publications.json" ]; then
+                    echo "- **Publications**: $(jq '.publications | length' data/publications.json)" >> $GITHUB_STEP_SUMMARY
+                    echo "- **Citations**: $(jq '.stats.totalCitations' data/publications.json)" >> $GITHUB_STEP_SUMMARY
+                    echo "- **H-Index**: $(jq '.stats.hIndex' data/publications.json)" >> $GITHUB_STEP_SUMMARY
+                  fi

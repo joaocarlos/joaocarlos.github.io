@@ -1,0 +1,12 @@
+{
+  "name": "joaocarlos-academic-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/openalex-fetch-publications.js",
+    "generate": "node scripts/generate-paper-pages.js",
+    "update": "npm run fetch && npm run generate"
+  },
+  "devDependencies": {}
+}
