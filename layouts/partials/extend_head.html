@@ -27,16 +27,31 @@
 {{- if $navigationJS }}
   {{- $navigationJS := $navigationJS | resources.Minify }}
   <script defer src="{{ $navigationJS.RelPermalink }}"></script>
-{{- end }} {{/* Custom CSS and JS for publications page */}} {{- if eq .Section
-"papers" }} {{/* Load CSS */}} {{- $publicationsCSS := resources.Get
-"css/custom/publications.css" }} {{- if $publicationsCSS }} {{- $publicationsCSS
-:= $publicationsCSS | resources.Minify }}
-<link rel="stylesheet" href="{{ $publicationsCSS.RelPermalink }}" />
-{{- end }} {{/* Load JS */}} {{- $publicationsJS := resources.Get
-"js/publications.js" }} {{- if $publicationsJS }} {{- $publicationsJS :=
-$publicationsJS | resources.Minify }}
-<script defer src="{{ $publicationsJS.RelPermalink }}"></script>
-{{- end }} {{- end }} {{/* Custom CSS for books page */}} {{- if eq .Section
+{{- end }}
+
+{{/* Custom CSS and JS for publications page */}}
+{{- if eq .Section "papers" }}
+  {{/* Load CSS */}}
+  {{- $publicationsCSS := resources.Get "css/custom/publications.css" }}
+  {{- if $publicationsCSS }}
+    {{- $publicationsCSS := $publicationsCSS | resources.Minify }}
+    <link rel="stylesheet" href="{{ $publicationsCSS.RelPermalink }}" />
+  {{- end }}
+
+  {{/* Load publications JS */}}
+  {{- $publicationsJS := resources.Get "js/publications.js" }}
+  {{- if $publicationsJS }}
+    {{- $publicationsJS := $publicationsJS | resources.Minify }}
+    <script defer src="{{ $publicationsJS.RelPermalink }}"></script>
+  {{- end }}
+
+  {{/* Load publications navigation JS */}}
+  {{- $publicationsNavJS := resources.Get "js/publications-nav.js" }}
+  {{- if $publicationsNavJS }}
+    {{- $publicationsNavJS := $publicationsNavJS | resources.Minify }}
+    <script defer src="{{ $publicationsNavJS.RelPermalink }}"></script>
+  {{- end }}
+{{- end }} {{/* Custom CSS for books page */}} {{- if eq .Section
 "books" }} {{- $booksCSS := resources.Get "css/custom/books.css" }} {{- if
 $booksCSS }} {{- $booksCSS := $booksCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $booksCSS.RelPermalink }}" />

@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+hideTitle: true
 # description: "Research publications and academic articles organized by year with citation metrics and open access indicators."
 ---
 

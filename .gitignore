@@ -15,3 +15,5 @@ hugo.tar.gz
 copilot-instructions.md
 
 mockups/
+sandbox/
+.playwright-mcp/

@@ -1,0 +1,16 @@
+{
+    "description": "Manually curated featured publications. This file is NOT auto-generated and will not be overwritten by the OpenAlex fetcher.",
+    "lastUpdated": "2025-11-28",
+    "featured": [
+        {
+            "id": "https://openalex.org/W4410069375",
+            "title": "The Road to Intelligent Cities",
+            "notes": "A comprehensive overview of the evolution, current state, and future prospects of intelligent cities, exploring the integration of technology, data analytics, and urban planning to enhance urban living."
+        },
+        {
+            "id": "https://openalex.org/W4390751318",
+            "title": "Achieving Sustainable Smart Cities through Geospatial Data-Driven Approaches",
+            "notes": "This publication discusses the role of geospatial data in developing sustainable smart cities, highlighting innovative approaches and technologies that leverage spatial information to improve urban sustainability and resilience."
+        }
+    ]
+}

@@ -4,6 +4,21 @@ console.log("📚 Publications script initializing...")
 let allPublications = []
 let isLoading = false
 let currentFilter = "all"
+let featuredPublications = new Set()
+
+// Load featured publications list
+async function loadFeaturedPublications() {
+    try {
+        const response = await fetch('/data/featured-publications.json')
+        if (response.ok) {
+            const data = await response.json()
+            featuredPublications = new Set(data.featured.map(f => f.id))
+            console.log(`✨ Loaded ${featuredPublications.size} featured publications`)
+        }
+    } catch (error) {
+        console.warn('⚠️ Featured publications file not found, continuing without featured items')
+    }
+}
 
 // Main initialization
 document.addEventListener("DOMContentLoaded", function () {
@@ -143,6 +158,9 @@ async function loadPublications() {
         // Hide loading
         if (loadingEl) loadingEl.style.display = "none"
 
+        // Load featured publications before displaying
+        await loadFeaturedPublications()
+
         // Display publications
         displayPublications(publications)
         updateStats(publications)
@@ -232,7 +250,131 @@ async function loadPublications() {
     }
 }
 
-// Display publications grouped by year
+// Render individual publication card
+function renderPublicationCard(pub, isFeatured = false) {
+    const title = pub.title || "Untitled"
+    const year = pub.publication_year || "Unknown"
+
+    // Process authors with proper capitalization and highlighting
+    const processedAuthors = pub.authorships?.map((a) => {
+        let authorName = a.author?.display_name || "Unknown Author"
+
+        // Capitalize author name properly
+        authorName = authorName
+            .split(" ")
+            .map((word) => {
+                // Handle special cases for Portuguese/Brazilian names
+                if (
+                    word.toLowerCase() === "de" ||
+                    word.toLowerCase() === "da" ||
+                    word.toLowerCase() === "do" ||
+                    word.toLowerCase() === "dos" ||
+                    word.toLowerCase() === "das" ||
+                    word.toLowerCase() === "e"
+                ) {
+                    return word.toLowerCase()
+                }
+                // Handle initials (single letters followed by period)
+                if (word.length <= 2 && word.includes(".")) {
+                    return word.toUpperCase()
+                }
+                // Regular capitalization
+                return (
+                    word.charAt(0).toUpperCase() +
+                    word.slice(1).toLowerCase()
+                )
+            })
+            .join(" ")
+
+        // Bold João Carlos N. Bittencourt (check for variations)
+        if (
+            authorName.includes("João Carlos") &&
+            authorName.includes("Bittencourt")
+        ) {
+            // Normalize to consistent format
+            authorName = "João Carlos N. Bittencourt"
+            return `<strong>${authorName}</strong>`
+        }
+
+        return authorName
+    }) || ["Unknown authors"]
+
+    const authors = processedAuthors.join(", ")
+
+    const venue =
+        pub._venue_override?.venue_name ||
+        pub.primary_location?.source?.display_name ||
+        pub.host_venue?.display_name ||
+        "Unknown venue"
+    const doi = pub.doi
+    const citations = pub.cited_by_count || 0
+    const isOpenAccess = pub.open_access?.is_oa || false
+    const type = pub.type_crossref || pub.type || "article"
+
+    // Extract volume, issue, pages for journals
+    const biblio = pub.biblio || {}
+    const volume = biblio.volume
+    const issue = biblio.issue
+    const firstPage = biblio.first_page
+    const lastPage = biblio.last_page
+
+    // Extract conference location if available
+    const venueLocation = pub._venue_override?.venue_location
+
+    // Format venue - simple uppercase without bold
+    const formattedVenue = venue.toUpperCase()
+
+    // Use categorization function
+    const category = categorizeByType(pub)
+
+    return `
+        <div class="publication-item ${isFeatured ? 'is-featured' : ''}"
+             data-type="${category}"
+             data-open-access="${isOpenAccess}"
+             data-citations="${citations}"
+             data-publication-id="${pub.id}">
+          <div class="publication-header">
+            <div class="publication-title">
+              ${title}
+            </div>
+          </div>
+          <div class="publication-authors">${authors}</div>
+          <div class="publication-venue-line">
+            <span class="venue-name">${formattedVenue}</span>
+            ${citations > 0 ? `<span class="citation-count">CITED BY ${citations}</span>` : ""}
+            ${isOpenAccess ? '<span class="open-access-badge">OPEN ACCESS</span>' : ""}
+            ${doi ? `<a href="${doi.startsWith("http") ? doi : `https://doi.org/${doi}`}" target="_blank" rel="noopener" class="doi-link">DOI</a>` : ""}
+          </div>
+        </div>
+    `
+}
+
+// Display featured publications section
+function displayFeaturedPublications(publications) {
+    const featured = publications.filter(pub => featuredPublications.has(pub.id))
+
+    if (featured.length === 0) {
+        console.log("📌 No featured publications to display")
+        return ''
+    }
+
+    console.log(`📌 Displaying ${featured.length} featured publications`)
+
+    let html = `
+        <div id="featured" class="publications-section">
+            <h2 class="section-heading">Selected Publications</h2>
+            <div class="publications-list">
+    `
+
+    featured.forEach(pub => {
+        html += renderPublicationCard(pub, true)
+    })
+
+    html += `</div></div>`
+    return html
+}
+
+// Display publications grouped by year and type
 function displayPublications(publications) {
     console.log(`📊 Displaying ${publications.length} publications...`)
 
@@ -242,14 +384,28 @@ function displayPublications(publications) {
         return
     }
 
-    // Group by year
+    let html = ''
+
+    // 1. Featured publications section at top
+    html += displayFeaturedPublications(publications)
+
+    // 2. Group by year, then by type
     const groupedByYear = {}
+
     publications.forEach((pub) => {
         const year = pub.publication_year || "Unknown"
         if (!groupedByYear[year]) {
-            groupedByYear[year] = []
+            groupedByYear[year] = {
+                journals: [],
+                conferences: [],
+                books: [],
+                preprints: [],
+                other: []
+            }
         }
-        groupedByYear[year].push(pub)
+
+        const category = categorizeByType(pub)
+        groupedByYear[year][category].push(pub)
     })
 
     // Sort years descending
@@ -259,230 +415,49 @@ function displayPublications(publications) {
         return parseInt(b) - parseInt(a)
     })
 
-    // Generate HTML
-    let html = ""
+    // 3. Render each year with type subgroups
+    html += '<div id="publications-by-year" class="publications-section">'
+
     years.forEach((year) => {
-        html += `<div class="year-group" data-year="${year}"><h2 class="year-heading">${year}</h2><div class="publications-list">`
+        html += `<div id="year-${year}" class="year-group" data-year="${year}">
+                   <h2 class="year-heading">${year}</h2>`
 
-        groupedByYear[year].forEach((pub) => {
-            const title = pub.title || "Untitled"
+        const yearData = groupedByYear[year]
 
-            // Process authors with proper capitalization and highlighting
-            const processedAuthors = pub.authorships?.map((a) => {
-                let authorName = a.author?.display_name || "Unknown Author"
+        // Render types in specific order
+        const typeOrder = [
+            { key: 'journals', label: 'Journal Articles' },
+            { key: 'conferences', label: 'Conference Papers' },
+            { key: 'books', label: 'Books & Chapters' },
+            { key: 'preprints', label: 'Preprints' }
+        ]
 
-                // Capitalize author name properly
-                authorName = authorName
-                    .split(" ")
-                    .map((word) => {
-                        // Handle special cases for Portuguese/Brazilian names
-                        if (
-                            word.toLowerCase() === "de" ||
-                            word.toLowerCase() === "da" ||
-                            word.toLowerCase() === "do" ||
-                            word.toLowerCase() === "dos" ||
-                            word.toLowerCase() === "das" ||
-                            word.toLowerCase() === "e"
-                        ) {
-                            return word.toLowerCase()
-                        }
-                        // Handle initials (single letters followed by period)
-                        if (word.length <= 2 && word.includes(".")) {
-                            return word.toUpperCase()
-                        }
-                        // Regular capitalization
-                        return (
-                            word.charAt(0).toUpperCase() +
-                            word.slice(1).toLowerCase()
-                        )
-                    })
-                    .join(" ")
+        typeOrder.forEach(({ key, label }) => {
+            if (yearData[key].length > 0) {
+                html += `<div class="type-group type-${key}">
+                          <h3 class="type-heading">${label}</h3>
+                          <div class="publications-list">`
 
-                // Bold João Carlos N. Bittencourt (check for variations)
-                if (
-                    authorName.includes("João Carlos") &&
-                    authorName.includes("Bittencourt")
-                ) {
-                    // Normalize to consistent format
-                    authorName = "João Carlos N. Bittencourt"
-                    return `<strong>${authorName}</strong>`
-                }
+                yearData[key].forEach((pub) => {
+                    html += renderPublicationCard(pub, false)
+                })
 
-                return authorName
-            }) || ["Unknown authors"]
-
-            const authors = processedAuthors.join(", ")
-
-            const venue =
-                pub._venue_override?.venue_name ||
-                pub.primary_location?.source?.display_name ||
-                pub.host_venue?.display_name ||
-                "Unknown venue"
-            const doi = pub.doi
-            const url =
-                pub.landing_page_url ||
-                (doi
-                    ? `https://doi.org/${doi.replace("https://doi.org/", "")}`
-                    : "#")
-            const citations = pub.cited_by_count || 0
-            const isOpenAccess = pub.open_access?.is_oa || false
-            const type = pub.type_crossref || pub.type || "article"
-
-            // Extract volume, issue, pages for journals
-            const biblio = pub.biblio || {}
-            const volume = biblio.volume
-            const issue = biblio.issue
-            const firstPage = biblio.first_page
-            const lastPage = biblio.last_page
-
-            // Extract conference location if available
-            const venueLocation = pub._venue_override?.venue_location
-
-            // Format venue with additional information
-            let formattedVenue = `<strong>${venue}</strong>`
-
-            // For journal articles, add volume, issue, pages
-            if (
-                type.toLowerCase().includes("journal") ||
-                venue.toLowerCase().includes("journal")
-            ) {
-                const volumeInfo = []
-                if (volume) volumeInfo.push(`v. ${volume}`)
-                if (issue) volumeInfo.push(`no. ${issue}`)
-                if (firstPage) {
-                    if (lastPage && firstPage !== lastPage) {
-                        volumeInfo.push(`pp. ${firstPage}-${lastPage}`)
-                    } else {
-                        volumeInfo.push(`p. ${firstPage}`)
-                    }
-                }
-                if (volumeInfo.length > 0) {
-                    formattedVenue += `, ${volumeInfo.join(", ")}`
-                }
+                html += '</div></div>' // end publications-list and type-group
             }
-
-            // For conference papers, add location
-            if (
-                (type.toLowerCase().includes("proceedings") ||
-                    type.toLowerCase().includes("conference")) &&
-                venueLocation
-            ) {
-                formattedVenue += `, ${venueLocation}`
-            }
-
-            // Determine publication type with enhanced detection
-            const isSpringerProceedings = doi && doi.includes("10.1007/978-")
-            const isLectureNotes = venue.toLowerCase().includes("lecture notes")
-            const isProceedingsVenue =
-                venue.toLowerCase().includes("proceedings") ||
-                venue.toLowerCase().includes("conference") ||
-                venue.toLowerCase().includes("symposium") ||
-                venue.toLowerCase().includes("workshop")
-
-            // Book chapter detection
-            const isBookChapter =
-                type.toLowerCase().includes("book-chapter") &&
-                !isSpringerProceedings &&
-                !isLectureNotes &&
-                !isProceedingsVenue
-
-            const isJournal =
-                !isSpringerProceedings &&
-                !isLectureNotes &&
-                !isProceedingsVenue &&
-                !isBookChapter &&
-                (type.toLowerCase().includes("journal") ||
-                    venue.toLowerCase().includes("journal"))
-
-            const isConference =
-                isSpringerProceedings ||
-                isLectureNotes ||
-                isProceedingsVenue ||
-                ((type.toLowerCase().includes("conference") ||
-                    type.toLowerCase().includes("proceedings")) &&
-                    !isBookChapter)
-
-            // Preprint detection
-            const isPreprint =
-                pub.publicationType === "posted-content" ||
-                venue.toLowerCase().includes("arxiv") ||
-                venue.toLowerCase().includes("biorxiv") ||
-                venue.toLowerCase().includes("medrxiv") ||
-                venue.toLowerCase().includes("preprint") ||
-                venue.toLowerCase().includes("research square") ||
-                venue.toLowerCase().includes("ssrn") ||
-                venue.toLowerCase().includes("researchgate")
-
-            // Generate badges
-            let badges = ""
-            if (isPreprint) {
-                badges += '<span class="badge badge-preprint">Preprint</span>'
-            } else if (isJournal) {
-                badges += '<span class="badge badge-journal">Journal</span>'
-            } else if (isConference) {
-                badges +=
-                    '<span class="badge badge-conference">Conference</span>'
-            } else if (isBookChapter) {
-                badges += '<span class="badge badge-book">Book Chapter</span>'
-            }
-
-            if (citations > 30) {
-                badges +=
-                    '<span class="badge badge-highly-cited">Highly Cited</span>'
-            }
-
-            html += `
-        <div class="publication-item" data-type="${
-            isJournal
-                ? "journal"
-                : isConference
-                ? "conference"
-                : isBookChapter
-                ? "book"
-                : "other"
-        }" data-open-access="${isOpenAccess}" data-citations="${citations}">
-          ${badges ? `<div class="publication-badges">${badges}</div>` : ""}
-          <div class="publication-title">
-            ${title}${
-                isOpenAccess
-                    ? '<i class="ai ai-open-access open-access-icon" title="Open Access"></i>'
-                    : ""
-            }
-          </div>
-          <div class="publication-authors">${authors}</div>
-          <div class="publication-journal">${formattedVenue}</div>
-          <div class="publication-meta">
-            <span class="publication-year-badge">${year}</span>
-            ${
-                citations > 0
-                    ? `<span class="citation-count">${citations} citation${
-                          citations !== 1 ? "s" : ""
-                      }</span>`
-                    : ""
-            }
-            ${
-                doi
-                    ? `<span class="publication-doi">DOI: <a href="${
-                          doi.startsWith("http")
-                              ? doi
-                              : `https://doi.org/${doi}`
-                      }" target="_blank" rel="noopener">${
-                          doi.startsWith("http")
-                              ? doi.replace("https://doi.org/", "")
-                              : doi
-                      }<svg class="external-link-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15,3 21,3 21,9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></span>`
-                    : ""
-            }
-          </div>
-        </div>
-      `
         })
 
-        html += "</div></div>"
+        html += '</div>' // end year-group
     })
 
+    html += '</div>' // end publications-by-year
+
     contentEl.innerHTML = html
-    console.log("✅ Publications displayed")
+    console.log("✅ Publications displayed with featured section and type grouping")
+
+    // Attach modal listeners after DOM is updated
+    setTimeout(() => {
+        attachModalListeners()
+    }, 100)
 }
 
 // Update statistics
@@ -544,31 +519,28 @@ function setupFilters() {
 function filterPublications() {
     const publicationItems = document.querySelectorAll(".publication-item")
     const yearGroups = document.querySelectorAll(".year-group")
+    const typeGroups = document.querySelectorAll(".type-group")
 
-    // Track which years have visible publications
-    const yearsWithVisiblePublications = new Set()
+    // Track visible items per year and per type group
+    const visibleYears = new Set()
+    const visibleTypeGroups = new Set()
 
-    // First pass: determine visibility of items and track their years
     publicationItems.forEach((item) => {
         const type = item.dataset.type
         const isOpenAccess = item.dataset.openAccess === "true"
         const citations = parseInt(item.dataset.citations) || 0
-        const yearGroup = item.closest(".year-group")
-        const yearHeading = yearGroup
-            ? yearGroup.querySelector(".year-heading").textContent
-            : ""
 
         let show = true
 
         switch (currentFilter) {
-            case "journal":
-                show = type === "journal"
+            case "journals":
+                show = type === "journals"
                 break
-            case "conference":
-                show = type === "conference"
+            case "conferences":
+                show = type === "conferences"
                 break
-            case "book":
-                show = type === "book"
+            case "books":
+                show = type === "books"
                 break
             case "open-access":
                 show = isOpenAccess
@@ -582,20 +554,23 @@ function filterPublications() {
 
         item.style.display = show ? "block" : "none"
 
-        // If this item is visible, mark its year
-        if (show && yearHeading) {
-            yearsWithVisiblePublications.add(yearHeading)
+        if (show) {
+            const yearGroup = item.closest(".year-group")
+            const typeGroup = item.closest(".type-group")
+
+            if (yearGroup) visibleYears.add(yearGroup.id)
+            if (typeGroup) visibleTypeGroups.add(typeGroup)
         }
     })
 
-    // Second pass: hide/show year groups based on whether they have visible publications
-    yearGroups.forEach((yearGroup) => {
-        const yearHeading = yearGroup.querySelector(".year-heading").textContent
-        const hasVisiblePublications =
-            yearsWithVisiblePublications.has(yearHeading)
+    // Hide/show type groups based on visibility
+    typeGroups.forEach((group) => {
+        group.style.display = visibleTypeGroups.has(group) ? "block" : "none"
+    })
 
-        // Hide year groups with no visible publications
-        yearGroup.style.display = hasVisiblePublications ? "block" : "none"
+    // Hide/show year groups based on visibility
+    yearGroups.forEach((group) => {
+        group.style.display = visibleYears.has(group.id) ? "block" : "none"
     })
 }
 
@@ -640,6 +615,189 @@ function updateLastUpdatedDisplay(lastUpdatedISO) {
         console.error("Error parsing last updated date:", error)
         lastUpdatedEl.innerHTML = `<em>Last updated: ${lastUpdatedISO}</em>`
     }
+}
+
+// Categorize publication by type for grouping
+function categorizeByType(publication) {
+    const type = publication.type_crossref || publication.type || "article"
+    const venue = publication.primary_location?.source?.display_name || ""
+    const doi = publication.doi || ""
+
+    // Springer proceedings detection
+    const isSpringerProceedings = doi && doi.includes("10.1007/978-")
+    const isLectureNotes = venue.toLowerCase().includes("lecture notes")
+    const isProceedingsVenue = venue.toLowerCase().includes("proceedings") ||
+        venue.toLowerCase().includes("conference") ||
+        venue.toLowerCase().includes("symposium") ||
+        venue.toLowerCase().includes("workshop")
+
+    // Preprint detection
+    const isPreprint = publication.publicationType === "posted-content" ||
+        venue.toLowerCase().includes("arxiv") ||
+        venue.toLowerCase().includes("biorxiv") ||
+        venue.toLowerCase().includes("medrxiv") ||
+        venue.toLowerCase().includes("preprint") ||
+        venue.toLowerCase().includes("research square") ||
+        venue.toLowerCase().includes("ssrn") ||
+        venue.toLowerCase().includes("researchgate")
+
+    // Book chapter detection
+    const isBookChapter = type.toLowerCase().includes("book-chapter") &&
+        !isSpringerProceedings && !isLectureNotes && !isProceedingsVenue
+
+    // Journal detection
+    const isJournal = !isSpringerProceedings && !isLectureNotes &&
+        !isProceedingsVenue && !isBookChapter &&
+        (type.toLowerCase().includes("journal") || venue.toLowerCase().includes("journal"))
+
+    // Conference detection
+    const isConference = isSpringerProceedings || isLectureNotes || isProceedingsVenue ||
+        ((type.toLowerCase().includes("conference") || type.toLowerCase().includes("proceedings")) && !isBookChapter)
+
+    if (isPreprint) return 'preprints'
+    if (isJournal) return 'journals'
+    if (isConference) return 'conferences'
+    if (isBookChapter) return 'books'
+    return 'other'
+}
+
+// Abstract Modal Functionality
+function createAbstractModal() {
+    // Check if modal already exists
+    if (document.getElementById('abstract-modal')) {
+        return
+    }
+
+    const modal = document.createElement('div')
+    modal.id = 'abstract-modal'
+    modal.className = 'abstract-modal'
+    modal.innerHTML = `
+        <div class="abstract-modal-content">
+            <button class="abstract-modal-close" aria-label="Close modal">&times;</button>
+            <div class="abstract-modal-header">
+                <h2 class="abstract-modal-title" id="modal-title"></h2>
+                <p class="abstract-modal-meta" id="modal-meta"></p>
+            </div>
+            <div class="abstract-modal-body">
+                <p class="abstract-modal-label">Abstract</p>
+                <p class="abstract-modal-text" id="modal-abstract"></p>
+            </div>
+            <div class="abstract-modal-footer" id="modal-footer"></div>
+        </div>
+    `
+
+    document.body.appendChild(modal)
+
+    // Close modal on background click
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeAbstractModal()
+        }
+    })
+
+    // Close modal on close button click
+    const closeBtn = modal.querySelector('.abstract-modal-close')
+    closeBtn.addEventListener('click', closeAbstractModal)
+
+    // Close modal on Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+            closeAbstractModal()
+        }
+    })
+}
+
+function openAbstractModal(pub) {
+    createAbstractModal()
+
+    const modal = document.getElementById('abstract-modal')
+    const titleEl = document.getElementById('modal-title')
+    const metaEl = document.getElementById('modal-meta')
+    const abstractEl = document.getElementById('modal-abstract')
+    const footerEl = document.getElementById('modal-footer')
+
+    // Set title
+    titleEl.textContent = pub.title || 'Untitled'
+
+    // Set meta (authors and year)
+    const authors = pub.authorships?.map(a => a.author?.display_name).join(', ') || 'Unknown authors'
+    const year = pub.publication_year || 'Unknown year'
+    metaEl.textContent = `${authors} (${year})`
+
+    // Set abstract
+    if (pub.abstract_inverted_index) {
+        // Reconstruct abstract from inverted index
+        const abstract = reconstructAbstract(pub.abstract_inverted_index)
+        abstractEl.textContent = abstract
+        abstractEl.className = 'abstract-modal-text'
+    } else {
+        abstractEl.textContent = 'Abstract not available for this publication.'
+        abstractEl.className = 'abstract-not-available'
+    }
+
+    // Set footer links
+    footerEl.innerHTML = ''
+    if (pub.doi) {
+        const doiUrl = pub.doi.startsWith('http') ? pub.doi : `https://doi.org/${pub.doi}`
+        footerEl.innerHTML += `<a href="${doiUrl}" target="_blank" rel="noopener" class="abstract-modal-link">View on Publisher Site →</a>`
+    }
+
+    if (pub.open_access?.oa_url) {
+        footerEl.innerHTML += `<a href="${pub.open_access.oa_url}" target="_blank" rel="noopener" class="abstract-modal-link">Open Access Version →</a>`
+    }
+
+    // Show modal
+    setTimeout(() => {
+        modal.classList.add('active')
+        document.body.style.overflow = 'hidden' // Prevent background scrolling
+    }, 10)
+}
+
+function closeAbstractModal() {
+    const modal = document.getElementById('abstract-modal')
+    if (modal) {
+        modal.classList.remove('active')
+        document.body.style.overflow = '' // Restore scrolling
+    }
+}
+
+function reconstructAbstract(invertedIndex) {
+    // OpenAlex provides abstracts as inverted index: {"word": [position1, position2, ...]}
+    // We need to reconstruct the original text
+    const words = []
+
+    for (const [word, positions] of Object.entries(invertedIndex)) {
+        positions.forEach(pos => {
+            words[pos] = word
+        })
+    }
+
+    return words.join(' ')
+}
+
+function attachModalListeners() {
+    // Attach click listeners to all publication titles
+    const titles = document.querySelectorAll('.publication-title')
+
+    titles.forEach(titleEl => {
+        // Remove any existing listeners by cloning the element
+        const newTitleEl = titleEl.cloneNode(true)
+        titleEl.parentNode.replaceChild(newTitleEl, titleEl)
+
+        newTitleEl.addEventListener('click', () => {
+            const publicationItem = newTitleEl.closest('.publication-item')
+            const publicationId = publicationItem.dataset.publicationId
+
+            // Find the publication in allPublications array
+            const pub = allPublications.find(p => p.id === publicationId)
+
+            if (pub) {
+                openAbstractModal(pub)
+            }
+        })
+    })
+
+    console.log(`📄 Attached modal listeners to ${titles.length} publication titles`)
 }
 
 // Expose to global scope for retry button
