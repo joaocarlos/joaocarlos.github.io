@@ -4,6 +4,9 @@ resources/_gen/
 .hugo_build.lock
 hugo_stats.json
 
+# Generated CV (compiled from Typst in CI)
+static/cv.pdf
+
 # macOS
 .DS_Store
 
