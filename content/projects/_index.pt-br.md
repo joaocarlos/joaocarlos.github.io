@@ -1,6 +1,4 @@
 ---
 title: "Projetos"
-description: "Projetos de pesquisa e colaborações"
+description: "Projetos de pesquisa, ensino e extensão desenvolvido ao longo da minha carreira"
 ---
-
-Projetos de pesquisa atuais e anteriores.

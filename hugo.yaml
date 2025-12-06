@@ -38,9 +38,9 @@ languages:
                 # - name: "Books"
                 #   pageRef: "/books"
                 #   weight: 30
-                # - name: "Projects"
-                #   pageRef: "/projects"
-                #   weight: 40
+                - name: "Projects"
+                  pageRef: "/projects"
+                  weight: 40
                 # - name: "Teaching"
                 #   pageRef: "/courses"
                 #   weight: 50
@@ -71,9 +71,9 @@ languages:
                 # - name: "Livros"
                 #   pageRef: "/books"
                 #   weight: 30
-                # - name: "Projetos"
-                #   pageRef: "/projects"
-                #   weight: 40
+                - name: "Projetos"
+                  pageRef: "/projects"
+                  weight: 40
                 # - name: "Ensino"
                 #   pageRef: "/courses"
                 #   weight: 50
@@ -171,25 +171,28 @@ params:
           url: "/office-hours"
         - name: "Google Scholar"
           icon: "scholar"
-          url: "https://scholar.google.com/citations?user=YOURID"
+          url: "https://scholar.google.com/citations?user=hEPWRnoAAAAJ"
         - name: "ORCID"
           icon: "orcid"
-          url: "https://orcid.org/0000-0000-0000-0000"
+          url: "https://orcid.org/0000-0002-4540-512X"
+        - name: "Scopus"
+          icon: "scopus"
+          url: https://www.scopus.com/authid/detail.uri?authorId=57117498600
         - name: "Lattes"
           icon: "lattes"
-          url: "http://lattes.cnpq.br/YOURID"
+          url: "http://lattes.cnpq.br/6741995694783822"
         - name: "ResearchGate"
           icon: "researchgate"
-          url: "https://www.researchgate.net/profile/Your-Name"
+          url: "https://www.researchgate.net/profile/Joao-Carlos-Bittencourt"
         - name: "GitHub"
           icon: "github"
-          url: "https://github.com/yourusername"
+          url: "https://github.com/joaocarlos"
         - name: "LinkedIn"
           icon: "linkedin"
-          url: "https://linkedin.com/in/yourprofile"
+          url: "https://www.linkedin.com/in/joaocarlosnunes/"
         - name: "YouTube"
           icon: "youtube"
-          url: "https://youtube.com/@yourchannel"
+          url: "https://youtube.com/@joaocarlosbittencourt"
 
     # Theme settings
     theme:

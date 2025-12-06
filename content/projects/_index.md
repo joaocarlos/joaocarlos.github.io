@@ -1,6 +1,4 @@
 ---
 title: "Projects"
-description: "Research projects and collaborations"
+description: "Research, teaching, and extension projects developed throughout my career"
 ---
-
-Current and past research projects.

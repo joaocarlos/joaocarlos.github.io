@@ -58,6 +58,8 @@ completed_projects: "Completed Projects"
 no_projects: "No projects available yet."
 status_active: "Active"
 status_completed: "Completed"
+category_research: "Research"
+category_extension: "Extension"
 project: "Project"
 
 # Courses
