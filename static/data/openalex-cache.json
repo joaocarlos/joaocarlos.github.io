@@ -57,7 +57,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.930Z",
+      "lastUpdated": "2026-01-01T02:44:40.383Z",
       "_raw": {
         "id": "https://openalex.org/W4415968617",
         "doi": "https://doi.org/10.1109/iecon58223.2025.11221503",
@@ -283,7 +283,7 @@
         "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 0,
+        "fwci": null,
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": null,
@@ -321,12 +321,11 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 17,
         "referenced_works": [
@@ -418,7 +417,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.930Z",
+      "lastUpdated": "2026-01-01T02:44:40.383Z",
       "_raw": {
         "id": "https://openalex.org/W4415969055",
         "doi": "https://doi.org/10.1109/iecon58223.2025.11221897",
@@ -680,7 +679,7 @@
         "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 0,
+        "fwci": null,
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": null,
@@ -718,12 +717,11 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 15,
         "referenced_works": [
@@ -803,7 +801,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.930Z",
+      "lastUpdated": "2026-01-01T02:44:40.383Z",
       "_raw": {
         "id": "https://openalex.org/W4415399895",
         "doi": "https://doi.org/10.1109/etfa65518.2025.11205783",
@@ -997,7 +995,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.68348672,
+          "value": 0.67300141,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -1069,12 +1067,11 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 0,
         "referenced_works": [],
@@ -1132,7 +1129,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.930Z",
+      "lastUpdated": "2026-01-01T02:44:40.383Z",
       "_raw": {
         "id": "https://openalex.org/W4415400256",
         "doi": "https://doi.org/10.1109/etfa65518.2025.11205590",
@@ -1290,7 +1287,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.64375433,
+          "value": 0.63155495,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -1362,12 +1359,11 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 0,
         "referenced_works": [],
@@ -1452,7 +1448,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.930Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4412640748",
         "doi": "https://doi.org/10.21203/rs.3.rs-7131966/v1",
@@ -1642,11 +1638,11 @@
         "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": null,
+        "fwci": 0,
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.4136782,
+          "value": 0.40694204,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -2035,17 +2031,16 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities",
             "score": 0.49000000953674316,
-            "display_name": "Sustainable cities and communities"
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "referenced_works_count": 0,
         "referenced_works": [],
@@ -2542,7 +2537,7 @@
       "date": "2025-07-15",
       "doi": "https://doi.org/10.1016/j.ijdrr.2025.105681",
       "url": "https://doi.org/10.1016/j.ijdrr.2025.105681",
-      "citations": 1,
+      "citations": 2,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.1016/j.ijdrr.2025.105681",
       "volume": "127",
@@ -2585,7 +2580,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320990"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
         "type": "journal"
       },
       "language": "en",
@@ -2593,10 +2590,10 @@
       "citationsPerYear": [
         {
           "year": 2025,
-          "cited_by_count": 1
+          "cited_by_count": 2
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.930Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4412451150",
         "doi": "https://doi.org/10.1016/j.ijdrr.2025.105681",
@@ -2629,7 +2626,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -2737,17 +2736,17 @@
           "currency": "USD",
           "value_usd": 2510
         },
-        "fwci": 4.6013505,
+        "fwci": 9.20270099,
         "has_fulltext": false,
-        "cited_by_count": 1,
+        "cited_by_count": 2,
         "citation_normalized_percentile": {
-          "value": 0.89299101,
+          "value": 0.94833937,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
         "cited_by_percentile_year": {
-          "min": 91,
-          "max": 95
+          "min": 95,
+          "max": 97
         },
         "biblio": {
           "volume": "127",
@@ -3001,7 +3000,9 @@
               "host_organization_lineage": [
                 "https://openalex.org/P4310320990"
               ],
-              "host_organization_lineage_names": [],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
               "type": "journal"
             },
             "license": "cc-by",
@@ -3033,7 +3034,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -3046,16 +3049,9 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities",
             "score": 0.7699999809265137,
-            "display_name": "Sustainable cities and communities"
-          }
-        ],
-        "grants": [
-          {
-            "funder": "https://openalex.org/F4320334779",
-            "funder_display_name": "Fundação para a Ciência e a Tecnologia",
-            "award_id": null
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
         "awards": [],
@@ -3067,8 +3063,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 70,
         "referenced_works": [
@@ -3128,20 +3124,20 @@
           "https://openalex.org/W4400975104",
           "https://openalex.org/W3091828613",
           "https://openalex.org/W4390751318",
-          "https://openalex.org/W3104833050",
+          "https://openalex.org/W4301087345",
+          "https://openalex.org/W4387554727",
+          "https://openalex.org/W4312831287",
           "https://openalex.org/W4389571446",
+          "https://openalex.org/W3104833050",
+          "https://openalex.org/W3159825887",
           "https://openalex.org/W4255265358",
           "https://openalex.org/W4404613602",
           "https://openalex.org/W3092785986",
-          "https://openalex.org/W3085824654",
-          "https://openalex.org/W4387554727",
-          "https://openalex.org/W3159825887",
-          "https://openalex.org/W4213110526",
-          "https://openalex.org/W4312831287",
           "https://openalex.org/W4404318730",
-          "https://openalex.org/W4226269702",
           "https://openalex.org/W3119829852",
-          "https://openalex.org/W4301087345"
+          "https://openalex.org/W4213110526",
+          "https://openalex.org/W4226269702",
+          "https://openalex.org/W3085824654"
         ],
         "related_works": [
           "https://openalex.org/W1883246888",
@@ -3159,7 +3155,7 @@
         "counts_by_year": [
           {
             "year": 2025,
-            "cited_by_count": 1
+            "cited_by_count": 2
           }
         ],
         "updated_date": "2025-11-06T03:46:38.306776",
@@ -3175,30 +3171,6 @@
           "orcid": "https://orcid.org/0000-0002-4540-512X",
           "isCorresponding": false,
           "position": "first"
-        },
-        {
-          "name": "Thiago C. Jesus",
-          "orcid": "https://orcid.org/0000-0001-5299-6856",
-          "isCorresponding": false,
-          "position": "middle"
-        },
-        {
-          "name": "João Paulo Just Peixoto",
-          "orcid": "https://orcid.org/0000-0003-3507-8249",
-          "isCorresponding": false,
-          "position": "middle"
-        },
-        {
-          "name": "Daniel G. Costa",
-          "orcid": "https://orcid.org/0000-0003-3988-8476",
-          "isCorresponding": true,
-          "position": "middle"
-        },
-        {
-          "name": "João Carlos N. Bittencourt",
-          "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": false,
-          "position": "middle"
         },
         {
           "name": "Thiago C. Jesus",
@@ -3274,7 +3246,7 @@
           "cited_by_count": 6
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.930Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4410069375",
         "doi": "https://doi.org/10.3390/smartcities8030077",
@@ -3373,15 +3345,15 @@
             ],
             "affiliations": [
               {
-                "raw_affiliation_string": "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas 44380-000, Brazil",
-                "institution_ids": [
-                  "https://openalex.org/I129192303"
-                ]
-              },
-              {
                 "raw_affiliation_string": "PDEEC, Faculty of Engineering, University of Porto, 4200-465 Porto, Portugal",
                 "institution_ids": [
                   "https://openalex.org/I182534213"
+                ]
+              },
+              {
+                "raw_affiliation_string": "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas 44380-000, Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
                 ]
               }
             ]
@@ -3389,7 +3361,7 @@
           {
             "author_position": "middle",
             "author": {
-              "id": "https://openalex.org/A2886797721",
+              "id": "https://openalex.org/A5011761859",
               "display_name": "Thiago C. Jesus",
               "orcid": "https://orcid.org/0000-0001-5299-6856"
             },
@@ -3425,169 +3397,7 @@
           {
             "author_position": "middle",
             "author": {
-              "id": "https://openalex.org/A2709947200",
-              "display_name": "João Paulo Just Peixoto",
-              "orcid": "https://orcid.org/0000-0003-3507-8249"
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I130913789",
-                "display_name": "Instituto Federal da Bahia",
-                "ror": "https://ror.org/01tzdej37",
-                "country_code": "BR",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I130913789"
-                ]
-              }
-            ],
-            "countries": [
-              "BR"
-            ],
-            "is_corresponding": false,
-            "raw_author_name": "João Paulo Just Peixoto",
-            "raw_affiliation_strings": [
-              "Federal Institute of Education, Science and Technology of Bahia, Feira de Santana 44079-100, Brazil"
-            ],
-            "affiliations": [
-              {
-                "raw_affiliation_string": "Federal Institute of Education, Science and Technology of Bahia, Feira de Santana 44079-100, Brazil",
-                "institution_ids": [
-                  "https://openalex.org/I130913789"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A2142972669",
-              "display_name": "Daniel G. Costa",
-              "orcid": "https://orcid.org/0000-0003-3988-8476"
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I182534213",
-                "display_name": "Universidade do Porto",
-                "ror": "https://ror.org/043pwc612",
-                "country_code": "PT",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I182534213"
-                ]
-              }
-            ],
-            "countries": [
-              "PT"
-            ],
-            "is_corresponding": true,
-            "raw_author_name": "Daniel G. Costa",
-            "raw_affiliation_strings": [
-              "SYSTEC-ARISE, Faculty of Engineering, University of Porto, 4200-465 Porto, Portugal"
-            ],
-            "affiliations": [
-              {
-                "raw_affiliation_string": "SYSTEC-ARISE, Faculty of Engineering, University of Porto, 4200-465 Porto, Portugal",
-                "institution_ids": [
-                  "https://openalex.org/I182534213"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A5040609024",
-              "display_name": "João Carlos N. Bittencourt",
-              "orcid": "https://orcid.org/0000-0002-4540-512X"
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I182534213",
-                "display_name": "Universidade do Porto",
-                "ror": "https://ror.org/043pwc612",
-                "country_code": "PT",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I182534213"
-                ]
-              },
-              {
-                "id": "https://openalex.org/I129192303",
-                "display_name": "Universidade Federal do Recôncavo da Bahia",
-                "ror": "https://ror.org/057mvv518",
-                "country_code": "BR",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I129192303"
-                ]
-              }
-            ],
-            "countries": [
-              "BR",
-              "PT"
-            ],
-            "is_corresponding": false,
-            "raw_author_name": "João Carlos N. Bittencourt",
-            "raw_affiliation_strings": [
-              "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas 44380-000, Brazil",
-              "PDEEC, Faculty of Engineering, University of Porto, 4200-465 Porto, Portugal"
-            ],
-            "affiliations": [
-              {
-                "raw_affiliation_string": "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas 44380-000, Brazil",
-                "institution_ids": [
-                  "https://openalex.org/I129192303"
-                ]
-              },
-              {
-                "raw_affiliation_string": "PDEEC, Faculty of Engineering, University of Porto, 4200-465 Porto, Portugal",
-                "institution_ids": [
-                  "https://openalex.org/I182534213"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A2886797721",
-              "display_name": "Thiago C. Jesus",
-              "orcid": "https://orcid.org/0000-0001-5299-6856"
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I21606457",
-                "display_name": "Universidade Estadual de Feira de Santana",
-                "ror": "https://ror.org/04ygk5j35",
-                "country_code": "BR",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I21606457"
-                ]
-              }
-            ],
-            "countries": [
-              "BR"
-            ],
-            "is_corresponding": false,
-            "raw_author_name": "Thiago C. Jesus",
-            "raw_affiliation_strings": [
-              "DTEC-UEFS, State University of Feira de Santana, Feira de Santana 44036-900, Brazil"
-            ],
-            "affiliations": [
-              {
-                "raw_affiliation_string": "DTEC-UEFS, State University of Feira de Santana, Feira de Santana 44036-900, Brazil",
-                "institution_ids": [
-                  "https://openalex.org/I21606457"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A2709947200",
+              "id": "https://openalex.org/A5026966530",
               "display_name": "João Paulo Just Peixoto",
               "orcid": "https://orcid.org/0000-0003-3507-8249"
             },
@@ -3623,7 +3433,7 @@
           {
             "author_position": "last",
             "author": {
-              "id": "https://openalex.org/A2142972669",
+              "id": "https://openalex.org/A5068969835",
               "display_name": "Daniel G. Costa",
               "orcid": "https://orcid.org/0000-0003-3988-8476"
             },
@@ -3676,7 +3486,7 @@
         "has_fulltext": false,
         "cited_by_count": 6,
         "citation_normalized_percentile": {
-          "value": 0.98338097,
+          "value": 0.98310035,
           "is_in_top_1_percent": true,
           "is_in_top_10_percent": true
         },
@@ -3913,13 +3723,6 @@
           "raw_type": "journal-article"
         },
         "sustainable_development_goals": [],
-        "grants": [
-          {
-            "funder": "https://openalex.org/F4320334779",
-            "funder_display_name": "Fundação para a Ciência e a Tecnologia",
-            "award_id": "2024.02446.BD"
-          }
-        ],
         "awards": [
           {
             "id": "https://openalex.org/G7459556246",
@@ -3937,8 +3740,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": false
         },
         "referenced_works_count": 136,
         "referenced_works": [
@@ -4069,15 +3872,15 @@
           "https://openalex.org/W3034146339",
           "https://openalex.org/W3087653683",
           "https://openalex.org/W4396677387",
-          "https://openalex.org/W2963231271",
           "https://openalex.org/W1995579106",
-          "https://openalex.org/W4389279429",
-          "https://openalex.org/W4400258056",
-          "https://openalex.org/W2969018889",
           "https://openalex.org/W4323038871",
-          "https://openalex.org/W2964705423",
+          "https://openalex.org/W3152623439",
+          "https://openalex.org/W4400258056",
           "https://openalex.org/W4290458122",
-          "https://openalex.org/W3152623439"
+          "https://openalex.org/W2969018889",
+          "https://openalex.org/W4389279429",
+          "https://openalex.org/W2963231271",
+          "https://openalex.org/W2964705423"
         ],
         "related_works": [
           "https://openalex.org/W4391375266",
@@ -4650,15 +4453,19 @@
         "host_organization": "https://openalex.org/P4310319900",
         "host_organization_name": "Springer Science+Business Media",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319900"
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
         "type": "book series"
       },
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.930Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4404356577",
         "doi": "https://doi.org/10.1007/978-3-031-73497-7_32",
@@ -4690,9 +4497,13 @@
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319900"
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
             "type": "book series"
           },
           "license": null,
@@ -4786,7 +4597,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.55082742,
+          "value": 0.54517502,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -5004,9 +4815,13 @@
               "host_organization": "https://openalex.org/P4310319900",
               "host_organization_name": "Springer Science+Business Media",
               "host_organization_lineage": [
-                "https://openalex.org/P4310319900"
+                "https://openalex.org/P4310319900",
+                "https://openalex.org/P4310319965"
               ],
-              "host_organization_lineage_names": [],
+              "host_organization_lineage_names": [
+                "Springer Science+Business Media",
+                "Springer Nature"
+              ],
               "type": "book series"
             },
             "license": null,
@@ -5021,17 +4836,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/13",
+            "display_name": "Climate action",
             "score": 0.699999988079071,
-            "display_name": "Climate action"
+            "id": "https://metadata.un.org/sdg/13"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 20,
         "referenced_works": [
@@ -5070,7 +4884,7 @@
         ],
         "abstract_inverted_index": null,
         "counts_by_year": [],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2025-12-27T23:08:20.325037",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -5139,7 +4953,7 @@
         "Human Mobility and Location-Based Analysis",
         "Urban Transport and Accessibility"
       ],
-      "abstract": "This paper presents a novel information generation methodology to support safer cycling patterns in urban environments, leveraging for that Large Language Models (LLMs), AI-based agents, and open geospatial data. By processing multiple files containing previously computed urban risk levels and existing mobility infrastructure, which are generated by exploiting open data sources, our method exploits multi-layer data preprocessing procedures and prompt engineering to create easy-to-use, user-friendly assistive systems that are able to provide useful information concerning cycling safety. Through a well-defined processing pipeline based on Data Ingestion and Preparation, Agents Orchestration, and Decision Execution methodological steps, our method shows how to integrate open-source tools and datasets, ensuring reproducibility and accessibility for urban planners and cyclists. Moreover, an AI agent is also provided, which fully implements our method and acts as a proof-of-concept implementation. This paper demonstrates the effectiveness of our method in enhancing cycling safety and urban mobility planning.•A novel method that combines LLMs and AI agents is defined to enhance the processing of multi-domain open geospatial data, potentially promoting cycling safety.•It integrates urban risk data and cycling infrastructure for a more comprehensive understanding of cycling resources, which become accessible by textual or audio prompts.",
+      "abstract": null,
       "venue": {
         "id": "https://openalex.org/S2898269294",
         "display_name": "MethodsX",
@@ -5155,7 +4969,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320990"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
         "type": "journal"
       },
       "language": "en",
@@ -5166,7 +4982,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.931Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4401046855",
         "doi": "https://doi.org/10.1016/j.mex.2024.102880",
@@ -5200,7 +5016,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -5373,15 +5191,15 @@
             ],
             "affiliations": [
               {
-                "raw_affiliation_string": "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas, Brazil",
-                "institution_ids": [
-                  "https://openalex.org/I129192303"
-                ]
-              },
-              {
                 "raw_affiliation_string": "PDEEC, University of Porto, Porto, Portugal",
                 "institution_ids": [
                   "https://openalex.org/I182534213"
+                ]
+              },
+              {
+                "raw_affiliation_string": "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas, Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
                 ]
               }
             ]
@@ -5446,7 +5264,7 @@
         "has_fulltext": false,
         "cited_by_count": 1,
         "citation_normalized_percentile": {
-          "value": 0.54268738,
+          "value": 0.54187563,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -5698,7 +5516,9 @@
               "host_organization_lineage": [
                 "https://openalex.org/P4310320990"
               ],
-              "host_organization_lineage_names": [],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
               "type": "journal"
             },
             "license": "cc-by",
@@ -5753,9 +5573,7 @@
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
-              "host_organization_lineage": [
-                null
-              ],
+              "host_organization_lineage": [],
               "host_organization_lineage_names": [],
               "type": "repository"
             },
@@ -5817,7 +5635,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -5829,13 +5649,6 @@
           "raw_type": "journal-article"
         },
         "sustainable_development_goals": [],
-        "grants": [
-          {
-            "funder": "https://openalex.org/F4320334779",
-            "funder_display_name": "Fundação para a Ciência e a Tecnologia",
-            "award_id": null
-          }
-        ],
         "awards": [],
         "funders": [
           {
@@ -5845,8 +5658,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": false
         },
         "referenced_works_count": 20,
         "referenced_works": [
@@ -5865,11 +5678,11 @@
           "https://openalex.org/W4389988262",
           "https://openalex.org/W4394620801",
           "https://openalex.org/W6850507425",
-          "https://openalex.org/W4399338196",
-          "https://openalex.org/W4392894129",
           "https://openalex.org/W3046644447",
           "https://openalex.org/W4380355250",
-          "https://openalex.org/W4321351832"
+          "https://openalex.org/W4321351832",
+          "https://openalex.org/W4399338196",
+          "https://openalex.org/W4392894129"
         ],
         "related_works": [
           "https://openalex.org/W4367313141",
@@ -5883,468 +5696,7 @@
           "https://openalex.org/W2110217573",
           "https://openalex.org/W2977327189"
         ],
-        "abstract_inverted_index": {
-          "This": [
-            0,
-            132
-          ],
-          "paper": [
-            1,
-            133
-          ],
-          "presents": [
-            2
-          ],
-          "a": [
-            3,
-            78,
-            129,
-            179
-          ],
-          "novel": [
-            4,
-            148
-          ],
-          "information": [
-            5,
-            73
-          ],
-          "generation": [
-            6
-          ],
-          "methodology": [
-            7
-          ],
-          "to": [
-            8,
-            61,
-            70,
-            99,
-            158
-          ],
-          "support": [
-            9
-          ],
-          "safer": [
-            10
-          ],
-          "cycling": [
-            11,
-            75,
-            142,
-            169,
-            176,
-            184
-          ],
-          "patterns": [
-            12
-          ],
-          "in": [
-            13,
-            140
-          ],
-          "urban": [
-            14,
-            36,
-            110,
-            145,
-            172
-          ],
-          "environments,": [
-            15
-          ],
-          "leveraging": [
-            16
-          ],
-          "for": [
-            17,
-            109,
-            178
-          ],
-          "that": [
-            18,
-            67,
-            150
-          ],
-          "Large": [
-            19
-          ],
-          "Language": [
-            20
-          ],
-          "Models": [
-            21
-          ],
-          "(LLMs),": [
-            22
-          ],
-          "AI-based": [
-            23
-          ],
-          "agents,": [
-            24
-          ],
-          "and": [
-            25,
-            39,
-            58,
-            86,
-            90,
-            103,
-            107,
-            112,
-            126,
-            144,
-            153,
-            175
-          ],
-          "open": [
-            26,
-            48,
-            164
-          ],
-          "geospatial": [
-            27,
-            165
-          ],
-          "data.": [
-            28
-          ],
-          "By": [
-            29
-          ],
-          "processing": [
-            30,
-            80,
-            161
-          ],
-          "multiple": [
-            31
-          ],
-          "files": [
-            32
-          ],
-          "containing": [
-            33
-          ],
-          "previously": [
-            34
-          ],
-          "computed": [
-            35
-          ],
-          "risk": [
-            37,
-            173
-          ],
-          "levels": [
-            38
-          ],
-          "existing": [
-            40
-          ],
-          "mobility": [
-            41,
-            146
-          ],
-          "infrastructure,": [
-            42
-          ],
-          "which": [
-            43,
-            121,
-            186
-          ],
-          "are": [
-            44,
-            68
-          ],
-          "generated": [
-            45
-          ],
-          "by": [
-            46,
-            189
-          ],
-          "exploiting": [
-            47
-          ],
-          "data": [
-            49,
-            55,
-            174
-          ],
-          "sources,": [
-            50
-          ],
-          "our": [
-            51,
-            95,
-            124,
-            138
-          ],
-          "method": [
-            52,
-            96,
-            125,
-            139,
-            149
-          ],
-          "exploits": [
-            53
-          ],
-          "multi-layer": [
-            54
-          ],
-          "preprocessing": [
-            56
-          ],
-          "procedures": [
-            57
-          ],
-          "prompt": [
-            59
-          ],
-          "engineering": [
-            60
-          ],
-          "create": [
-            62
-          ],
-          "easy-to-use,": [
-            63
-          ],
-          "user-friendly": [
-            64
-          ],
-          "assistive": [
-            65
-          ],
-          "systems": [
-            66
-          ],
-          "able": [
-            69
-          ],
-          "provide": [
-            71
-          ],
-          "useful": [
-            72
-          ],
-          "concerning": [
-            74
-          ],
-          "safety.": [
-            76
-          ],
-          "Through": [
-            77
-          ],
-          "well-defined": [
-            79
-          ],
-          "pipeline": [
-            81
-          ],
-          "based": [
-            82
-          ],
-          "on": [
-            83
-          ],
-          "Data": [
-            84
-          ],
-          "Ingestion": [
-            85
-          ],
-          "Preparation,": [
-            87
-          ],
-          "Agents": [
-            88
-          ],
-          "Orchestration,": [
-            89
-          ],
-          "Decision": [
-            91
-          ],
-          "Execution": [
-            92
-          ],
-          "methodological": [
-            93
-          ],
-          "steps,": [
-            94
-          ],
-          "shows": [
-            97
-          ],
-          "how": [
-            98
-          ],
-          "integrate": [
-            100
-          ],
-          "open-source": [
-            101
-          ],
-          "tools": [
-            102
-          ],
-          "datasets,": [
-            104
-          ],
-          "ensuring": [
-            105
-          ],
-          "reproducibility": [
-            106
-          ],
-          "accessibility": [
-            108
-          ],
-          "planners": [
-            111
-          ],
-          "cyclists.": [
-            113
-          ],
-          "Moreover,": [
-            114
-          ],
-          "an": [
-            115
-          ],
-          "AI": [
-            116,
-            154
-          ],
-          "agent": [
-            117
-          ],
-          "is": [
-            118,
-            156
-          ],
-          "also": [
-            119
-          ],
-          "provided,": [
-            120
-          ],
-          "fully": [
-            122
-          ],
-          "implements": [
-            123
-          ],
-          "acts": [
-            127
-          ],
-          "as": [
-            128
-          ],
-          "proof-of-concept": [
-            130
-          ],
-          "implementation.": [
-            131
-          ],
-          "demonstrates": [
-            134
-          ],
-          "the": [
-            135,
-            160
-          ],
-          "effectiveness": [
-            136
-          ],
-          "of": [
-            137,
-            162,
-            183
-          ],
-          "enhancing": [
-            141
-          ],
-          "safety": [
-            143
-          ],
-          "planning.•A": [
-            147
-          ],
-          "combines": [
-            151
-          ],
-          "LLMs": [
-            152
-          ],
-          "agents": [
-            155
-          ],
-          "defined": [
-            157
-          ],
-          "enhance": [
-            159
-          ],
-          "multi-domain": [
-            163
-          ],
-          "data,": [
-            166
-          ],
-          "potentially": [
-            167
-          ],
-          "promoting": [
-            168
-          ],
-          "safety.•It": [
-            170
-          ],
-          "integrates": [
-            171
-          ],
-          "infrastructure": [
-            177
-          ],
-          "more": [
-            180
-          ],
-          "comprehensive": [
-            181
-          ],
-          "understanding": [
-            182
-          ],
-          "resources,": [
-            185
-          ],
-          "become": [
-            187
-          ],
-          "accessible": [
-            188
-          ],
-          "textual": [
-            190
-          ],
-          "or": [
-            191
-          ],
-          "audio": [
-            192
-          ],
-          "prompts.": [
-            193
-          ]
-        },
+        "abstract_inverted_index": null,
         "counts_by_year": [
           {
             "year": 2025,
@@ -6425,7 +5777,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.931Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4401113675",
         "doi": "https://doi.org/10.1109/melecon56669.2024.10608598",
@@ -6631,13 +5983,13 @@
         "has_fulltext": false,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.81482609,
+          "value": 0.80889156,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
         "cited_by_percentile_year": {
           "min": 90,
-          "max": 97
+          "max": 96
         },
         "biblio": {
           "volume": null,
@@ -6792,12 +6144,11 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 18,
         "referenced_works": [
@@ -6843,7 +6194,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2025-12-22T23:10:17.713674",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -6901,7 +6252,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.931Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4403022658",
         "doi": "https://doi.org/10.1109/scfc62024.2024.10698740",
@@ -7059,7 +6410,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.21863592,
+          "value": 0.21290629,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -7215,12 +6566,11 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 10,
         "referenced_works": [
@@ -7249,7 +6599,7 @@
         ],
         "abstract_inverted_index": null,
         "counts_by_year": [],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2025-12-27T23:08:20.325037",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -7320,7 +6670,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.931Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4403022638",
         "doi": "https://doi.org/10.1109/scfc62024.2024.10698207",
@@ -7526,7 +6876,7 @@
         "has_fulltext": false,
         "cited_by_count": 1,
         "citation_normalized_percentile": {
-          "value": 0.68653701,
+          "value": 0.6798948,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -7699,12 +7049,11 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 19,
         "referenced_works": [
@@ -7747,7 +7096,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2025-12-27T23:08:20.325037",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -7765,30 +7114,6 @@
           "name": "Daniel G. Costa",
           "orcid": "https://orcid.org/0000-0003-3988-8476",
           "isCorresponding": true,
-          "position": "middle"
-        },
-        {
-          "name": "Paulo Portugal",
-          "orcid": "https://orcid.org/0000-0002-6386-9753",
-          "isCorresponding": false,
-          "position": "middle"
-        },
-        {
-          "name": "Francisco Vasques",
-          "orcid": "https://orcid.org/0000-0003-3115-0901",
-          "isCorresponding": false,
-          "position": "middle"
-        },
-        {
-          "name": "João Carlos N. Bittencourt",
-          "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": false,
-          "position": "middle"
-        },
-        {
-          "name": "Daniel G. Costa",
-          "orcid": "https://orcid.org/0000-0003-3988-8476",
-          "isCorresponding": false,
           "position": "middle"
         },
         {
@@ -7876,7 +7201,7 @@
           "cited_by_count": 6
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.931Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4396677387",
         "doi": "https://doi.org/10.1016/j.scs.2024.105477",
@@ -7943,16 +7268,6 @@
             },
             "institutions": [
               {
-                "id": "https://openalex.org/I182534213",
-                "display_name": "Universidade do Porto",
-                "ror": "https://ror.org/043pwc612",
-                "country_code": "PT",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I182534213"
-                ]
-              },
-              {
                 "id": "https://openalex.org/I129192303",
                 "display_name": "Universidade Federal do Recôncavo da Bahia",
                 "ror": "https://ror.org/057mvv518",
@@ -7960,6 +7275,16 @@
                 "type": "education",
                 "lineage": [
                   "https://openalex.org/I129192303"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
                 ]
               }
             ],
@@ -7970,20 +7295,20 @@
             "is_corresponding": false,
             "raw_author_name": "João Carlos N. Bittencourt",
             "raw_affiliation_strings": [
-              "PDEEC, Faculty of Engineering, University of Porto, Porto, Portugal",
-              "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas, Brazil"
+              "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas, Brazil",
+              "PDEEC, Faculty of Engineering, University of Porto, Porto, Portugal"
             ],
             "affiliations": [
-              {
-                "raw_affiliation_string": "PDEEC, Faculty of Engineering, University of Porto, Porto, Portugal",
-                "institution_ids": [
-                  "https://openalex.org/I182534213"
-                ]
-              },
               {
                 "raw_affiliation_string": "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas, Brazil",
                 "institution_ids": [
                   "https://openalex.org/I129192303"
+                ]
+              },
+              {
+                "raw_affiliation_string": "PDEEC, Faculty of Engineering, University of Porto, Porto, Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
                 ]
               }
             ]
@@ -7991,7 +7316,7 @@
           {
             "author_position": "middle",
             "author": {
-              "id": "https://openalex.org/A2142972669",
+              "id": "https://openalex.org/A5068969835",
               "display_name": "Daniel G. Costa",
               "orcid": "https://orcid.org/0000-0003-3988-8476"
             },
@@ -8027,7 +7352,7 @@
           {
             "author_position": "middle",
             "author": {
-              "id": "https://openalex.org/A2082425582",
+              "id": "https://openalex.org/A5091913710",
               "display_name": "Paulo Portugal",
               "orcid": "https://orcid.org/0000-0002-6386-9753"
             },
@@ -8061,9 +7386,9 @@
             ]
           },
           {
-            "author_position": "middle",
+            "author_position": "last",
             "author": {
-              "id": "https://openalex.org/A1974976609",
+              "id": "https://openalex.org/A5025767619",
               "display_name": "Francisco Vasques",
               "orcid": "https://orcid.org/0000-0003-3115-0901"
             },
@@ -8107,62 +7432,6 @@
                 ]
               }
             ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A5040609024",
-              "display_name": "João Carlos N. Bittencourt",
-              "orcid": "https://orcid.org/0000-0002-4540-512X"
-            },
-            "institutions": [],
-            "countries": [],
-            "is_corresponding": false,
-            "raw_author_name": "João Carlos N. Bittencourt",
-            "raw_affiliation_strings": [],
-            "affiliations": []
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A2142972669",
-              "display_name": "Daniel G. Costa",
-              "orcid": "https://orcid.org/0000-0003-3988-8476"
-            },
-            "institutions": [],
-            "countries": [],
-            "is_corresponding": false,
-            "raw_author_name": "Daniel G. Costa",
-            "raw_affiliation_strings": [],
-            "affiliations": []
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A2082425582",
-              "display_name": "Paulo Portugal",
-              "orcid": "https://orcid.org/0000-0002-6386-9753"
-            },
-            "institutions": [],
-            "countries": [],
-            "is_corresponding": false,
-            "raw_author_name": "Paulo Portugal",
-            "raw_affiliation_strings": [],
-            "affiliations": []
-          },
-          {
-            "author_position": "last",
-            "author": {
-              "id": "https://openalex.org/A1974976609",
-              "display_name": "Francisco Vasques",
-              "orcid": "https://orcid.org/0000-0003-3115-0901"
-            },
-            "institutions": [],
-            "countries": [],
-            "is_corresponding": false,
-            "raw_author_name": "Francisco Vasques",
-            "raw_affiliation_strings": [],
-            "affiliations": []
           }
         ],
         "institutions": [],
@@ -8188,7 +7457,7 @@
         "has_fulltext": false,
         "cited_by_count": 17,
         "citation_normalized_percentile": {
-          "value": 0.9910181,
+          "value": 0.99095549,
           "is_in_top_1_percent": true,
           "is_in_top_10_percent": true
         },
@@ -8587,21 +7856,9 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities",
             "score": 0.699999988079071,
-            "display_name": "Sustainable cities and communities"
-          }
-        ],
-        "grants": [
-          {
-            "funder": "https://openalex.org/F4320323642",
-            "funder_display_name": "Ministério da Ciência, Tecnologia e Ensino Superior",
-            "award_id": null
-          },
-          {
-            "funder": "https://openalex.org/F4320334779",
-            "funder_display_name": "Fundação para a Ciência e a Tecnologia",
-            "award_id": "EXPL/EEI-COM/1089/2021"
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
         "awards": [
@@ -8626,8 +7883,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 86,
         "referenced_works": [
@@ -8708,15 +7965,15 @@
           "https://openalex.org/W3082749364",
           "https://openalex.org/W3024183470",
           "https://openalex.org/W4283445765",
-          "https://openalex.org/W4285267759",
-          "https://openalex.org/W3145543370",
-          "https://openalex.org/W2914059298",
-          "https://openalex.org/W3119661935",
-          "https://openalex.org/W3119829852",
-          "https://openalex.org/W4226269702",
-          "https://openalex.org/W4236168358",
           "https://openalex.org/W4234589440",
-          "https://openalex.org/W4309323732"
+          "https://openalex.org/W3145543370",
+          "https://openalex.org/W3119661935",
+          "https://openalex.org/W4285267759",
+          "https://openalex.org/W4309323732",
+          "https://openalex.org/W4226269702",
+          "https://openalex.org/W3119829852",
+          "https://openalex.org/W2914059298",
+          "https://openalex.org/W4236168358"
         ],
         "related_works": [
           "https://openalex.org/W1883246888",
@@ -9362,7 +8619,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310310987"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
         "type": "journal"
       },
       "language": "en",
@@ -9377,7 +8636,7 @@
           "cited_by_count": 19
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.931Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4390751318",
         "doi": "https://doi.org/10.3390/su16020640",
@@ -9410,7 +8669,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -9509,15 +8770,15 @@
             ],
             "affiliations": [
               {
-                "raw_affiliation_string": "PDEEC, Faculty of Engineering, University of Porto, 4200-465 Porto, Portugal",
-                "institution_ids": [
-                  "https://openalex.org/I182534213"
-                ]
-              },
-              {
                 "raw_affiliation_string": "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas 44380-000, Brazil",
                 "institution_ids": [
                   "https://openalex.org/I129192303"
+                ]
+              },
+              {
+                "raw_affiliation_string": "PDEEC, Faculty of Engineering, University of Porto, 4200-465 Porto, Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
                 ]
               }
             ]
@@ -9598,15 +8859,15 @@
             ],
             "affiliations": [
               {
-                "raw_affiliation_string": "PPGM-UEFS, State University of Feira de Santana, Feira de Santana 44036-900, Brazil",
-                "institution_ids": [
-                  "https://openalex.org/I21606457"
-                ]
-              },
-              {
                 "raw_affiliation_string": "Federal Institute of Education, Science and Technology of Bahia, Valença 40301-015, Brazil",
                 "institution_ids": [
                   "https://openalex.org/I130913789"
+                ]
+              },
+              {
+                "raw_affiliation_string": "PPGM-UEFS, State University of Feira de Santana, Feira de Santana 44036-900, Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I21606457"
                 ]
               }
             ]
@@ -9671,7 +8932,7 @@
         "has_fulltext": true,
         "cited_by_count": 48,
         "citation_normalized_percentile": {
-          "value": 0.99922484,
+          "value": 0.99918622,
           "is_in_top_1_percent": true,
           "is_in_top_10_percent": true
         },
@@ -9969,7 +9230,9 @@
               "host_organization_lineage": [
                 "https://openalex.org/P4310310987"
               ],
-              "host_organization_lineage_names": [],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
               "type": "journal"
             },
             "license": "cc-by",
@@ -10030,7 +9293,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -10043,17 +9308,16 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities",
             "score": 0.46000000834465027,
-            "display_name": "Sustainable cities and communities"
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "referenced_works_count": 172,
         "referenced_works": [
@@ -10223,12 +9487,12 @@
           "https://openalex.org/W4389565166",
           "https://openalex.org/W3178298399",
           "https://openalex.org/W4321366824",
-          "https://openalex.org/W4378647911",
+          "https://openalex.org/W4308570094",
           "https://openalex.org/W3133953661",
           "https://openalex.org/W2088028384",
-          "https://openalex.org/W3104833050",
+          "https://openalex.org/W4378647911",
           "https://openalex.org/W2982003903",
-          "https://openalex.org/W4308570094"
+          "https://openalex.org/W3104833050"
         ],
         "related_works": [
           "https://openalex.org/W2004086023",
@@ -10750,7 +10014,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310319808"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
         "type": "journal"
       },
       "language": "en",
@@ -10761,7 +10027,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.931Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4402435481",
         "doi": "https://doi.org/10.1109/rita.2024.3458850",
@@ -10795,7 +10061,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310319808"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -10871,7 +10139,7 @@
         "has_fulltext": false,
         "cited_by_count": 1,
         "citation_normalized_percentile": {
-          "value": 0.68784785,
+          "value": 0.68120355,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -11079,7 +10347,9 @@
               "host_organization_lineage": [
                 "https://openalex.org/P4310319808"
               ],
-              "host_organization_lineage_names": [],
+              "host_organization_lineage_names": [
+                "Institute of Electrical and Electronics Engineers"
+              ],
               "type": "journal"
             },
             "license": null,
@@ -11093,12 +10363,11 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 25,
         "referenced_works": [
@@ -11147,7 +10416,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2025-12-27T23:08:20.325037",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -11186,7 +10455,7 @@
       "date": "2024-01-01",
       "doi": "https://doi.org/10.1109/access.2024.3433381",
       "url": "https://doi.org/10.1109/access.2024.3433381",
-      "citations": 23,
+      "citations": 24,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.1109/access.2024.3433381",
       "volume": "12",
@@ -11219,7 +10488,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310319808"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
         "type": "journal"
       },
       "language": "en",
@@ -11227,14 +10498,14 @@
       "citationsPerYear": [
         {
           "year": 2025,
-          "cited_by_count": 20
+          "cited_by_count": 21
         },
         {
           "year": 2024,
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.931Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4400975104",
         "doi": "https://doi.org/10.1109/access.2024.3433381",
@@ -11267,7 +10538,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310319808"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -11462,11 +10735,11 @@
           "currency": "USD",
           "value_usd": 1850
         },
-        "fwci": 12.19362387,
+        "fwci": 12.72378143,
         "has_fulltext": false,
-        "cited_by_count": 23,
+        "cited_by_count": 24,
         "citation_normalized_percentile": {
-          "value": 0.98262865,
+          "value": 0.98366807,
           "is_in_top_1_percent": true,
           "is_in_top_10_percent": true
         },
@@ -11592,7 +10865,9 @@
               "host_organization_lineage": [
                 "https://openalex.org/P4310319808"
               ],
-              "host_organization_lineage_names": [],
+              "host_organization_lineage_names": [
+                "Institute of Electrical and Electronics Engineers"
+              ],
               "type": "journal"
             },
             "license": null,
@@ -11618,9 +10893,7 @@
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
-              "host_organization_lineage": [
-                null
-              ],
+              "host_organization_lineage": [],
               "host_organization_lineage_names": [],
               "type": "repository"
             },
@@ -11653,7 +10926,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310319808"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -11666,17 +10941,16 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities",
             "score": 0.7699999809265137,
-            "display_name": "Sustainable cities and communities"
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 155,
         "referenced_works": [
@@ -12395,7 +11669,7 @@
         "counts_by_year": [
           {
             "year": 2025,
-            "cited_by_count": 20
+            "cited_by_count": 21
           },
           {
             "year": 2024,
@@ -12476,7 +11750,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310318480"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "University of Porto"
+        ],
         "type": "journal"
       },
       "language": "en",
@@ -12487,7 +11763,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.931Z",
+      "lastUpdated": "2026-01-01T02:44:40.384Z",
       "_raw": {
         "id": "https://openalex.org/W4389045321",
         "doi": "https://doi.org/10.24840/2183-6493_009-005_002156",
@@ -12520,7 +11796,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310318480"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "University of Porto"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -12627,7 +11905,7 @@
         "has_fulltext": true,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.69845087,
+          "value": 0.69860349,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -12956,7 +12234,9 @@
               "host_organization_lineage": [
                 "https://openalex.org/P4310318480"
               ],
-              "host_organization_lineage_names": [],
+              "host_organization_lineage_names": [
+                "University of Porto"
+              ],
               "type": "journal"
             },
             "license": "cc-by",
@@ -12982,9 +12262,7 @@
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
-              "host_organization_lineage": [
-                null
-              ],
+              "host_organization_lineage": [],
               "host_organization_lineage_names": [],
               "type": "repository"
             },
@@ -13017,7 +12295,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310318480"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "University of Porto"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -13030,17 +12310,16 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/9",
+            "display_name": "Industry, innovation and infrastructure",
             "score": 0.5400000214576721,
-            "display_name": "Industry, innovation and infrastructure"
+            "id": "https://metadata.un.org/sdg/9"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": false
         },
         "referenced_works_count": 21,
         "referenced_works": [
@@ -13480,7 +12759,7 @@
             "cited_by_count": 3
           }
         ],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2025-12-26T23:08:49.675405",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -13522,42 +12801,6 @@
           "name": "Francisco Vasques",
           "orcid": "https://orcid.org/0000-0003-3115-0901",
           "isCorresponding": false,
-          "position": "middle"
-        },
-        {
-          "name": "João Paulo Just Peixoto",
-          "orcid": "https://orcid.org/0000-0003-3507-8249",
-          "isCorresponding": false,
-          "position": "middle"
-        },
-        {
-          "name": "João Carlos N. Bittencourt",
-          "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": false,
-          "position": "middle"
-        },
-        {
-          "name": "Thiago C. Jesus",
-          "orcid": "https://orcid.org/0000-0001-5299-6856",
-          "isCorresponding": false,
-          "position": "middle"
-        },
-        {
-          "name": "Daniel G. Costa",
-          "orcid": "https://orcid.org/0000-0003-3988-8476",
-          "isCorresponding": false,
-          "position": "middle"
-        },
-        {
-          "name": "Paulo Portugal",
-          "orcid": "https://orcid.org/0000-0002-6386-9753",
-          "isCorresponding": false,
-          "position": "middle"
-        },
-        {
-          "name": "Francisco Vasques",
-          "orcid": "https://orcid.org/0000-0003-3115-0901",
-          "isCorresponding": false,
           "position": "last"
         }
       ],
@@ -13567,7 +12810,7 @@
       "date": "2023-11-20",
       "doi": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
       "url": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
-      "citations": 16,
+      "citations": 17,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
       "volume": "107",
@@ -13624,7 +12867,7 @@
       "citationsPerYear": [
         {
           "year": 2025,
-          "cited_by_count": 8
+          "cited_by_count": 9
         },
         {
           "year": 2024,
@@ -13635,7 +12878,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.931Z",
+      "lastUpdated": "2026-01-01T02:44:40.385Z",
       "_raw": {
         "id": "https://openalex.org/W4388842249",
         "doi": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
@@ -13696,21 +12939,11 @@
           {
             "author_position": "first",
             "author": {
-              "id": "https://openalex.org/A2709947200",
+              "id": "https://openalex.org/A5026966530",
               "display_name": "João Paulo Just Peixoto",
               "orcid": "https://orcid.org/0000-0003-3507-8249"
             },
             "institutions": [
-              {
-                "id": "https://openalex.org/I21606457",
-                "display_name": "Universidade Estadual de Feira de Santana",
-                "ror": "https://ror.org/04ygk5j35",
-                "country_code": "BR",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I21606457"
-                ]
-              },
               {
                 "id": "https://openalex.org/I130913789",
                 "display_name": "Instituto Federal da Bahia",
@@ -13720,6 +12953,16 @@
                 "lineage": [
                   "https://openalex.org/I130913789"
                 ]
+              },
+              {
+                "id": "https://openalex.org/I21606457",
+                "display_name": "Universidade Estadual de Feira de Santana",
+                "ror": "https://ror.org/04ygk5j35",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I21606457"
+                ]
               }
             ],
             "countries": [
@@ -13728,8 +12971,8 @@
             "is_corresponding": false,
             "raw_author_name": "João Paulo Just Peixoto",
             "raw_affiliation_strings": [
-              "PPGM-UEFS, State University of Feira de Santana, Feira de Santana, Brazil",
-              "IFBA, Federal Institute of Education, Science and Technology of Bahia, Valença, Brazil"
+              "IFBA, Federal Institute of Education, Science and Technology of Bahia, Valença, Brazil",
+              "PPGM-UEFS, State University of Feira de Santana, Feira de Santana, Brazil"
             ],
             "affiliations": [
               {
@@ -13782,8 +13025,8 @@
             "is_corresponding": false,
             "raw_author_name": "João Carlos N. Bittencourt",
             "raw_affiliation_strings": [
-              "PDEEC, Faculty of Engineering, University of Porto, Porto, Portugal",
-              "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas, Brazil"
+              "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas, Brazil",
+              "PDEEC, Faculty of Engineering, University of Porto, Porto, Portugal"
             ],
             "affiliations": [
               {
@@ -13803,7 +13046,7 @@
           {
             "author_position": "middle",
             "author": {
-              "id": "https://openalex.org/A2886797721",
+              "id": "https://openalex.org/A5011761859",
               "display_name": "Thiago C. Jesus",
               "orcid": "https://orcid.org/0000-0001-5299-6856"
             },
@@ -13839,7 +13082,7 @@
           {
             "author_position": "middle",
             "author": {
-              "id": "https://openalex.org/A2142972669",
+              "id": "https://openalex.org/A5068969835",
               "display_name": "Daniel G. Costa",
               "orcid": "https://orcid.org/0000-0003-3988-8476"
             },
@@ -13887,7 +13130,7 @@
           {
             "author_position": "middle",
             "author": {
-              "id": "https://openalex.org/A2082425582",
+              "id": "https://openalex.org/A5091913710",
               "display_name": "Paulo Portugal",
               "orcid": "https://orcid.org/0000-0002-6386-9753"
             },
@@ -13921,23 +13164,13 @@
             ]
           },
           {
-            "author_position": "middle",
+            "author_position": "last",
             "author": {
-              "id": "https://openalex.org/A1974976609",
+              "id": "https://openalex.org/A5025767619",
               "display_name": "Francisco Vasques",
               "orcid": "https://orcid.org/0000-0003-3115-0901"
             },
             "institutions": [
-              {
-                "id": "https://openalex.org/I182534213",
-                "display_name": "Universidade do Porto",
-                "ror": "https://ror.org/043pwc612",
-                "country_code": "PT",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I182534213"
-                ]
-              },
               {
                 "id": "https://openalex.org/I4210121509",
                 "display_name": "Institute of Mechanical Engineering and Industrial Mangement",
@@ -13947,6 +13180,16 @@
                 "lineage": [
                   "https://openalex.org/I182534213",
                   "https://openalex.org/I4210121509"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
                 ]
               }
             ],
@@ -13967,90 +13210,6 @@
                 ]
               }
             ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A2709947200",
-              "display_name": "João Paulo Just Peixoto",
-              "orcid": "https://orcid.org/0000-0003-3507-8249"
-            },
-            "institutions": [],
-            "countries": [],
-            "is_corresponding": false,
-            "raw_author_name": "João Paulo Just Peixoto",
-            "raw_affiliation_strings": [],
-            "affiliations": []
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A5040609024",
-              "display_name": "João Carlos N. Bittencourt",
-              "orcid": "https://orcid.org/0000-0002-4540-512X"
-            },
-            "institutions": [],
-            "countries": [],
-            "is_corresponding": false,
-            "raw_author_name": "João Carlos N. Bittencourt",
-            "raw_affiliation_strings": [],
-            "affiliations": []
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A2886797721",
-              "display_name": "Thiago C. Jesus",
-              "orcid": "https://orcid.org/0000-0001-5299-6856"
-            },
-            "institutions": [],
-            "countries": [],
-            "is_corresponding": false,
-            "raw_author_name": "Thiago C. Jesus",
-            "raw_affiliation_strings": [],
-            "affiliations": []
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A2142972669",
-              "display_name": "Daniel G. Costa",
-              "orcid": "https://orcid.org/0000-0003-3988-8476"
-            },
-            "institutions": [],
-            "countries": [],
-            "is_corresponding": false,
-            "raw_author_name": "Daniel G. Costa",
-            "raw_affiliation_strings": [],
-            "affiliations": []
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A2082425582",
-              "display_name": "Paulo Portugal",
-              "orcid": "https://orcid.org/0000-0002-6386-9753"
-            },
-            "institutions": [],
-            "countries": [],
-            "is_corresponding": false,
-            "raw_author_name": "Paulo Portugal",
-            "raw_affiliation_strings": [],
-            "affiliations": []
-          },
-          {
-            "author_position": "last",
-            "author": {
-              "id": "https://openalex.org/A1974976609",
-              "display_name": "Francisco Vasques",
-              "orcid": "https://orcid.org/0000-0003-3115-0901"
-            },
-            "institutions": [],
-            "countries": [],
-            "is_corresponding": false,
-            "raw_author_name": "Francisco Vasques",
-            "raw_affiliation_strings": [],
-            "affiliations": []
           }
         ],
         "institutions": [],
@@ -14073,11 +13232,11 @@
           "currency": "USD",
           "value_usd": 3740
         },
-        "fwci": 7.85461701,
+        "fwci": 8.34553057,
         "has_fulltext": false,
-        "cited_by_count": 16,
+        "cited_by_count": 17,
         "citation_normalized_percentile": {
-          "value": 0.9633785,
+          "value": 0.96706211,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
@@ -14431,21 +13590,9 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities",
             "score": 0.6800000071525574,
-            "display_name": "Sustainable cities and communities"
-          }
-        ],
-        "grants": [
-          {
-            "funder": "https://openalex.org/F4320323642",
-            "funder_display_name": "Ministério da Ciência, Tecnologia e Ensino Superior",
-            "award_id": null
-          },
-          {
-            "funder": "https://openalex.org/F4320334779",
-            "funder_display_name": "Fundação para a Ciência e a Tecnologia",
-            "award_id": "EXPL/EEI-COM/1089/2021"
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
         "awards": [
@@ -14470,8 +13617,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 78,
         "referenced_works": [
@@ -14543,16 +13690,16 @@
           "https://openalex.org/W4367692561",
           "https://openalex.org/W4251705936",
           "https://openalex.org/W4312598927",
-          "https://openalex.org/W2615992928",
-          "https://openalex.org/W2187466352",
           "https://openalex.org/W4252344361",
-          "https://openalex.org/W4256351822",
-          "https://openalex.org/W4382999366",
+          "https://openalex.org/W4242472075",
+          "https://openalex.org/W2615992928",
           "https://openalex.org/W4312271065",
+          "https://openalex.org/W4382999366",
           "https://openalex.org/W136692655",
-          "https://openalex.org/W4313002037",
+          "https://openalex.org/W2187466352",
           "https://openalex.org/W4233163546",
-          "https://openalex.org/W4242472075"
+          "https://openalex.org/W4256351822",
+          "https://openalex.org/W4313002037"
         ],
         "related_works": [
           "https://openalex.org/W4367313141",
@@ -15245,7 +14392,7 @@
         "counts_by_year": [
           {
             "year": 2025,
-            "cited_by_count": 8
+            "cited_by_count": 9
           },
           {
             "year": 2024,
@@ -15333,7 +14480,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.933Z",
+      "lastUpdated": "2026-01-01T02:44:40.385Z",
       "_raw": {
         "id": "https://openalex.org/W4388088101",
         "doi": "https://doi.org/10.1109/isc257844.2023.10293735",
@@ -15563,7 +14710,7 @@
         "has_fulltext": false,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.72121829,
+          "value": 0.72305368,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -15861,17 +15008,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities",
             "score": 0.49000000953674316,
-            "display_name": "Sustainable cities and communities"
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 12,
         "referenced_works": [
@@ -16299,10 +15445,10 @@
       "month": 12,
       "date": "2022-12-05",
       "doi": "https://doi.org/10.5753/erbase.2022.228873",
-      "url": "http://doi.org/10.5753/erbase.2022.228873",
+      "url": "http://dx.doi.org/10.5753/erbase.2022.228873",
       "citations": 0,
-      "isOpenAccess": false,
-      "oaUrl": null,
+      "isOpenAccess": true,
+      "oaUrl": "https://sol.sbc.org.br/index.php/erbase/article/download/30201/30009",
       "volume": null,
       "issue": null,
       "pages": {
@@ -16321,7 +15467,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.933Z",
+      "lastUpdated": "2026-01-01T02:44:40.385Z",
       "_raw": {
         "id": "https://openalex.org/W4402510102",
         "doi": "https://doi.org/10.5753/erbase.2022.228873",
@@ -16336,9 +15482,9 @@
         "language": "pt",
         "primary_location": {
           "id": "doi:10.5753/erbase.2022.228873",
-          "is_oa": false,
-          "landing_page_url": "http://doi.org/10.5753/erbase.2022.228873",
-          "pdf_url": null,
+          "is_oa": true,
+          "landing_page_url": "http://dx.doi.org/10.5753/erbase.2022.228873",
+          "pdf_url": "https://sol.sbc.org.br/index.php/erbase/article/download/30201/30009",
           "source": null,
           "license": null,
           "license_id": null,
@@ -16353,9 +15499,9 @@
           "crossref"
         ],
         "open_access": {
-          "is_oa": false,
-          "oa_status": "closed",
-          "oa_url": null,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://sol.sbc.org.br/index.php/erbase/article/download/30201/30009",
           "any_repository_has_fulltext": false
         },
         "authorships": [
@@ -16399,7 +15545,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.22953375,
+          "value": 0.22785042,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -16487,9 +15633,9 @@
         "locations": [
           {
             "id": "doi:10.5753/erbase.2022.228873",
-            "is_oa": false,
-            "landing_page_url": "http://doi.org/10.5753/erbase.2022.228873",
-            "pdf_url": null,
+            "is_oa": true,
+            "landing_page_url": "http://dx.doi.org/10.5753/erbase.2022.228873",
+            "pdf_url": "https://sol.sbc.org.br/index.php/erbase/article/download/30201/30009",
             "source": null,
             "license": null,
             "license_id": null,
@@ -16500,14 +15646,26 @@
             "raw_type": "proceedings-article"
           }
         ],
-        "best_oa_location": null,
+        "best_oa_location": {
+          "id": "doi:10.5753/erbase.2022.228873",
+          "is_oa": true,
+          "landing_page_url": "http://dx.doi.org/10.5753/erbase.2022.228873",
+          "pdf_url": "https://sol.sbc.org.br/index.php/erbase/article/download/30201/30009",
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Anais da XXII Escola Regional de Computação Bahia, Alagoas e Sergipe (ERBASE 2022)",
+          "raw_type": "proceedings-article"
+        },
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": true,
+          "grobid_xml": false
         },
         "referenced_works_count": 9,
         "referenced_works": [
@@ -16861,7 +16019,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2025-12-21T23:12:01.093139",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -16935,16 +16093,14 @@
         "is_core": false,
         "host_organization": null,
         "host_organization_name": null,
-        "host_organization_lineage": [
-          null
-        ],
+        "host_organization_lineage": [],
         "host_organization_lineage_names": [],
         "type": "conference"
       },
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.933Z",
+      "lastUpdated": "2026-01-01T02:44:40.385Z",
       "_raw": {
         "id": "https://openalex.org/W4312248886",
         "doi": "https://doi.org/10.37702/cobenge.2022.3840",
@@ -16972,9 +16128,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -17209,9 +16363,7 @@
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
-              "host_organization_lineage": [
-                null
-              ],
+              "host_organization_lineage": [],
               "host_organization_lineage_names": [],
               "type": "conference"
             },
@@ -17239,9 +16391,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -17255,17 +16405,16 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/4",
+            "display_name": "Quality Education",
             "score": 0.6499999761581421,
-            "display_name": "Quality Education"
+            "id": "https://metadata.un.org/sdg/4"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "referenced_works_count": 0,
         "referenced_works": [],
@@ -17676,16 +16825,14 @@
         "is_core": false,
         "host_organization": null,
         "host_organization_name": null,
-        "host_organization_lineage": [
-          null
-        ],
+        "host_organization_lineage": [],
         "host_organization_lineage_names": [],
         "type": "conference"
       },
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.933Z",
+      "lastUpdated": "2026-01-01T02:44:40.386Z",
       "_raw": {
         "id": "https://openalex.org/W4312384372",
         "doi": "https://doi.org/10.37702/cobenge.2022.3836",
@@ -17713,9 +16860,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -17770,6 +16915,12 @@
             ],
             "affiliations": [
               {
+                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
+              },
+              {
                 "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
                 "institution_ids": []
               },
@@ -17782,12 +16933,6 @@
               {
                 "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
                 "institution_ids": []
-              },
-              {
-                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
-                "institution_ids": [
-                  "https://openalex.org/I129192303"
-                ]
               }
             ]
           },
@@ -17837,14 +16982,6 @@
             ],
             "affiliations": [
               {
-                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
-                "institution_ids": []
-              },
-              {
-                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
-                "institution_ids": []
-              },
-              {
                 "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
                 "institution_ids": [
                   "https://openalex.org/I129192303"
@@ -17855,6 +16992,14 @@
                 "institution_ids": [
                   "https://openalex.org/I129192303"
                 ]
+              },
+              {
+                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
+                "institution_ids": []
+              },
+              {
+                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
+                "institution_ids": []
               }
             ]
           },
@@ -17890,11 +17035,7 @@
             ],
             "affiliations": [
               {
-                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
-                "institution_ids": []
-              },
-              {
-                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
+                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
                 "institution_ids": [
                   "https://openalex.org/I129192303"
                 ]
@@ -17904,10 +17045,14 @@
                 "institution_ids": []
               },
               {
-                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
+                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
                 "institution_ids": [
                   "https://openalex.org/I129192303"
                 ]
+              },
+              {
+                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
+                "institution_ids": []
               }
             ]
           },
@@ -17943,14 +17088,8 @@
             ],
             "affiliations": [
               {
-                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
+                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
                 "institution_ids": []
-              },
-              {
-                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
-                "institution_ids": [
-                  "https://openalex.org/I129192303"
-                ]
               },
               {
                 "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
@@ -17959,8 +17098,14 @@
                 ]
               },
               {
-                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
+                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
                 "institution_ids": []
+              },
+              {
+                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
               }
             ]
           },
@@ -18010,6 +17155,12 @@
             ],
             "affiliations": [
               {
+                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
+              },
+              {
                 "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
                 "institution_ids": []
               },
@@ -18022,12 +17173,6 @@
               {
                 "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
                 "institution_ids": []
-              },
-              {
-                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
-                "institution_ids": [
-                  "https://openalex.org/I129192303"
-                ]
               }
             ]
           },
@@ -18063,11 +17208,7 @@
             ],
             "affiliations": [
               {
-                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
-                "institution_ids": []
-              },
-              {
-                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
+                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
                 "institution_ids": [
                   "https://openalex.org/I129192303"
                 ]
@@ -18077,10 +17218,14 @@
                 "institution_ids": []
               },
               {
-                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
+                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
                 "institution_ids": [
                   "https://openalex.org/I129192303"
                 ]
+              },
+              {
+                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
+                "institution_ids": []
               }
             ]
           }
@@ -18180,9 +17325,7 @@
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
-              "host_organization_lineage": [
-                null
-              ],
+              "host_organization_lineage": [],
               "host_organization_lineage_names": [],
               "type": "conference"
             },
@@ -18210,9 +17353,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -18225,17 +17366,16 @@
           "raw_type": "proceedings-article"
         },
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "referenced_works_count": 3,
         "referenced_works": [
-          "https://openalex.org/W2582743722",
           "https://openalex.org/W2885746823",
+          "https://openalex.org/W2582743722",
           "https://openalex.org/W1507671736"
         ],
         "related_works": [
@@ -18620,7 +17760,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.933Z",
+      "lastUpdated": "2026-01-01T02:44:40.386Z",
       "_raw": {
         "id": "https://openalex.org/W4285342487",
         "doi": "https://doi.org/10.5753/erbase.2021.20062",
@@ -18814,7 +17954,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.26344438,
+          "value": 0.26280566,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -18983,19 +18123,18 @@
           "raw_type": "proceedings-article"
         },
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "referenced_works_count": 4,
         "referenced_works": [
           "https://openalex.org/W2119927747",
+          "https://openalex.org/W2144635649",
           "https://openalex.org/W2991442441",
-          "https://openalex.org/W2773048844",
-          "https://openalex.org/W2144635649"
+          "https://openalex.org/W2773048844"
         ],
         "related_works": [
           "https://openalex.org/W4391375266",
@@ -19455,7 +18594,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.933Z",
+      "lastUpdated": "2026-01-01T02:44:40.386Z",
       "_raw": {
         "id": "https://openalex.org/W4285342612",
         "doi": "https://doi.org/10.5753/erbase.2021.20366",
@@ -19649,7 +18788,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.20802389,
+          "value": 0.20718266,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -19806,23 +18945,22 @@
           "raw_type": "proceedings-article"
         },
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "referenced_works_count": 8,
         "referenced_works": [
-          "https://openalex.org/W4293478066",
-          "https://openalex.org/W2159607295",
-          "https://openalex.org/W3109496323",
-          "https://openalex.org/W2124776405",
           "https://openalex.org/W2145287260",
+          "https://openalex.org/W3109496323",
           "https://openalex.org/W2513140567",
+          "https://openalex.org/W2124776405",
           "https://openalex.org/W4300852401",
-          "https://openalex.org/W3099206234"
+          "https://openalex.org/W4293478066",
+          "https://openalex.org/W3099206234",
+          "https://openalex.org/W2159607295"
         ],
         "related_works": [
           "https://openalex.org/W4391375266",
@@ -20188,16 +19326,14 @@
         "is_core": false,
         "host_organization": null,
         "host_organization_name": null,
-        "host_organization_lineage": [
-          null
-        ],
+        "host_organization_lineage": [],
         "host_organization_lineage_names": [],
         "type": "journal"
       },
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.933Z",
+      "lastUpdated": "2026-01-01T02:44:40.386Z",
       "_raw": {
         "id": "https://openalex.org/W3111267421",
         "doi": "https://doi.org/10.48011/asba.v2i1.971",
@@ -20226,9 +19362,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -20479,7 +19613,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.27404232,
+          "value": 0.27256922,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -20587,9 +19721,7 @@
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
-              "host_organization_lineage": [
-                null
-              ],
+              "host_organization_lineage": [],
               "host_organization_lineage_names": [],
               "type": "journal"
             },
@@ -20604,12 +19736,11 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 0,
         "referenced_works": [],
@@ -21045,16 +20176,14 @@
         "is_core": false,
         "host_organization": null,
         "host_organization_name": null,
-        "host_organization_lineage": [
-          null
-        ],
+        "host_organization_lineage": [],
         "host_organization_lineage_names": [],
         "type": "journal"
       },
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.933Z",
+      "lastUpdated": "2026-01-01T02:44:40.386Z",
       "_raw": {
         "id": "https://openalex.org/W3113358243",
         "doi": "https://doi.org/10.48011/asba.v2i1.1333",
@@ -21083,9 +20212,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -21516,7 +20643,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.22378242,
+          "value": 0.22295554,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -21653,9 +20780,7 @@
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
-              "host_organization_lineage": [
-                null
-              ],
+              "host_organization_lineage": [],
               "host_organization_lineage_names": [],
               "type": "journal"
             },
@@ -21670,12 +20795,11 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 0,
         "referenced_works": [],
@@ -22178,7 +21302,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.933Z",
+      "lastUpdated": "2026-01-01T02:44:40.386Z",
       "_raw": {
         "id": "https://openalex.org/W3035676811",
         "doi": "https://doi.org/10.22533/at.ed.87220080611",
@@ -22355,7 +21479,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.14512522,
+          "value": 0.1453202,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -22536,17 +21660,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/10",
+            "display_name": "Reduced inequalities",
             "score": 0.5600000023841858,
-            "display_name": "Reduced inequalities"
+            "id": "https://metadata.un.org/sdg/10"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 0,
         "referenced_works": [],
@@ -22630,16 +21753,14 @@
         "is_core": false,
         "host_organization": null,
         "host_organization_name": null,
-        "host_organization_lineage": [
-          null
-        ],
+        "host_organization_lineage": [],
         "host_organization_lineage_names": [],
         "type": "journal"
       },
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.934Z",
+      "lastUpdated": "2026-01-01T02:44:40.386Z",
       "_raw": {
         "id": "https://openalex.org/W3041937156",
         "doi": "https://doi.org/10.36558/rsc.v10i1.6643",
@@ -22667,9 +21788,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -22744,7 +21863,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.08158555,
+          "value": 0.0814568,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -22912,9 +22031,7 @@
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
-              "host_organization_lineage": [
-                null
-              ],
+              "host_organization_lineage": [],
               "host_organization_lineage_names": [],
               "type": "journal"
             },
@@ -22929,12 +22046,11 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 0,
         "referenced_works": [],
@@ -23471,7 +22587,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.934Z",
+      "lastUpdated": "2026-01-01T02:44:40.386Z",
       "_raw": {
         "id": "https://openalex.org/W2998133484",
         "doi": "https://doi.org/10.1109/h2rc49586.2019.00012",
@@ -23990,7 +23106,7 @@
         "has_fulltext": false,
         "cited_by_count": 5,
         "citation_normalized_percentile": {
-          "value": 0.6723562,
+          "value": 0.67389184,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -24305,17 +23421,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/7",
+            "display_name": "Affordable and clean energy",
             "score": 0.8899999856948853,
-            "display_name": "Affordable and clean energy"
+            "id": "https://metadata.un.org/sdg/7"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 23,
         "referenced_works": [
@@ -24337,9 +23452,9 @@
           "https://openalex.org/W1987873989",
           "https://openalex.org/W6657988772",
           "https://openalex.org/W1990075242",
-          "https://openalex.org/W2029789077",
-          "https://openalex.org/W2530810001",
           "https://openalex.org/W2070745001",
+          "https://openalex.org/W2530810001",
+          "https://openalex.org/W2029789077",
           "https://openalex.org/W2318335981",
           "https://openalex.org/W2314948407"
         ],
@@ -24835,7 +23950,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.934Z",
+      "lastUpdated": "2026-01-01T02:44:40.386Z",
       "_raw": {
         "id": "https://openalex.org/W2986411918",
         "doi": "https://doi.org/10.5151/siintec2019-45",
@@ -25245,15 +24360,15 @@
             ],
             "affiliations": [
               {
-                "raw_affiliation_string": "UFBA; Salvador/BA;",
-                "institution_ids": []
-              },
-              {
                 "raw_affiliation_string": "SENAI/CIMATEC; Salvador/BA;",
                 "institution_ids": [
                   "https://openalex.org/I124618812",
                   "https://openalex.org/I1329807341"
                 ]
+              },
+              {
+                "raw_affiliation_string": "UFBA; Salvador/BA;",
+                "institution_ids": []
               }
             ]
           }
@@ -25274,7 +24389,7 @@
         "has_fulltext": true,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.1714372,
+          "value": 0.1715222,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -25456,17 +24571,16 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/10",
+            "display_name": "Reduced inequalities",
             "score": 0.4399999976158142,
-            "display_name": "Reduced inequalities"
+            "id": "https://metadata.un.org/sdg/10"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "referenced_works_count": 4,
         "referenced_works": [
@@ -25811,7 +24925,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2025-12-04T15:51:19.934Z",
+      "lastUpdated": "2026-01-01T02:44:40.386Z",
       "_raw": {
         "id": "https://openalex.org/W2939288824",
         "doi": null,
@@ -26013,12 +25127,11 @@
           "raw_type": "info:eu-repo/semantics/publishedVersion"
         },
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 0,
         "referenced_works": [],
@@ -26170,7 +25283,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.934Z",
+      "lastUpdated": "2026-01-01T02:44:40.387Z",
       "_raw": {
         "id": "https://openalex.org/W2782499739",
         "doi": "https://doi.org/10.1109/chilecon.2017.8229606",
@@ -26329,7 +25442,7 @@
         "has_fulltext": false,
         "cited_by_count": 8,
         "citation_normalized_percentile": {
-          "value": 0.83461568,
+          "value": 0.8349241,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -26677,17 +25790,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/9",
+            "display_name": "Industry, innovation and infrastructure",
             "score": 0.46000000834465027,
-            "display_name": "Industry, innovation and infrastructure"
+            "id": "https://metadata.un.org/sdg/9"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 21,
         "referenced_works": [
@@ -26708,10 +25820,10 @@
           "https://openalex.org/W2054856368",
           "https://openalex.org/W616518283",
           "https://openalex.org/W1989355565",
-          "https://openalex.org/W331974224",
-          "https://openalex.org/W2090455692",
           "https://openalex.org/W2168062107",
-          "https://openalex.org/W2156776663"
+          "https://openalex.org/W2090455692",
+          "https://openalex.org/W2156776663",
+          "https://openalex.org/W331974224"
         ],
         "related_works": [
           "https://openalex.org/W4387497383",
@@ -27223,7 +26335,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.934Z",
+      "lastUpdated": "2026-01-01T02:44:40.387Z",
       "_raw": {
         "id": "https://openalex.org/W2184065042",
         "doi": "https://doi.org/10.1109/patmos.2015.7347589",
@@ -27418,7 +26530,7 @@
         "has_fulltext": false,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.68254449,
+          "value": 0.68288284,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -27743,17 +26855,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/7",
+            "display_name": "Affordable and clean energy",
             "score": 0.4099999964237213,
-            "display_name": "Affordable and clean energy"
+            "id": "https://metadata.un.org/sdg/7"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 15,
         "referenced_works": [
@@ -27769,8 +26880,8 @@
           "https://openalex.org/W2128765501",
           "https://openalex.org/W2171258019",
           "https://openalex.org/W6661421265",
-          "https://openalex.org/W2042791697",
           "https://openalex.org/W2156938362",
+          "https://openalex.org/W2042791697",
           "https://openalex.org/W7241855"
         ],
         "related_works": [
@@ -28129,7 +27240,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.934Z",
+      "lastUpdated": "2026-01-01T02:44:40.387Z",
       "_raw": {
         "id": "https://openalex.org/W1927039319",
         "doi": "https://doi.org/10.1109/dsd.2015.55",
@@ -28264,7 +27375,7 @@
         "has_fulltext": false,
         "cited_by_count": 4,
         "citation_normalized_percentile": {
-          "value": 0.03137436,
+          "value": 0.03129862,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -28593,7 +27704,6 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [
           {
@@ -28603,8 +27713,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 7,
         "referenced_works": [
@@ -29052,7 +28162,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.934Z",
+      "lastUpdated": "2026-01-01T02:44:40.387Z",
       "_raw": {
         "id": "https://openalex.org/W334391379",
         "doi": null,
@@ -29200,7 +28310,7 @@
         "has_fulltext": false,
         "cited_by_count": 4,
         "citation_normalized_percentile": {
-          "value": 0.02064879,
+          "value": 0.0206603,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -29542,21 +28652,20 @@
         ],
         "best_oa_location": null,
         "sustainable_development_goals": [],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 6,
         "referenced_works": [
-          "https://openalex.org/W2381755277",
           "https://openalex.org/W1601395958",
-          "https://openalex.org/W2096411220",
-          "https://openalex.org/W1874705653",
           "https://openalex.org/W3023540311",
-          "https://openalex.org/W2130762655"
+          "https://openalex.org/W1874705653",
+          "https://openalex.org/W2130762655",
+          "https://openalex.org/W2381755277",
+          "https://openalex.org/W2096411220"
         ],
         "related_works": [
           "https://openalex.org/W2464539556",
@@ -29930,9 +29039,7 @@
         "is_core": false,
         "host_organization": null,
         "host_organization_name": null,
-        "host_organization_lineage": [
-          null
-        ],
+        "host_organization_lineage": [],
         "host_organization_lineage_names": [],
         "type": "journal"
       },
@@ -29944,7 +29051,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2025-12-04T15:51:19.934Z",
+      "lastUpdated": "2026-01-01T02:44:40.387Z",
       "_raw": {
         "id": "https://openalex.org/W1835217957",
         "doi": null,
@@ -29972,9 +29079,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -30151,7 +29256,7 @@
         "has_fulltext": false,
         "cited_by_count": 1,
         "citation_normalized_percentile": {
-          "value": 0.83390979,
+          "value": 0.83403665,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -30332,9 +29437,7 @@
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
-              "host_organization_lineage": [
-                null
-              ],
+              "host_organization_lineage": [],
               "host_organization_lineage_names": [],
               "type": "journal"
             },
@@ -30350,17 +29453,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/4",
+            "display_name": "Quality Education",
             "score": 0.6100000143051147,
-            "display_name": "Quality Education"
+            "id": "https://metadata.un.org/sdg/4"
           }
         ],
-        "grants": [],
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "referenced_works_count": 0,
         "referenced_works": [],
@@ -30578,6 +29680,6 @@
   ],
   "meta": {
     "count": 36,
-    "lastUpdated": "2025-12-04T15:51:19.947Z"
+    "lastUpdated": "2026-01-01T02:44:40.396Z"
   }
 }
