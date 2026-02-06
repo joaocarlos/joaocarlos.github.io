@@ -1,6 +1,1370 @@
 {
   "publications": [
     {
+      "id": "https://openalex.org/W7118482098",
+      "title": "On the role of AI in building generative urban intelligence",
+      "authors": [
+        {
+          "name": "João Carlos N. Bittencourt",
+          "orcid": null,
+          "isCorresponding": true,
+          "position": "first"
+        },
+        {
+          "name": "Thommas K. S. Flores",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle"
+        },
+        {
+          "name": "Thiago Jesus",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle"
+        },
+        {
+          "name": "D. M. Costa",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "last"
+        }
+      ],
+      "journal": "Artificial Intelligence Review",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-07",
+      "doi": "https://doi.org/10.1007/s10462-025-11469-3",
+      "url": "https://doi.org/10.1007/s10462-025-11469-3",
+      "citations": 0,
+      "isOpenAccess": true,
+      "oaUrl": "https://doi.org/10.1007/s10462-025-11469-3",
+      "volume": "59",
+      "issue": "2",
+      "pages": {
+        "first": null,
+        "last": null
+      },
+      "keywords": [
+        "Smart city",
+        "Generative grammar",
+        "Field (mathematics)",
+        "Process (computing)",
+        "Context (archaeology)",
+        "Urbanization",
+        "Urban computing",
+        "Ambient intelligence",
+        "Urban planning"
+      ],
+      "topics": [
+        "Smart Cities and Technologies",
+        "Impact of AI and Big Data on Business and Society",
+        "Human Mobility and Location-Based Analysis"
+      ],
+      "abstract": "Abstract The rapid urbanization process has presented complex challenges that require innovative strategies to enhance urban living and promote sustainable growth. In this context, the concept of smart cities has quickly evolved, illustrating urban environments that utilize advanced technology to achieve greater efficiency, sustainability, and an improved quality of life for residents. The development of these smart environments relies on technologies like the Internet of Things (IoT), which collects extensive data through sensors, and Artificial Intelligence (AI), for advanced data processing and decision-making. For the latter, while traditional AI solutions have improved urban systems in multiple ways, emerging Generative Artificial Intelligence (GenAI) models signify a new era for smart cities, offering breakthroughs in urban design, simulation, and personalized, context-aware solutions. This article explores the applications, impacts, challenges, and promising future trends of GenAI within the context of smart cities, discussing generative urban intelligence perspectives for simulating alternative urban scenarios, co-designing infrastructure prototypes, and improving service delivery. It provides a pioneering perspective on an underexplored field that is expected to transform urban design, planning, and management.",
+      "venue": {
+        "id": "https://openalex.org/S122814990",
+        "display_name": "Artificial Intelligence Review",
+        "issn_l": "0269-2821",
+        "issn": [
+          "0269-2821",
+          "1573-7462"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "language": "en",
+      "isRetracted": false,
+      "citationsPerYear": [],
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
+      "_raw": {
+        "id": "https://openalex.org/W7118482098",
+        "doi": "https://doi.org/10.1007/s10462-025-11469-3",
+        "title": "On the role of AI in building generative urban intelligence",
+        "display_name": "On the role of AI in building generative urban intelligence",
+        "publication_year": 2026,
+        "publication_date": "2026-01-07",
+        "ids": {
+          "openalex": "https://openalex.org/W7118482098",
+          "doi": "https://doi.org/10.1007/s10462-025-11469-3"
+        },
+        "language": "en",
+        "primary_location": {
+          "id": "doi:10.1007/s10462-025-11469-3",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1007/s10462-025-11469-3",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S122814990",
+            "display_name": "Artificial Intelligence Review",
+            "issn_l": "0269-2821",
+            "issn": [
+              "0269-2821",
+              "1573-7462"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Artificial Intelligence Review",
+          "raw_type": "journal-article"
+        },
+        "type": "article",
+        "indexed_in": [
+          "crossref"
+        ],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://doi.org/10.1007/s10462-025-11469-3",
+          "any_repository_has_fulltext": false
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5121092256",
+              "display_name": "João Carlos N. Bittencourt",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I129192303",
+                "display_name": "Universidade Federal do Recôncavo da Bahia",
+                "ror": "https://ror.org/057mvv518",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I129192303"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "BR",
+              "PT"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "João Carlos N. Bittencourt",
+            "raw_affiliation_strings": [
+              "CETEC, Federal University of Recôncavo da Bahia, Rua Ruy Barbosa, 710, Cruz das Almas, Bahia, 44380-000, Brazil",
+              "SYSTEC-ARISE, Faculty of Engineering, University of Porto, Rua Dr. Roberto Frias s/n, Porto, 4200-465, Portugal"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "CETEC, Federal University of Recôncavo da Bahia, Rua Ruy Barbosa, 710, Cruz das Almas, Bahia, 44380-000, Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
+              },
+              {
+                "raw_affiliation_string": "SYSTEC-ARISE, Faculty of Engineering, University of Porto, Rua Dr. Roberto Frias s/n, Porto, 4200-465, Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5122092833",
+              "display_name": "Thommas K. S. Flores",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I35046152",
+                "display_name": "Universidade Federal do Rio Grande do Norte",
+                "ror": "https://ror.org/04wn09761",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I35046152"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Thommas K. S. Flores",
+            "raw_affiliation_strings": [
+              "PPgEEC-UFRN, Federal University of Rio Grande do Norte, Campus Universitário Lagoa Nova, Natal, Rio Grande do Norte, 59078-970, Brazil"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "PPgEEC-UFRN, Federal University of Rio Grande do Norte, Campus Universitário Lagoa Nova, Natal, Rio Grande do Norte, 59078-970, Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I35046152"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5115794202",
+              "display_name": "Thiago Jesus",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I21606457",
+                "display_name": "Universidade Estadual de Feira de Santana",
+                "ror": "https://ror.org/04ygk5j35",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I21606457"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Thiago C. Jesus",
+            "raw_affiliation_strings": [
+              "DTEC, State University of Feira de Santana, Avenida Transnordestina s/n, Feira de Santana, Bahia, 44036-900, Brazil"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "DTEC, State University of Feira de Santana, Avenida Transnordestina s/n, Feira de Santana, Bahia, 44036-900, Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I21606457"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5103572550",
+              "display_name": "D. M. Costa",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Daniel G. Costa",
+            "raw_affiliation_strings": [
+              "SYSTEC-ARISE, Faculty of Engineering, University of Porto, Rua Dr. Roberto Frias s/n, Porto, 4200-465, Portugal"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "SYSTEC-ARISE, Faculty of Engineering, University of Porto, Rua Dr. Roberto Frias s/n, Porto, 4200-465, Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
+          }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 2,
+        "institutions_distinct_count": 4,
+        "corresponding_author_ids": [
+          "https://openalex.org/A5121092256"
+        ],
+        "corresponding_institution_ids": [
+          "https://openalex.org/I129192303",
+          "https://openalex.org/I182534213"
+        ],
+        "apc_list": {
+          "value": 2490,
+          "currency": "EUR",
+          "value_usd": 3090
+        },
+        "apc_paid": {
+          "value": 2490,
+          "currency": "EUR",
+          "value_usd": 3090
+        },
+        "fwci": null,
+        "has_fulltext": false,
+        "cited_by_count": 0,
+        "citation_normalized_percentile": {
+          "value": 0.10396975,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "cited_by_percentile_year": null,
+        "biblio": {
+          "volume": "59",
+          "issue": "2",
+          "first_page": null,
+          "last_page": null
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+          "id": "https://openalex.org/T11479",
+          "display_name": "Smart Cities and Technologies",
+          "score": 0.7684999704360962,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2214",
+            "display_name": "Media Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11479",
+            "display_name": "Smart Cities and Technologies",
+            "score": 0.7684999704360962,
+            "subfield": {
+              "id": "https://openalex.org/subfields/2214",
+              "display_name": "Media Technology"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/22",
+              "display_name": "Engineering"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T14260",
+            "display_name": "Impact of AI and Big Data on Business and Society",
+            "score": 0.008999999612569809,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1803",
+              "display_name": "Management Science and Operations Research"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/18",
+              "display_name": "Decision Sciences"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/2",
+              "display_name": "Social Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T11980",
+            "display_name": "Human Mobility and Location-Based Analysis",
+            "score": 0.007199999876320362,
+            "subfield": {
+              "id": "https://openalex.org/subfields/3313",
+              "display_name": "Transportation"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/33",
+              "display_name": "Social Sciences"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/2",
+              "display_name": "Social Sciences"
+            }
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/smart-city",
+            "display_name": "Smart city",
+            "score": 0.64410001039505
+          },
+          {
+            "id": "https://openalex.org/keywords/generative-grammar",
+            "display_name": "Generative grammar",
+            "score": 0.616100013256073
+          },
+          {
+            "id": "https://openalex.org/keywords/field",
+            "display_name": "Field (mathematics)",
+            "score": 0.5519999861717224
+          },
+          {
+            "id": "https://openalex.org/keywords/process",
+            "display_name": "Process (computing)",
+            "score": 0.5353999733924866
+          },
+          {
+            "id": "https://openalex.org/keywords/context",
+            "display_name": "Context (archaeology)",
+            "score": 0.5324000120162964
+          },
+          {
+            "id": "https://openalex.org/keywords/urbanization",
+            "display_name": "Urbanization",
+            "score": 0.5058000087738037
+          },
+          {
+            "id": "https://openalex.org/keywords/urban-computing",
+            "display_name": "Urban computing",
+            "score": 0.5034000277519226
+          },
+          {
+            "id": "https://openalex.org/keywords/ambient-intelligence",
+            "display_name": "Ambient intelligence",
+            "score": 0.4156000018119812
+          },
+          {
+            "id": "https://openalex.org/keywords/urban-planning",
+            "display_name": "Urban planning",
+            "score": 0.4120999872684479
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "wikidata": "https://www.wikidata.org/wiki/Q21198",
+            "display_name": "Computer science",
+            "level": 0,
+            "score": 0.6901000142097473
+          },
+          {
+            "id": "https://openalex.org/C2777103469",
+            "wikidata": "https://www.wikidata.org/wiki/Q1231558",
+            "display_name": "Smart city",
+            "level": 3,
+            "score": 0.64410001039505
+          },
+          {
+            "id": "https://openalex.org/C39890363",
+            "wikidata": "https://www.wikidata.org/wiki/Q36108",
+            "display_name": "Generative grammar",
+            "level": 2,
+            "score": 0.616100013256073
+          },
+          {
+            "id": "https://openalex.org/C9652623",
+            "wikidata": "https://www.wikidata.org/wiki/Q190109",
+            "display_name": "Field (mathematics)",
+            "level": 2,
+            "score": 0.5519999861717224
+          },
+          {
+            "id": "https://openalex.org/C98045186",
+            "wikidata": "https://www.wikidata.org/wiki/Q205663",
+            "display_name": "Process (computing)",
+            "level": 2,
+            "score": 0.5353999733924866
+          },
+          {
+            "id": "https://openalex.org/C2779343474",
+            "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+            "display_name": "Context (archaeology)",
+            "level": 2,
+            "score": 0.5324000120162964
+          },
+          {
+            "id": "https://openalex.org/C39853841",
+            "wikidata": "https://www.wikidata.org/wiki/Q161078",
+            "display_name": "Urbanization",
+            "level": 2,
+            "score": 0.5058000087738037
+          },
+          {
+            "id": "https://openalex.org/C2778459138",
+            "wikidata": "https://www.wikidata.org/wiki/Q7900107",
+            "display_name": "Urban computing",
+            "level": 2,
+            "score": 0.5034000277519226
+          },
+          {
+            "id": "https://openalex.org/C2522767166",
+            "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+            "display_name": "Data science",
+            "level": 1,
+            "score": 0.48190000653266907
+          },
+          {
+            "id": "https://openalex.org/C201638289",
+            "wikidata": "https://www.wikidata.org/wiki/Q457396",
+            "display_name": "Ambient intelligence",
+            "level": 2,
+            "score": 0.4156000018119812
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "wikidata": "https://www.wikidata.org/wiki/Q11660",
+            "display_name": "Artificial intelligence",
+            "level": 1,
+            "score": 0.41530001163482666
+          },
+          {
+            "id": "https://openalex.org/C49545453",
+            "wikidata": "https://www.wikidata.org/wiki/Q69883",
+            "display_name": "Urban planning",
+            "level": 2,
+            "score": 0.4120999872684479
+          },
+          {
+            "id": "https://openalex.org/C2781368080",
+            "wikidata": "https://www.wikidata.org/wiki/Q501688",
+            "display_name": "Context awareness",
+            "level": 3,
+            "score": 0.37459999322891235
+          },
+          {
+            "id": "https://openalex.org/C12713177",
+            "wikidata": "https://www.wikidata.org/wiki/Q1900281",
+            "display_name": "Perspective (graphical)",
+            "level": 2,
+            "score": 0.3603000044822693
+          },
+          {
+            "id": "https://openalex.org/C56739046",
+            "wikidata": "https://www.wikidata.org/wiki/Q192060",
+            "display_name": "Knowledge management",
+            "level": 1,
+            "score": 0.3571999967098236
+          },
+          {
+            "id": "https://openalex.org/C2780378061",
+            "wikidata": "https://www.wikidata.org/wiki/Q25351891",
+            "display_name": "Service (business)",
+            "level": 2,
+            "score": 0.34860000014305115
+          },
+          {
+            "id": "https://openalex.org/C75684735",
+            "wikidata": "https://www.wikidata.org/wiki/Q858810",
+            "display_name": "Big data",
+            "level": 2,
+            "score": 0.3391999900341034
+          },
+          {
+            "id": "https://openalex.org/C207267971",
+            "wikidata": "https://www.wikidata.org/wiki/Q120208",
+            "display_name": "Emerging technologies",
+            "level": 2,
+            "score": 0.3231000006198883
+          },
+          {
+            "id": "https://openalex.org/C81860439",
+            "wikidata": "https://www.wikidata.org/wiki/Q251212",
+            "display_name": "Internet of Things",
+            "level": 2,
+            "score": 0.3077000081539154
+          },
+          {
+            "id": "https://openalex.org/C2779530757",
+            "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+            "display_name": "Quality (philosophy)",
+            "level": 2,
+            "score": 0.3052000105381012
+          },
+          {
+            "id": "https://openalex.org/C167966045",
+            "wikidata": "https://www.wikidata.org/wiki/Q5532625",
+            "display_name": "Generative model",
+            "level": 3,
+            "score": 0.30059999227523804
+          },
+          {
+            "id": "https://openalex.org/C539667460",
+            "wikidata": "https://www.wikidata.org/wiki/Q2414942",
+            "display_name": "Management science",
+            "level": 1,
+            "score": 0.2989000082015991
+          },
+          {
+            "id": "https://openalex.org/C89057211",
+            "wikidata": "https://www.wikidata.org/wiki/Q432197",
+            "display_name": "Collective intelligence",
+            "level": 2,
+            "score": 0.28850001096725464
+          },
+          {
+            "id": "https://openalex.org/C172195944",
+            "wikidata": "https://www.wikidata.org/wiki/Q541265",
+            "display_name": "Ubiquitous computing",
+            "level": 2,
+            "score": 0.28619998693466187
+          },
+          {
+            "id": "https://openalex.org/C152223200",
+            "wikidata": "https://www.wikidata.org/wiki/Q3055471",
+            "display_name": "Smart environment",
+            "level": 3,
+            "score": 0.2808000147342682
+          },
+          {
+            "id": "https://openalex.org/C552854447",
+            "wikidata": "https://www.wikidata.org/wiki/Q131201",
+            "display_name": "Sustainable development",
+            "level": 2,
+            "score": 0.271699994802475
+          },
+          {
+            "id": "https://openalex.org/C157170001",
+            "wikidata": "https://www.wikidata.org/wiki/Q4781507",
+            "display_name": "Applications of artificial intelligence",
+            "level": 2,
+            "score": 0.26570001244544983
+          }
+        ],
+        "mesh": [],
+        "locations_count": 1,
+        "locations": [
+          {
+            "id": "doi:10.1007/s10462-025-11469-3",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1007/s10462-025-11469-3",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S122814990",
+              "display_name": "Artificial Intelligence Review",
+              "issn_l": "0269-2821",
+              "issn": [
+                "0269-2821",
+                "1573-7462"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310319900",
+              "host_organization_name": "Springer Science+Business Media",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319900",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "Springer Science+Business Media",
+                "Springer Nature"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Artificial Intelligence Review",
+            "raw_type": "journal-article"
+          }
+        ],
+        "best_oa_location": {
+          "id": "doi:10.1007/s10462-025-11469-3",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1007/s10462-025-11469-3",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S122814990",
+            "display_name": "Artificial Intelligence Review",
+            "issn_l": "0269-2821",
+            "issn": [
+              "0269-2821",
+              "1573-7462"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Artificial Intelligence Review",
+          "raw_type": "journal-article"
+        },
+        "sustainable_development_goals": [
+          {
+            "score": 0.5111441016197205,
+            "display_name": "Sustainable cities and communities",
+            "id": "https://metadata.un.org/sdg/11"
+          }
+        ],
+        "awards": [],
+        "funders": [],
+        "has_content": {
+          "pdf": false,
+          "grobid_xml": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 174,
+        "referenced_works": [
+          "https://openalex.org/W40911477",
+          "https://openalex.org/W2081942550",
+          "https://openalex.org/W2106950427",
+          "https://openalex.org/W2292929445",
+          "https://openalex.org/W2560316343",
+          "https://openalex.org/W2738428139",
+          "https://openalex.org/W2791256869",
+          "https://openalex.org/W2883861872",
+          "https://openalex.org/W2904105652",
+          "https://openalex.org/W2910453440",
+          "https://openalex.org/W2912275277",
+          "https://openalex.org/W2912325838",
+          "https://openalex.org/W2943201207",
+          "https://openalex.org/W2952957939",
+          "https://openalex.org/W3003910048",
+          "https://openalex.org/W3007281183",
+          "https://openalex.org/W3009311085",
+          "https://openalex.org/W3011648816",
+          "https://openalex.org/W3029404970",
+          "https://openalex.org/W3033187248",
+          "https://openalex.org/W3037510835",
+          "https://openalex.org/W3086811561",
+          "https://openalex.org/W3088822655",
+          "https://openalex.org/W3092843175",
+          "https://openalex.org/W3096831136",
+          "https://openalex.org/W3137164673",
+          "https://openalex.org/W3138924974",
+          "https://openalex.org/W3167464041",
+          "https://openalex.org/W3170870985",
+          "https://openalex.org/W3193819136",
+          "https://openalex.org/W3211686893",
+          "https://openalex.org/W3213246036",
+          "https://openalex.org/W3213963952",
+          "https://openalex.org/W4206707323",
+          "https://openalex.org/W4206808607",
+          "https://openalex.org/W4206926697",
+          "https://openalex.org/W4210516792",
+          "https://openalex.org/W4214599906",
+          "https://openalex.org/W4229016946",
+          "https://openalex.org/W4229336790",
+          "https://openalex.org/W4284883467",
+          "https://openalex.org/W4285170326",
+          "https://openalex.org/W4287887617",
+          "https://openalex.org/W4288253152",
+          "https://openalex.org/W4292117317",
+          "https://openalex.org/W4294051933",
+          "https://openalex.org/W4300427683",
+          "https://openalex.org/W4307939003",
+          "https://openalex.org/W4311415873",
+          "https://openalex.org/W4311620310",
+          "https://openalex.org/W4313002037",
+          "https://openalex.org/W4313595416",
+          "https://openalex.org/W4317931226",
+          "https://openalex.org/W4321351832",
+          "https://openalex.org/W4321377319",
+          "https://openalex.org/W4360770777",
+          "https://openalex.org/W4366506272",
+          "https://openalex.org/W4367052863",
+          "https://openalex.org/W4380760997",
+          "https://openalex.org/W4381248616",
+          "https://openalex.org/W4384067905",
+          "https://openalex.org/W4384405237",
+          "https://openalex.org/W4385245566",
+          "https://openalex.org/W4385568051",
+          "https://openalex.org/W4385811608",
+          "https://openalex.org/W4386053119",
+          "https://openalex.org/W4386914624",
+          "https://openalex.org/W4387376803",
+          "https://openalex.org/W4387767134",
+          "https://openalex.org/W4388119564",
+          "https://openalex.org/W4388729531",
+          "https://openalex.org/W4388977121",
+          "https://openalex.org/W4389249471",
+          "https://openalex.org/W4389359039",
+          "https://openalex.org/W4389513614",
+          "https://openalex.org/W4389523490",
+          "https://openalex.org/W4390041908",
+          "https://openalex.org/W4390100419",
+          "https://openalex.org/W4390489793",
+          "https://openalex.org/W4391129224",
+          "https://openalex.org/W4391432233",
+          "https://openalex.org/W4391591658",
+          "https://openalex.org/W4391768897",
+          "https://openalex.org/W4391811503",
+          "https://openalex.org/W4391884123",
+          "https://openalex.org/W4391933019",
+          "https://openalex.org/W4392014897",
+          "https://openalex.org/W4392270888",
+          "https://openalex.org/W4392402296",
+          "https://openalex.org/W4392462757",
+          "https://openalex.org/W4392518374",
+          "https://openalex.org/W4392636660",
+          "https://openalex.org/W4392681052",
+          "https://openalex.org/W4393141438",
+          "https://openalex.org/W4393142949",
+          "https://openalex.org/W4393396161",
+          "https://openalex.org/W4393904951",
+          "https://openalex.org/W4394846650",
+          "https://openalex.org/W4396608392",
+          "https://openalex.org/W4396941492",
+          "https://openalex.org/W4398218849",
+          "https://openalex.org/W4399039294",
+          "https://openalex.org/W4399208836",
+          "https://openalex.org/W4399267045",
+          "https://openalex.org/W4399741313",
+          "https://openalex.org/W4399746124",
+          "https://openalex.org/W4400276938",
+          "https://openalex.org/W4400396884",
+          "https://openalex.org/W4400445695",
+          "https://openalex.org/W4400648045",
+          "https://openalex.org/W4400728347",
+          "https://openalex.org/W4400975104",
+          "https://openalex.org/W4401010390",
+          "https://openalex.org/W4401046855",
+          "https://openalex.org/W4401092812",
+          "https://openalex.org/W4401253958",
+          "https://openalex.org/W4401415206",
+          "https://openalex.org/W4401635135",
+          "https://openalex.org/W4401863560",
+          "https://openalex.org/W4401863622",
+          "https://openalex.org/W4402263942",
+          "https://openalex.org/W4402345099",
+          "https://openalex.org/W4402507654",
+          "https://openalex.org/W4402753984",
+          "https://openalex.org/W4403265197",
+          "https://openalex.org/W4403371192",
+          "https://openalex.org/W4403439589",
+          "https://openalex.org/W4403714226",
+          "https://openalex.org/W4403941512",
+          "https://openalex.org/W4404148142",
+          "https://openalex.org/W4404179478",
+          "https://openalex.org/W4404538195",
+          "https://openalex.org/W4404611709",
+          "https://openalex.org/W4404644662",
+          "https://openalex.org/W4404665724",
+          "https://openalex.org/W4404726096",
+          "https://openalex.org/W4405235079",
+          "https://openalex.org/W4405282870",
+          "https://openalex.org/W4405366589",
+          "https://openalex.org/W4405430242",
+          "https://openalex.org/W4405601902",
+          "https://openalex.org/W4405657257",
+          "https://openalex.org/W4405744125",
+          "https://openalex.org/W4405832271",
+          "https://openalex.org/W4405923978",
+          "https://openalex.org/W4406201714",
+          "https://openalex.org/W4406356664",
+          "https://openalex.org/W4406370042",
+          "https://openalex.org/W4406754736",
+          "https://openalex.org/W4406842332",
+          "https://openalex.org/W4407214968",
+          "https://openalex.org/W4407354156",
+          "https://openalex.org/W4407637095",
+          "https://openalex.org/W4407865204",
+          "https://openalex.org/W4407902214",
+          "https://openalex.org/W4407937406",
+          "https://openalex.org/W4408123665",
+          "https://openalex.org/W4408252681",
+          "https://openalex.org/W4408276749",
+          "https://openalex.org/W4408593759",
+          "https://openalex.org/W4408694243",
+          "https://openalex.org/W4408750423",
+          "https://openalex.org/W4408806545",
+          "https://openalex.org/W4408967836",
+          "https://openalex.org/W4409081320",
+          "https://openalex.org/W4409084089",
+          "https://openalex.org/W4409199105",
+          "https://openalex.org/W4409260317",
+          "https://openalex.org/W4410069375",
+          "https://openalex.org/W4410914856",
+          "https://openalex.org/W4413442784",
+          "https://openalex.org/W4414203706",
+          "https://openalex.org/W4414444156",
+          "https://openalex.org/W4416086767"
+        ],
+        "related_works": [],
+        "abstract_inverted_index": {
+          "Abstract": [
+            0
+          ],
+          "The": [
+            1,
+            52
+          ],
+          "rapid": [
+            2
+          ],
+          "urbanization": [
+            3
+          ],
+          "process": [
+            4
+          ],
+          "has": [
+            5,
+            29
+          ],
+          "presented": [
+            6
+          ],
+          "complex": [
+            7
+          ],
+          "challenges": [
+            8
+          ],
+          "that": [
+            9,
+            35,
+            165
+          ],
+          "require": [
+            10
+          ],
+          "innovative": [
+            11
+          ],
+          "strategies": [
+            12
+          ],
+          "to": [
+            13,
+            39,
+            168
+          ],
+          "enhance": [
+            14
+          ],
+          "urban": [
+            15,
+            33,
+            92,
+            113,
+            141,
+            147,
+            170
+          ],
+          "living": [
+            16
+          ],
+          "and": [
+            17,
+            44,
+            73,
+            81,
+            116,
+            127,
+            152,
+            173
+          ],
+          "promote": [
+            18
+          ],
+          "sustainable": [
+            19
+          ],
+          "growth.": [
+            20
+          ],
+          "In": [
+            21
+          ],
+          "this": [
+            22
+          ],
+          "context,": [
+            23
+          ],
+          "the": [
+            24,
+            62,
+            84,
+            123,
+            134
+          ],
+          "concept": [
+            25
+          ],
+          "of": [
+            26,
+            48,
+            54,
+            64,
+            131,
+            136
+          ],
+          "smart": [
+            27,
+            56,
+            108,
+            137
+          ],
+          "cities": [
+            28
+          ],
+          "quickly": [
+            30
+          ],
+          "evolved,": [
+            31
+          ],
+          "illustrating": [
+            32
+          ],
+          "environments": [
+            34,
+            57
+          ],
+          "utilize": [
+            36
+          ],
+          "advanced": [
+            37,
+            78
+          ],
+          "technology": [
+            38
+          ],
+          "achieve": [
+            40
+          ],
+          "greater": [
+            41
+          ],
+          "efficiency,": [
+            42
+          ],
+          "sustainability,": [
+            43
+          ],
+          "an": [
+            45,
+            162
+          ],
+          "improved": [
+            46,
+            91
+          ],
+          "quality": [
+            47
+          ],
+          "life": [
+            49
+          ],
+          "for": [
+            50,
+            77,
+            107,
+            144
+          ],
+          "residents.": [
+            51
+          ],
+          "development": [
+            53
+          ],
+          "these": [
+            55
+          ],
+          "relies": [
+            58
+          ],
+          "on": [
+            59,
+            161
+          ],
+          "technologies": [
+            60
+          ],
+          "like": [
+            61
+          ],
+          "Internet": [
+            63
+          ],
+          "Things": [
+            65
+          ],
+          "(IoT),": [
+            66
+          ],
+          "which": [
+            67
+          ],
+          "collects": [
+            68
+          ],
+          "extensive": [
+            69
+          ],
+          "data": [
+            70,
+            79
+          ],
+          "through": [
+            71
+          ],
+          "sensors,": [
+            72
+          ],
+          "Artificial": [
+            74,
+            99
+          ],
+          "Intelligence": [
+            75,
+            100
+          ],
+          "(AI),": [
+            76
+          ],
+          "processing": [
+            80
+          ],
+          "decision-making.": [
+            82
+          ],
+          "For": [
+            83
+          ],
+          "latter,": [
+            85
+          ],
+          "while": [
+            86
+          ],
+          "traditional": [
+            87
+          ],
+          "AI": [
+            88
+          ],
+          "solutions": [
+            89
+          ],
+          "have": [
+            90
+          ],
+          "systems": [
+            93
+          ],
+          "in": [
+            94,
+            112
+          ],
+          "multiple": [
+            95
+          ],
+          "ways,": [
+            96
+          ],
+          "emerging": [
+            97
+          ],
+          "Generative": [
+            98
+          ],
+          "(GenAI)": [
+            101
+          ],
+          "models": [
+            102
+          ],
+          "signify": [
+            103
+          ],
+          "a": [
+            104,
+            158
+          ],
+          "new": [
+            105
+          ],
+          "era": [
+            106
+          ],
+          "cities,": [
+            109,
+            138
+          ],
+          "offering": [
+            110
+          ],
+          "breakthroughs": [
+            111
+          ],
+          "design,": [
+            114,
+            171
+          ],
+          "simulation,": [
+            115
+          ],
+          "personalized,": [
+            117
+          ],
+          "context-aware": [
+            118
+          ],
+          "solutions.": [
+            119
+          ],
+          "This": [
+            120
+          ],
+          "article": [
+            121
+          ],
+          "explores": [
+            122
+          ],
+          "applications,": [
+            124
+          ],
+          "impacts,": [
+            125
+          ],
+          "challenges,": [
+            126
+          ],
+          "promising": [
+            128
+          ],
+          "future": [
+            129
+          ],
+          "trends": [
+            130
+          ],
+          "GenAI": [
+            132
+          ],
+          "within": [
+            133
+          ],
+          "context": [
+            135
+          ],
+          "discussing": [
+            139
+          ],
+          "generative": [
+            140
+          ],
+          "intelligence": [
+            142
+          ],
+          "perspectives": [
+            143
+          ],
+          "simulating": [
+            145
+          ],
+          "alternative": [
+            146
+          ],
+          "scenarios,": [
+            148
+          ],
+          "co-designing": [
+            149
+          ],
+          "infrastructure": [
+            150
+          ],
+          "prototypes,": [
+            151
+          ],
+          "improving": [
+            153
+          ],
+          "service": [
+            154
+          ],
+          "delivery.": [
+            155
+          ],
+          "It": [
+            156
+          ],
+          "provides": [
+            157
+          ],
+          "pioneering": [
+            159
+          ],
+          "perspective": [
+            160
+          ],
+          "underexplored": [
+            163
+          ],
+          "field": [
+            164
+          ],
+          "is": [
+            166
+          ],
+          "expected": [
+            167
+          ],
+          "transform": [
+            169
+          ],
+          "planning,": [
+            172
+          ],
+          "management.": [
+            174
+          ]
+        },
+        "counts_by_year": [],
+        "updated_date": "2026-01-23T23:20:30.427331",
+        "created_date": "2026-01-08T00:00:00"
+      }
+    },
+    {
       "id": "https://openalex.org/W4415969055",
       "title": "Dependability-Driven Planning of Wireless Sensor Networks for Smart Cities Using Machine Learning",
       "authors": [
@@ -63,7 +1427,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4415969055",
         "doi": "https://doi.org/10.1109/iecon58223.2025.11221897",
@@ -370,8 +1734,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 15,
@@ -456,7 +1820,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4415968617",
         "doi": "https://doi.org/10.1109/iecon58223.2025.11221503",
@@ -727,8 +2091,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 17,
@@ -756,6 +2120,1543 @@
         "counts_by_year": [],
         "updated_date": "2025-11-07T23:20:04.922697",
         "created_date": "2025-11-06T00:00:00"
+      }
+    },
+    {
+      "id": "https://openalex.org/W7116880095",
+      "title": "Context-Aware Sensor Active Prioritization for Emergency Management in Smart Cities",
+      "authors": [
+        {
+          "name": "João Carlos N. Bittencourt",
+          "orcid": null,
+          "isCorresponding": true,
+          "position": "first"
+        },
+        {
+          "name": "D. M. Costa",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle"
+        },
+        {
+          "name": "Paulo Portugal",
+          "orcid": "https://orcid.org/0000-0002-6386-9753",
+          "isCorresponding": false,
+          "position": "last"
+        }
+      ],
+      "journal": "2025 IEEE International Smart Cities Conference (ISC2)",
+      "year": 2025,
+      "month": 10,
+      "date": "2025-10-06",
+      "doi": "https://doi.org/10.1109/isc266238.2025.11293304",
+      "url": "https://doi.org/10.1109/isc266238.2025.11293304",
+      "citations": 0,
+      "isOpenAccess": false,
+      "oaUrl": null,
+      "volume": null,
+      "issue": null,
+      "pages": {
+        "first": "1",
+        "last": "6"
+      },
+      "keywords": [
+        "Prioritization",
+        "Emergency management",
+        "Emergency response",
+        "Risk management",
+        "Key (lock)"
+      ],
+      "topics": [
+        "Smart Cities and Technologies",
+        "Context-Aware Activity Recognition Systems",
+        "Human Mobility and Location-Based Analysis"
+      ],
+      "abstract": null,
+      "venue": null,
+      "language": null,
+      "isRetracted": false,
+      "citationsPerYear": [],
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
+      "_raw": {
+        "id": "https://openalex.org/W7116880095",
+        "doi": "https://doi.org/10.1109/isc266238.2025.11293304",
+        "title": "Context-Aware Sensor Active Prioritization for Emergency Management in Smart Cities",
+        "display_name": "Context-Aware Sensor Active Prioritization for Emergency Management in Smart Cities",
+        "publication_year": 2025,
+        "publication_date": "2025-10-06",
+        "ids": {
+          "openalex": "https://openalex.org/W7116880095",
+          "doi": "https://doi.org/10.1109/isc266238.2025.11293304"
+        },
+        "language": null,
+        "primary_location": {
+          "id": "doi:10.1109/isc266238.2025.11293304",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/isc266238.2025.11293304",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 IEEE International Smart Cities Conference (ISC2)",
+          "raw_type": "proceedings-article"
+        },
+        "type": "article",
+        "indexed_in": [
+          "crossref"
+        ],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5121092256",
+              "display_name": "João Carlos N. Bittencourt",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "João Carlos N. Bittencourt",
+            "raw_affiliation_strings": [
+              "CETEC, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "CETEC, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5103572550",
+              "display_name": "D. M. Costa",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Daniel G. Costa",
+            "raw_affiliation_strings": [
+              "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5091913710",
+              "display_name": "Paulo Portugal",
+              "orcid": "https://orcid.org/0000-0002-6386-9753"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Paulo Portugal",
+            "raw_affiliation_strings": [
+              "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
+          }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 2,
+        "institutions_distinct_count": 3,
+        "corresponding_author_ids": [
+          "https://openalex.org/A5121092256"
+        ],
+        "corresponding_institution_ids": [
+          "https://openalex.org/I126158947"
+        ],
+        "apc_list": null,
+        "apc_paid": null,
+        "fwci": 0,
+        "has_fulltext": false,
+        "cited_by_count": 0,
+        "citation_normalized_percentile": {
+          "value": 0.71656918,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "cited_by_percentile_year": null,
+        "biblio": {
+          "volume": null,
+          "issue": null,
+          "first_page": "1",
+          "last_page": "6"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+          "id": "https://openalex.org/T11479",
+          "display_name": "Smart Cities and Technologies",
+          "score": 0.1809999942779541,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2214",
+            "display_name": "Media Technology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11479",
+            "display_name": "Smart Cities and Technologies",
+            "score": 0.1809999942779541,
+            "subfield": {
+              "id": "https://openalex.org/subfields/2214",
+              "display_name": "Media Technology"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/22",
+              "display_name": "Engineering"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10444",
+            "display_name": "Context-Aware Activity Recognition Systems",
+            "score": 0.15440000593662262,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1707",
+              "display_name": "Computer Vision and Pattern Recognition"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T11980",
+            "display_name": "Human Mobility and Location-Based Analysis",
+            "score": 0.07900000363588333,
+            "subfield": {
+              "id": "https://openalex.org/subfields/3313",
+              "display_name": "Transportation"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/33",
+              "display_name": "Social Sciences"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/2",
+              "display_name": "Social Sciences"
+            }
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/prioritization",
+            "display_name": "Prioritization",
+            "score": 0.4975000023841858
+          },
+          {
+            "id": "https://openalex.org/keywords/emergency-management",
+            "display_name": "Emergency management",
+            "score": 0.45969998836517334
+          },
+          {
+            "id": "https://openalex.org/keywords/emergency-response",
+            "display_name": "Emergency response",
+            "score": 0.3806999921798706
+          },
+          {
+            "id": "https://openalex.org/keywords/risk-management",
+            "display_name": "Risk management",
+            "score": 0.33070001006126404
+          },
+          {
+            "id": "https://openalex.org/keywords/key",
+            "display_name": "Key (lock)",
+            "score": 0.32190001010894775
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C2777615720",
+            "wikidata": "https://www.wikidata.org/wiki/Q11888847",
+            "display_name": "Prioritization",
+            "level": 2,
+            "score": 0.4975000023841858
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "wikidata": "https://www.wikidata.org/wiki/Q21198",
+            "display_name": "Computer science",
+            "level": 0,
+            "score": 0.46160000562667847
+          },
+          {
+            "id": "https://openalex.org/C62555980",
+            "wikidata": "https://www.wikidata.org/wiki/Q1460420",
+            "display_name": "Emergency management",
+            "level": 2,
+            "score": 0.45969998836517334
+          },
+          {
+            "id": "https://openalex.org/C112930515",
+            "wikidata": "https://www.wikidata.org/wiki/Q4389547",
+            "display_name": "Risk analysis (engineering)",
+            "level": 1,
+            "score": 0.4397999942302704
+          },
+          {
+            "id": "https://openalex.org/C3017997152",
+            "wikidata": "https://www.wikidata.org/wiki/Q814610",
+            "display_name": "Emergency response",
+            "level": 2,
+            "score": 0.3806999921798706
+          },
+          {
+            "id": "https://openalex.org/C32896092",
+            "wikidata": "https://www.wikidata.org/wiki/Q189447",
+            "display_name": "Risk management",
+            "level": 2,
+            "score": 0.33070001006126404
+          },
+          {
+            "id": "https://openalex.org/C26517878",
+            "wikidata": "https://www.wikidata.org/wiki/Q228039",
+            "display_name": "Key (lock)",
+            "level": 2,
+            "score": 0.32190001010894775
+          },
+          {
+            "id": "https://openalex.org/C144133560",
+            "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+            "display_name": "Business",
+            "level": 0,
+            "score": 0.30889999866485596
+          },
+          {
+            "id": "https://openalex.org/C38652104",
+            "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+            "display_name": "Computer security",
+            "level": 1,
+            "score": 0.2849000096321106
+          },
+          {
+            "id": "https://openalex.org/C2777943205",
+            "wikidata": "https://www.wikidata.org/wiki/Q5370734",
+            "display_name": "Emergency procedure",
+            "level": 2,
+            "score": 0.27300000190734863
+          },
+          {
+            "id": "https://openalex.org/C18762648",
+            "wikidata": "https://www.wikidata.org/wiki/Q42213",
+            "display_name": "Work (physics)",
+            "level": 2,
+            "score": 0.2700999975204468
+          },
+          {
+            "id": "https://openalex.org/C95713431",
+            "wikidata": "https://www.wikidata.org/wiki/Q631425",
+            "display_name": "Vulnerability (computing)",
+            "level": 2,
+            "score": 0.2502000033855438
+          }
+        ],
+        "mesh": [],
+        "locations_count": 1,
+        "locations": [
+          {
+            "id": "doi:10.1109/isc266238.2025.11293304",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/isc266238.2025.11293304",
+            "pdf_url": null,
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "2025 IEEE International Smart Cities Conference (ISC2)",
+            "raw_type": "proceedings-article"
+          }
+        ],
+        "best_oa_location": null,
+        "sustainable_development_goals": [
+          {
+            "score": 0.43273553252220154,
+            "display_name": "Sustainable cities and communities",
+            "id": "https://metadata.un.org/sdg/11"
+          }
+        ],
+        "awards": [],
+        "funders": [],
+        "has_content": {
+          "pdf": false,
+          "grobid_xml": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 18,
+        "referenced_works": [
+          "https://openalex.org/W2415575434",
+          "https://openalex.org/W2569355805",
+          "https://openalex.org/W2781385340",
+          "https://openalex.org/W2789653136",
+          "https://openalex.org/W2886099013",
+          "https://openalex.org/W3007281183",
+          "https://openalex.org/W3126347924",
+          "https://openalex.org/W3179580576",
+          "https://openalex.org/W4285123134",
+          "https://openalex.org/W4310195146",
+          "https://openalex.org/W4313855700",
+          "https://openalex.org/W4378449897",
+          "https://openalex.org/W4385484119",
+          "https://openalex.org/W4390751318",
+          "https://openalex.org/W4392906834",
+          "https://openalex.org/W4396677387",
+          "https://openalex.org/W4399168322",
+          "https://openalex.org/W4400975104"
+        ],
+        "related_works": [],
+        "abstract_inverted_index": null,
+        "counts_by_year": [],
+        "updated_date": "2025-12-24T23:09:58.560324",
+        "created_date": "2025-12-23T00:00:00"
+      }
+    },
+    {
+      "id": "https://openalex.org/W7116972433",
+      "title": "Urban Emergencies in the Age of 15-Minute Cities: Assessing Response Capability to Critical Situations",
+      "authors": [
+        {
+          "name": "João Paulo J. Peixoto",
+          "orcid": null,
+          "isCorresponding": true,
+          "position": "first"
+        },
+        {
+          "name": "João Carlos N. Bittencourt",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle"
+        },
+        {
+          "name": "Thiago Jesus",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle"
+        },
+        {
+          "name": "D. M. Costa",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "last"
+        }
+      ],
+      "journal": "2025 IEEE International Smart Cities Conference (ISC2)",
+      "year": 2025,
+      "month": 10,
+      "date": "2025-10-06",
+      "doi": "https://doi.org/10.1109/isc266238.2025.11293334",
+      "url": "https://doi.org/10.1109/isc266238.2025.11293334",
+      "citations": 0,
+      "isOpenAccess": false,
+      "oaUrl": null,
+      "volume": null,
+      "issue": null,
+      "pages": {
+        "first": "1",
+        "last": "6"
+      },
+      "keywords": [
+        "Identification (biology)",
+        "Set (abstract data type)",
+        "Emergency response",
+        "Risk assessment",
+        "Vulnerability (computing)"
+      ],
+      "topics": [
+        "Disaster Management and Resilience",
+        "Public Relations and Crisis Communication",
+        "Evacuation and Crowd Dynamics"
+      ],
+      "abstract": null,
+      "venue": null,
+      "language": null,
+      "isRetracted": false,
+      "citationsPerYear": [],
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
+      "_raw": {
+        "id": "https://openalex.org/W7116972433",
+        "doi": "https://doi.org/10.1109/isc266238.2025.11293334",
+        "title": "Urban Emergencies in the Age of 15-Minute Cities: Assessing Response Capability to Critical Situations",
+        "display_name": "Urban Emergencies in the Age of 15-Minute Cities: Assessing Response Capability to Critical Situations",
+        "publication_year": 2025,
+        "publication_date": "2025-10-06",
+        "ids": {
+          "openalex": "https://openalex.org/W7116972433",
+          "doi": "https://doi.org/10.1109/isc266238.2025.11293334"
+        },
+        "language": null,
+        "primary_location": {
+          "id": "doi:10.1109/isc266238.2025.11293334",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/isc266238.2025.11293334",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 IEEE International Smart Cities Conference (ISC2)",
+          "raw_type": "proceedings-article"
+        },
+        "type": "article",
+        "indexed_in": [
+          "crossref"
+        ],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5121042998",
+              "display_name": "João Paulo J. Peixoto",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I130913789",
+                "display_name": "Instituto Federal da Bahia",
+                "ror": "https://ror.org/01tzdej37",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I130913789"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I21606457",
+                "display_name": "Universidade Estadual de Feira de Santana",
+                "ror": "https://ror.org/04ygk5j35",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I21606457"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "João Paulo J. Peixoto",
+            "raw_affiliation_strings": [
+              "LAPSID, Federal Institute of Education,Science and Technology of Bahia, Feira de Santana,Brazil"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "LAPSID, Federal Institute of Education,Science and Technology of Bahia, Feira de Santana,Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I130913789",
+                  "https://openalex.org/I21606457"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5121092256",
+              "display_name": "João Carlos N. Bittencourt",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "João Carlos N. Bittencourt",
+            "raw_affiliation_strings": [
+              "CETEC, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "CETEC, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5115794202",
+              "display_name": "Thiago Jesus",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I21606457",
+                "display_name": "Universidade Estadual de Feira de Santana",
+                "ror": "https://ror.org/04ygk5j35",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I21606457"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Thiago C. Jesus",
+            "raw_affiliation_strings": [
+              "DTEC, State University of Feira de Santana,Brazil"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "DTEC, State University of Feira de Santana,Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I21606457"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5103572550",
+              "display_name": "D. M. Costa",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Daniel G. Costa",
+            "raw_affiliation_strings": [
+              "Faculty of Engineering, University of Porto,Porto,Portugal"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Faculty of Engineering, University of Porto,Porto,Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
+          }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 2,
+        "institutions_distinct_count": 4,
+        "corresponding_author_ids": [
+          "https://openalex.org/A5121042998"
+        ],
+        "corresponding_institution_ids": [
+          "https://openalex.org/I130913789",
+          "https://openalex.org/I21606457"
+        ],
+        "apc_list": null,
+        "apc_paid": null,
+        "fwci": 0,
+        "has_fulltext": false,
+        "cited_by_count": 0,
+        "citation_normalized_percentile": {
+          "value": 0.80659441,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "cited_by_percentile_year": null,
+        "biblio": {
+          "volume": null,
+          "issue": null,
+          "first_page": "1",
+          "last_page": "6"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+          "id": "https://openalex.org/T10747",
+          "display_name": "Disaster Management and Resilience",
+          "score": 0.5059999823570251,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3312",
+            "display_name": "Sociology and Political Science"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10747",
+            "display_name": "Disaster Management and Resilience",
+            "score": 0.5059999823570251,
+            "subfield": {
+              "id": "https://openalex.org/subfields/3312",
+              "display_name": "Sociology and Political Science"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/33",
+              "display_name": "Social Sciences"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/2",
+              "display_name": "Social Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T11121",
+            "display_name": "Public Relations and Crisis Communication",
+            "score": 0.07729999721050262,
+            "subfield": {
+              "id": "https://openalex.org/subfields/3315",
+              "display_name": "Communication"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/33",
+              "display_name": "Social Sciences"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/2",
+              "display_name": "Social Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T11500",
+            "display_name": "Evacuation and Crowd Dynamics",
+            "score": 0.039400000125169754,
+            "subfield": {
+              "id": "https://openalex.org/subfields/2212",
+              "display_name": "Ocean Engineering"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/22",
+              "display_name": "Engineering"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/identification",
+            "display_name": "Identification (biology)",
+            "score": 0.2572000026702881
+          },
+          {
+            "id": "https://openalex.org/keywords/set",
+            "display_name": "Set (abstract data type)",
+            "score": 0.2558000087738037
+          },
+          {
+            "id": "https://openalex.org/keywords/emergency-response",
+            "display_name": "Emergency response",
+            "score": 0.24300000071525574
+          },
+          {
+            "id": "https://openalex.org/keywords/risk-assessment",
+            "display_name": "Risk assessment",
+            "score": 0.24130000174045563
+          },
+          {
+            "id": "https://openalex.org/keywords/vulnerability",
+            "display_name": "Vulnerability (computing)",
+            "score": 0.2337000072002411
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "wikidata": "https://www.wikidata.org/wiki/Q21198",
+            "display_name": "Computer science",
+            "level": 0,
+            "score": 0.387800008058548
+          },
+          {
+            "id": "https://openalex.org/C112930515",
+            "wikidata": "https://www.wikidata.org/wiki/Q4389547",
+            "display_name": "Risk analysis (engineering)",
+            "level": 1,
+            "score": 0.3504999876022339
+          },
+          {
+            "id": "https://openalex.org/C116834253",
+            "wikidata": "https://www.wikidata.org/wiki/Q2039217",
+            "display_name": "Identification (biology)",
+            "level": 2,
+            "score": 0.2572000026702881
+          },
+          {
+            "id": "https://openalex.org/C177264268",
+            "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+            "display_name": "Set (abstract data type)",
+            "level": 2,
+            "score": 0.2558000087738037
+          },
+          {
+            "id": "https://openalex.org/C144133560",
+            "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+            "display_name": "Business",
+            "level": 0,
+            "score": 0.2524999976158142
+          },
+          {
+            "id": "https://openalex.org/C127413603",
+            "wikidata": "https://www.wikidata.org/wiki/Q11023",
+            "display_name": "Engineering",
+            "level": 0,
+            "score": 0.24809999763965607
+          },
+          {
+            "id": "https://openalex.org/C3017997152",
+            "wikidata": "https://www.wikidata.org/wiki/Q814610",
+            "display_name": "Emergency response",
+            "level": 2,
+            "score": 0.24300000071525574
+          },
+          {
+            "id": "https://openalex.org/C12174686",
+            "wikidata": "https://www.wikidata.org/wiki/Q1058438",
+            "display_name": "Risk assessment",
+            "level": 2,
+            "score": 0.24130000174045563
+          },
+          {
+            "id": "https://openalex.org/C95713431",
+            "wikidata": "https://www.wikidata.org/wiki/Q631425",
+            "display_name": "Vulnerability (computing)",
+            "level": 2,
+            "score": 0.2337000072002411
+          },
+          {
+            "id": "https://openalex.org/C133462117",
+            "wikidata": "https://www.wikidata.org/wiki/Q4929239",
+            "display_name": "Data collection",
+            "level": 2,
+            "score": 0.23309999704360962
+          }
+        ],
+        "mesh": [],
+        "locations_count": 1,
+        "locations": [
+          {
+            "id": "doi:10.1109/isc266238.2025.11293334",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/isc266238.2025.11293334",
+            "pdf_url": null,
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "2025 IEEE International Smart Cities Conference (ISC2)",
+            "raw_type": "proceedings-article"
+          }
+        ],
+        "best_oa_location": null,
+        "sustainable_development_goals": [
+          {
+            "score": 0.7388870120048523,
+            "display_name": "Sustainable cities and communities",
+            "id": "https://metadata.un.org/sdg/11"
+          }
+        ],
+        "awards": [],
+        "funders": [],
+        "has_content": {
+          "pdf": false,
+          "grobid_xml": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 22,
+        "referenced_works": [
+          "https://openalex.org/W2166162996",
+          "https://openalex.org/W2220987254",
+          "https://openalex.org/W2415575434",
+          "https://openalex.org/W2766179191",
+          "https://openalex.org/W3120694366",
+          "https://openalex.org/W3157433837",
+          "https://openalex.org/W3211819999",
+          "https://openalex.org/W4205617008",
+          "https://openalex.org/W4220696646",
+          "https://openalex.org/W4225787819",
+          "https://openalex.org/W4309675422",
+          "https://openalex.org/W4309683219",
+          "https://openalex.org/W4312099132",
+          "https://openalex.org/W4385429935",
+          "https://openalex.org/W4388842249",
+          "https://openalex.org/W4391309350",
+          "https://openalex.org/W4391884244",
+          "https://openalex.org/W4396677387",
+          "https://openalex.org/W4402784259",
+          "https://openalex.org/W4408550104",
+          "https://openalex.org/W4408837961",
+          "https://openalex.org/W4410069375"
+        ],
+        "related_works": [],
+        "abstract_inverted_index": null,
+        "counts_by_year": [],
+        "updated_date": "2025-12-24T23:09:58.560324",
+        "created_date": "2025-12-23T00:00:00"
+      }
+    },
+    {
+      "id": "https://openalex.org/W7116829861",
+      "title": "A Multi-Domain Geospatial Framework for the Assessment of Urban Preparedness to Emergencies",
+      "authors": [
+        {
+          "name": "João Carlos N. Bittencourt",
+          "orcid": null,
+          "isCorresponding": true,
+          "position": "first"
+        },
+        {
+          "name": "Paulo Portugal",
+          "orcid": "https://orcid.org/0000-0002-6386-9753",
+          "isCorresponding": false,
+          "position": "middle"
+        },
+        {
+          "name": "D. M. Costa",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "last"
+        }
+      ],
+      "journal": "2025 IEEE International Smart Cities Conference (ISC2)",
+      "year": 2025,
+      "month": 10,
+      "date": "2025-10-06",
+      "doi": "https://doi.org/10.1109/isc266238.2025.11293347",
+      "url": "https://doi.org/10.1109/isc266238.2025.11293347",
+      "citations": 0,
+      "isOpenAccess": false,
+      "oaUrl": null,
+      "volume": null,
+      "issue": null,
+      "pages": {
+        "first": "1",
+        "last": "6"
+      },
+      "keywords": [
+        "Geospatial analysis",
+        "Preparedness",
+        "Disaster preparedness",
+        "Emergency management",
+        "Geographic information system",
+        "Work (physics)",
+        "Vulnerability assessment"
+      ],
+      "topics": [
+        "Geographic Information Systems Studies",
+        "Flood Risk Assessment and Management",
+        "Infrastructure Resilience and Vulnerability Analysis"
+      ],
+      "abstract": null,
+      "venue": null,
+      "language": null,
+      "isRetracted": false,
+      "citationsPerYear": [],
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
+      "_raw": {
+        "id": "https://openalex.org/W7116829861",
+        "doi": "https://doi.org/10.1109/isc266238.2025.11293347",
+        "title": "A Multi-Domain Geospatial Framework for the Assessment of Urban Preparedness to Emergencies",
+        "display_name": "A Multi-Domain Geospatial Framework for the Assessment of Urban Preparedness to Emergencies",
+        "publication_year": 2025,
+        "publication_date": "2025-10-06",
+        "ids": {
+          "openalex": "https://openalex.org/W7116829861",
+          "doi": "https://doi.org/10.1109/isc266238.2025.11293347"
+        },
+        "language": null,
+        "primary_location": {
+          "id": "doi:10.1109/isc266238.2025.11293347",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/isc266238.2025.11293347",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 IEEE International Smart Cities Conference (ISC2)",
+          "raw_type": "proceedings-article"
+        },
+        "type": "article",
+        "indexed_in": [
+          "crossref"
+        ],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5121092256",
+              "display_name": "João Carlos N. Bittencourt",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "João Carlos N. Bittencourt",
+            "raw_affiliation_strings": [
+              "CETEC, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "CETEC, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5091913710",
+              "display_name": "Paulo Portugal",
+              "orcid": "https://orcid.org/0000-0002-6386-9753"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Paulo Portugal",
+            "raw_affiliation_strings": [
+              "SYSTEC-ARISE, University of Porto,Faculty of Engineering,Portugal"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "SYSTEC-ARISE, University of Porto,Faculty of Engineering,Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5103572550",
+              "display_name": "D. M. Costa",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Daniel G. Costa",
+            "raw_affiliation_strings": [
+              "SYSTEC-ARISE, University of Porto,Faculty of Engineering,Portugal"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "SYSTEC-ARISE, University of Porto,Faculty of Engineering,Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
+          }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 2,
+        "institutions_distinct_count": 3,
+        "corresponding_author_ids": [
+          "https://openalex.org/A5121092256"
+        ],
+        "corresponding_institution_ids": [
+          "https://openalex.org/I126158947"
+        ],
+        "apc_list": null,
+        "apc_paid": null,
+        "fwci": 0,
+        "has_fulltext": false,
+        "cited_by_count": 0,
+        "citation_normalized_percentile": {
+          "value": 0.81013509,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "cited_by_percentile_year": null,
+        "biblio": {
+          "volume": null,
+          "issue": null,
+          "first_page": "1",
+          "last_page": "6"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+          "id": "https://openalex.org/T10757",
+          "display_name": "Geographic Information Systems Studies",
+          "score": 0.2151000052690506,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3305",
+            "display_name": "Geography, Planning and Development"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/33",
+            "display_name": "Social Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10757",
+            "display_name": "Geographic Information Systems Studies",
+            "score": 0.2151000052690506,
+            "subfield": {
+              "id": "https://openalex.org/subfields/3305",
+              "display_name": "Geography, Planning and Development"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/33",
+              "display_name": "Social Sciences"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/2",
+              "display_name": "Social Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10930",
+            "display_name": "Flood Risk Assessment and Management",
+            "score": 0.14869999885559082,
+            "subfield": {
+              "id": "https://openalex.org/subfields/2306",
+              "display_name": "Global and Planetary Change"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/23",
+              "display_name": "Environmental Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T11807",
+            "display_name": "Infrastructure Resilience and Vulnerability Analysis",
+            "score": 0.1136000007390976,
+            "subfield": {
+              "id": "https://openalex.org/subfields/2205",
+              "display_name": "Civil and Structural Engineering"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/22",
+              "display_name": "Engineering"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/geospatial-analysis",
+            "display_name": "Geospatial analysis",
+            "score": 0.6603999733924866
+          },
+          {
+            "id": "https://openalex.org/keywords/preparedness",
+            "display_name": "Preparedness",
+            "score": 0.4154999852180481
+          },
+          {
+            "id": "https://openalex.org/keywords/disaster-preparedness",
+            "display_name": "Disaster preparedness",
+            "score": 0.40849998593330383
+          },
+          {
+            "id": "https://openalex.org/keywords/emergency-management",
+            "display_name": "Emergency management",
+            "score": 0.3425000011920929
+          },
+          {
+            "id": "https://openalex.org/keywords/geographic-information-system",
+            "display_name": "Geographic information system",
+            "score": 0.34040001034736633
+          },
+          {
+            "id": "https://openalex.org/keywords/work",
+            "display_name": "Work (physics)",
+            "score": 0.29420000314712524
+          },
+          {
+            "id": "https://openalex.org/keywords/vulnerability-assessment",
+            "display_name": "Vulnerability assessment",
+            "score": 0.28870001435279846
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C9770341",
+            "wikidata": "https://www.wikidata.org/wiki/Q1938983",
+            "display_name": "Geospatial analysis",
+            "level": 2,
+            "score": 0.6603999733924866
+          },
+          {
+            "id": "https://openalex.org/C91375879",
+            "wikidata": "https://www.wikidata.org/wiki/Q15473274",
+            "display_name": "Environmental planning",
+            "level": 1,
+            "score": 0.5181999802589417
+          },
+          {
+            "id": "https://openalex.org/C2777042776",
+            "wikidata": "https://www.wikidata.org/wiki/Q4583103",
+            "display_name": "Preparedness",
+            "level": 2,
+            "score": 0.4154999852180481
+          },
+          {
+            "id": "https://openalex.org/C3020699826",
+            "wikidata": "https://www.wikidata.org/wiki/Q1460420",
+            "display_name": "Disaster preparedness",
+            "level": 3,
+            "score": 0.40849998593330383
+          },
+          {
+            "id": "https://openalex.org/C62555980",
+            "wikidata": "https://www.wikidata.org/wiki/Q1460420",
+            "display_name": "Emergency management",
+            "level": 2,
+            "score": 0.3425000011920929
+          },
+          {
+            "id": "https://openalex.org/C205649164",
+            "wikidata": "https://www.wikidata.org/wiki/Q1071",
+            "display_name": "Geography",
+            "level": 0,
+            "score": 0.3407999873161316
+          },
+          {
+            "id": "https://openalex.org/C41856607",
+            "wikidata": "https://www.wikidata.org/wiki/Q483130",
+            "display_name": "Geographic information system",
+            "level": 2,
+            "score": 0.34040001034736633
+          },
+          {
+            "id": "https://openalex.org/C107826830",
+            "wikidata": "https://www.wikidata.org/wiki/Q929380",
+            "display_name": "Environmental resource management",
+            "level": 1,
+            "score": 0.33880001306533813
+          },
+          {
+            "id": "https://openalex.org/C144133560",
+            "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+            "display_name": "Business",
+            "level": 0,
+            "score": 0.3352000117301941
+          },
+          {
+            "id": "https://openalex.org/C18762648",
+            "wikidata": "https://www.wikidata.org/wiki/Q42213",
+            "display_name": "Work (physics)",
+            "level": 2,
+            "score": 0.29420000314712524
+          },
+          {
+            "id": "https://openalex.org/C167063184",
+            "wikidata": "https://www.wikidata.org/wiki/Q1400839",
+            "display_name": "Vulnerability assessment",
+            "level": 3,
+            "score": 0.28870001435279846
+          },
+          {
+            "id": "https://openalex.org/C95713431",
+            "wikidata": "https://www.wikidata.org/wiki/Q631425",
+            "display_name": "Vulnerability (computing)",
+            "level": 2,
+            "score": 0.28450000286102295
+          },
+          {
+            "id": "https://openalex.org/C12174686",
+            "wikidata": "https://www.wikidata.org/wiki/Q1058438",
+            "display_name": "Risk assessment",
+            "level": 2,
+            "score": 0.28040000796318054
+          },
+          {
+            "id": "https://openalex.org/C12780434",
+            "wikidata": "https://www.wikidata.org/wiki/Q619798",
+            "display_name": "Geomatics",
+            "level": 2,
+            "score": 0.2770000100135803
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "wikidata": "https://www.wikidata.org/wiki/Q21198",
+            "display_name": "Computer science",
+            "level": 0,
+            "score": 0.2757999897003174
+          },
+          {
+            "id": "https://openalex.org/C49545453",
+            "wikidata": "https://www.wikidata.org/wiki/Q69883",
+            "display_name": "Urban planning",
+            "level": 2,
+            "score": 0.27129998803138733
+          },
+          {
+            "id": "https://openalex.org/C9652623",
+            "wikidata": "https://www.wikidata.org/wiki/Q190109",
+            "display_name": "Field (mathematics)",
+            "level": 2,
+            "score": 0.2644999921321869
+          },
+          {
+            "id": "https://openalex.org/C166566181",
+            "wikidata": "https://www.wikidata.org/wiki/Q8065",
+            "display_name": "Natural disaster",
+            "level": 2,
+            "score": 0.26350000500679016
+          },
+          {
+            "id": "https://openalex.org/C2779343474",
+            "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+            "display_name": "Context (archaeology)",
+            "level": 2,
+            "score": 0.25859999656677246
+          },
+          {
+            "id": "https://openalex.org/C108170787",
+            "wikidata": "https://www.wikidata.org/wiki/Q3951828",
+            "display_name": "Agency (philosophy)",
+            "level": 2,
+            "score": 0.25529998540878296
+          }
+        ],
+        "mesh": [],
+        "locations_count": 1,
+        "locations": [
+          {
+            "id": "doi:10.1109/isc266238.2025.11293347",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/isc266238.2025.11293347",
+            "pdf_url": null,
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "2025 IEEE International Smart Cities Conference (ISC2)",
+            "raw_type": "proceedings-article"
+          }
+        ],
+        "best_oa_location": null,
+        "sustainable_development_goals": [
+          {
+            "score": 0.5884582996368408,
+            "display_name": "Climate action",
+            "id": "https://metadata.un.org/sdg/13"
+          }
+        ],
+        "awards": [],
+        "funders": [],
+        "has_content": {
+          "pdf": false,
+          "grobid_xml": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 18,
+        "referenced_works": [
+          "https://openalex.org/W2220987254",
+          "https://openalex.org/W2738528086",
+          "https://openalex.org/W2754777630",
+          "https://openalex.org/W2926874514",
+          "https://openalex.org/W2978145350",
+          "https://openalex.org/W2991653145",
+          "https://openalex.org/W3091115062",
+          "https://openalex.org/W3213100700",
+          "https://openalex.org/W4206568608",
+          "https://openalex.org/W4210797024",
+          "https://openalex.org/W4378449897",
+          "https://openalex.org/W4387233406",
+          "https://openalex.org/W4391884244",
+          "https://openalex.org/W4400651064",
+          "https://openalex.org/W4400975104",
+          "https://openalex.org/W4406669951",
+          "https://openalex.org/W4410069375",
+          "https://openalex.org/W4412451150"
+        ],
+        "related_works": [],
+        "abstract_inverted_index": null,
+        "counts_by_year": [],
+        "updated_date": "2025-12-24T23:09:58.560324",
+        "created_date": "2025-12-23T00:00:00"
       }
     },
     {
@@ -811,7 +3712,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4415399895",
         "doi": "https://doi.org/10.1109/etfa65518.2025.11205783",
@@ -1084,8 +3985,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -1144,7 +4045,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4415400256",
         "doi": "https://doi.org/10.1109/etfa65518.2025.11205590",
@@ -1381,8 +4282,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -1468,7 +4369,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4412640748",
         "doi": "https://doi.org/10.21203/rs.3.rs-7131966/v1",
@@ -2080,8 +4981,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4412640748.pdf",
@@ -2638,7 +5539,7 @@
           "cited_by_count": 4
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4412451150",
         "doi": "https://doi.org/10.1016/j.ijdrr.2025.105681",
@@ -3272,8 +6173,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 70,
@@ -3460,7 +6361,7 @@
           "cited_by_count": 8
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4410069375",
         "doi": "https://doi.org/10.3390/smartcities8030077",
@@ -3961,8 +6862,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": false
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4410069375.pdf"
@@ -4693,7 +7594,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4404356577",
         "doi": "https://doi.org/10.1007/978-3-031-73497-7_32",
@@ -5195,8 +8096,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 20,
@@ -5338,7 +8239,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4401046855",
         "doi": "https://doi.org/10.1016/j.mex.2024.102880",
@@ -6017,8 +8918,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": false
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4401046855.pdf"
@@ -6143,7 +9044,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4401113675",
         "doi": "https://doi.org/10.1109/melecon56669.2024.10608598",
@@ -6517,8 +9418,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 18,
@@ -6623,7 +9524,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4403022658",
         "doi": "https://doi.org/10.1109/scfc62024.2024.10698740",
@@ -6944,8 +9845,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 10,
@@ -7046,7 +9947,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.564Z",
+      "lastUpdated": "2026-02-06T16:04:37.730Z",
       "_raw": {
         "id": "https://openalex.org/W4403022638",
         "doi": "https://doi.org/10.1109/scfc62024.2024.10698207",
@@ -7432,8 +10333,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 19,
@@ -7586,7 +10487,7 @@
           "cited_by_count": 6
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.565Z",
+      "lastUpdated": "2026-02-06T16:04:37.731Z",
       "_raw": {
         "id": "https://openalex.org/W4396677387",
         "doi": "https://doi.org/10.1016/j.scs.2024.105477",
@@ -8268,8 +11169,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 86,
@@ -9030,7 +11931,7 @@
           "cited_by_count": 19
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.565Z",
+      "lastUpdated": "2026-02-06T16:04:37.731Z",
       "_raw": {
         "id": "https://openalex.org/W4390751318",
         "doi": "https://doi.org/10.3390/su16020640",
@@ -9710,8 +12611,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": false
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4390751318.pdf"
@@ -10428,7 +13329,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.565Z",
+      "lastUpdated": "2026-02-06T16:04:37.731Z",
       "_raw": {
         "id": "https://openalex.org/W4402435481",
         "doi": "https://doi.org/10.1109/rita.2024.3458850",
@@ -10837,8 +13738,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 25,
@@ -10981,7 +13882,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.565Z",
+      "lastUpdated": "2026-02-06T16:04:37.731Z",
       "_raw": {
         "id": "https://openalex.org/W4400975104",
         "doi": "https://doi.org/10.1109/access.2024.3433381",
@@ -11432,8 +14333,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 155,
@@ -12251,7 +15152,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.565Z",
+      "lastUpdated": "2026-02-06T16:04:37.731Z",
       "_raw": {
         "id": "https://openalex.org/W4389045321",
         "doi": "https://doi.org/10.24840/2183-6493_009-005_002156",
@@ -12813,8 +15714,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": false
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4389045321.pdf"
@@ -13380,7 +16281,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.565Z",
+      "lastUpdated": "2026-02-06T16:04:37.732Z",
       "_raw": {
         "id": "https://openalex.org/W4388842249",
         "doi": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
@@ -14119,8 +17020,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 78,
@@ -14987,7 +17888,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.565Z",
+      "lastUpdated": "2026-02-06T16:04:37.732Z",
       "_raw": {
         "id": "https://openalex.org/W4388088101",
         "doi": "https://doi.org/10.1109/isc257844.2023.10293735",
@@ -15550,8 +18451,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 12,
@@ -16002,7 +18903,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.566Z",
+      "lastUpdated": "2026-02-06T16:04:37.732Z",
       "_raw": {
         "id": "https://openalex.org/W4402510102",
         "doi": "https://doi.org/10.5753/erbase.2022.228873",
@@ -16232,8 +19133,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": false
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4402510102.pdf"
@@ -16671,7 +19572,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.566Z",
+      "lastUpdated": "2026-02-06T16:04:37.733Z",
       "_raw": {
         "id": "https://openalex.org/W4312248886",
         "doi": "https://doi.org/10.37702/cobenge.2022.3840",
@@ -16986,8 +19887,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": false
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4312248886.pdf"
@@ -17408,7 +20309,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.566Z",
+      "lastUpdated": "2026-02-06T16:04:37.733Z",
       "_raw": {
         "id": "https://openalex.org/W4312384372",
         "doi": "https://doi.org/10.37702/cobenge.2022.3836",
@@ -17949,8 +20850,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4312384372.pdf",
@@ -18343,7 +21244,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.566Z",
+      "lastUpdated": "2026-02-06T16:04:37.733Z",
       "_raw": {
         "id": "https://openalex.org/W4285342612",
         "doi": "https://doi.org/10.5753/erbase.2021.20366",
@@ -18721,8 +21622,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4285342612.pdf",
@@ -19088,7 +21989,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.566Z",
+      "lastUpdated": "2026-02-06T16:04:37.733Z",
       "_raw": {
         "id": "https://openalex.org/W4285342487",
         "doi": "https://doi.org/10.5753/erbase.2021.20062",
@@ -19486,8 +22387,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4285342487.pdf",
@@ -19981,7 +22882,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.566Z",
+      "lastUpdated": "2026-02-06T16:04:37.733Z",
       "_raw": {
         "id": "https://openalex.org/W3111267421",
         "doi": "https://doi.org/10.48011/asba.v2i1.971",
@@ -20391,8 +23292,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -20836,7 +23737,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.566Z",
+      "lastUpdated": "2026-02-06T16:04:37.733Z",
       "_raw": {
         "id": "https://openalex.org/W3113358243",
         "doi": "https://doi.org/10.48011/asba.v2i1.1333",
@@ -21455,8 +24356,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -21960,7 +24861,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.566Z",
+      "lastUpdated": "2026-02-06T16:04:37.733Z",
       "_raw": {
         "id": "https://openalex.org/W3035676811",
         "doi": "https://doi.org/10.22533/at.ed.87220080611",
@@ -22328,8 +25229,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -22421,7 +25322,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.566Z",
+      "lastUpdated": "2026-02-06T16:04:37.733Z",
       "_raw": {
         "id": "https://openalex.org/W3041937156",
         "doi": "https://doi.org/10.36558/rsc.v10i1.6643",
@@ -22712,8 +25613,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -23205,7 +26106,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.566Z",
+      "lastUpdated": "2026-02-06T16:04:37.733Z",
       "_raw": {
         "id": "https://openalex.org/W2986411918",
         "doi": "https://doi.org/10.5151/siintec2019-45",
@@ -23845,8 +26746,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W2986411918.pdf",
@@ -24293,7 +27194,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.567Z",
+      "lastUpdated": "2026-02-06T16:04:37.733Z",
       "_raw": {
         "id": "https://openalex.org/W2998133484",
         "doi": "https://doi.org/10.1109/h2rc49586.2019.00012",
@@ -25234,8 +28135,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 23,
@@ -25704,7 +28605,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-06T15:46:53.567Z",
+      "lastUpdated": "2026-02-06T16:04:37.734Z",
       "_raw": {
         "id": "https://openalex.org/W2939288824",
         "doi": null,
@@ -25909,8 +28810,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -26823,7 +29724,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.567Z",
+      "lastUpdated": "2026-02-06T16:04:37.734Z",
       "_raw": {
         "id": "https://openalex.org/W2782499739",
         "doi": "https://doi.org/10.1109/chilecon.2017.8229606",
@@ -27342,8 +30243,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 21,
@@ -27880,7 +30781,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.567Z",
+      "lastUpdated": "2026-02-06T16:04:37.734Z",
       "_raw": {
         "id": "https://openalex.org/W2184065042",
         "doi": "https://doi.org/10.1109/patmos.2015.7347589",
@@ -28412,8 +31313,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 15,
@@ -28790,7 +31691,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.567Z",
+      "lastUpdated": "2026-02-06T16:04:37.734Z",
       "_raw": {
         "id": "https://openalex.org/W1927039319",
         "doi": "https://doi.org/10.1109/dsd.2015.55",
@@ -29359,8 +32260,8 @@
           }
         ],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 7,
@@ -29809,7 +32710,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.567Z",
+      "lastUpdated": "2026-02-06T16:04:37.734Z",
       "_raw": {
         "id": "https://openalex.org/W334391379",
         "doi": null,
@@ -30306,8 +33207,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 6,
@@ -30703,7 +33604,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.567Z",
+      "lastUpdated": "2026-02-06T16:04:37.734Z",
       "_raw": {
         "id": "https://openalex.org/W1835217957",
         "doi": null,
@@ -31117,8 +34018,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": false
+          "pdf": false,
+          "grobid_xml": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -31336,11 +34237,11 @@
     }
   ],
   "stats": {
-    "totalPapers": 36,
+    "totalPapers": 40,
     "totalCitations": 177,
     "hIndex": 6,
-    "openAccessCount": 16,
-    "averageCitations": 4.9,
+    "openAccessCount": 17,
+    "averageCitations": 4.4,
     "publicationsByYear": {
       "2010": 1,
       "2011": 1,
@@ -31352,10 +34253,11 @@
       "2022": 3,
       "2023": 3,
       "2024": 9,
-      "2025": 7
+      "2025": 10,
+      "2026": 1
     },
     "publicationsByType": {
-      "other": 36
+      "other": 40
     },
     "mostCitedPaper": {
       "id": "https://openalex.org/W4390751318",
@@ -31464,7 +34366,7 @@
           "cited_by_count": 19
         }
       ],
-      "lastUpdated": "2026-02-06T15:46:53.565Z",
+      "lastUpdated": "2026-02-06T16:04:37.731Z",
       "_raw": {
         "id": "https://openalex.org/W4390751318",
         "doi": "https://doi.org/10.3390/su16020640",
@@ -32144,8 +35046,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "grobid_xml": false,
-          "pdf": true
+          "pdf": true,
+          "grobid_xml": false
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4390751318.pdf"
@@ -32779,8 +35681,8 @@
         "created_date": "2025-10-10T00:00:00"
       }
     },
-    "recentPapers": 16
+    "recentPapers": 20
   },
-  "lastFetched": "2026-02-06T15:46:53.567Z",
-  "totalCount": 36
+  "lastFetched": "2026-02-06T16:04:37.734Z",
+  "totalCount": 40
 }
