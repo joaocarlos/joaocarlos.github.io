@@ -63,7 +63,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.901Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4415969055",
         "doi": "https://doi.org/10.1109/iecon58223.2025.11221897",
@@ -370,27 +370,27 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 15,
         "referenced_works": [
-          "https://openalex.org/W4386432334",
-          "https://openalex.org/W2904619258",
-          "https://openalex.org/W4361731452",
-          "https://openalex.org/W4401509262",
-          "https://openalex.org/W4312933711",
-          "https://openalex.org/W3159134414",
-          "https://openalex.org/W3100279757",
-          "https://openalex.org/W2794255393",
-          "https://openalex.org/W4327723565",
-          "https://openalex.org/W3003910048",
-          "https://openalex.org/W2898820452",
-          "https://openalex.org/W3003333072",
           "https://openalex.org/W1990874150",
+          "https://openalex.org/W2794255393",
+          "https://openalex.org/W2898820452",
+          "https://openalex.org/W2904619258",
+          "https://openalex.org/W3003333072",
+          "https://openalex.org/W3003910048",
+          "https://openalex.org/W3100279757",
+          "https://openalex.org/W3159134414",
+          "https://openalex.org/W4312933711",
+          "https://openalex.org/W4327723565",
+          "https://openalex.org/W4361731452",
+          "https://openalex.org/W4377007911",
+          "https://openalex.org/W4386432334",
           "https://openalex.org/W4389049507",
-          "https://openalex.org/W4377007911"
+          "https://openalex.org/W4401509262"
         ],
         "related_works": [],
         "abstract_inverted_index": null,
@@ -456,7 +456,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.901Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4415968617",
         "doi": "https://doi.org/10.1109/iecon58223.2025.11221503",
@@ -727,29 +727,29 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 17,
         "referenced_works": [
-          "https://openalex.org/W4224930816",
-          "https://openalex.org/W4406669951",
+          "https://openalex.org/W3036110345",
           "https://openalex.org/W3149789106",
           "https://openalex.org/W3158361426",
-          "https://openalex.org/W4214696403",
-          "https://openalex.org/W4375950491",
-          "https://openalex.org/W4401110476",
-          "https://openalex.org/W4401113675",
-          "https://openalex.org/W4386919490",
-          "https://openalex.org/W4308087296",
-          "https://openalex.org/W4388964189",
           "https://openalex.org/W4210537645",
+          "https://openalex.org/W4214696403",
+          "https://openalex.org/W4224930816",
+          "https://openalex.org/W4308087296",
+          "https://openalex.org/W4375950491",
           "https://openalex.org/W4385274658",
+          "https://openalex.org/W4386919490",
+          "https://openalex.org/W4388762053",
+          "https://openalex.org/W4388964189",
           "https://openalex.org/W4389045321",
           "https://openalex.org/W4389819982",
-          "https://openalex.org/W3036110345",
-          "https://openalex.org/W4388762053"
+          "https://openalex.org/W4401110476",
+          "https://openalex.org/W4401113675",
+          "https://openalex.org/W4406669951"
         ],
         "related_works": [],
         "abstract_inverted_index": null,
@@ -811,7 +811,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.901Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4415399895",
         "doi": "https://doi.org/10.1109/etfa65518.2025.11205783",
@@ -1009,7 +1009,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.56266259,
+          "value": 0.54457443,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -1084,8 +1084,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -1144,7 +1144,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.901Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4415400256",
         "doi": "https://doi.org/10.1109/etfa65518.2025.11205590",
@@ -1306,7 +1306,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.5051202,
+          "value": 0.48579768,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -1381,8 +1381,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -1468,7 +1468,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.901Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4412640748",
         "doi": "https://doi.org/10.21203/rs.3.rs-7131966/v1",
@@ -1503,7 +1503,7 @@
           "is_oa": true,
           "oa_status": "gold",
           "oa_url": "https://www.researchsquare.com/article/rs-7131966/latest.pdf",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": null
         },
         "authorships": [
           {
@@ -2051,9 +2051,9 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
             "score": 0.49000000953674316,
-            "display_name": "Sustainable cities and communities"
+            "display_name": "Sustainable cities and communities",
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
         "awards": [],
@@ -2080,8 +2080,8 @@
           }
         ],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4412640748.pdf",
@@ -2537,7 +2537,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-01-25T03:40:55.926884",
+        "updated_date": "2026-01-14T00:41:55.809242",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -2554,7 +2554,7 @@
         {
           "name": "Daniel G. Costa",
           "orcid": "https://orcid.org/0000-0003-3988-8476",
-          "isCorresponding": false,
+          "isCorresponding": true,
           "position": "middle"
         },
         {
@@ -2638,7 +2638,7 @@
           "cited_by_count": 4
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.901Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4412451150",
         "doi": "https://doi.org/10.1016/j.ijdrr.2025.105681",
@@ -2702,12 +2702,59 @@
               "display_name": "João Carlos N. Bittencourt",
               "orcid": "https://orcid.org/0000-0002-4540-512X"
             },
-            "institutions": [],
-            "countries": [],
+            "institutions": [
+              {
+                "id": "https://openalex.org/I129192303",
+                "display_name": "Universidade Federal do Recôncavo da Bahia",
+                "ror": "https://ror.org/057mvv518",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I129192303"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "BR",
+              "PT"
+            ],
             "is_corresponding": true,
             "raw_author_name": "João Carlos N. Bittencourt",
-            "raw_affiliation_strings": [],
-            "affiliations": []
+            "raw_affiliation_strings": [
+              "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas, 44380-000, Bahia, Brazil",
+              "PDEEC, Faculty of Engineering, University of Porto, Porto, 4200-465, Portugal",
+              "SYSTEC-ARISE, Faculty of Engineering, University of Porto, Porto, 4200-465, Portugal"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "CETEC, Federal University of Recôncavo da Bahia, Cruz das Almas, 44380-000, Bahia, Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
+              },
+              {
+                "raw_affiliation_string": "PDEEC, Faculty of Engineering, University of Porto, Porto, 4200-465, Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              },
+              {
+                "raw_affiliation_string": "SYSTEC-ARISE, Faculty of Engineering, University of Porto, Porto, 4200-465, Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
           },
           {
             "author_position": "middle",
@@ -2716,12 +2763,34 @@
               "display_name": "Daniel G. Costa",
               "orcid": "https://orcid.org/0000-0003-3988-8476"
             },
-            "institutions": [],
-            "countries": [],
-            "is_corresponding": false,
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
+            "is_corresponding": true,
             "raw_author_name": "Daniel G. Costa",
-            "raw_affiliation_strings": [],
-            "affiliations": []
+            "raw_affiliation_strings": [
+              "SYSTEC-ARISE, Faculty of Engineering, University of Porto, Porto, 4200-465, Portugal"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "SYSTEC-ARISE, Faculty of Engineering, University of Porto, Porto, 4200-465, Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
           },
           {
             "author_position": "middle",
@@ -2730,12 +2799,34 @@
               "display_name": "Paulo Portugal",
               "orcid": "https://orcid.org/0000-0002-6386-9753"
             },
-            "institutions": [],
-            "countries": [],
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
             "is_corresponding": false,
             "raw_author_name": "Paulo Portugal",
-            "raw_affiliation_strings": [],
-            "affiliations": []
+            "raw_affiliation_strings": [
+              "SYSTEC-ARISE, Faculty of Engineering, University of Porto, Porto, 4200-465, Portugal"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "SYSTEC-ARISE, Faculty of Engineering, University of Porto, Porto, 4200-465, Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
           },
           {
             "author_position": "middle",
@@ -2744,12 +2835,45 @@
               "display_name": "Maycon Peixoto",
               "orcid": "https://orcid.org/0000-0002-4851-5228"
             },
-            "institutions": [],
-            "countries": [],
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I130913789",
+                "display_name": "Instituto Federal da Bahia",
+                "ror": "https://ror.org/01tzdej37",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I130913789"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
             "is_corresponding": false,
             "raw_author_name": "Maycon L.M. Peixoto",
-            "raw_affiliation_strings": [],
-            "affiliations": []
+            "raw_affiliation_strings": [
+              "Institute of Computing, Federal University of Bahia, Salvador, 40170-110, Bahia, Brazil"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Institute of Computing, Federal University of Bahia, Salvador, 40170-110, Bahia, Brazil",
+                "institution_ids": [
+                  "https://openalex.org/I126158947",
+                  "https://openalex.org/I130913789"
+                ]
+              }
+            ]
           },
           {
             "author_position": "last",
@@ -2758,21 +2882,59 @@
               "display_name": "Francisco Vasques",
               "orcid": "https://orcid.org/0000-0003-3115-0901"
             },
-            "institutions": [],
-            "countries": [],
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I4210121509",
+                "display_name": "Institute of Mechanical Engineering and Industrial Mangement",
+                "ror": "https://ror.org/02pk7c879",
+                "country_code": "PT",
+                "type": "facility",
+                "lineage": [
+                  "https://openalex.org/I182534213",
+                  "https://openalex.org/I4210121509"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
             "is_corresponding": false,
             "raw_author_name": "Francisco Vasques",
-            "raw_affiliation_strings": [],
-            "affiliations": []
+            "raw_affiliation_strings": [
+              "INEGI, Faculty of Engineering, University of Porto, Porto, 4200-465, Portugal"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "INEGI, Faculty of Engineering, University of Porto, Porto, 4200-465, Portugal",
+                "institution_ids": [
+                  "https://openalex.org/I182534213",
+                  "https://openalex.org/I4210121509"
+                ]
+              }
+            ]
           }
         ],
         "institutions": [],
-        "countries_distinct_count": 0,
+        "countries_distinct_count": 2,
         "institutions_distinct_count": 5,
         "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
+          "https://openalex.org/A5040609024",
+          "https://openalex.org/A5068969835"
         ],
-        "corresponding_institution_ids": [],
+        "corresponding_institution_ids": [
+          "https://openalex.org/I129192303",
+          "https://openalex.org/I182534213"
+        ],
         "apc_list": {
           "value": 2510,
           "currency": "USD",
@@ -2787,7 +2949,7 @@
         "has_fulltext": false,
         "cited_by_count": 4,
         "citation_normalized_percentile": {
-          "value": 0.97192356,
+          "value": 0.96800519,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
@@ -3096,9 +3258,9 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
             "score": 0.7699999809265137,
-            "display_name": "Sustainable cities and communities"
+            "display_name": "Sustainable cities and communities",
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
         "awards": [],
@@ -3110,82 +3272,82 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 70,
         "referenced_works": [
-          "https://openalex.org/W4390169441",
-          "https://openalex.org/W4313639851",
-          "https://openalex.org/W3175605680",
-          "https://openalex.org/W4366265100",
-          "https://openalex.org/W2902550418",
-          "https://openalex.org/W2977560278",
-          "https://openalex.org/W3091115062",
-          "https://openalex.org/W4396677387",
-          "https://openalex.org/W4403484152",
-          "https://openalex.org/W4380355250",
+          "https://openalex.org/W1987111416",
+          "https://openalex.org/W2026395320",
+          "https://openalex.org/W2123123669",
           "https://openalex.org/W2220987254",
           "https://openalex.org/W2415575434",
-          "https://openalex.org/W2743006184",
-          "https://openalex.org/W4403586178",
-          "https://openalex.org/W2026395320",
-          "https://openalex.org/W3000301417",
-          "https://openalex.org/W6788055571",
-          "https://openalex.org/W3161656049",
-          "https://openalex.org/W3155596533",
-          "https://openalex.org/W4392468567",
-          "https://openalex.org/W6784958905",
-          "https://openalex.org/W6652549246",
-          "https://openalex.org/W6630729371",
-          "https://openalex.org/W2559755935",
-          "https://openalex.org/W4388574518",
-          "https://openalex.org/W4388415965",
-          "https://openalex.org/W4385484119",
-          "https://openalex.org/W2892031733",
-          "https://openalex.org/W6874309500",
-          "https://openalex.org/W6810219469",
-          "https://openalex.org/W4386292952",
-          "https://openalex.org/W6857527992",
-          "https://openalex.org/W4382468083",
-          "https://openalex.org/W6799253906",
-          "https://openalex.org/W4291570752",
-          "https://openalex.org/W6847492531",
           "https://openalex.org/W2460931943",
-          "https://openalex.org/W3135993269",
-          "https://openalex.org/W2948595755",
-          "https://openalex.org/W3014337292",
-          "https://openalex.org/W3043265594",
-          "https://openalex.org/W4404032521",
-          "https://openalex.org/W4388842249",
-          "https://openalex.org/W3157187275",
-          "https://openalex.org/W3041516416",
-          "https://openalex.org/W3048804154",
-          "https://openalex.org/W1987111416",
-          "https://openalex.org/W2923023146",
-          "https://openalex.org/W6859368938",
+          "https://openalex.org/W2559755935",
+          "https://openalex.org/W2743006184",
+          "https://openalex.org/W2892031733",
+          "https://openalex.org/W2902550418",
           "https://openalex.org/W2917040129",
-          "https://openalex.org/W4383378031",
-          "https://openalex.org/W2123123669",
-          "https://openalex.org/W6783421625",
-          "https://openalex.org/W4400975104",
+          "https://openalex.org/W2923023146",
+          "https://openalex.org/W2948595755",
+          "https://openalex.org/W2977560278",
+          "https://openalex.org/W3000301417",
+          "https://openalex.org/W3014337292",
+          "https://openalex.org/W3041516416",
+          "https://openalex.org/W3043265594",
+          "https://openalex.org/W3048804154",
+          "https://openalex.org/W3085824654",
+          "https://openalex.org/W3091115062",
           "https://openalex.org/W3091828613",
-          "https://openalex.org/W4390751318",
-          "https://openalex.org/W4389571446",
+          "https://openalex.org/W3092785986",
+          "https://openalex.org/W3104833050",
+          "https://openalex.org/W3119829852",
+          "https://openalex.org/W3135993269",
+          "https://openalex.org/W3155596533",
+          "https://openalex.org/W3157187275",
+          "https://openalex.org/W3159825887",
+          "https://openalex.org/W3161656049",
+          "https://openalex.org/W3175605680",
+          "https://openalex.org/W4213110526",
+          "https://openalex.org/W4226269702",
+          "https://openalex.org/W4255265358",
+          "https://openalex.org/W4291570752",
+          "https://openalex.org/W4301087345",
+          "https://openalex.org/W4312831287",
+          "https://openalex.org/W4313639851",
+          "https://openalex.org/W4366265100",
+          "https://openalex.org/W4380355250",
+          "https://openalex.org/W4382468083",
+          "https://openalex.org/W4383378031",
+          "https://openalex.org/W4385484119",
+          "https://openalex.org/W4386292952",
           "https://openalex.org/W4387554727",
+          "https://openalex.org/W4388415965",
+          "https://openalex.org/W4388574518",
+          "https://openalex.org/W4388842249",
+          "https://openalex.org/W4389571446",
+          "https://openalex.org/W4390169441",
+          "https://openalex.org/W4390751318",
+          "https://openalex.org/W4392468567",
+          "https://openalex.org/W4396677387",
+          "https://openalex.org/W4400975104",
+          "https://openalex.org/W4403484152",
+          "https://openalex.org/W4403586178",
+          "https://openalex.org/W4404032521",
           "https://openalex.org/W4404318730",
           "https://openalex.org/W4404613602",
-          "https://openalex.org/W3159825887",
-          "https://openalex.org/W3104833050",
-          "https://openalex.org/W3085824654",
-          "https://openalex.org/W3092785986",
-          "https://openalex.org/W3119829852",
-          "https://openalex.org/W4213110526",
-          "https://openalex.org/W4255265358",
-          "https://openalex.org/W4226269702",
-          "https://openalex.org/W4312831287",
-          "https://openalex.org/W4301087345"
+          "https://openalex.org/W6630729371",
+          "https://openalex.org/W6652549246",
+          "https://openalex.org/W6783421625",
+          "https://openalex.org/W6784958905",
+          "https://openalex.org/W6788055571",
+          "https://openalex.org/W6799253906",
+          "https://openalex.org/W6810219469",
+          "https://openalex.org/W6847492531",
+          "https://openalex.org/W6857527992",
+          "https://openalex.org/W6859368938",
+          "https://openalex.org/W6874309500"
         ],
         "related_works": [
           "https://openalex.org/W1883246888",
@@ -3206,7 +3368,7 @@
             "cited_by_count": 4
           }
         ],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2026-02-06T03:54:58.731219",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -3298,7 +3460,7 @@
           "cited_by_count": 8
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.902Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4410069375",
         "doi": "https://doi.org/10.3390/smartcities8030077",
@@ -3353,7 +3515,7 @@
           "is_oa": true,
           "oa_status": "gold",
           "oa_url": "https://www.mdpi.com/2624-6511/8/3/77/pdf?version=1745908429",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": true
         },
         "authorships": [
           {
@@ -3542,12 +3704,12 @@
         "has_fulltext": false,
         "cited_by_count": 9,
         "citation_normalized_percentile": {
-          "value": 0.9868911,
+          "value": 0.98548978,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
         "cited_by_percentile_year": {
-          "min": 99,
+          "min": 98,
           "max": 100
         },
         "biblio": {
@@ -3719,25 +3881,28 @@
           },
           {
             "id": "pmh:oai:doaj.org/article:640a65826afa4df1a542e990ba289b95",
-            "is_oa": false,
+            "is_oa": true,
             "landing_page_url": "https://doaj.org/article/640a65826afa4df1a542e990ba289b95",
             "pdf_url": null,
             "source": {
-              "id": "https://openalex.org/S4306401280",
-              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-              "issn_l": null,
-              "issn": null,
-              "is_oa": false,
-              "is_in_doaj": false,
+              "id": "https://openalex.org/S112646816",
+              "display_name": "SHILAP Revista de lepidopterología",
+              "issn_l": "0300-5267",
+              "issn": [
+                "0300-5267",
+                "2340-4078"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
               "host_organization_lineage": [],
               "host_organization_lineage_names": [],
-              "type": "repository"
+              "type": "journal"
             },
-            "license": null,
-            "license_id": null,
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
             "version": "submittedVersion",
             "is_accepted": false,
             "is_published": false,
@@ -3796,150 +3961,150 @@
           }
         ],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4410069375.pdf"
         },
         "referenced_works_count": 136,
         "referenced_works": [
-          "https://openalex.org/W4210881023",
-          "https://openalex.org/W6850672341",
-          "https://openalex.org/W3022124280",
-          "https://openalex.org/W3096236323",
-          "https://openalex.org/W4393216615",
-          "https://openalex.org/W3120694366",
-          "https://openalex.org/W4402665942",
-          "https://openalex.org/W2761742218",
-          "https://openalex.org/W4237469753",
-          "https://openalex.org/W2908206930",
-          "https://openalex.org/W3006992092",
-          "https://openalex.org/W2968462216",
-          "https://openalex.org/W2012743898",
-          "https://openalex.org/W4285170326",
-          "https://openalex.org/W4400975104",
-          "https://openalex.org/W2901850888",
-          "https://openalex.org/W4390751318",
-          "https://openalex.org/W4393163628",
-          "https://openalex.org/W2072561200",
-          "https://openalex.org/W4386565909",
-          "https://openalex.org/W3007390775",
-          "https://openalex.org/W4280523185",
-          "https://openalex.org/W4292881975",
-          "https://openalex.org/W4378882744",
-          "https://openalex.org/W4388203434",
-          "https://openalex.org/W4394593731",
-          "https://openalex.org/W6870344838",
-          "https://openalex.org/W4401450980",
-          "https://openalex.org/W3162998876",
-          "https://openalex.org/W4366779217",
-          "https://openalex.org/W4210686692",
-          "https://openalex.org/W3205185918",
-          "https://openalex.org/W3023820825",
-          "https://openalex.org/W4313568946",
-          "https://openalex.org/W2965209023",
-          "https://openalex.org/W4385569562",
-          "https://openalex.org/W4221073914",
-          "https://openalex.org/W3093670474",
-          "https://openalex.org/W6841233549",
-          "https://openalex.org/W2994515515",
-          "https://openalex.org/W4291316441",
-          "https://openalex.org/W6859164177",
-          "https://openalex.org/W4321496947",
-          "https://openalex.org/W4220952445",
-          "https://openalex.org/W4383068164",
-          "https://openalex.org/W4380574575",
-          "https://openalex.org/W4393141868",
-          "https://openalex.org/W4362611851",
-          "https://openalex.org/W3087045115",
-          "https://openalex.org/W4392192217",
-          "https://openalex.org/W4200559601",
-          "https://openalex.org/W4225137416",
-          "https://openalex.org/W3195644640",
-          "https://openalex.org/W3119938775",
-          "https://openalex.org/W4283079749",
           "https://openalex.org/W40911477",
-          "https://openalex.org/W4392014897",
-          "https://openalex.org/W4381743307",
-          "https://openalex.org/W2950713130",
+          "https://openalex.org/W1995579106",
           "https://openalex.org/W2006305251",
-          "https://openalex.org/W2789514313",
+          "https://openalex.org/W2012743898",
+          "https://openalex.org/W2072561200",
+          "https://openalex.org/W2082594139",
           "https://openalex.org/W2123726046",
-          "https://openalex.org/W3213246036",
-          "https://openalex.org/W2902543072",
-          "https://openalex.org/W4311775150",
-          "https://openalex.org/W4406822308",
-          "https://openalex.org/W4238394530",
-          "https://openalex.org/W3042146679",
-          "https://openalex.org/W6793616319",
-          "https://openalex.org/W2792509587",
-          "https://openalex.org/W6767078400",
-          "https://openalex.org/W4403022638",
-          "https://openalex.org/W6766234494",
-          "https://openalex.org/W2980104760",
-          "https://openalex.org/W4213351811",
-          "https://openalex.org/W4383955368",
-          "https://openalex.org/W4366547324",
-          "https://openalex.org/W2801957423",
-          "https://openalex.org/W3125858597",
-          "https://openalex.org/W4205247892",
-          "https://openalex.org/W2901551772",
           "https://openalex.org/W2619676563",
-          "https://openalex.org/W6649202547",
-          "https://openalex.org/W3157010890",
+          "https://openalex.org/W2743384080",
+          "https://openalex.org/W2754978208",
+          "https://openalex.org/W2761742218",
+          "https://openalex.org/W2783117961",
+          "https://openalex.org/W2789514313",
+          "https://openalex.org/W2792509587",
+          "https://openalex.org/W2794976606",
+          "https://openalex.org/W2801957423",
+          "https://openalex.org/W2901551772",
+          "https://openalex.org/W2901850888",
+          "https://openalex.org/W2902543072",
+          "https://openalex.org/W2908206930",
           "https://openalex.org/W2910531128",
           "https://openalex.org/W2913656990",
-          "https://openalex.org/W4391474635",
-          "https://openalex.org/W2783117961",
-          "https://openalex.org/W2743384080",
-          "https://openalex.org/W3196539257",
-          "https://openalex.org/W4396674431",
+          "https://openalex.org/W2950713130",
+          "https://openalex.org/W2963231271",
+          "https://openalex.org/W2964705423",
+          "https://openalex.org/W2965209023",
+          "https://openalex.org/W2968462216",
+          "https://openalex.org/W2969018889",
+          "https://openalex.org/W2980104760",
+          "https://openalex.org/W2994515515",
+          "https://openalex.org/W3006992092",
+          "https://openalex.org/W3007390775",
           "https://openalex.org/W3013939214",
-          "https://openalex.org/W4285123134",
-          "https://openalex.org/W4310136233",
-          "https://openalex.org/W4224211730",
-          "https://openalex.org/W4385989283",
-          "https://openalex.org/W4385483372",
-          "https://openalex.org/W3205056669",
-          "https://openalex.org/W4392382237",
-          "https://openalex.org/W3094233077",
-          "https://openalex.org/W6765601569",
-          "https://openalex.org/W3038197466",
-          "https://openalex.org/W4205561327",
-          "https://openalex.org/W3094038993",
-          "https://openalex.org/W4200133688",
-          "https://openalex.org/W2794976606",
-          "https://openalex.org/W4289333755",
-          "https://openalex.org/W4312720000",
-          "https://openalex.org/W4400806894",
-          "https://openalex.org/W4391708110",
-          "https://openalex.org/W4409084319",
-          "https://openalex.org/W4407039757",
-          "https://openalex.org/W4384202169",
-          "https://openalex.org/W4402316314",
-          "https://openalex.org/W4409619161",
-          "https://openalex.org/W3183100395",
-          "https://openalex.org/W4401824102",
-          "https://openalex.org/W4382519431",
-          "https://openalex.org/W4406829217",
-          "https://openalex.org/W2082594139",
-          "https://openalex.org/W2754978208",
-          "https://openalex.org/W4386840331",
-          "https://openalex.org/W4210925349",
-          "https://openalex.org/W4304614241",
+          "https://openalex.org/W3022124280",
+          "https://openalex.org/W3023820825",
           "https://openalex.org/W3034146339",
+          "https://openalex.org/W3038197466",
+          "https://openalex.org/W3042146679",
+          "https://openalex.org/W3087045115",
           "https://openalex.org/W3087653683",
+          "https://openalex.org/W3093670474",
+          "https://openalex.org/W3094038993",
+          "https://openalex.org/W3094233077",
+          "https://openalex.org/W3096236323",
+          "https://openalex.org/W3119938775",
+          "https://openalex.org/W3120694366",
+          "https://openalex.org/W3125858597",
+          "https://openalex.org/W3152623439",
+          "https://openalex.org/W3157010890",
+          "https://openalex.org/W3162998876",
+          "https://openalex.org/W3183100395",
+          "https://openalex.org/W3195644640",
+          "https://openalex.org/W3196539257",
+          "https://openalex.org/W3205056669",
+          "https://openalex.org/W3205185918",
+          "https://openalex.org/W3213246036",
+          "https://openalex.org/W4200133688",
+          "https://openalex.org/W4200559601",
+          "https://openalex.org/W4205247892",
+          "https://openalex.org/W4205561327",
+          "https://openalex.org/W4210686692",
+          "https://openalex.org/W4210881023",
+          "https://openalex.org/W4210925349",
+          "https://openalex.org/W4213351811",
+          "https://openalex.org/W4220952445",
+          "https://openalex.org/W4221073914",
+          "https://openalex.org/W4224211730",
+          "https://openalex.org/W4225137416",
+          "https://openalex.org/W4237469753",
+          "https://openalex.org/W4238394530",
+          "https://openalex.org/W4280523185",
+          "https://openalex.org/W4283079749",
+          "https://openalex.org/W4285123134",
+          "https://openalex.org/W4285170326",
+          "https://openalex.org/W4289333755",
+          "https://openalex.org/W4290458122",
+          "https://openalex.org/W4291316441",
+          "https://openalex.org/W4292881975",
+          "https://openalex.org/W4304614241",
+          "https://openalex.org/W4310136233",
+          "https://openalex.org/W4311775150",
+          "https://openalex.org/W4312720000",
+          "https://openalex.org/W4313568946",
+          "https://openalex.org/W4321496947",
+          "https://openalex.org/W4323038871",
+          "https://openalex.org/W4362611851",
+          "https://openalex.org/W4366547324",
+          "https://openalex.org/W4366779217",
+          "https://openalex.org/W4378882744",
+          "https://openalex.org/W4380574575",
+          "https://openalex.org/W4381743307",
+          "https://openalex.org/W4382519431",
+          "https://openalex.org/W4383068164",
+          "https://openalex.org/W4383955368",
+          "https://openalex.org/W4384202169",
+          "https://openalex.org/W4385483372",
+          "https://openalex.org/W4385569562",
+          "https://openalex.org/W4385989283",
+          "https://openalex.org/W4386565909",
+          "https://openalex.org/W4386840331",
+          "https://openalex.org/W4388203434",
+          "https://openalex.org/W4389279429",
+          "https://openalex.org/W4390751318",
+          "https://openalex.org/W4391474635",
+          "https://openalex.org/W4391708110",
+          "https://openalex.org/W4392014897",
+          "https://openalex.org/W4392192217",
+          "https://openalex.org/W4392382237",
+          "https://openalex.org/W4393141868",
+          "https://openalex.org/W4393163628",
+          "https://openalex.org/W4393216615",
+          "https://openalex.org/W4394593731",
+          "https://openalex.org/W4396674431",
           "https://openalex.org/W4396677387",
           "https://openalex.org/W4400258056",
-          "https://openalex.org/W4389279429",
-          "https://openalex.org/W2964705423",
-          "https://openalex.org/W2969018889",
-          "https://openalex.org/W3152623439",
-          "https://openalex.org/W1995579106",
-          "https://openalex.org/W4323038871",
-          "https://openalex.org/W4290458122",
-          "https://openalex.org/W2963231271"
+          "https://openalex.org/W4400806894",
+          "https://openalex.org/W4400975104",
+          "https://openalex.org/W4401450980",
+          "https://openalex.org/W4401824102",
+          "https://openalex.org/W4402316314",
+          "https://openalex.org/W4402665942",
+          "https://openalex.org/W4403022638",
+          "https://openalex.org/W4406822308",
+          "https://openalex.org/W4406829217",
+          "https://openalex.org/W4407039757",
+          "https://openalex.org/W4409084319",
+          "https://openalex.org/W4409619161",
+          "https://openalex.org/W6649202547",
+          "https://openalex.org/W6765601569",
+          "https://openalex.org/W6766234494",
+          "https://openalex.org/W6767078400",
+          "https://openalex.org/W6793616319",
+          "https://openalex.org/W6841233549",
+          "https://openalex.org/W6850672341",
+          "https://openalex.org/W6859164177",
+          "https://openalex.org/W6870344838"
         ],
         "related_works": [
           "https://openalex.org/W4391375266",
@@ -4437,7 +4602,7 @@
             "cited_by_count": 8
           }
         ],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2026-02-05T00:54:17.221276",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -4528,7 +4693,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.902Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4404356577",
         "doi": "https://doi.org/10.1007/978-3-031-73497-7_32",
@@ -4783,7 +4948,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.53358562,
+          "value": 0.53046764,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -5022,40 +5187,40 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/13",
             "score": 0.699999988079071,
-            "display_name": "Climate action"
+            "display_name": "Climate action",
+            "id": "https://metadata.un.org/sdg/13"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 20,
         "referenced_works": [
-          "https://openalex.org/W4394879265",
           "https://openalex.org/W2108598243",
-          "https://openalex.org/W4206508368",
-          "https://openalex.org/W3094502228",
-          "https://openalex.org/W4328097852",
-          "https://openalex.org/W4385359060",
-          "https://openalex.org/W3035435178",
           "https://openalex.org/W2768148511",
           "https://openalex.org/W2998227069",
-          "https://openalex.org/W3129646349",
-          "https://openalex.org/W4392969777",
+          "https://openalex.org/W3035435178",
           "https://openalex.org/W3086412252",
-          "https://openalex.org/W4324297902",
-          "https://openalex.org/W4300939921",
-          "https://openalex.org/W4206413202",
-          "https://openalex.org/W4290832506",
-          "https://openalex.org/W4283024644",
+          "https://openalex.org/W3094502228",
           "https://openalex.org/W3116950210",
+          "https://openalex.org/W3129646349",
+          "https://openalex.org/W4206413202",
+          "https://openalex.org/W4206508368",
+          "https://openalex.org/W4283024644",
+          "https://openalex.org/W4290832506",
+          "https://openalex.org/W4300939921",
+          "https://openalex.org/W4324297902",
+          "https://openalex.org/W4328097852",
           "https://openalex.org/W4366212872",
-          "https://openalex.org/W4393438586"
+          "https://openalex.org/W4385359060",
+          "https://openalex.org/W4392969777",
+          "https://openalex.org/W4393438586",
+          "https://openalex.org/W4394879265"
         ],
         "related_works": [
           "https://openalex.org/W2961085424",
@@ -5140,7 +5305,7 @@
         "Human Mobility and Location-Based Analysis",
         "Urban Transport and Accessibility"
       ],
-      "abstract": "This paper presents a novel information generation methodology to support safer cycling patterns in urban environments, leveraging for that Large Language Models (LLMs), AI-based agents, and open geospatial data. By processing multiple files containing previously computed urban risk levels and existing mobility infrastructure, which are generated by exploiting open data sources, our method exploits multi-layer data preprocessing procedures and prompt engineering to create easy-to-use, user-friendly assistive systems that are able to provide useful information concerning cycling safety. Through a well-defined processing pipeline based on Data Ingestion and Preparation, Agents Orchestration, and Decision Execution methodological steps, our method shows how to integrate open-source tools and datasets, ensuring reproducibility and accessibility for urban planners and cyclists. Moreover, an AI agent is also provided, which fully implements our method and acts as a proof-of-concept implementation. This paper demonstrates the effectiveness of our method in enhancing cycling safety and urban mobility planning.•A novel method that combines LLMs and AI agents is defined to enhance the processing of multi-domain open geospatial data, potentially promoting cycling safety.•It integrates urban risk data and cycling infrastructure for a more comprehensive understanding of cycling resources, which become accessible by textual or audio prompts.",
+      "abstract": null,
       "venue": {
         "id": "https://openalex.org/S2898269294",
         "display_name": "MethodsX",
@@ -5173,7 +5338,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.902Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4401046855",
         "doi": "https://doi.org/10.1016/j.mex.2024.102880",
@@ -5230,7 +5395,7 @@
           "is_oa": true,
           "oa_status": "gold",
           "oa_url": "http://methods-x.com/article/S2215016124003327/pdf",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": true
         },
         "authorships": [
           {
@@ -5455,7 +5620,7 @@
         "has_fulltext": false,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.68010238,
+          "value": 0.67647858,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -5784,21 +5949,24 @@
             "landing_page_url": "https://doaj.org/article/e72ab01fc8b64feabf68c7731fe00ffd",
             "pdf_url": null,
             "source": {
-              "id": "https://openalex.org/S4306401280",
-              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-              "issn_l": null,
-              "issn": null,
-              "is_oa": false,
-              "is_in_doaj": false,
+              "id": "https://openalex.org/S112646816",
+              "display_name": "SHILAP Revista de lepidopterología",
+              "issn_l": "0300-5267",
+              "issn": [
+                "0300-5267",
+                "2340-4078"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
               "host_organization_lineage": [],
               "host_organization_lineage_names": [],
-              "type": "repository"
+              "type": "journal"
             },
-            "license": "cc-by-sa",
-            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
             "version": "submittedVersion",
             "is_accepted": false,
             "is_published": false,
@@ -5849,34 +6017,34 @@
           }
         ],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4401046855.pdf"
         },
         "referenced_works_count": 20,
         "referenced_works": [
-          "https://openalex.org/W6852521879",
-          "https://openalex.org/W4296205023",
-          "https://openalex.org/W3166165522",
-          "https://openalex.org/W4378449897",
-          "https://openalex.org/W6853366394",
-          "https://openalex.org/W3164690557",
-          "https://openalex.org/W4392798406",
           "https://openalex.org/W2549766072",
-          "https://openalex.org/W4393946785",
-          "https://openalex.org/W4387673633",
-          "https://openalex.org/W6863069830",
-          "https://openalex.org/W6781290833",
-          "https://openalex.org/W4389988262",
-          "https://openalex.org/W4394620801",
-          "https://openalex.org/W6850507425",
           "https://openalex.org/W3046644447",
+          "https://openalex.org/W3164690557",
+          "https://openalex.org/W3166165522",
+          "https://openalex.org/W4296205023",
+          "https://openalex.org/W4321351832",
+          "https://openalex.org/W4378449897",
           "https://openalex.org/W4380355250",
-          "https://openalex.org/W4399338196",
+          "https://openalex.org/W4387673633",
+          "https://openalex.org/W4389988262",
+          "https://openalex.org/W4392798406",
           "https://openalex.org/W4392894129",
-          "https://openalex.org/W4321351832"
+          "https://openalex.org/W4393946785",
+          "https://openalex.org/W4394620801",
+          "https://openalex.org/W4399338196",
+          "https://openalex.org/W6781290833",
+          "https://openalex.org/W6850507425",
+          "https://openalex.org/W6852521879",
+          "https://openalex.org/W6853366394",
+          "https://openalex.org/W6863069830"
         ],
         "related_works": [
           "https://openalex.org/W4367313141",
@@ -5890,468 +6058,7 @@
           "https://openalex.org/W2110217573",
           "https://openalex.org/W2977327189"
         ],
-        "abstract_inverted_index": {
-          "This": [
-            0,
-            132
-          ],
-          "paper": [
-            1,
-            133
-          ],
-          "presents": [
-            2
-          ],
-          "a": [
-            3,
-            78,
-            129,
-            179
-          ],
-          "novel": [
-            4,
-            148
-          ],
-          "information": [
-            5,
-            73
-          ],
-          "generation": [
-            6
-          ],
-          "methodology": [
-            7
-          ],
-          "to": [
-            8,
-            61,
-            70,
-            99,
-            158
-          ],
-          "support": [
-            9
-          ],
-          "safer": [
-            10
-          ],
-          "cycling": [
-            11,
-            75,
-            142,
-            169,
-            176,
-            184
-          ],
-          "patterns": [
-            12
-          ],
-          "in": [
-            13,
-            140
-          ],
-          "urban": [
-            14,
-            36,
-            110,
-            145,
-            172
-          ],
-          "environments,": [
-            15
-          ],
-          "leveraging": [
-            16
-          ],
-          "for": [
-            17,
-            109,
-            178
-          ],
-          "that": [
-            18,
-            67,
-            150
-          ],
-          "Large": [
-            19
-          ],
-          "Language": [
-            20
-          ],
-          "Models": [
-            21
-          ],
-          "(LLMs),": [
-            22
-          ],
-          "AI-based": [
-            23
-          ],
-          "agents,": [
-            24
-          ],
-          "and": [
-            25,
-            39,
-            58,
-            86,
-            90,
-            103,
-            107,
-            112,
-            126,
-            144,
-            153,
-            175
-          ],
-          "open": [
-            26,
-            48,
-            164
-          ],
-          "geospatial": [
-            27,
-            165
-          ],
-          "data.": [
-            28
-          ],
-          "By": [
-            29
-          ],
-          "processing": [
-            30,
-            80,
-            161
-          ],
-          "multiple": [
-            31
-          ],
-          "files": [
-            32
-          ],
-          "containing": [
-            33
-          ],
-          "previously": [
-            34
-          ],
-          "computed": [
-            35
-          ],
-          "risk": [
-            37,
-            173
-          ],
-          "levels": [
-            38
-          ],
-          "existing": [
-            40
-          ],
-          "mobility": [
-            41,
-            146
-          ],
-          "infrastructure,": [
-            42
-          ],
-          "which": [
-            43,
-            121,
-            186
-          ],
-          "are": [
-            44,
-            68
-          ],
-          "generated": [
-            45
-          ],
-          "by": [
-            46,
-            189
-          ],
-          "exploiting": [
-            47
-          ],
-          "data": [
-            49,
-            55,
-            174
-          ],
-          "sources,": [
-            50
-          ],
-          "our": [
-            51,
-            95,
-            124,
-            138
-          ],
-          "method": [
-            52,
-            96,
-            125,
-            139,
-            149
-          ],
-          "exploits": [
-            53
-          ],
-          "multi-layer": [
-            54
-          ],
-          "preprocessing": [
-            56
-          ],
-          "procedures": [
-            57
-          ],
-          "prompt": [
-            59
-          ],
-          "engineering": [
-            60
-          ],
-          "create": [
-            62
-          ],
-          "easy-to-use,": [
-            63
-          ],
-          "user-friendly": [
-            64
-          ],
-          "assistive": [
-            65
-          ],
-          "systems": [
-            66
-          ],
-          "able": [
-            69
-          ],
-          "provide": [
-            71
-          ],
-          "useful": [
-            72
-          ],
-          "concerning": [
-            74
-          ],
-          "safety.": [
-            76
-          ],
-          "Through": [
-            77
-          ],
-          "well-defined": [
-            79
-          ],
-          "pipeline": [
-            81
-          ],
-          "based": [
-            82
-          ],
-          "on": [
-            83
-          ],
-          "Data": [
-            84
-          ],
-          "Ingestion": [
-            85
-          ],
-          "Preparation,": [
-            87
-          ],
-          "Agents": [
-            88
-          ],
-          "Orchestration,": [
-            89
-          ],
-          "Decision": [
-            91
-          ],
-          "Execution": [
-            92
-          ],
-          "methodological": [
-            93
-          ],
-          "steps,": [
-            94
-          ],
-          "shows": [
-            97
-          ],
-          "how": [
-            98
-          ],
-          "integrate": [
-            100
-          ],
-          "open-source": [
-            101
-          ],
-          "tools": [
-            102
-          ],
-          "datasets,": [
-            104
-          ],
-          "ensuring": [
-            105
-          ],
-          "reproducibility": [
-            106
-          ],
-          "accessibility": [
-            108
-          ],
-          "planners": [
-            111
-          ],
-          "cyclists.": [
-            113
-          ],
-          "Moreover,": [
-            114
-          ],
-          "an": [
-            115
-          ],
-          "AI": [
-            116,
-            154
-          ],
-          "agent": [
-            117
-          ],
-          "is": [
-            118,
-            156
-          ],
-          "also": [
-            119
-          ],
-          "provided,": [
-            120
-          ],
-          "fully": [
-            122
-          ],
-          "implements": [
-            123
-          ],
-          "acts": [
-            127
-          ],
-          "as": [
-            128
-          ],
-          "proof-of-concept": [
-            130
-          ],
-          "implementation.": [
-            131
-          ],
-          "demonstrates": [
-            134
-          ],
-          "the": [
-            135,
-            160
-          ],
-          "effectiveness": [
-            136
-          ],
-          "of": [
-            137,
-            162,
-            183
-          ],
-          "enhancing": [
-            141
-          ],
-          "safety": [
-            143
-          ],
-          "planning.•A": [
-            147
-          ],
-          "combines": [
-            151
-          ],
-          "LLMs": [
-            152
-          ],
-          "agents": [
-            155
-          ],
-          "defined": [
-            157
-          ],
-          "enhance": [
-            159
-          ],
-          "multi-domain": [
-            163
-          ],
-          "data,": [
-            166
-          ],
-          "potentially": [
-            167
-          ],
-          "promoting": [
-            168
-          ],
-          "safety.•It": [
-            170
-          ],
-          "integrates": [
-            171
-          ],
-          "infrastructure": [
-            177
-          ],
-          "more": [
-            180
-          ],
-          "comprehensive": [
-            181
-          ],
-          "understanding": [
-            182
-          ],
-          "resources,": [
-            185
-          ],
-          "become": [
-            187
-          ],
-          "accessible": [
-            188
-          ],
-          "textual": [
-            190
-          ],
-          "or": [
-            191
-          ],
-          "audio": [
-            192
-          ],
-          "prompts.": [
-            193
-          ]
-        },
+        "abstract_inverted_index": null,
         "counts_by_year": [
           {
             "year": 2026,
@@ -6362,7 +6069,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2026-01-13T01:12:25.745995",
+        "updated_date": "2026-02-05T00:54:17.221276",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -6436,7 +6143,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.902Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4401113675",
         "doi": "https://doi.org/10.1109/melecon56669.2024.10608598",
@@ -6646,7 +6353,7 @@
         "has_fulltext": false,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.7839518,
+          "value": 0.77800485,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -6810,30 +6517,30 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 18,
         "referenced_works": [
-          "https://openalex.org/W4375852021",
-          "https://openalex.org/W4390751318",
-          "https://openalex.org/W4308087296",
-          "https://openalex.org/W4327620340",
-          "https://openalex.org/W4318606143",
-          "https://openalex.org/W4385274658",
           "https://openalex.org/W2006305251",
+          "https://openalex.org/W2782499739",
           "https://openalex.org/W2789514313",
-          "https://openalex.org/W3197938577",
           "https://openalex.org/W2964089273",
           "https://openalex.org/W3100733145",
-          "https://openalex.org/W2782499739",
-          "https://openalex.org/W4210537645",
-          "https://openalex.org/W4386919490",
           "https://openalex.org/W3158361426",
-          "https://openalex.org/W4389819982",
+          "https://openalex.org/W3197938577",
+          "https://openalex.org/W4210537645",
+          "https://openalex.org/W4250024550",
+          "https://openalex.org/W4308087296",
+          "https://openalex.org/W4318606143",
+          "https://openalex.org/W4327620340",
+          "https://openalex.org/W4375852021",
           "https://openalex.org/W4378806122",
-          "https://openalex.org/W4250024550"
+          "https://openalex.org/W4385274658",
+          "https://openalex.org/W4386919490",
+          "https://openalex.org/W4389819982",
+          "https://openalex.org/W4390751318"
         ],
         "related_works": [
           "https://openalex.org/W4391375266",
@@ -6916,7 +6623,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.902Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4403022658",
         "doi": "https://doi.org/10.1109/scfc62024.2024.10698740",
@@ -7078,7 +6785,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.18119359,
+          "value": 0.17964821,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -7237,22 +6944,22 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 10,
         "referenced_works": [
-          "https://openalex.org/W3126913689",
-          "https://openalex.org/W4293523312",
           "https://openalex.org/W2892378801",
-          "https://openalex.org/W2981431318",
-          "https://openalex.org/W4380355250",
-          "https://openalex.org/W4378449897",
-          "https://openalex.org/W4390751318",
-          "https://openalex.org/W3137857404",
+          "https://openalex.org/W2901850888",
           "https://openalex.org/W2919561910",
-          "https://openalex.org/W2901850888"
+          "https://openalex.org/W2981431318",
+          "https://openalex.org/W3126913689",
+          "https://openalex.org/W3137857404",
+          "https://openalex.org/W4293523312",
+          "https://openalex.org/W4378449897",
+          "https://openalex.org/W4380355250",
+          "https://openalex.org/W4390751318"
         ],
         "related_works": [
           "https://openalex.org/W4391375266",
@@ -7339,7 +7046,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.902Z",
+      "lastUpdated": "2026-02-06T15:46:53.564Z",
       "_raw": {
         "id": "https://openalex.org/W4403022638",
         "doi": "https://doi.org/10.1109/scfc62024.2024.10698207",
@@ -7549,7 +7256,7 @@
         "has_fulltext": false,
         "cited_by_count": 1,
         "citation_normalized_percentile": {
-          "value": 0.65836401,
+          "value": 0.65401466,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -7725,31 +7432,31 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 19,
         "referenced_works": [
-          "https://openalex.org/W4285170326",
-          "https://openalex.org/W4365142339",
-          "https://openalex.org/W3126483109",
-          "https://openalex.org/W4210736086",
-          "https://openalex.org/W3145612704",
+          "https://openalex.org/W2738931376",
+          "https://openalex.org/W2805916231",
           "https://openalex.org/W2900328121",
-          "https://openalex.org/W4205344962",
-          "https://openalex.org/W4281903101",
+          "https://openalex.org/W2921028679",
+          "https://openalex.org/W3016496547",
+          "https://openalex.org/W3126483109",
+          "https://openalex.org/W3145612704",
           "https://openalex.org/W3184865457",
           "https://openalex.org/W3206050115",
-          "https://openalex.org/W2921028679",
-          "https://openalex.org/W2738931376",
-          "https://openalex.org/W4366717038",
+          "https://openalex.org/W4205344962",
+          "https://openalex.org/W4210736086",
           "https://openalex.org/W4220972678",
+          "https://openalex.org/W4281903101",
+          "https://openalex.org/W4285170326",
           "https://openalex.org/W4296037078",
-          "https://openalex.org/W3016496547",
           "https://openalex.org/W4353048106",
-          "https://openalex.org/W4376470630",
-          "https://openalex.org/W2805916231"
+          "https://openalex.org/W4365142339",
+          "https://openalex.org/W4366717038",
+          "https://openalex.org/W4376470630"
         ],
         "related_works": [
           "https://openalex.org/W4391375266",
@@ -7809,7 +7516,7 @@
       "date": "2024-05-06",
       "doi": "https://doi.org/10.1016/j.scs.2024.105477",
       "url": "https://doi.org/10.1016/j.scs.2024.105477",
-      "citations": 19,
+      "citations": 20,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.1016/j.scs.2024.105477",
       "volume": "108",
@@ -7867,6 +7574,10 @@
       "isRetracted": false,
       "citationsPerYear": [
         {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
           "year": 2025,
           "cited_by_count": 13
         },
@@ -7875,7 +7586,7 @@
           "cited_by_count": 6
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.902Z",
+      "lastUpdated": "2026-02-06T15:46:53.565Z",
       "_raw": {
         "id": "https://openalex.org/W4396677387",
         "doi": "https://doi.org/10.1016/j.scs.2024.105477",
@@ -8127,11 +7838,11 @@
           "currency": "USD",
           "value_usd": 4210
         },
-        "fwci": 21.40512935,
+        "fwci": 22.53171511,
         "has_fulltext": false,
-        "cited_by_count": 19,
+        "cited_by_count": 20,
         "citation_normalized_percentile": {
-          "value": 0.99131319,
+          "value": 0.99148995,
           "is_in_top_1_percent": true,
           "is_in_top_10_percent": true
         },
@@ -8530,9 +8241,9 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
             "score": 0.699999988079071,
-            "display_name": "Sustainable cities and communities"
+            "display_name": "Sustainable cities and communities",
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
         "awards": [
@@ -8557,98 +8268,98 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 86,
         "referenced_works": [
-          "https://openalex.org/W2560544563",
-          "https://openalex.org/W3023722741",
-          "https://openalex.org/W4283652145",
-          "https://openalex.org/W3048804154",
-          "https://openalex.org/W4200561121",
-          "https://openalex.org/W4387554727",
-          "https://openalex.org/W3016919589",
-          "https://openalex.org/W6668990524",
-          "https://openalex.org/W6799253906",
-          "https://openalex.org/W4382468083",
-          "https://openalex.org/W4388415965",
-          "https://openalex.org/W2743006184",
-          "https://openalex.org/W2040753305",
-          "https://openalex.org/W2902550418",
-          "https://openalex.org/W4385402216",
-          "https://openalex.org/W6846516009",
-          "https://openalex.org/W3091115062",
-          "https://openalex.org/W2913950865",
-          "https://openalex.org/W4285123134",
-          "https://openalex.org/W3161656049",
-          "https://openalex.org/W4388507577",
-          "https://openalex.org/W4377043457",
-          "https://openalex.org/W3134900529",
-          "https://openalex.org/W2901850888",
-          "https://openalex.org/W3204784905",
-          "https://openalex.org/W3040584548",
-          "https://openalex.org/W4221040848",
-          "https://openalex.org/W2892031733",
-          "https://openalex.org/W6851214960",
-          "https://openalex.org/W4210797024",
-          "https://openalex.org/W2744079410",
-          "https://openalex.org/W2159915267",
           "https://openalex.org/W2026395320",
-          "https://openalex.org/W6726291715",
-          "https://openalex.org/W2898932639",
-          "https://openalex.org/W3089972111",
-          "https://openalex.org/W3198617195",
-          "https://openalex.org/W2971142833",
-          "https://openalex.org/W3202594874",
-          "https://openalex.org/W4319039935",
-          "https://openalex.org/W6754713136",
-          "https://openalex.org/W2980020285",
-          "https://openalex.org/W3202854336",
-          "https://openalex.org/W3022124280",
-          "https://openalex.org/W2980096667",
-          "https://openalex.org/W4386292952",
-          "https://openalex.org/W2991653145",
-          "https://openalex.org/W4313568946",
-          "https://openalex.org/W3048679161",
-          "https://openalex.org/W3134694888",
-          "https://openalex.org/W2620729784",
-          "https://openalex.org/W4388842249",
-          "https://openalex.org/W4380355250",
-          "https://openalex.org/W4391884244",
-          "https://openalex.org/W6810219469",
-          "https://openalex.org/W4387233406",
+          "https://openalex.org/W2040753305",
           "https://openalex.org/W2118079959",
-          "https://openalex.org/W4220972319",
-          "https://openalex.org/W3093749467",
-          "https://openalex.org/W4225549431",
-          "https://openalex.org/W4386258544",
+          "https://openalex.org/W2159915267",
+          "https://openalex.org/W2560544563",
+          "https://openalex.org/W2620729784",
+          "https://openalex.org/W2743006184",
+          "https://openalex.org/W2744079410",
           "https://openalex.org/W2754777630",
-          "https://openalex.org/W2904611054",
-          "https://openalex.org/W3091828613",
-          "https://openalex.org/W4385484119",
-          "https://openalex.org/W3088611441",
-          "https://openalex.org/W2998389585",
-          "https://openalex.org/W6847443625",
           "https://openalex.org/W2889895804",
-          "https://openalex.org/W3164049546",
-          "https://openalex.org/W6788707526",
-          "https://openalex.org/W6788055571",
-          "https://openalex.org/W3000301417",
-          "https://openalex.org/W6718229257",
-          "https://openalex.org/W3082749364",
-          "https://openalex.org/W3024183470",
-          "https://openalex.org/W4283445765",
-          "https://openalex.org/W4234589440",
-          "https://openalex.org/W4226269702",
-          "https://openalex.org/W4236168358",
-          "https://openalex.org/W4285267759",
+          "https://openalex.org/W2892031733",
+          "https://openalex.org/W2898932639",
+          "https://openalex.org/W2901850888",
+          "https://openalex.org/W2902550418",
+          "https://openalex.org/W2904611054",
+          "https://openalex.org/W2913950865",
           "https://openalex.org/W2914059298",
+          "https://openalex.org/W2971142833",
+          "https://openalex.org/W2980020285",
+          "https://openalex.org/W2980096667",
+          "https://openalex.org/W2991653145",
+          "https://openalex.org/W2998389585",
+          "https://openalex.org/W3000301417",
+          "https://openalex.org/W3016919589",
+          "https://openalex.org/W3022124280",
+          "https://openalex.org/W3023722741",
+          "https://openalex.org/W3024183470",
+          "https://openalex.org/W3040584548",
+          "https://openalex.org/W3048679161",
+          "https://openalex.org/W3048804154",
+          "https://openalex.org/W3082749364",
+          "https://openalex.org/W3088611441",
+          "https://openalex.org/W3089972111",
+          "https://openalex.org/W3091115062",
+          "https://openalex.org/W3091828613",
+          "https://openalex.org/W3093749467",
           "https://openalex.org/W3119661935",
           "https://openalex.org/W3119829852",
+          "https://openalex.org/W3134694888",
+          "https://openalex.org/W3134900529",
           "https://openalex.org/W3145543370",
-          "https://openalex.org/W4309323732"
+          "https://openalex.org/W3161656049",
+          "https://openalex.org/W3164049546",
+          "https://openalex.org/W3198617195",
+          "https://openalex.org/W3202594874",
+          "https://openalex.org/W3202854336",
+          "https://openalex.org/W3204784905",
+          "https://openalex.org/W4200561121",
+          "https://openalex.org/W4210797024",
+          "https://openalex.org/W4220972319",
+          "https://openalex.org/W4221040848",
+          "https://openalex.org/W4225549431",
+          "https://openalex.org/W4226269702",
+          "https://openalex.org/W4234589440",
+          "https://openalex.org/W4236168358",
+          "https://openalex.org/W4283445765",
+          "https://openalex.org/W4283652145",
+          "https://openalex.org/W4285123134",
+          "https://openalex.org/W4285267759",
+          "https://openalex.org/W4309323732",
+          "https://openalex.org/W4313568946",
+          "https://openalex.org/W4319039935",
+          "https://openalex.org/W4377043457",
+          "https://openalex.org/W4380355250",
+          "https://openalex.org/W4382468083",
+          "https://openalex.org/W4385402216",
+          "https://openalex.org/W4385484119",
+          "https://openalex.org/W4386258544",
+          "https://openalex.org/W4386292952",
+          "https://openalex.org/W4387233406",
+          "https://openalex.org/W4387554727",
+          "https://openalex.org/W4388415965",
+          "https://openalex.org/W4388507577",
+          "https://openalex.org/W4388842249",
+          "https://openalex.org/W4391884244",
+          "https://openalex.org/W6668990524",
+          "https://openalex.org/W6718229257",
+          "https://openalex.org/W6726291715",
+          "https://openalex.org/W6754713136",
+          "https://openalex.org/W6788055571",
+          "https://openalex.org/W6788707526",
+          "https://openalex.org/W6799253906",
+          "https://openalex.org/W6810219469",
+          "https://openalex.org/W6846516009",
+          "https://openalex.org/W6847443625",
+          "https://openalex.org/W6851214960"
         ],
         "related_works": [
           "https://openalex.org/W1883246888",
@@ -9196,6 +8907,10 @@
         },
         "counts_by_year": [
           {
+            "year": 2026,
+            "cited_by_count": 1
+          },
+          {
             "year": 2025,
             "cited_by_count": 13
           },
@@ -9315,7 +9030,7 @@
           "cited_by_count": 19
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.902Z",
+      "lastUpdated": "2026-02-06T15:46:53.565Z",
       "_raw": {
         "id": "https://openalex.org/W4390751318",
         "doi": "https://doi.org/10.3390/su16020640",
@@ -9369,7 +9084,7 @@
           "is_oa": true,
           "oa_status": "gold",
           "oa_url": "https://www.mdpi.com/2071-1050/16/2/640/pdf?version=1704965720",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": true
         },
         "authorships": [
           {
@@ -9611,7 +9326,7 @@
         "has_fulltext": true,
         "cited_by_count": 53,
         "citation_normalized_percentile": {
-          "value": 0.99916874,
+          "value": 0.99912599,
           "is_in_top_1_percent": true,
           "is_in_top_10_percent": true
         },
@@ -9987,194 +9702,194 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
             "score": 0.46000000834465027,
-            "display_name": "Sustainable cities and communities"
+            "display_name": "Sustainable cities and communities",
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4390751318.pdf"
         },
         "referenced_works_count": 172,
         "referenced_works": [
-          "https://openalex.org/W3029404970",
-          "https://openalex.org/W2998428295",
-          "https://openalex.org/W4321496947",
-          "https://openalex.org/W4225261940",
-          "https://openalex.org/W4384067905",
-          "https://openalex.org/W3127982897",
-          "https://openalex.org/W4220792580",
-          "https://openalex.org/W4210565123",
-          "https://openalex.org/W4285123134",
-          "https://openalex.org/W3194146037",
-          "https://openalex.org/W4224244268",
-          "https://openalex.org/W4220832941",
-          "https://openalex.org/W3144879775",
-          "https://openalex.org/W3092962164",
-          "https://openalex.org/W4387373530",
-          "https://openalex.org/W4376614633",
-          "https://openalex.org/W3165641867",
-          "https://openalex.org/W3033454425",
-          "https://openalex.org/W2991470968",
-          "https://openalex.org/W4389311552",
-          "https://openalex.org/W3033940652",
-          "https://openalex.org/W3165060673",
-          "https://openalex.org/W3033928476",
-          "https://openalex.org/W4296852874",
-          "https://openalex.org/W4377148650",
-          "https://openalex.org/W4292881975",
-          "https://openalex.org/W4386263607",
-          "https://openalex.org/W3143011944",
-          "https://openalex.org/W4224623367",
-          "https://openalex.org/W4285004952",
-          "https://openalex.org/W2969391604",
-          "https://openalex.org/W2946874571",
-          "https://openalex.org/W2754777630",
-          "https://openalex.org/W2905022025",
           "https://openalex.org/W1538827658",
-          "https://openalex.org/W2255220540",
-          "https://openalex.org/W4248039887",
-          "https://openalex.org/W2904160541",
           "https://openalex.org/W2018384081",
-          "https://openalex.org/W6672534882",
-          "https://openalex.org/W2165571071",
-          "https://openalex.org/W4378449897",
+          "https://openalex.org/W2088028384",
+          "https://openalex.org/W2118167481",
           "https://openalex.org/W2165449928",
-          "https://openalex.org/W4386840331",
-          "https://openalex.org/W3010471965",
+          "https://openalex.org/W2165571071",
+          "https://openalex.org/W2255220540",
+          "https://openalex.org/W2513561725",
+          "https://openalex.org/W2604450515",
+          "https://openalex.org/W2754777630",
+          "https://openalex.org/W2766264620",
+          "https://openalex.org/W2777105798",
           "https://openalex.org/W2778613407",
+          "https://openalex.org/W2802544089",
+          "https://openalex.org/W2894655172",
+          "https://openalex.org/W2898535022",
+          "https://openalex.org/W2901850888",
+          "https://openalex.org/W2901852697",
+          "https://openalex.org/W2904160541",
+          "https://openalex.org/W2905022025",
+          "https://openalex.org/W2905693337",
+          "https://openalex.org/W2909579030",
+          "https://openalex.org/W2913950865",
+          "https://openalex.org/W2921950230",
+          "https://openalex.org/W2942250707",
+          "https://openalex.org/W2946874571",
+          "https://openalex.org/W2953544263",
+          "https://openalex.org/W2955893349",
+          "https://openalex.org/W2969391604",
+          "https://openalex.org/W2969399368",
+          "https://openalex.org/W2980020285",
+          "https://openalex.org/W2982003903",
+          "https://openalex.org/W2990284253",
+          "https://openalex.org/W2991470968",
+          "https://openalex.org/W2996888127",
+          "https://openalex.org/W2998428295",
+          "https://openalex.org/W2999901858",
+          "https://openalex.org/W3004273024",
+          "https://openalex.org/W3008690765",
+          "https://openalex.org/W3009303236",
+          "https://openalex.org/W3009913199",
+          "https://openalex.org/W3010471965",
+          "https://openalex.org/W3010596753",
+          "https://openalex.org/W3010697765",
+          "https://openalex.org/W3011459318",
+          "https://openalex.org/W3021041425",
+          "https://openalex.org/W3022124280",
+          "https://openalex.org/W3029404970",
+          "https://openalex.org/W3033454425",
+          "https://openalex.org/W3033928476",
+          "https://openalex.org/W3033940652",
+          "https://openalex.org/W3036901988",
+          "https://openalex.org/W3041516416",
+          "https://openalex.org/W3046727524",
+          "https://openalex.org/W3047087365",
+          "https://openalex.org/W3048378409",
+          "https://openalex.org/W3048679161",
+          "https://openalex.org/W3072767238",
+          "https://openalex.org/W3081148783",
+          "https://openalex.org/W3087067468",
+          "https://openalex.org/W3092962164",
+          "https://openalex.org/W3093783152",
+          "https://openalex.org/W3095721799",
+          "https://openalex.org/W3096179715",
+          "https://openalex.org/W3097060730",
+          "https://openalex.org/W3104833050",
+          "https://openalex.org/W3111672926",
+          "https://openalex.org/W3112947261",
+          "https://openalex.org/W3115682820",
+          "https://openalex.org/W3116725086",
+          "https://openalex.org/W3118689035",
+          "https://openalex.org/W3120840445",
+          "https://openalex.org/W3127939542",
+          "https://openalex.org/W3127982897",
+          "https://openalex.org/W3131363691",
+          "https://openalex.org/W3132648691",
+          "https://openalex.org/W3133108932",
+          "https://openalex.org/W3133953661",
+          "https://openalex.org/W3134694888",
+          "https://openalex.org/W3134900529",
+          "https://openalex.org/W3136773083",
+          "https://openalex.org/W3138924974",
+          "https://openalex.org/W3143011944",
+          "https://openalex.org/W3144879775",
+          "https://openalex.org/W3145387973",
+          "https://openalex.org/W3157099631",
+          "https://openalex.org/W3165060673",
+          "https://openalex.org/W3165641867",
+          "https://openalex.org/W3175174373",
+          "https://openalex.org/W3177409978",
+          "https://openalex.org/W3178298399",
+          "https://openalex.org/W3182436344",
+          "https://openalex.org/W3183626504",
+          "https://openalex.org/W3189739907",
+          "https://openalex.org/W3194146037",
+          "https://openalex.org/W3201223054",
+          "https://openalex.org/W3201421582",
+          "https://openalex.org/W3206831613",
+          "https://openalex.org/W3210244392",
+          "https://openalex.org/W3211474784",
+          "https://openalex.org/W3211636833",
+          "https://openalex.org/W3217213024",
+          "https://openalex.org/W4200604466",
+          "https://openalex.org/W4206030165",
+          "https://openalex.org/W4206448349",
+          "https://openalex.org/W4210565123",
+          "https://openalex.org/W4210566873",
+          "https://openalex.org/W4210743160",
+          "https://openalex.org/W4210934891",
+          "https://openalex.org/W4210942381",
+          "https://openalex.org/W4220704095",
+          "https://openalex.org/W4220792580",
+          "https://openalex.org/W4220832941",
+          "https://openalex.org/W4220973783",
+          "https://openalex.org/W4220988632",
+          "https://openalex.org/W4221097295",
+          "https://openalex.org/W4224244268",
+          "https://openalex.org/W4224623367",
+          "https://openalex.org/W4225261940",
+          "https://openalex.org/W4225549431",
+          "https://openalex.org/W4248039887",
+          "https://openalex.org/W4285004952",
+          "https://openalex.org/W4285123134",
+          "https://openalex.org/W4285126701",
+          "https://openalex.org/W4285392486",
+          "https://openalex.org/W4288060721",
+          "https://openalex.org/W4288420761",
+          "https://openalex.org/W4288445077",
+          "https://openalex.org/W4292881975",
           "https://openalex.org/W4293721199",
           "https://openalex.org/W4294151117",
-          "https://openalex.org/W3095721799",
-          "https://openalex.org/W3011459318",
-          "https://openalex.org/W3217213024",
-          "https://openalex.org/W3134694888",
-          "https://openalex.org/W3183626504",
-          "https://openalex.org/W2955893349",
-          "https://openalex.org/W3127939542",
-          "https://openalex.org/W2766264620",
-          "https://openalex.org/W2909579030",
-          "https://openalex.org/W4386374946",
-          "https://openalex.org/W2905693337",
-          "https://openalex.org/W3115682820",
-          "https://openalex.org/W3131363691",
-          "https://openalex.org/W3072767238",
-          "https://openalex.org/W3177409978",
-          "https://openalex.org/W3211474784",
-          "https://openalex.org/W2901852697",
+          "https://openalex.org/W4296852874",
           "https://openalex.org/W4297005852",
-          "https://openalex.org/W4319296376",
-          "https://openalex.org/W3120840445",
-          "https://openalex.org/W2942250707",
-          "https://openalex.org/W3048378409",
-          "https://openalex.org/W4210566873",
-          "https://openalex.org/W4220988632",
-          "https://openalex.org/W6769711027",
-          "https://openalex.org/W3097060730",
-          "https://openalex.org/W3008690765",
-          "https://openalex.org/W3201223054",
-          "https://openalex.org/W2118167481",
-          "https://openalex.org/W2802544089",
-          "https://openalex.org/W3175174373",
-          "https://openalex.org/W2513561725",
-          "https://openalex.org/W2953544263",
-          "https://openalex.org/W2898535022",
-          "https://openalex.org/W2777105798",
-          "https://openalex.org/W3138924974",
-          "https://openalex.org/W3189739907",
-          "https://openalex.org/W2990284253",
-          "https://openalex.org/W3096179715",
-          "https://openalex.org/W3157099631",
-          "https://openalex.org/W4285126701",
-          "https://openalex.org/W2913950865",
-          "https://openalex.org/W3134900529",
-          "https://openalex.org/W2921950230",
-          "https://openalex.org/W4206030165",
-          "https://openalex.org/W4210942381",
-          "https://openalex.org/W3022124280",
-          "https://openalex.org/W3021041425",
-          "https://openalex.org/W3206831613",
-          "https://openalex.org/W3112947261",
-          "https://openalex.org/W4221097295",
-          "https://openalex.org/W4288445077",
-          "https://openalex.org/W3111672926",
-          "https://openalex.org/W3048679161",
-          "https://openalex.org/W4367052987",
-          "https://openalex.org/W3047087365",
-          "https://openalex.org/W3118689035",
-          "https://openalex.org/W4210743160",
-          "https://openalex.org/W4310535418",
-          "https://openalex.org/W4285392486",
-          "https://openalex.org/W4225549431",
-          "https://openalex.org/W2901850888",
-          "https://openalex.org/W2999901858",
-          "https://openalex.org/W3087067468",
-          "https://openalex.org/W3010596753",
-          "https://openalex.org/W3145387973",
-          "https://openalex.org/W3133108932",
-          "https://openalex.org/W4388415965",
-          "https://openalex.org/W4385484119",
-          "https://openalex.org/W4389005636",
-          "https://openalex.org/W3136773083",
-          "https://openalex.org/W3036901988",
-          "https://openalex.org/W2604450515",
-          "https://openalex.org/W4388842249",
-          "https://openalex.org/W3081148783",
-          "https://openalex.org/W3004273024",
-          "https://openalex.org/W3093783152",
-          "https://openalex.org/W4288420761",
-          "https://openalex.org/W4380355250",
-          "https://openalex.org/W3041516416",
-          "https://openalex.org/W3201421582",
-          "https://openalex.org/W2894655172",
-          "https://openalex.org/W4200604466",
           "https://openalex.org/W4303616996",
-          "https://openalex.org/W4319337726",
-          "https://openalex.org/W4366753170",
-          "https://openalex.org/W4385431485",
-          "https://openalex.org/W4383215552",
-          "https://openalex.org/W3182436344",
-          "https://openalex.org/W2996888127",
-          "https://openalex.org/W4389261521",
-          "https://openalex.org/W2980020285",
-          "https://openalex.org/W6846692385",
-          "https://openalex.org/W4220973783",
-          "https://openalex.org/W4385952655",
-          "https://openalex.org/W3010697765",
-          "https://openalex.org/W2969399368",
-          "https://openalex.org/W3116725086",
-          "https://openalex.org/W3009913199",
-          "https://openalex.org/W3046727524",
-          "https://openalex.org/W3211636833",
-          "https://openalex.org/W3132648691",
-          "https://openalex.org/W4210934891",
-          "https://openalex.org/W4288060721",
-          "https://openalex.org/W4378416929",
-          "https://openalex.org/W6849348727",
-          "https://openalex.org/W4381660815",
-          "https://openalex.org/W4317930313",
-          "https://openalex.org/W3210244392",
-          "https://openalex.org/W6853412076",
-          "https://openalex.org/W4388824319",
-          "https://openalex.org/W4388460704",
-          "https://openalex.org/W4206448349",
-          "https://openalex.org/W4220704095",
-          "https://openalex.org/W3009303236",
-          "https://openalex.org/W4389565166",
-          "https://openalex.org/W3178298399",
-          "https://openalex.org/W4321366824",
           "https://openalex.org/W4308570094",
+          "https://openalex.org/W4310535418",
+          "https://openalex.org/W4317930313",
+          "https://openalex.org/W4319296376",
+          "https://openalex.org/W4319337726",
+          "https://openalex.org/W4321366824",
+          "https://openalex.org/W4321496947",
+          "https://openalex.org/W4366753170",
+          "https://openalex.org/W4367052987",
+          "https://openalex.org/W4376614633",
+          "https://openalex.org/W4377148650",
+          "https://openalex.org/W4378416929",
+          "https://openalex.org/W4378449897",
           "https://openalex.org/W4378647911",
-          "https://openalex.org/W2982003903",
-          "https://openalex.org/W2088028384",
-          "https://openalex.org/W3104833050",
-          "https://openalex.org/W3133953661"
+          "https://openalex.org/W4380355250",
+          "https://openalex.org/W4381660815",
+          "https://openalex.org/W4383215552",
+          "https://openalex.org/W4384067905",
+          "https://openalex.org/W4385431485",
+          "https://openalex.org/W4385484119",
+          "https://openalex.org/W4385952655",
+          "https://openalex.org/W4386263607",
+          "https://openalex.org/W4386374946",
+          "https://openalex.org/W4386840331",
+          "https://openalex.org/W4387373530",
+          "https://openalex.org/W4388415965",
+          "https://openalex.org/W4388460704",
+          "https://openalex.org/W4388824319",
+          "https://openalex.org/W4388842249",
+          "https://openalex.org/W4389005636",
+          "https://openalex.org/W4389261521",
+          "https://openalex.org/W4389311552",
+          "https://openalex.org/W4389565166",
+          "https://openalex.org/W6672534882",
+          "https://openalex.org/W6769711027",
+          "https://openalex.org/W6846692385",
+          "https://openalex.org/W6849348727",
+          "https://openalex.org/W6853412076"
         ],
         "related_works": [
           "https://openalex.org/W2004086023",
@@ -10713,7 +10428,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.902Z",
+      "lastUpdated": "2026-02-06T15:46:53.565Z",
       "_raw": {
         "id": "https://openalex.org/W4402435481",
         "doi": "https://doi.org/10.1109/rita.2024.3458850",
@@ -10895,7 +10610,7 @@
         "has_fulltext": false,
         "cited_by_count": 1,
         "citation_normalized_percentile": {
-          "value": 0.65784354,
+          "value": 0.65272618,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -11122,37 +10837,37 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 25,
         "referenced_works": [
-          "https://openalex.org/W4379435099",
-          "https://openalex.org/W4226186654",
-          "https://openalex.org/W3189769989",
+          "https://openalex.org/W1938837633",
           "https://openalex.org/W2149157922",
-          "https://openalex.org/W4224924610",
-          "https://openalex.org/W3153263805",
+          "https://openalex.org/W2946934471",
           "https://openalex.org/W2948014426",
           "https://openalex.org/W2962721725",
-          "https://openalex.org/W3041939870",
-          "https://openalex.org/W3090045546",
-          "https://openalex.org/W4221082583",
-          "https://openalex.org/W3173141143",
-          "https://openalex.org/W3040839955",
           "https://openalex.org/W2974165991",
-          "https://openalex.org/W3097237491",
-          "https://openalex.org/W6777376535",
           "https://openalex.org/W3014126998",
-          "https://openalex.org/W4297825377",
-          "https://openalex.org/W4313409520",
-          "https://openalex.org/W2946934471",
+          "https://openalex.org/W3040839955",
+          "https://openalex.org/W3041939870",
           "https://openalex.org/W3049365263",
+          "https://openalex.org/W3090045546",
+          "https://openalex.org/W3097237491",
+          "https://openalex.org/W3153263805",
+          "https://openalex.org/W3173141143",
+          "https://openalex.org/W3189769989",
+          "https://openalex.org/W4221082583",
+          "https://openalex.org/W4224924610",
           "https://openalex.org/W4225290349",
-          "https://openalex.org/W1938837633",
+          "https://openalex.org/W4226186654",
+          "https://openalex.org/W4285303565",
+          "https://openalex.org/W4297825377",
           "https://openalex.org/W4312840969",
-          "https://openalex.org/W4285303565"
+          "https://openalex.org/W4313409520",
+          "https://openalex.org/W4379435099",
+          "https://openalex.org/W6777376535"
         ],
         "related_works": [
           "https://openalex.org/W2998132311",
@@ -11266,7 +10981,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.903Z",
+      "lastUpdated": "2026-02-06T15:46:53.565Z",
       "_raw": {
         "id": "https://openalex.org/W4400975104",
         "doi": "https://doi.org/10.1109/access.2024.3433381",
@@ -11321,7 +11036,7 @@
           "is_oa": true,
           "oa_status": "gold",
           "oa_url": "https://doi.org/10.1109/access.2024.3433381",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": true
         },
         "authorships": [
           {
@@ -11504,7 +11219,7 @@
         "has_fulltext": false,
         "cited_by_count": 32,
         "citation_normalized_percentile": {
-          "value": 0.98705647,
+          "value": 0.98605885,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
@@ -11649,21 +11364,24 @@
             "landing_page_url": "https://doaj.org/article/3756d216be874dda8cb3f2e0359846ca",
             "pdf_url": null,
             "source": {
-              "id": "https://openalex.org/S4306401280",
-              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-              "issn_l": null,
-              "issn": null,
-              "is_oa": false,
-              "is_in_doaj": false,
+              "id": "https://openalex.org/S112646816",
+              "display_name": "SHILAP Revista de lepidopterología",
+              "issn_l": "0300-5267",
+              "issn": [
+                "0300-5267",
+                "2340-4078"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
               "host_organization_lineage": [],
               "host_organization_lineage_names": [],
-              "type": "repository"
+              "type": "journal"
             },
-            "license": "cc-by-sa",
-            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
             "version": "submittedVersion",
             "is_accepted": false,
             "is_published": false,
@@ -11706,175 +11424,175 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
             "score": 0.7699999809265137,
-            "display_name": "Sustainable cities and communities"
+            "display_name": "Sustainable cities and communities",
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 155,
         "referenced_works": [
-          "https://openalex.org/W4285170326",
-          "https://openalex.org/W3022124280",
-          "https://openalex.org/W2946136560",
-          "https://openalex.org/W4296079341",
-          "https://openalex.org/W4292235870",
-          "https://openalex.org/W4386320430",
-          "https://openalex.org/W2783043877",
-          "https://openalex.org/W3216734935",
-          "https://openalex.org/W2901850888",
-          "https://openalex.org/W4223505602",
-          "https://openalex.org/W3112251255",
-          "https://openalex.org/W3195534890",
-          "https://openalex.org/W4381946427",
-          "https://openalex.org/W4282549828",
-          "https://openalex.org/W4214945630",
-          "https://openalex.org/W3204513159",
-          "https://openalex.org/W4390944890",
-          "https://openalex.org/W4392190934",
-          "https://openalex.org/W4282835019",
-          "https://openalex.org/W2741417264",
-          "https://openalex.org/W2965209023",
-          "https://openalex.org/W2744079410",
-          "https://openalex.org/W4388022309",
-          "https://openalex.org/W4366392962",
-          "https://openalex.org/W3096184806",
-          "https://openalex.org/W3084405808",
-          "https://openalex.org/W4285123134",
-          "https://openalex.org/W3213246036",
-          "https://openalex.org/W2777692236",
-          "https://openalex.org/W3037287417",
-          "https://openalex.org/W4390751318",
-          "https://openalex.org/W2057807303",
-          "https://openalex.org/W2153220376",
-          "https://openalex.org/W4388078058",
-          "https://openalex.org/W2947506247",
-          "https://openalex.org/W4319320307",
-          "https://openalex.org/W3184484502",
-          "https://openalex.org/W3088611441",
-          "https://openalex.org/W2886377823",
-          "https://openalex.org/W2904813135",
-          "https://openalex.org/W3013882617",
-          "https://openalex.org/W4396677387",
-          "https://openalex.org/W4386292952",
-          "https://openalex.org/W4324360803",
-          "https://openalex.org/W2999604305",
-          "https://openalex.org/W4388966876",
-          "https://openalex.org/W3107405700",
-          "https://openalex.org/W2168452204",
-          "https://openalex.org/W3202905974",
-          "https://openalex.org/W4323569884",
-          "https://openalex.org/W4391096923",
-          "https://openalex.org/W4361007549",
-          "https://openalex.org/W4381803566",
-          "https://openalex.org/W2912259538",
-          "https://openalex.org/W4281680048",
-          "https://openalex.org/W4210403528",
-          "https://openalex.org/W3004370189",
-          "https://openalex.org/W4285203773",
-          "https://openalex.org/W4248376748",
-          "https://openalex.org/W3010471965",
-          "https://openalex.org/W4210686692",
-          "https://openalex.org/W3169602975",
-          "https://openalex.org/W2953252885",
-          "https://openalex.org/W4390169441",
-          "https://openalex.org/W2991470968",
-          "https://openalex.org/W4390033781",
-          "https://openalex.org/W2965239878",
-          "https://openalex.org/W4290759677",
-          "https://openalex.org/W6798199930",
-          "https://openalex.org/W3198845494",
-          "https://openalex.org/W4388736846",
-          "https://openalex.org/W3126016824",
-          "https://openalex.org/W2966488062",
-          "https://openalex.org/W4388734317",
-          "https://openalex.org/W4327500282",
-          "https://openalex.org/W4366188881",
-          "https://openalex.org/W3007390775",
-          "https://openalex.org/W4365144436",
-          "https://openalex.org/W4205964836",
-          "https://openalex.org/W4366377576",
-          "https://openalex.org/W3000120456",
-          "https://openalex.org/W3107088089",
-          "https://openalex.org/W3028270327",
-          "https://openalex.org/W2767640314",
-          "https://openalex.org/W4387433765",
-          "https://openalex.org/W3134015607",
-          "https://openalex.org/W4320168227",
-          "https://openalex.org/W4206774559",
-          "https://openalex.org/W2917656866",
-          "https://openalex.org/W3157424086",
-          "https://openalex.org/W3205792108",
-          "https://openalex.org/W2898119210",
-          "https://openalex.org/W3089579806",
-          "https://openalex.org/W4312593595",
-          "https://openalex.org/W3095667572",
-          "https://openalex.org/W3159636692",
-          "https://openalex.org/W2946493575",
-          "https://openalex.org/W3096235564",
-          "https://openalex.org/W3108983085",
-          "https://openalex.org/W3088705073",
-          "https://openalex.org/W3020064559",
-          "https://openalex.org/W2935286857",
-          "https://openalex.org/W4387671011",
-          "https://openalex.org/W3140314482",
-          "https://openalex.org/W4390520564",
-          "https://openalex.org/W4386637076",
-          "https://openalex.org/W4286459552",
-          "https://openalex.org/W4317792445",
-          "https://openalex.org/W4200558008",
-          "https://openalex.org/W4389457156",
-          "https://openalex.org/W4213187810",
-          "https://openalex.org/W4312238713",
-          "https://openalex.org/W4319239204",
-          "https://openalex.org/W3203358546",
-          "https://openalex.org/W4387877798",
-          "https://openalex.org/W3204193562",
-          "https://openalex.org/W4320917015",
-          "https://openalex.org/W4386567069",
-          "https://openalex.org/W3186287763",
-          "https://openalex.org/W3084434236",
-          "https://openalex.org/W4315694790",
-          "https://openalex.org/W4388022655",
-          "https://openalex.org/W3119761605",
-          "https://openalex.org/W4310901941",
-          "https://openalex.org/W2998651184",
-          "https://openalex.org/W4293100471",
-          "https://openalex.org/W3135462160",
-          "https://openalex.org/W4280505743",
-          "https://openalex.org/W4313855700",
-          "https://openalex.org/W2569355805",
-          "https://openalex.org/W2987871418",
-          "https://openalex.org/W4205957561",
-          "https://openalex.org/W3133676448",
-          "https://openalex.org/W4317382144",
-          "https://openalex.org/W4283079749",
-          "https://openalex.org/W2989895799",
-          "https://openalex.org/W3157839344",
           "https://openalex.org/W1992654738",
-          "https://openalex.org/W3003885457",
-          "https://openalex.org/W4365807811",
-          "https://openalex.org/W4285290805",
-          "https://openalex.org/W2751045880",
-          "https://openalex.org/W4281491031",
-          "https://openalex.org/W2940786172",
-          "https://openalex.org/W4323363177",
-          "https://openalex.org/W4320497693",
-          "https://openalex.org/W4249803677",
+          "https://openalex.org/W2057807303",
           "https://openalex.org/W2088028384",
-          "https://openalex.org/W2165571071",
-          "https://openalex.org/W3183626504",
-          "https://openalex.org/W3094642734",
+          "https://openalex.org/W2153220376",
           "https://openalex.org/W2165449928",
-          "https://openalex.org/W4386840331",
+          "https://openalex.org/W2165571071",
+          "https://openalex.org/W2168452204",
+          "https://openalex.org/W2569355805",
+          "https://openalex.org/W2741417264",
+          "https://openalex.org/W2744079410",
+          "https://openalex.org/W2751045880",
+          "https://openalex.org/W2767640314",
+          "https://openalex.org/W2777692236",
           "https://openalex.org/W2778613407",
-          "https://openalex.org/W4303982336"
+          "https://openalex.org/W2783043877",
+          "https://openalex.org/W2886377823",
+          "https://openalex.org/W2898119210",
+          "https://openalex.org/W2901850888",
+          "https://openalex.org/W2904813135",
+          "https://openalex.org/W2912259538",
+          "https://openalex.org/W2917656866",
+          "https://openalex.org/W2935286857",
+          "https://openalex.org/W2940786172",
+          "https://openalex.org/W2946136560",
+          "https://openalex.org/W2946493575",
+          "https://openalex.org/W2947506247",
+          "https://openalex.org/W2953252885",
+          "https://openalex.org/W2965209023",
+          "https://openalex.org/W2965239878",
+          "https://openalex.org/W2966488062",
+          "https://openalex.org/W2987871418",
+          "https://openalex.org/W2989895799",
+          "https://openalex.org/W2991470968",
+          "https://openalex.org/W2998651184",
+          "https://openalex.org/W2999604305",
+          "https://openalex.org/W3000120456",
+          "https://openalex.org/W3003885457",
+          "https://openalex.org/W3004370189",
+          "https://openalex.org/W3007390775",
+          "https://openalex.org/W3010471965",
+          "https://openalex.org/W3013882617",
+          "https://openalex.org/W3020064559",
+          "https://openalex.org/W3022124280",
+          "https://openalex.org/W3028270327",
+          "https://openalex.org/W3037287417",
+          "https://openalex.org/W3084405808",
+          "https://openalex.org/W3084434236",
+          "https://openalex.org/W3088611441",
+          "https://openalex.org/W3088705073",
+          "https://openalex.org/W3089579806",
+          "https://openalex.org/W3094642734",
+          "https://openalex.org/W3095667572",
+          "https://openalex.org/W3096184806",
+          "https://openalex.org/W3096235564",
+          "https://openalex.org/W3107088089",
+          "https://openalex.org/W3107405700",
+          "https://openalex.org/W3108983085",
+          "https://openalex.org/W3112251255",
+          "https://openalex.org/W3119761605",
+          "https://openalex.org/W3126016824",
+          "https://openalex.org/W3133676448",
+          "https://openalex.org/W3134015607",
+          "https://openalex.org/W3135462160",
+          "https://openalex.org/W3140314482",
+          "https://openalex.org/W3157424086",
+          "https://openalex.org/W3157839344",
+          "https://openalex.org/W3159636692",
+          "https://openalex.org/W3169602975",
+          "https://openalex.org/W3183626504",
+          "https://openalex.org/W3184484502",
+          "https://openalex.org/W3186287763",
+          "https://openalex.org/W3195534890",
+          "https://openalex.org/W3198845494",
+          "https://openalex.org/W3202905974",
+          "https://openalex.org/W3203358546",
+          "https://openalex.org/W3204193562",
+          "https://openalex.org/W3204513159",
+          "https://openalex.org/W3205792108",
+          "https://openalex.org/W3213246036",
+          "https://openalex.org/W3216734935",
+          "https://openalex.org/W4200558008",
+          "https://openalex.org/W4205957561",
+          "https://openalex.org/W4205964836",
+          "https://openalex.org/W4206774559",
+          "https://openalex.org/W4210403528",
+          "https://openalex.org/W4210686692",
+          "https://openalex.org/W4213187810",
+          "https://openalex.org/W4214945630",
+          "https://openalex.org/W4223505602",
+          "https://openalex.org/W4248376748",
+          "https://openalex.org/W4249803677",
+          "https://openalex.org/W4280505743",
+          "https://openalex.org/W4281491031",
+          "https://openalex.org/W4281680048",
+          "https://openalex.org/W4282549828",
+          "https://openalex.org/W4282835019",
+          "https://openalex.org/W4283079749",
+          "https://openalex.org/W4285123134",
+          "https://openalex.org/W4285170326",
+          "https://openalex.org/W4285203773",
+          "https://openalex.org/W4285290805",
+          "https://openalex.org/W4286459552",
+          "https://openalex.org/W4290759677",
+          "https://openalex.org/W4292235870",
+          "https://openalex.org/W4293100471",
+          "https://openalex.org/W4296079341",
+          "https://openalex.org/W4303982336",
+          "https://openalex.org/W4310901941",
+          "https://openalex.org/W4312238713",
+          "https://openalex.org/W4312593595",
+          "https://openalex.org/W4313855700",
+          "https://openalex.org/W4315694790",
+          "https://openalex.org/W4317382144",
+          "https://openalex.org/W4317792445",
+          "https://openalex.org/W4319239204",
+          "https://openalex.org/W4319320307",
+          "https://openalex.org/W4320168227",
+          "https://openalex.org/W4320497693",
+          "https://openalex.org/W4320917015",
+          "https://openalex.org/W4323363177",
+          "https://openalex.org/W4323569884",
+          "https://openalex.org/W4324360803",
+          "https://openalex.org/W4327500282",
+          "https://openalex.org/W4361007549",
+          "https://openalex.org/W4365144436",
+          "https://openalex.org/W4365807811",
+          "https://openalex.org/W4366188881",
+          "https://openalex.org/W4366377576",
+          "https://openalex.org/W4366392962",
+          "https://openalex.org/W4381803566",
+          "https://openalex.org/W4381946427",
+          "https://openalex.org/W4386292952",
+          "https://openalex.org/W4386320430",
+          "https://openalex.org/W4386567069",
+          "https://openalex.org/W4386637076",
+          "https://openalex.org/W4386840331",
+          "https://openalex.org/W4387433765",
+          "https://openalex.org/W4387671011",
+          "https://openalex.org/W4387877798",
+          "https://openalex.org/W4388022309",
+          "https://openalex.org/W4388022655",
+          "https://openalex.org/W4388078058",
+          "https://openalex.org/W4388734317",
+          "https://openalex.org/W4388736846",
+          "https://openalex.org/W4388966876",
+          "https://openalex.org/W4389457156",
+          "https://openalex.org/W4390033781",
+          "https://openalex.org/W4390169441",
+          "https://openalex.org/W4390520564",
+          "https://openalex.org/W4390751318",
+          "https://openalex.org/W4390944890",
+          "https://openalex.org/W4391096923",
+          "https://openalex.org/W4392190934",
+          "https://openalex.org/W4396677387",
+          "https://openalex.org/W6798199930"
         ],
         "related_works": [
           "https://openalex.org/W4391375266",
@@ -12446,7 +12164,7 @@
             "cited_by_count": 3
           }
         ],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2026-02-05T00:54:17.221276",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -12533,7 +12251,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.903Z",
+      "lastUpdated": "2026-02-06T15:46:53.565Z",
       "_raw": {
         "id": "https://openalex.org/W4389045321",
         "doi": "https://doi.org/10.24840/2183-6493_009-005_002156",
@@ -12588,7 +12306,7 @@
           "is_oa": true,
           "oa_status": "diamond",
           "oa_url": "https://journalengineering.fe.up.pt/index.php/upjeng/article/download/2183-6493_009-005_002156/2183-6493_009-005_002156",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": true
         },
         "authorships": [
           {
@@ -12679,7 +12397,7 @@
         "has_fulltext": true,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.68412733,
+          "value": 0.68197449,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -13027,21 +12745,24 @@
             "landing_page_url": "https://doaj.org/article/3a80331ced05451b8f57b706fca31f77",
             "pdf_url": null,
             "source": {
-              "id": "https://openalex.org/S4306401280",
-              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-              "issn_l": null,
-              "issn": null,
-              "is_oa": false,
-              "is_in_doaj": false,
+              "id": "https://openalex.org/S112646816",
+              "display_name": "SHILAP Revista de lepidopterología",
+              "issn_l": "0300-5267",
+              "issn": [
+                "0300-5267",
+                "2340-4078"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
               "is_core": false,
               "host_organization": null,
               "host_organization_name": null,
               "host_organization_lineage": [],
               "host_organization_lineage_names": [],
-              "type": "repository"
+              "type": "journal"
             },
-            "license": "cc-by-sa",
-            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
             "version": "submittedVersion",
             "is_accepted": false,
             "is_published": false,
@@ -13084,43 +12805,43 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/9",
             "score": 0.5400000214576721,
-            "display_name": "Industry, innovation and infrastructure"
+            "display_name": "Industry, innovation and infrastructure",
+            "id": "https://metadata.un.org/sdg/9"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4389045321.pdf"
         },
         "referenced_works_count": 21,
         "referenced_works": [
-          "https://openalex.org/W2896556344",
-          "https://openalex.org/W3022200071",
-          "https://openalex.org/W4231109964",
-          "https://openalex.org/W3092074970",
-          "https://openalex.org/W2985361718",
-          "https://openalex.org/W2919262131",
-          "https://openalex.org/W2501166670",
-          "https://openalex.org/W4287639545",
-          "https://openalex.org/W3200637211",
-          "https://openalex.org/W4297775537",
-          "https://openalex.org/W2982083293",
-          "https://openalex.org/W2110837847",
-          "https://openalex.org/W4283068058",
-          "https://openalex.org/W4301397142",
-          "https://openalex.org/W2592523922",
-          "https://openalex.org/W4312335048",
           "https://openalex.org/W1171139185",
-          "https://openalex.org/W2963163009",
           "https://openalex.org/W2022649085",
+          "https://openalex.org/W2110837847",
+          "https://openalex.org/W2501166670",
+          "https://openalex.org/W2592523922",
+          "https://openalex.org/W2896556344",
+          "https://openalex.org/W2919262131",
           "https://openalex.org/W2955425717",
-          "https://openalex.org/W3017746288"
+          "https://openalex.org/W2963163009",
+          "https://openalex.org/W2982083293",
+          "https://openalex.org/W2985361718",
+          "https://openalex.org/W3017746288",
+          "https://openalex.org/W3022200071",
+          "https://openalex.org/W3092074970",
+          "https://openalex.org/W3200637211",
+          "https://openalex.org/W4231109964",
+          "https://openalex.org/W4283068058",
+          "https://openalex.org/W4287639545",
+          "https://openalex.org/W4297775537",
+          "https://openalex.org/W4301397142",
+          "https://openalex.org/W4312335048"
         ],
         "related_works": [
           "https://openalex.org/W2371278243",
@@ -13536,7 +13257,7 @@
             "cited_by_count": 3
           }
         ],
-        "updated_date": "2025-12-26T23:08:49.675405",
+        "updated_date": "2026-02-05T00:54:17.221276",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -13587,7 +13308,7 @@
       "date": "2023-11-20",
       "doi": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
       "url": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
-      "citations": 19,
+      "citations": 20,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
       "volume": "107",
@@ -13643,6 +13364,10 @@
       "isRetracted": false,
       "citationsPerYear": [
         {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
           "year": 2025,
           "cited_by_count": 11
         },
@@ -13655,7 +13380,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.565Z",
       "_raw": {
         "id": "https://openalex.org/W4388842249",
         "doi": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
@@ -14009,17 +13734,17 @@
           "currency": "USD",
           "value_usd": 3740
         },
-        "fwci": 9.3273577,
+        "fwci": 9.81827126,
         "has_fulltext": false,
-        "cited_by_count": 19,
+        "cited_by_count": 20,
         "citation_normalized_percentile": {
-          "value": 0.9687855,
+          "value": 0.97064338,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
         "cited_by_percentile_year": {
           "min": 89,
-          "max": 99
+          "max": 100
         },
         "biblio": {
           "volume": "107",
@@ -14367,9 +14092,9 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
             "score": 0.6800000071525574,
-            "display_name": "Sustainable cities and communities"
+            "display_name": "Sustainable cities and communities",
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
         "awards": [
@@ -14394,90 +14119,90 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 78,
         "referenced_works": [
+          "https://openalex.org/W136692655",
+          "https://openalex.org/W1690124732",
+          "https://openalex.org/W2187466352",
+          "https://openalex.org/W2299072670",
           "https://openalex.org/W2560544563",
           "https://openalex.org/W2607271341",
-          "https://openalex.org/W3110830102",
-          "https://openalex.org/W3092291811",
-          "https://openalex.org/W6800491699",
           "https://openalex.org/W2607479420",
-          "https://openalex.org/W4321502968",
-          "https://openalex.org/W6760275525",
-          "https://openalex.org/W3037168550",
-          "https://openalex.org/W3195494505",
-          "https://openalex.org/W6686059682",
-          "https://openalex.org/W2902259735",
-          "https://openalex.org/W6854538603",
-          "https://openalex.org/W4381849450",
-          "https://openalex.org/W3110977802",
+          "https://openalex.org/W2615992928",
           "https://openalex.org/W2742819792",
-          "https://openalex.org/W4379654636",
-          "https://openalex.org/W2795464827",
-          "https://openalex.org/W3007281183",
-          "https://openalex.org/W4285123134",
-          "https://openalex.org/W4377043457",
-          "https://openalex.org/W2903266193",
-          "https://openalex.org/W3081148783",
-          "https://openalex.org/W2901850888",
-          "https://openalex.org/W3091850786",
-          "https://openalex.org/W6743641341",
-          "https://openalex.org/W2887102897",
           "https://openalex.org/W2744079410",
-          "https://openalex.org/W3049504666",
-          "https://openalex.org/W2299072670",
-          "https://openalex.org/W3198617195",
-          "https://openalex.org/W1690124732",
-          "https://openalex.org/W6754713136",
-          "https://openalex.org/W3036901988",
-          "https://openalex.org/W4243904478",
-          "https://openalex.org/W2766179191",
-          "https://openalex.org/W4310901941",
-          "https://openalex.org/W4321378649",
-          "https://openalex.org/W6847889722",
-          "https://openalex.org/W2980096667",
-          "https://openalex.org/W6736365612",
-          "https://openalex.org/W6792078878",
-          "https://openalex.org/W4224251356",
-          "https://openalex.org/W4310154080",
-          "https://openalex.org/W4288420761",
-          "https://openalex.org/W6738253245",
-          "https://openalex.org/W6846944694",
-          "https://openalex.org/W4380355250",
-          "https://openalex.org/W4378449897",
-          "https://openalex.org/W2782672556",
-          "https://openalex.org/W6770885261",
-          "https://openalex.org/W3036110345",
-          "https://openalex.org/W4205108919",
-          "https://openalex.org/W6722188952",
-          "https://openalex.org/W6729302728",
           "https://openalex.org/W2754777630",
-          "https://openalex.org/W3197882301",
-          "https://openalex.org/W4382401168",
-          "https://openalex.org/W6760158687",
-          "https://openalex.org/W3042314439",
-          "https://openalex.org/W3203102848",
+          "https://openalex.org/W2766179191",
+          "https://openalex.org/W2782672556",
+          "https://openalex.org/W2795464827",
+          "https://openalex.org/W2887102897",
+          "https://openalex.org/W2901850888",
+          "https://openalex.org/W2902259735",
+          "https://openalex.org/W2903266193",
+          "https://openalex.org/W2980096667",
           "https://openalex.org/W2987710261",
+          "https://openalex.org/W3007281183",
+          "https://openalex.org/W3036110345",
+          "https://openalex.org/W3036901988",
+          "https://openalex.org/W3037168550",
+          "https://openalex.org/W3042314439",
+          "https://openalex.org/W3049504666",
+          "https://openalex.org/W3081148783",
+          "https://openalex.org/W3091850786",
+          "https://openalex.org/W3092291811",
+          "https://openalex.org/W3110830102",
+          "https://openalex.org/W3110977802",
+          "https://openalex.org/W3195494505",
+          "https://openalex.org/W3197882301",
           "https://openalex.org/W3197958969",
+          "https://openalex.org/W3198617195",
+          "https://openalex.org/W3203102848",
+          "https://openalex.org/W4205108919",
+          "https://openalex.org/W4224251356",
+          "https://openalex.org/W4233163546",
+          "https://openalex.org/W4242472075",
+          "https://openalex.org/W4243904478",
+          "https://openalex.org/W4251705936",
+          "https://openalex.org/W4252344361",
+          "https://openalex.org/W4256351822",
+          "https://openalex.org/W4285123134",
+          "https://openalex.org/W4288420761",
           "https://openalex.org/W4296079341",
-          "https://openalex.org/W4312558627",
-          "https://openalex.org/W4367692561",
-          "https://openalex.org/W2187466352",
-          "https://openalex.org/W136692655",
+          "https://openalex.org/W4310154080",
+          "https://openalex.org/W4310901941",
           "https://openalex.org/W4312271065",
-          "https://openalex.org/W4382999366",
+          "https://openalex.org/W4312558627",
           "https://openalex.org/W4312598927",
           "https://openalex.org/W4313002037",
-          "https://openalex.org/W4252344361",
-          "https://openalex.org/W4251705936",
-          "https://openalex.org/W4233163546",
-          "https://openalex.org/W4256351822",
-          "https://openalex.org/W4242472075",
-          "https://openalex.org/W2615992928"
+          "https://openalex.org/W4321378649",
+          "https://openalex.org/W4321502968",
+          "https://openalex.org/W4367692561",
+          "https://openalex.org/W4377043457",
+          "https://openalex.org/W4378449897",
+          "https://openalex.org/W4379654636",
+          "https://openalex.org/W4380355250",
+          "https://openalex.org/W4381849450",
+          "https://openalex.org/W4382401168",
+          "https://openalex.org/W4382999366",
+          "https://openalex.org/W6686059682",
+          "https://openalex.org/W6722188952",
+          "https://openalex.org/W6729302728",
+          "https://openalex.org/W6736365612",
+          "https://openalex.org/W6738253245",
+          "https://openalex.org/W6743641341",
+          "https://openalex.org/W6754713136",
+          "https://openalex.org/W6760158687",
+          "https://openalex.org/W6760275525",
+          "https://openalex.org/W6770885261",
+          "https://openalex.org/W6792078878",
+          "https://openalex.org/W6800491699",
+          "https://openalex.org/W6846944694",
+          "https://openalex.org/W6847889722",
+          "https://openalex.org/W6854538603"
         ],
         "related_works": [
           "https://openalex.org/W4367313141",
@@ -15169,6 +14894,10 @@
         },
         "counts_by_year": [
           {
+            "year": 2026,
+            "cited_by_count": 1
+          },
+          {
             "year": 2025,
             "cited_by_count": 11
           },
@@ -15258,7 +14987,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.565Z",
       "_raw": {
         "id": "https://openalex.org/W4388088101",
         "doi": "https://doi.org/10.1109/isc257844.2023.10293735",
@@ -15515,7 +15244,7 @@
         "has_fulltext": false,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.70225542,
+          "value": 0.69986296,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -15813,32 +15542,32 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
             "score": 0.49000000953674316,
-            "display_name": "Sustainable cities and communities"
+            "display_name": "Sustainable cities and communities",
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 12,
         "referenced_works": [
-          "https://openalex.org/W4280527816",
-          "https://openalex.org/W3091850786",
-          "https://openalex.org/W4297100014",
-          "https://openalex.org/W4285123134",
-          "https://openalex.org/W3022124280",
-          "https://openalex.org/W4308087272",
-          "https://openalex.org/W4306670806",
-          "https://openalex.org/W4310971903",
-          "https://openalex.org/W2901850888",
-          "https://openalex.org/W4377043457",
           "https://openalex.org/W2069227013",
-          "https://openalex.org/W4205153317"
+          "https://openalex.org/W2901850888",
+          "https://openalex.org/W3022124280",
+          "https://openalex.org/W3091850786",
+          "https://openalex.org/W4205153317",
+          "https://openalex.org/W4280527816",
+          "https://openalex.org/W4285123134",
+          "https://openalex.org/W4297100014",
+          "https://openalex.org/W4306670806",
+          "https://openalex.org/W4308087272",
+          "https://openalex.org/W4310971903",
+          "https://openalex.org/W4377043457"
         ],
         "related_works": [
           "https://openalex.org/W2392768766",
@@ -16273,7 +16002,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.566Z",
       "_raw": {
         "id": "https://openalex.org/W4402510102",
         "doi": "https://doi.org/10.5753/erbase.2022.228873",
@@ -16308,7 +16037,7 @@
           "is_oa": true,
           "oa_status": "gold",
           "oa_url": "https://sol.sbc.org.br/index.php/erbase/article/download/30201/30009",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": null
         },
         "authorships": [
           {
@@ -16384,7 +16113,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.21191638,
+          "value": 0.21156088,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -16503,23 +16232,23 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4402510102.pdf"
         },
         "referenced_works_count": 9,
         "referenced_works": [
-          "https://openalex.org/W7070956570",
-          "https://openalex.org/W4300852401",
+          "https://openalex.org/W1521211625",
+          "https://openalex.org/W1807600159",
+          "https://openalex.org/W2144635649",
+          "https://openalex.org/W2157626100",
+          "https://openalex.org/W2570343428",
           "https://openalex.org/W2580849970",
           "https://openalex.org/W2963037989",
-          "https://openalex.org/W2570343428",
-          "https://openalex.org/W2144635649",
-          "https://openalex.org/W1807600159",
-          "https://openalex.org/W2157626100",
-          "https://openalex.org/W1521211625"
+          "https://openalex.org/W4300852401",
+          "https://openalex.org/W7070956570"
         ],
         "related_works": [
           "https://openalex.org/W4391375266",
@@ -16942,7 +16671,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.566Z",
       "_raw": {
         "id": "https://openalex.org/W4312248886",
         "doi": "https://doi.org/10.37702/cobenge.2022.3840",
@@ -17077,7 +16806,7 @@
         "has_fulltext": true,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.3948832,
+          "value": 0.3937037,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -17249,16 +16978,16 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/4",
             "score": 0.6499999761581421,
-            "display_name": "Quality Education"
+            "display_name": "Quality Education",
+            "id": "https://metadata.un.org/sdg/4"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4312248886.pdf"
@@ -17679,7 +17408,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.566Z",
       "_raw": {
         "id": "https://openalex.org/W4312384372",
         "doi": "https://doi.org/10.37702/cobenge.2022.3836",
@@ -18092,7 +17821,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.40452354,
+          "value": 0.40333333,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -18220,8 +17949,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4312384372.pdf",
@@ -18614,7 +18343,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.566Z",
       "_raw": {
         "id": "https://openalex.org/W4285342612",
         "doi": "https://doi.org/10.5753/erbase.2021.20366",
@@ -18649,7 +18378,7 @@
           "is_oa": true,
           "oa_status": "gold",
           "oa_url": "https://sol.sbc.org.br/index.php/erbase/article/download/20366/20194",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": null
         },
         "authorships": [
           {
@@ -18832,7 +18561,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.20846741,
+          "value": 0.20789658,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -18992,8 +18721,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4285342612.pdf",
@@ -19001,14 +18730,14 @@
         },
         "referenced_works_count": 8,
         "referenced_works": [
-          "https://openalex.org/W3109496323",
-          "https://openalex.org/W4300852401",
-          "https://openalex.org/W4293478066",
-          "https://openalex.org/W3099206234",
-          "https://openalex.org/W2513140567",
-          "https://openalex.org/W2159607295",
+          "https://openalex.org/W2124776405",
           "https://openalex.org/W2145287260",
-          "https://openalex.org/W2124776405"
+          "https://openalex.org/W2159607295",
+          "https://openalex.org/W2513140567",
+          "https://openalex.org/W3099206234",
+          "https://openalex.org/W3109496323",
+          "https://openalex.org/W4293478066",
+          "https://openalex.org/W4300852401"
         ],
         "related_works": [
           "https://openalex.org/W4391375266",
@@ -19359,7 +19088,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.566Z",
       "_raw": {
         "id": "https://openalex.org/W4285342487",
         "doi": "https://doi.org/10.5753/erbase.2021.20062",
@@ -19394,7 +19123,7 @@
           "is_oa": true,
           "oa_status": "gold",
           "oa_url": "https://sol.sbc.org.br/index.php/erbase/article/download/20062/19890",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": null
         },
         "authorships": [
           {
@@ -19585,7 +19314,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.26050095,
+          "value": 0.25952072,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -19757,8 +19486,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4285342487.pdf",
@@ -19766,9 +19495,9 @@
         },
         "referenced_works_count": 4,
         "referenced_works": [
-          "https://openalex.org/W2773048844",
           "https://openalex.org/W2119927747",
           "https://openalex.org/W2144635649",
+          "https://openalex.org/W2773048844",
           "https://openalex.org/W2991442441"
         ],
         "related_works": [
@@ -20252,7 +19981,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.566Z",
       "_raw": {
         "id": "https://openalex.org/W3111267421",
         "doi": "https://doi.org/10.48011/asba.v2i1.971",
@@ -20536,7 +20265,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.27291194,
+          "value": 0.27252832,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -20662,8 +20391,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -21107,7 +20836,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.566Z",
       "_raw": {
         "id": "https://openalex.org/W3113358243",
         "doi": "https://doi.org/10.48011/asba.v2i1.1333",
@@ -21571,7 +21300,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.22708985,
+          "value": 0.22689518,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -21726,8 +21455,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -22231,7 +21960,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.566Z",
       "_raw": {
         "id": "https://openalex.org/W3035676811",
         "doi": "https://doi.org/10.22533/at.ed.87220080611",
@@ -22410,7 +22139,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.14480143,
+          "value": 0.14457295,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -22591,16 +22320,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/10",
             "score": 0.5600000023841858,
-            "display_name": "Reduced inequalities"
+            "display_name": "Reduced inequalities",
+            "id": "https://metadata.un.org/sdg/10"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -22692,7 +22421,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.566Z",
       "_raw": {
         "id": "https://openalex.org/W3041937156",
         "doi": "https://doi.org/10.36558/rsc.v10i1.6643",
@@ -22797,7 +22526,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.0820202,
+          "value": 0.08139008,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -22983,8 +22712,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -23476,7 +23205,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.566Z",
       "_raw": {
         "id": "https://openalex.org/W2986411918",
         "doi": "https://doi.org/10.5151/siintec2019-45",
@@ -23512,7 +23241,7 @@
           "is_oa": true,
           "oa_status": "gold",
           "oa_url": "http://pdf.blucher.com.br/engineeringproceedings/siintec2019/45.pdf",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": null
         },
         "authorships": [
           {
@@ -23915,7 +23644,7 @@
         "has_fulltext": true,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.17246394,
+          "value": 0.17197394,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -24097,9 +23826,9 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/10",
             "score": 0.4399999976158142,
-            "display_name": "Reduced inequalities"
+            "display_name": "Reduced inequalities",
+            "id": "https://metadata.un.org/sdg/10"
           }
         ],
         "awards": [],
@@ -24116,8 +23845,8 @@
           }
         ],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W2986411918.pdf",
@@ -24125,10 +23854,10 @@
         },
         "referenced_works_count": 4,
         "referenced_works": [
-          "https://openalex.org/W2575375166",
-          "https://openalex.org/W2792247833",
           "https://openalex.org/W2005389954",
-          "https://openalex.org/W2025347051"
+          "https://openalex.org/W2025347051",
+          "https://openalex.org/W2575375166",
+          "https://openalex.org/W2792247833"
         ],
         "related_works": [
           "https://openalex.org/W2748952813",
@@ -24423,7 +24152,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-01-25T03:40:55.926884",
+        "updated_date": "2025-11-06T03:46:38.306776",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -24564,7 +24293,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.904Z",
+      "lastUpdated": "2026-02-06T15:46:53.567Z",
       "_raw": {
         "id": "https://openalex.org/W2998133484",
         "doi": "https://doi.org/10.1109/h2rc49586.2019.00012",
@@ -25182,7 +24911,7 @@
         "has_fulltext": false,
         "cited_by_count": 5,
         "citation_normalized_percentile": {
-          "value": 0.67235516,
+          "value": 0.67146115,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -25497,43 +25226,43 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/7",
             "score": 0.8899999856948853,
-            "display_name": "Affordable and clean energy"
+            "display_name": "Affordable and clean energy",
+            "id": "https://metadata.un.org/sdg/7"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 23,
         "referenced_works": [
-          "https://openalex.org/W2044760503",
-          "https://openalex.org/W2221279259",
-          "https://openalex.org/W2081704803",
-          "https://openalex.org/W2019083138",
-          "https://openalex.org/W1994595608",
-          "https://openalex.org/W2025347051",
-          "https://openalex.org/W2178091013",
-          "https://openalex.org/W2524556139",
-          "https://openalex.org/W1994993486",
-          "https://openalex.org/W2611627562",
-          "https://openalex.org/W2054540987",
-          "https://openalex.org/W2037639500",
-          "https://openalex.org/W2575375166",
-          "https://openalex.org/W2759904183",
-          "https://openalex.org/W2020536904",
           "https://openalex.org/W1987873989",
-          "https://openalex.org/W6657988772",
           "https://openalex.org/W1990075242",
+          "https://openalex.org/W1994595608",
+          "https://openalex.org/W1994993486",
+          "https://openalex.org/W2019083138",
+          "https://openalex.org/W2020536904",
+          "https://openalex.org/W2025347051",
+          "https://openalex.org/W2029789077",
+          "https://openalex.org/W2037639500",
+          "https://openalex.org/W2044760503",
+          "https://openalex.org/W2054540987",
           "https://openalex.org/W2070745001",
+          "https://openalex.org/W2081704803",
+          "https://openalex.org/W2178091013",
+          "https://openalex.org/W2221279259",
           "https://openalex.org/W2314948407",
           "https://openalex.org/W2318335981",
+          "https://openalex.org/W2524556139",
           "https://openalex.org/W2530810001",
-          "https://openalex.org/W2029789077"
+          "https://openalex.org/W2575375166",
+          "https://openalex.org/W2611627562",
+          "https://openalex.org/W2759904183",
+          "https://openalex.org/W6657988772"
         ],
         "related_works": [
           "https://openalex.org/W1963859303",
@@ -25975,7 +25704,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-02-01T02:59:47.905Z",
+      "lastUpdated": "2026-02-06T15:46:53.567Z",
       "_raw": {
         "id": "https://openalex.org/W2939288824",
         "doi": null,
@@ -26008,7 +25737,7 @@
           "is_oa": true,
           "oa_status": "gold",
           "oa_url": "http://repositorio.ufba.br/ri/handle/ri/28856",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": null
         },
         "authorships": [
           {
@@ -26180,8 +25909,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -27094,7 +26823,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.905Z",
+      "lastUpdated": "2026-02-06T15:46:53.567Z",
       "_raw": {
         "id": "https://openalex.org/W2782499739",
         "doi": "https://doi.org/10.1109/chilecon.2017.8229606",
@@ -27257,7 +26986,7 @@
         "has_fulltext": false,
         "cited_by_count": 8,
         "citation_normalized_percentile": {
-          "value": 0.83322402,
+          "value": 0.83332293,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -27605,41 +27334,41 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/9",
             "score": 0.46000000834465027,
-            "display_name": "Industry, innovation and infrastructure"
+            "display_name": "Industry, innovation and infrastructure",
+            "id": "https://metadata.un.org/sdg/9"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 21,
         "referenced_works": [
-          "https://openalex.org/W2544370511",
-          "https://openalex.org/W2058040501",
-          "https://openalex.org/W1985487742",
-          "https://openalex.org/W1905690982",
-          "https://openalex.org/W2155054285",
-          "https://openalex.org/W2128542358",
-          "https://openalex.org/W1585621417",
-          "https://openalex.org/W6611392429",
-          "https://openalex.org/W6683016425",
-          "https://openalex.org/W1991328498",
-          "https://openalex.org/W2104164917",
-          "https://openalex.org/W2569355805",
-          "https://openalex.org/W2054822856",
-          "https://openalex.org/W2532435949",
-          "https://openalex.org/W2054856368",
+          "https://openalex.org/W331974224",
           "https://openalex.org/W616518283",
+          "https://openalex.org/W1585621417",
+          "https://openalex.org/W1905690982",
+          "https://openalex.org/W1985487742",
           "https://openalex.org/W1989355565",
-          "https://openalex.org/W2168062107",
-          "https://openalex.org/W2156776663",
+          "https://openalex.org/W1991328498",
+          "https://openalex.org/W2054822856",
+          "https://openalex.org/W2054856368",
+          "https://openalex.org/W2058040501",
           "https://openalex.org/W2090455692",
-          "https://openalex.org/W331974224"
+          "https://openalex.org/W2104164917",
+          "https://openalex.org/W2128542358",
+          "https://openalex.org/W2155054285",
+          "https://openalex.org/W2156776663",
+          "https://openalex.org/W2168062107",
+          "https://openalex.org/W2532435949",
+          "https://openalex.org/W2544370511",
+          "https://openalex.org/W2569355805",
+          "https://openalex.org/W6611392429",
+          "https://openalex.org/W6683016425"
         ],
         "related_works": [
           "https://openalex.org/W4387497383",
@@ -28151,7 +27880,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.905Z",
+      "lastUpdated": "2026-02-06T15:46:53.567Z",
       "_raw": {
         "id": "https://openalex.org/W2184065042",
         "doi": "https://doi.org/10.1109/patmos.2015.7347589",
@@ -28350,7 +28079,7 @@
         "has_fulltext": false,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.68151086,
+          "value": 0.68049706,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -28675,35 +28404,35 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/7",
             "score": 0.4099999964237213,
-            "display_name": "Affordable and clean energy"
+            "display_name": "Affordable and clean energy",
+            "id": "https://metadata.un.org/sdg/7"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 15,
         "referenced_works": [
-          "https://openalex.org/W2140655888",
-          "https://openalex.org/W2169613041",
-          "https://openalex.org/W2060896078",
-          "https://openalex.org/W2087761868",
-          "https://openalex.org/W1534737259",
-          "https://openalex.org/W2061512797",
-          "https://openalex.org/W2144962541",
-          "https://openalex.org/W6600302457",
-          "https://openalex.org/W4256648168",
-          "https://openalex.org/W2128765501",
-          "https://openalex.org/W2171258019",
-          "https://openalex.org/W6661421265",
           "https://openalex.org/W7241855",
+          "https://openalex.org/W1534737259",
           "https://openalex.org/W2042791697",
-          "https://openalex.org/W2156938362"
+          "https://openalex.org/W2060896078",
+          "https://openalex.org/W2061512797",
+          "https://openalex.org/W2087761868",
+          "https://openalex.org/W2128765501",
+          "https://openalex.org/W2140655888",
+          "https://openalex.org/W2144962541",
+          "https://openalex.org/W2156938362",
+          "https://openalex.org/W2169613041",
+          "https://openalex.org/W2171258019",
+          "https://openalex.org/W4256648168",
+          "https://openalex.org/W6600302457",
+          "https://openalex.org/W6661421265"
         ],
         "related_works": [
           "https://openalex.org/W2889102485",
@@ -29061,7 +28790,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.905Z",
+      "lastUpdated": "2026-02-06T15:46:53.567Z",
       "_raw": {
         "id": "https://openalex.org/W1927039319",
         "doi": "https://doi.org/10.1109/dsd.2015.55",
@@ -29292,7 +29021,7 @@
         "has_fulltext": false,
         "cited_by_count": 4,
         "citation_normalized_percentile": {
-          "value": 0.0315649,
+          "value": 0.03158068,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -29630,19 +29359,19 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 7,
         "referenced_works": [
-          "https://openalex.org/W2157075482",
-          "https://openalex.org/W4253351171",
-          "https://openalex.org/W2070987634",
-          "https://openalex.org/W2128787516",
-          "https://openalex.org/W2099779458",
           "https://openalex.org/W1569252980",
-          "https://openalex.org/W1775533058"
+          "https://openalex.org/W1775533058",
+          "https://openalex.org/W2070987634",
+          "https://openalex.org/W2099779458",
+          "https://openalex.org/W2128787516",
+          "https://openalex.org/W2157075482",
+          "https://openalex.org/W4253351171"
         ],
         "related_works": [
           "https://openalex.org/W2111241003",
@@ -30080,7 +29809,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.905Z",
+      "lastUpdated": "2026-02-06T15:46:53.567Z",
       "_raw": {
         "id": "https://openalex.org/W334391379",
         "doi": null,
@@ -30232,7 +29961,7 @@
         "has_fulltext": false,
         "cited_by_count": 4,
         "citation_normalized_percentile": {
-          "value": 0.02096354,
+          "value": 0.02081498,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -30577,18 +30306,18 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 6,
         "referenced_works": [
           "https://openalex.org/W1601395958",
-          "https://openalex.org/W2381755277",
+          "https://openalex.org/W1874705653",
           "https://openalex.org/W2096411220",
           "https://openalex.org/W2130762655",
-          "https://openalex.org/W3023540311",
-          "https://openalex.org/W1874705653"
+          "https://openalex.org/W2381755277",
+          "https://openalex.org/W3023540311"
         ],
         "related_works": [
           "https://openalex.org/W2464539556",
@@ -30974,7 +30703,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.905Z",
+      "lastUpdated": "2026-02-06T15:46:53.567Z",
       "_raw": {
         "id": "https://openalex.org/W1835217957",
         "doi": null,
@@ -31183,7 +30912,7 @@
         "has_fulltext": false,
         "cited_by_count": 1,
         "citation_normalized_percentile": {
-          "value": 0.83646134,
+          "value": 0.83685874,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -31380,16 +31109,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/4",
             "score": 0.6100000143051147,
-            "display_name": "Quality Education"
+            "display_name": "Quality Education",
+            "id": "https://metadata.un.org/sdg/4"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -31608,7 +31337,7 @@
   ],
   "stats": {
     "totalPapers": 36,
-    "totalCitations": 175,
+    "totalCitations": 177,
     "hIndex": 6,
     "openAccessCount": 16,
     "averageCitations": 4.9,
@@ -31735,7 +31464,7 @@
           "cited_by_count": 19
         }
       ],
-      "lastUpdated": "2026-02-01T02:59:47.902Z",
+      "lastUpdated": "2026-02-06T15:46:53.565Z",
       "_raw": {
         "id": "https://openalex.org/W4390751318",
         "doi": "https://doi.org/10.3390/su16020640",
@@ -31789,7 +31518,7 @@
           "is_oa": true,
           "oa_status": "gold",
           "oa_url": "https://www.mdpi.com/2071-1050/16/2/640/pdf?version=1704965720",
-          "any_repository_has_fulltext": false
+          "any_repository_has_fulltext": true
         },
         "authorships": [
           {
@@ -32031,7 +31760,7 @@
         "has_fulltext": true,
         "cited_by_count": 53,
         "citation_normalized_percentile": {
-          "value": 0.99916874,
+          "value": 0.99912599,
           "is_in_top_1_percent": true,
           "is_in_top_10_percent": true
         },
@@ -32407,194 +32136,194 @@
         },
         "sustainable_development_goals": [
           {
-            "id": "https://metadata.un.org/sdg/11",
             "score": 0.46000000834465027,
-            "display_name": "Sustainable cities and communities"
+            "display_name": "Sustainable cities and communities",
+            "id": "https://metadata.un.org/sdg/11"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4390751318.pdf"
         },
         "referenced_works_count": 172,
         "referenced_works": [
-          "https://openalex.org/W3029404970",
-          "https://openalex.org/W2998428295",
-          "https://openalex.org/W4321496947",
-          "https://openalex.org/W4225261940",
-          "https://openalex.org/W4384067905",
-          "https://openalex.org/W3127982897",
-          "https://openalex.org/W4220792580",
-          "https://openalex.org/W4210565123",
-          "https://openalex.org/W4285123134",
-          "https://openalex.org/W3194146037",
-          "https://openalex.org/W4224244268",
-          "https://openalex.org/W4220832941",
-          "https://openalex.org/W3144879775",
-          "https://openalex.org/W3092962164",
-          "https://openalex.org/W4387373530",
-          "https://openalex.org/W4376614633",
-          "https://openalex.org/W3165641867",
-          "https://openalex.org/W3033454425",
-          "https://openalex.org/W2991470968",
-          "https://openalex.org/W4389311552",
-          "https://openalex.org/W3033940652",
-          "https://openalex.org/W3165060673",
-          "https://openalex.org/W3033928476",
-          "https://openalex.org/W4296852874",
-          "https://openalex.org/W4377148650",
-          "https://openalex.org/W4292881975",
-          "https://openalex.org/W4386263607",
-          "https://openalex.org/W3143011944",
-          "https://openalex.org/W4224623367",
-          "https://openalex.org/W4285004952",
-          "https://openalex.org/W2969391604",
-          "https://openalex.org/W2946874571",
-          "https://openalex.org/W2754777630",
-          "https://openalex.org/W2905022025",
           "https://openalex.org/W1538827658",
-          "https://openalex.org/W2255220540",
-          "https://openalex.org/W4248039887",
-          "https://openalex.org/W2904160541",
           "https://openalex.org/W2018384081",
-          "https://openalex.org/W6672534882",
-          "https://openalex.org/W2165571071",
-          "https://openalex.org/W4378449897",
+          "https://openalex.org/W2088028384",
+          "https://openalex.org/W2118167481",
           "https://openalex.org/W2165449928",
-          "https://openalex.org/W4386840331",
-          "https://openalex.org/W3010471965",
+          "https://openalex.org/W2165571071",
+          "https://openalex.org/W2255220540",
+          "https://openalex.org/W2513561725",
+          "https://openalex.org/W2604450515",
+          "https://openalex.org/W2754777630",
+          "https://openalex.org/W2766264620",
+          "https://openalex.org/W2777105798",
           "https://openalex.org/W2778613407",
+          "https://openalex.org/W2802544089",
+          "https://openalex.org/W2894655172",
+          "https://openalex.org/W2898535022",
+          "https://openalex.org/W2901850888",
+          "https://openalex.org/W2901852697",
+          "https://openalex.org/W2904160541",
+          "https://openalex.org/W2905022025",
+          "https://openalex.org/W2905693337",
+          "https://openalex.org/W2909579030",
+          "https://openalex.org/W2913950865",
+          "https://openalex.org/W2921950230",
+          "https://openalex.org/W2942250707",
+          "https://openalex.org/W2946874571",
+          "https://openalex.org/W2953544263",
+          "https://openalex.org/W2955893349",
+          "https://openalex.org/W2969391604",
+          "https://openalex.org/W2969399368",
+          "https://openalex.org/W2980020285",
+          "https://openalex.org/W2982003903",
+          "https://openalex.org/W2990284253",
+          "https://openalex.org/W2991470968",
+          "https://openalex.org/W2996888127",
+          "https://openalex.org/W2998428295",
+          "https://openalex.org/W2999901858",
+          "https://openalex.org/W3004273024",
+          "https://openalex.org/W3008690765",
+          "https://openalex.org/W3009303236",
+          "https://openalex.org/W3009913199",
+          "https://openalex.org/W3010471965",
+          "https://openalex.org/W3010596753",
+          "https://openalex.org/W3010697765",
+          "https://openalex.org/W3011459318",
+          "https://openalex.org/W3021041425",
+          "https://openalex.org/W3022124280",
+          "https://openalex.org/W3029404970",
+          "https://openalex.org/W3033454425",
+          "https://openalex.org/W3033928476",
+          "https://openalex.org/W3033940652",
+          "https://openalex.org/W3036901988",
+          "https://openalex.org/W3041516416",
+          "https://openalex.org/W3046727524",
+          "https://openalex.org/W3047087365",
+          "https://openalex.org/W3048378409",
+          "https://openalex.org/W3048679161",
+          "https://openalex.org/W3072767238",
+          "https://openalex.org/W3081148783",
+          "https://openalex.org/W3087067468",
+          "https://openalex.org/W3092962164",
+          "https://openalex.org/W3093783152",
+          "https://openalex.org/W3095721799",
+          "https://openalex.org/W3096179715",
+          "https://openalex.org/W3097060730",
+          "https://openalex.org/W3104833050",
+          "https://openalex.org/W3111672926",
+          "https://openalex.org/W3112947261",
+          "https://openalex.org/W3115682820",
+          "https://openalex.org/W3116725086",
+          "https://openalex.org/W3118689035",
+          "https://openalex.org/W3120840445",
+          "https://openalex.org/W3127939542",
+          "https://openalex.org/W3127982897",
+          "https://openalex.org/W3131363691",
+          "https://openalex.org/W3132648691",
+          "https://openalex.org/W3133108932",
+          "https://openalex.org/W3133953661",
+          "https://openalex.org/W3134694888",
+          "https://openalex.org/W3134900529",
+          "https://openalex.org/W3136773083",
+          "https://openalex.org/W3138924974",
+          "https://openalex.org/W3143011944",
+          "https://openalex.org/W3144879775",
+          "https://openalex.org/W3145387973",
+          "https://openalex.org/W3157099631",
+          "https://openalex.org/W3165060673",
+          "https://openalex.org/W3165641867",
+          "https://openalex.org/W3175174373",
+          "https://openalex.org/W3177409978",
+          "https://openalex.org/W3178298399",
+          "https://openalex.org/W3182436344",
+          "https://openalex.org/W3183626504",
+          "https://openalex.org/W3189739907",
+          "https://openalex.org/W3194146037",
+          "https://openalex.org/W3201223054",
+          "https://openalex.org/W3201421582",
+          "https://openalex.org/W3206831613",
+          "https://openalex.org/W3210244392",
+          "https://openalex.org/W3211474784",
+          "https://openalex.org/W3211636833",
+          "https://openalex.org/W3217213024",
+          "https://openalex.org/W4200604466",
+          "https://openalex.org/W4206030165",
+          "https://openalex.org/W4206448349",
+          "https://openalex.org/W4210565123",
+          "https://openalex.org/W4210566873",
+          "https://openalex.org/W4210743160",
+          "https://openalex.org/W4210934891",
+          "https://openalex.org/W4210942381",
+          "https://openalex.org/W4220704095",
+          "https://openalex.org/W4220792580",
+          "https://openalex.org/W4220832941",
+          "https://openalex.org/W4220973783",
+          "https://openalex.org/W4220988632",
+          "https://openalex.org/W4221097295",
+          "https://openalex.org/W4224244268",
+          "https://openalex.org/W4224623367",
+          "https://openalex.org/W4225261940",
+          "https://openalex.org/W4225549431",
+          "https://openalex.org/W4248039887",
+          "https://openalex.org/W4285004952",
+          "https://openalex.org/W4285123134",
+          "https://openalex.org/W4285126701",
+          "https://openalex.org/W4285392486",
+          "https://openalex.org/W4288060721",
+          "https://openalex.org/W4288420761",
+          "https://openalex.org/W4288445077",
+          "https://openalex.org/W4292881975",
           "https://openalex.org/W4293721199",
           "https://openalex.org/W4294151117",
-          "https://openalex.org/W3095721799",
-          "https://openalex.org/W3011459318",
-          "https://openalex.org/W3217213024",
-          "https://openalex.org/W3134694888",
-          "https://openalex.org/W3183626504",
-          "https://openalex.org/W2955893349",
-          "https://openalex.org/W3127939542",
-          "https://openalex.org/W2766264620",
-          "https://openalex.org/W2909579030",
-          "https://openalex.org/W4386374946",
-          "https://openalex.org/W2905693337",
-          "https://openalex.org/W3115682820",
-          "https://openalex.org/W3131363691",
-          "https://openalex.org/W3072767238",
-          "https://openalex.org/W3177409978",
-          "https://openalex.org/W3211474784",
-          "https://openalex.org/W2901852697",
+          "https://openalex.org/W4296852874",
           "https://openalex.org/W4297005852",
-          "https://openalex.org/W4319296376",
-          "https://openalex.org/W3120840445",
-          "https://openalex.org/W2942250707",
-          "https://openalex.org/W3048378409",
-          "https://openalex.org/W4210566873",
-          "https://openalex.org/W4220988632",
-          "https://openalex.org/W6769711027",
-          "https://openalex.org/W3097060730",
-          "https://openalex.org/W3008690765",
-          "https://openalex.org/W3201223054",
-          "https://openalex.org/W2118167481",
-          "https://openalex.org/W2802544089",
-          "https://openalex.org/W3175174373",
-          "https://openalex.org/W2513561725",
-          "https://openalex.org/W2953544263",
-          "https://openalex.org/W2898535022",
-          "https://openalex.org/W2777105798",
-          "https://openalex.org/W3138924974",
-          "https://openalex.org/W3189739907",
-          "https://openalex.org/W2990284253",
-          "https://openalex.org/W3096179715",
-          "https://openalex.org/W3157099631",
-          "https://openalex.org/W4285126701",
-          "https://openalex.org/W2913950865",
-          "https://openalex.org/W3134900529",
-          "https://openalex.org/W2921950230",
-          "https://openalex.org/W4206030165",
-          "https://openalex.org/W4210942381",
-          "https://openalex.org/W3022124280",
-          "https://openalex.org/W3021041425",
-          "https://openalex.org/W3206831613",
-          "https://openalex.org/W3112947261",
-          "https://openalex.org/W4221097295",
-          "https://openalex.org/W4288445077",
-          "https://openalex.org/W3111672926",
-          "https://openalex.org/W3048679161",
-          "https://openalex.org/W4367052987",
-          "https://openalex.org/W3047087365",
-          "https://openalex.org/W3118689035",
-          "https://openalex.org/W4210743160",
-          "https://openalex.org/W4310535418",
-          "https://openalex.org/W4285392486",
-          "https://openalex.org/W4225549431",
-          "https://openalex.org/W2901850888",
-          "https://openalex.org/W2999901858",
-          "https://openalex.org/W3087067468",
-          "https://openalex.org/W3010596753",
-          "https://openalex.org/W3145387973",
-          "https://openalex.org/W3133108932",
-          "https://openalex.org/W4388415965",
-          "https://openalex.org/W4385484119",
-          "https://openalex.org/W4389005636",
-          "https://openalex.org/W3136773083",
-          "https://openalex.org/W3036901988",
-          "https://openalex.org/W2604450515",
-          "https://openalex.org/W4388842249",
-          "https://openalex.org/W3081148783",
-          "https://openalex.org/W3004273024",
-          "https://openalex.org/W3093783152",
-          "https://openalex.org/W4288420761",
-          "https://openalex.org/W4380355250",
-          "https://openalex.org/W3041516416",
-          "https://openalex.org/W3201421582",
-          "https://openalex.org/W2894655172",
-          "https://openalex.org/W4200604466",
           "https://openalex.org/W4303616996",
-          "https://openalex.org/W4319337726",
-          "https://openalex.org/W4366753170",
-          "https://openalex.org/W4385431485",
-          "https://openalex.org/W4383215552",
-          "https://openalex.org/W3182436344",
-          "https://openalex.org/W2996888127",
-          "https://openalex.org/W4389261521",
-          "https://openalex.org/W2980020285",
-          "https://openalex.org/W6846692385",
-          "https://openalex.org/W4220973783",
-          "https://openalex.org/W4385952655",
-          "https://openalex.org/W3010697765",
-          "https://openalex.org/W2969399368",
-          "https://openalex.org/W3116725086",
-          "https://openalex.org/W3009913199",
-          "https://openalex.org/W3046727524",
-          "https://openalex.org/W3211636833",
-          "https://openalex.org/W3132648691",
-          "https://openalex.org/W4210934891",
-          "https://openalex.org/W4288060721",
-          "https://openalex.org/W4378416929",
-          "https://openalex.org/W6849348727",
-          "https://openalex.org/W4381660815",
-          "https://openalex.org/W4317930313",
-          "https://openalex.org/W3210244392",
-          "https://openalex.org/W6853412076",
-          "https://openalex.org/W4388824319",
-          "https://openalex.org/W4388460704",
-          "https://openalex.org/W4206448349",
-          "https://openalex.org/W4220704095",
-          "https://openalex.org/W3009303236",
-          "https://openalex.org/W4389565166",
-          "https://openalex.org/W3178298399",
-          "https://openalex.org/W4321366824",
           "https://openalex.org/W4308570094",
+          "https://openalex.org/W4310535418",
+          "https://openalex.org/W4317930313",
+          "https://openalex.org/W4319296376",
+          "https://openalex.org/W4319337726",
+          "https://openalex.org/W4321366824",
+          "https://openalex.org/W4321496947",
+          "https://openalex.org/W4366753170",
+          "https://openalex.org/W4367052987",
+          "https://openalex.org/W4376614633",
+          "https://openalex.org/W4377148650",
+          "https://openalex.org/W4378416929",
+          "https://openalex.org/W4378449897",
           "https://openalex.org/W4378647911",
-          "https://openalex.org/W2982003903",
-          "https://openalex.org/W2088028384",
-          "https://openalex.org/W3104833050",
-          "https://openalex.org/W3133953661"
+          "https://openalex.org/W4380355250",
+          "https://openalex.org/W4381660815",
+          "https://openalex.org/W4383215552",
+          "https://openalex.org/W4384067905",
+          "https://openalex.org/W4385431485",
+          "https://openalex.org/W4385484119",
+          "https://openalex.org/W4385952655",
+          "https://openalex.org/W4386263607",
+          "https://openalex.org/W4386374946",
+          "https://openalex.org/W4386840331",
+          "https://openalex.org/W4387373530",
+          "https://openalex.org/W4388415965",
+          "https://openalex.org/W4388460704",
+          "https://openalex.org/W4388824319",
+          "https://openalex.org/W4388842249",
+          "https://openalex.org/W4389005636",
+          "https://openalex.org/W4389261521",
+          "https://openalex.org/W4389311552",
+          "https://openalex.org/W4389565166",
+          "https://openalex.org/W6672534882",
+          "https://openalex.org/W6769711027",
+          "https://openalex.org/W6846692385",
+          "https://openalex.org/W6849348727",
+          "https://openalex.org/W6853412076"
         ],
         "related_works": [
           "https://openalex.org/W2004086023",
@@ -33052,6 +32781,6 @@
     },
     "recentPapers": 16
   },
-  "lastFetched": "2026-02-01T02:59:47.905Z",
+  "lastFetched": "2026-02-06T15:46:53.567Z",
   "totalCount": 36
 }
