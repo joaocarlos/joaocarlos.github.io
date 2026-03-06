@@ -72,10 +72,12 @@ async function fetchPublications() {
                 title: pub.display_name || pub.title,
                 authors:
                     pub.authorships?.map((a) => ({
-                        name: a.author?.display_name,
-                        orcid: a.author?.orcid,
-                        isCorresponding: a.is_corresponding,
-                        position: a.author_position,
+                        name: a.raw_author_name || a.author?.display_name,
+                         canonicalName: a.author?.display_name || null,
+                         orcid: a.author?.orcid,
+                         isCorresponding: a.is_corresponding,
+                         position: a.author_position,
+                         openalexAuthorId: a.author?.id || null,
                     })) || [],
                 journal: venueName,
                 year: pub.publication_year,
