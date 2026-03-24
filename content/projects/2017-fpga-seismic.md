@@ -10,7 +10,7 @@ duration: "2017–2019"
 start_date: 2017-01-01
 end_date: 2019-12-31
 funding: "EMBRAPII, Shell"
-funding_amount: "R$ 4.238.000,00"
+funding_amount: "BRL 4,238,000.00"
 website: ""
 github: ""
 partners:

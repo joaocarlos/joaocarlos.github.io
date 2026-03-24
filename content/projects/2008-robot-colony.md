@@ -10,7 +10,7 @@ duration: "2008–2023"
 start_date: 2008-01-01
 end_date: 2023-01-30
 funding: "SECTI-BA"
-funding_amount: "R$ 450.000,00"
+funding_amount: "BRL 450,000.00"
 website: ""
 github: ""
 partners:

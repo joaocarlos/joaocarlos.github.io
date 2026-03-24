@@ -10,7 +10,7 @@ duration: "2008–2013"
 start_date: 2008-01-01
 end_date: 2013-12-31
 funding: "FAPESB (00382008), UEFS"
-funding_amount: "R$ 50,000.00"
+funding_amount: "BRL 50,000.00"
 website: ""
 github: ""
 tags:
@@ -33,12 +33,12 @@ The main objective of this project is to develop an action aimed at the populari
 
 ## Aspects Covered
 
--   Cultural
--   Socio-economic
--   Historical
--   Geographical
--   Tourist
--   Leisure
+- Cultural
+- Socio-economic
+- Historical
+- Geographical
+- Tourist
+- Leisure
 
 ## Results
 
