@@ -6,6 +6,8 @@ hugo_stats.json
 
 # Generated CV (compiled from Typst in CI)
 static/cv.pdf
+cv/
+fonts-list.txt
 
 # macOS
 .DS_Store
