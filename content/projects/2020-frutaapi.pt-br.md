@@ -3,11 +3,12 @@ title: "FrutaAPI"
 slug: "frutaapi"
 translationKey: "frutaapi"
 description: "Plataforma digital de disponibilização de informações científicas de pragas que afetam o cultivo de fruteiras tropicais"
-status: "active"
+status: "completed"
 category: "research"
 role: "Pesquisador"
 duration: "2020–atual"
 start_date: 2020-01-01
+end_date: 2022-12-31
 funding: "EMBRAPA Mandioca e Fruticultura, UFRB"
 funding_amount: ""
 website: ""
@@ -34,15 +35,15 @@ O projeto propõe organizar as informações de pragas que afetam o cultivo do a
 
 ## Culturas Abordadas
 
--   Abacaxi
--   Maracujá
--   Mamão
--   Banana
--   Citros
--   Coco
--   Manga
+- Abacaxi
+- Maracujá
+- Mamão
+- Banana
+- Citros
+- Coco
+- Manga
 
 ## Resultados
 
--   [AgroPragas Maracujá - Guia de Identificação e Controle de Pragas do Maracujazeiro (EMBRAPA)](https://www.embrapa.br/busca-de-publicacoes/-/publicacao/1152111/agropragas-maracuja-guia-de-identificacao-e-controle-de-pragas-do-maracujazeiro)
--   [AgroPragas Maracujá (Google Play)](https://play.google.com/store/apps/details?id=br.embrapa.cnpmf.gicp_maracujazeiro&hl=pt_PT&pli=1)
+- [AgroPragas Maracujá - Guia de Identificação e Controle de Pragas do Maracujazeiro (EMBRAPA)](https://www.embrapa.br/busca-de-publicacoes/-/publicacao/1152111/agropragas-maracuja-guia-de-identificacao-e-controle-de-pragas-do-maracujazeiro)
+- [AgroPragas Maracujá (Google Play)](https://play.google.com/store/apps/details?id=br.embrapa.cnpmf.gicp_maracujazeiro&hl=pt_PT&pli=1)

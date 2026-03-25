@@ -3,11 +3,12 @@ title: "UFRBots VSSim"
 slug: "ufrbots-vssim"
 translationKey: "ufrbots-vssim"
 description: "Uma visão extensionista para o ensino de futebol de robôs simulado no Recôncavo da Bahia"
-status: "active"
+status: "completed"
 category: "extension"
 role: "Coordenador"
-duration: "2020–atual"
+duration: "2020"
 start_date: 2020-01-01
+end_date: 2020-12-31
 funding: "UFRB"
 funding_amount: ""
 website: ""
@@ -33,8 +34,8 @@ O objetivo deste projeto é estimular o interesse pelas ciências exatas e engen
 
 ## Atividades
 
--   Workshop da categoria Very Small Size Simulation (VSSim) do RoboCup Soccer Simulation
+- Workshop da categoria Very Small Size Simulation (VSSim) do RoboCup Soccer Simulation
 
 ## Impacto
 
--   Este projeto envolveu cerca de 50 estudantes de diversas escolas de ensino médio da região do Recôncavo da Bahia, promovendo a educação em STEM e o interesse em robótica através de atividades de futebol de robôs simulado.
+- Este projeto envolveu cerca de 50 estudantes de diversas escolas de ensino médio da região do Recôncavo da Bahia, promovendo a educação em STEM e o interesse em robótica através de atividades de futebol de robôs simulado.
