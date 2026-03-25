@@ -24,8 +24,8 @@ tags:
 
 ## UN Sustainable Development Goals - Agenda 2030
 
--   Build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation
--   Make cities and human settlements inclusive, safe, resilient, and sustainable
+- Build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation
+- Make cities and human settlements inclusive, safe, resilient, and sustainable
 
 ## Overview
 
@@ -46,7 +46,7 @@ A multi-sensor unit is a special device capable of obtaining various types of da
 
 ## Challenges Addressed
 
--   **Deployment optimization**: Efficient placement of detection units considering safe and accessible areas, coverage requirements, and population configurations
--   **Multi-objective optimization**: Handling distinct critical event probabilities across city sub-regions
--   **Sensor configuration**: Different sensors have specific positioning characteristics that increase optimization complexity
--   **Network reliability**: Communication issues that can compromise emergency detection system effectiveness
+- **Deployment optimization**: Efficient placement of detection units considering safe and accessible areas, coverage requirements, and population configurations
+- **Multi-objective optimization**: Handling distinct critical event probabilities across city sub-regions
+- **Sensor configuration**: Different sensors have specific positioning characteristics that increase optimization complexity
+- **Network reliability**: Communication issues that can compromise emergency detection system effectiveness

@@ -5,7 +5,7 @@ translationKey: "citysensalarm"
 description: "Criação de cidades mais seguras e resilientes através da detecção e gestão de emergências urbanas com base em redes de sensores otimizadas"
 status: "completed"
 category: "research"
-role: "Researcher"
+role: "Pesquisador"
 duration: "2023"
 start_date: 2023-02-01
 end_date: 2023-09-30
