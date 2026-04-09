@@ -48,6 +48,83 @@ async function fetchAllPublications() {
     return allResults
 }
 
+/**
+ * Detect software/dataset entries that OpenAlex misclassifies as publications.
+ * These are typically GitHub releases deposited on Zenodo.
+ */
+function isSoftwareEntry(raw) {
+    const type = raw.type || ""
+    const doi = raw.doi || ""
+    const sourceType = raw.primary_location?.source?.type || ""
+    const title = raw.display_name || raw.title || ""
+
+    // Zenodo DOI + type "other" or source type "repository"
+    if (
+        doi.includes("zenodo") &&
+        (type === "other" || type === "software" || sourceType === "repository")
+    ) {
+        return true
+    }
+    // GitHub release title pattern: "owner/repo: vX.Y.Z"
+    if (/^[\w.-]+\/[\w.-]+:\s*v?\d/.test(title)) {
+        return true
+    }
+    return false
+}
+
+/**
+ * Extract GitHub repo URL from a Zenodo software entry.
+ * Uses the abstract changelog URL or derives from the title.
+ */
+function extractGithubUrl(pub) {
+    const abstract = pub.abstract || ""
+    const match = abstract.match(/https:\/\/github\.com\/[^\s/]+\/[^\s/]+/)
+    if (match) {
+        // Strip trailing path (e.g. /commits/v0.1.0) to get base repo URL
+        return match[0].replace(/\/(commits|releases|tree|blob)\/.*$/, "")
+    }
+    // Derive from title pattern "owner/repo: version"
+    const titleMatch = (pub.title || "").match(/^([\w.-]+\/[\w.-]+):/)
+    if (titleMatch) {
+        return `https://github.com/${titleMatch[1]}`
+    }
+    return null
+}
+
+/**
+ * Deduplicate software entries: multiple Zenodo records may point to the same
+ * GitHub repository (e.g. different deposit IDs for the same release).
+ * Keep one canonical entry; accumulate all Zenodo DOIs and OpenAlex IDs.
+ */
+function deduplicateSoftware(entries) {
+    const byRepo = new Map()
+
+    for (const entry of entries) {
+        const key = entry.github || entry.title
+        if (byRepo.has(key)) {
+            const existing = byRepo.get(key)
+            // Accumulate alternate DOIs and OpenAlex IDs
+            if (entry.doi && !existing.zenodoDois.includes(entry.doi)) {
+                existing.zenodoDois.push(entry.doi)
+            }
+            if (
+                entry.openalexId &&
+                !existing.openalexIds.includes(entry.openalexId)
+            ) {
+                existing.openalexIds.push(entry.openalexId)
+            }
+        } else {
+            byRepo.set(key, {
+                ...entry,
+                zenodoDois: entry.doi ? [entry.doi] : [],
+                openalexIds: entry.openalexId ? [entry.openalexId] : [],
+            })
+        }
+    }
+
+    return Array.from(byRepo.values())
+}
+
 async function fetchPublications() {
     try {
         console.log("Fetching publications from OpenAlex API...")
@@ -73,11 +150,11 @@ async function fetchPublications() {
                 authors:
                     pub.authorships?.map((a) => ({
                         name: a.raw_author_name || a.author?.display_name,
-                         canonicalName: a.author?.display_name || null,
-                         orcid: a.author?.orcid,
-                         isCorresponding: a.is_corresponding,
-                         position: a.author_position,
-                         openalexAuthorId: a.author?.id || null,
+                        canonicalName: a.author?.display_name || null,
+                        orcid: a.author?.orcid,
+                        isCorresponding: a.is_corresponding,
+                        position: a.author_position,
+                        openalexAuthorId: a.author?.id || null,
                     })) || [],
                 journal: venueName,
                 year: pub.publication_year,
@@ -113,15 +190,30 @@ async function fetchPublications() {
             }
         })
 
-        // Calculate statistics
-        const stats = calculateStats(processedPublications)
+        // Separate software/dataset entries (e.g. Zenodo GitHub releases)
+        // from real academic publications
+        const softwareRaw = processedPublications.filter((p) =>
+            isSoftwareEntry(p._raw),
+        )
+        const publications = processedPublications.filter(
+            (p) => !isSoftwareEntry(p._raw),
+        )
+
+        if (softwareRaw.length > 0) {
+            console.log(
+                `\n[i] Detected ${softwareRaw.length} software/dataset entry(ies) – moved to software.json`,
+            )
+        }
+
+        // Calculate statistics (software excluded)
+        const stats = calculateStats(publications)
 
         // Create the data structure to save
         const publicationsData = {
-            publications: processedPublications,
+            publications,
             stats,
             lastFetched: new Date().toISOString(),
-            totalCount: processedPublications.length,
+            totalCount: publications.length,
         }
 
         // Ensure data directories exist (use absolute paths)
@@ -137,11 +229,62 @@ async function fetchPublications() {
             JSON.stringify(publicationsData, null, 2),
         )
 
+        // Build and save software.json (deduplicated)
+        const softwareEntries = softwareRaw.map((p) => {
+            const openalexId = p.id.split("/").pop()
+            const doi = p.doi ? p.doi.replace("https://doi.org/", "") : null
+            const github = extractGithubUrl(p)
+            const titleMatch = (p.title || "").match(
+                /^([\w.-]+\/[\w.-]+):\s*(.+)$/,
+            )
+            return {
+                openalexId,
+                name: titleMatch ? titleMatch[1] : p.title,
+                version: titleMatch ? titleMatch[2].trim() : null,
+                title: p.title,
+                github,
+                doi,
+                zenodoDois: doi ? [doi] : [],
+                openalexIds: [openalexId],
+                year: p.year,
+                date: p.date,
+                authors: p.authors,
+                abstract: p.abstract,
+                isOpenAccess: p.isOpenAccess,
+                lastUpdated: new Date().toISOString(),
+            }
+        })
+        const softwareDeduped = deduplicateSoftware(softwareEntries)
+
+        // Merge with any existing manually curated software entries
+        const softwareFile = path.join(dataDir, "software.json")
+        let existingSoftware = { software: [] }
+        try {
+            existingSoftware = JSON.parse(
+                await fs.readFile(softwareFile, "utf-8"),
+            )
+        } catch {
+            // File doesn't exist yet – start fresh
+        }
+        // Only keep manually added entries (no openalexId) unchanged
+        const manualEntries = (existingSoftware.software || []).filter(
+            (e) => !e.openalexIds || e.openalexIds.length === 0,
+        )
+        const softwareData = {
+            software: [...softwareDeduped, ...manualEntries],
+            lastFetched: new Date().toISOString(),
+            totalCount: softwareDeduped.length + manualEntries.length,
+        }
+        await fs.writeFile(softwareFile, JSON.stringify(softwareData, null, 2))
+        console.log(
+            `Saved ${softwareData.totalCount} software entry(ies) to software.json`,
+        )
+
         // Save cache to static (Hugo will copy to public on build)
         const cacheData = {
-            results: processedPublications,
+            results: publications,
             meta: {
-                count: processedPublications.length,
+                count: publications.length,
                 lastUpdated: new Date().toISOString(),
             },
         }
@@ -151,15 +294,13 @@ async function fetchPublications() {
             JSON.stringify(cacheData, null, 2),
         )
 
-        console.log(
-            `Successfully saved ${processedPublications.length} publications`,
-        )
+        console.log(`Successfully saved ${publications.length} publications`)
         console.log(
             `Statistics: ${stats.totalCitations} citations, H-index: ${stats.hIndex}, ${stats.openAccessCount} open access papers`,
         )
 
         // Log publications with missing venue for manual adjustment in markdown files
-        const missingVenue = processedPublications.filter((p) => !p.journal)
+        const missingVenue = publications.filter((p) => !p.journal)
         if (missingVenue.length > 0) {
             console.log(
                 `\n[!] Publications with missing venue (${missingVenue.length}):`,

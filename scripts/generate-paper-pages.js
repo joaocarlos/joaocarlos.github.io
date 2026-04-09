@@ -19,6 +19,29 @@ function extractOpenAlexId(url) {
 }
 
 /**
+ * Detect software/dataset entries (e.g. Zenodo GitHub releases).
+ * Mirrors the same logic in openalex-fetch-publications.js.
+ */
+function isSoftwareEntry(pub) {
+    const raw = pub._raw || {}
+    const type = raw.type || ""
+    const doi = pub.doi || raw.doi || ""
+    const sourceType = raw.primary_location?.source?.type || ""
+    const title = pub.title || ""
+
+    if (
+        doi.includes("zenodo") &&
+        (type === "other" || type === "software" || sourceType === "repository")
+    ) {
+        return true
+    }
+    if (/^[\w.-]+\/[\w.-]+:\s*v?\d/.test(title)) {
+        return true
+    }
+    return false
+}
+
+/**
  * Determine publication type based on OpenAlex data
  */
 function getPublicationType(pub) {
@@ -389,10 +412,20 @@ async function generatePaperPages() {
 
         let created = 0
         let skipped = 0
+        let softwareSkipped = 0
 
         for (const pub of data.publications) {
             const openalexId = extractOpenAlexId(pub.id)
             const filePath = path.join(PAPERS_DIR, `${openalexId}.md`)
+
+            // Skip software/dataset entries – they belong in software.json
+            if (isSoftwareEntry(pub)) {
+                softwareSkipped++
+                console.log(
+                    `[~] ${openalexId}.md - skipped (software/dataset): ${pub.title?.substring(0, 50)}`,
+                )
+                continue
+            }
 
             // Skip if file already exists (preserves manual edits)
             if (await fileExists(filePath)) {
@@ -412,6 +445,7 @@ async function generatePaperPages() {
         console.log(`\n--- Summary ---`)
         console.log(`   Created: ${created}`)
         console.log(`   Skipped (already exist): ${skipped}`)
+        console.log(`   Skipped (software/dataset): ${softwareSkipped}`)
         console.log(`   Total: ${data.publications.length}`)
     } catch (error) {
         console.error("Error generating paper pages:", error)
