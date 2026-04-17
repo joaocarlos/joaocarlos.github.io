@@ -6,7 +6,7 @@ date: 2024-01-01
 
 ## Sobre
 
-João Carlos N. Bittencourt é Professor Assistente no Centro de Ciências Exatas e Tecnológicas (CETEC) da Universidade Federal do Recôncavo da Bahia (UFRB), Brasil. Possui mestrado em Ciência da Computação e dedicou sua carreira ao avanço da pesquisa em Cidades Inteligentes, Internet das Coisas (IoT), Sistemas Embarcados e Aceleradores de Hardware Reconfigurável.
+João Carlos N. Bittencourt é professor do Centro de Ciências Exatas e Tecnologia (CETEC) da Universidade Federal do Recôncavo da Bahia, no Brasil. Concluiu a graduação em Engenharia da Computação em 2013 na Universidade Estadual de Feira de Santana, tendo realizado um período de estudos no Instituto Superior Técnico da Universidade de Lisboa. Obteve seu mestrado em Engenharia Elétrica em 2016, pela Universidade Federal da Bahia. Atualmente, seus interesses de pesquisa abrangem uma ampla gama de áreas de ponta, incluindo Projeto Digital, Sistemas Embarcados, Internet das Coisas, Cidades Inteligentes e Inteligência Artificial.
 
 Como educador e pesquisador, o Professor Bittencourt contribui para diversos cursos de graduação, incluindo Engenharia de Computação (ECP), Engenharia Elétrica (EELE) e Bacharelado em Ciências Exatas e Tecnológicas (BCET). Seu trabalho conecta fundamentos teóricos com aplicações práticas, fomentando inovação em tecnologias emergentes que abordam desafios do mundo real.
 
@@ -18,7 +18,7 @@ Como educador e pesquisador, o Professor Bittencourt contribui para diversos cur
 
 {{< timeline >}}
 
-{{< timeline-item date="2017-Presente" title="Professor Assistente" subtitle="Universidade Federal do Recôncavo da Bahia (UFRB)" >}}
+{{< timeline-item date="2017-Presente" title="Professor Adjunto" subtitle="Universidade Federal do Recôncavo da Bahia (UFRB)" >}}
 Ensino e pesquisa em Engenharia de Computação e áreas relacionadas.
 {{< /timeline-item >}}
 
@@ -30,9 +30,9 @@ Lecionou disciplinas de Projeto de Sistemas Digitais e Circuitos Eletrônicos.
 
 ### Outras afiliações
 
--   **Professor convidado**, Faculdade de Engenharia, Universidade do Porto, Portugal, ministrando cursos de pós-graduação em Programação. _2024-Presente_
--   **Pesquisador convidado**, SENAI/CIMATEC, Salvador, Brasil, colaborando em projetos relacionados ao desenvolvimento de aceleradores de hardware em FPGA. _2017-2019_
--   **Estagiário de Designer ASIC**, LSI-TEC, Salvador, Brasil, trabalhando no projeto e verificação de componentes System-on-Chip (SoC). _2013-2014_
+- **Professor convidado**, Faculdade de Engenharia, Universidade do Porto, Portugal, ministrando cursos de pós-graduação em Programação. _2024-Presente_
+- **Pesquisador convidado**, SENAI/CIMATEC, Salvador, Brasil, colaborando em projetos relacionados ao desenvolvimento de aceleradores de hardware em FPGA. _2017-2019_
+  -\*Estagiário de Designer ASIC\*\*, LSI-TEC, Salvador, Brasil, trabalhando no projeto e verificação de componentes System-on-Chip (SoC). _2013-2014_
 
 Traduzido com a versão gratuita do tradutor - DeepL.com
 

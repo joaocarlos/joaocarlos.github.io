@@ -6,7 +6,7 @@ date: 2024-01-01
 
 ## About
 
-João Carlos N. Bittencourt is an Assistant Professor at the Center of Exact Sciences and Technology (CETEC) at the Federal University of Recôncavo da Bahia (UFRB), Brazil. He holds a Master's degree in Computer Science and has dedicated his career to advancing research in Smart Cities, Internet of Things (IoT), Embedded Systems, and Reconfigurable Hardware Accelerators.
+João Carlos N. Bittencourt is professor at Center of Exact Sciences and Technology (CETEC) at Federal University of Recôncavo of Bahia, Brazil. He completed his undergraduate degree in Computer Engineering in 2013 from the State University of Feira de Santana (Brazil), with a period at the Technical University of Lisbon (Portugal). He received his master degree in Electrical Engineering in 2016, from the Federal University of Bahia (Brazil). Today, his research interests cover a wide range of cutting-edge areas, including Digital Design, Embedded Systems, Internet of Things, Smart Cities, and Artificial Intelligence.
 
 As an educator and researcher, Professor Bittencourt contributes to multiple undergraduate programs including Computer Engineering (ECP), Electrical Engineering (EELE), and Exact Sciences and Technology (BCET). His work bridges theoretical foundations with practical applications, fostering innovation in emerging technologies that address real-world challenges.
 
