@@ -1,34 +1,37 @@
 {
-    "software": [
+  "software": [
+    {
+      "openalexId": "W7138872793",
+      "name": "YOLO26 Track Edge Benchmark",
+      "version": null,
+      "title": "YOLO26 Track Edge Benchmark",
+      "github": "https://github.com/joaocarlos/yolo26-track-edge-benchmark",
+      "doi": "10.5281/zenodo.19091528",
+      "zenodoDois": [
+        "10.5281/zenodo.19091528",
+        "10.5281/zenodo.19091527"
+      ],
+      "openalexIds": [
+        "W7138872793",
+        "W7138989349"
+      ],
+      "year": 2026,
+      "date": "2026-03-18",
+      "authors": [
         {
-            "openalexId": "W7138872793",
-            "name": "joaocarlos/yolo26-track-edge-benchmark",
-            "version": "v0.1.0",
-            "title": "joaocarlos/yolo26-track-edge-benchmark: v0.1.0",
-            "github": "https://github.com/joaocarlos/yolo26-track-edge-benchmark",
-            "doi": "10.5281/zenodo.19091528",
-            "zenodoDois": [
-                "10.5281/zenodo.19091527",
-                "10.5281/zenodo.19091528"
-            ],
-            "openalexIds": ["W7138872793", "W7138989349"],
-            "year": 2026,
-            "date": "2026-03-18",
-            "authors": [
-                {
-                    "name": "João Carlos N. Bittencourt",
-                    "canonicalName": "João Carlos N. Bittencourt",
-                    "orcid": null,
-                    "isCorresponding": true,
-                    "position": "first",
-                    "openalexAuthorId": "https://openalex.org/A5121092256"
-                }
-            ],
-            "abstract": "Benchmark suite for evaluating YOLO v2.6 object detection and tracking on edge devices.",
-            "isOpenAccess": true,
-            "lastUpdated": "2026-04-09T00:00:00.000Z"
+          "name": "Bittencourt, João Carlos N.",
+          "canonicalName": "João Carlos N. Bittencourt",
+          "orcid": null,
+          "isCorresponding": true,
+          "position": "first",
+          "openalexAuthorId": "https://openalex.org/A5121092256"
         }
-    ],
-    "lastFetched": "2026-04-09T00:00:00.000Z",
-    "totalCount": 1
+      ],
+      "abstract": "First released. Full Changelog: https://github.com/joaocarlos/yolo26-track-edge-benchmark/commits/v0.1.0",
+      "isOpenAccess": true,
+      "lastUpdated": "2026-05-01T03:01:37.645Z"
+    }
+  ],
+  "lastFetched": "2026-05-01T03:01:37.645Z",
+  "totalCount": 1
 }
