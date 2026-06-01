@@ -21,17 +21,64 @@
         {
           "name": "Bittencourt, João Carlos N.",
           "canonicalName": "João Carlos N. Bittencourt",
-          "orcid": null,
+          "orcid": "https://orcid.org/0000-0002-4540-512X",
           "isCorresponding": true,
           "position": "first",
-          "openalexAuthorId": "https://openalex.org/A5121092256"
+          "openalexAuthorId": "https://openalex.org/A5040609024"
         }
       ],
       "abstract": "First released. Full Changelog: https://github.com/joaocarlos/yolo26-track-edge-benchmark/commits/v0.1.0",
       "isOpenAccess": true,
-      "lastUpdated": "2026-05-01T03:01:37.645Z"
+      "lastUpdated": "2026-06-01T03:03:15.112Z"
+    },
+    {
+      "openalexId": "W7139012813",
+      "name": "VERUS: Vulnerability Evaluation for Resilient Urban Systems",
+      "version": null,
+      "title": "VERUS: Vulnerability Evaluation for Resilient Urban Systems",
+      "github": null,
+      "doi": "10.5281/zenodo.19113788",
+      "zenodoDois": [
+        "10.5281/zenodo.19113788",
+        "10.5281/zenodo.19113787"
+      ],
+      "openalexIds": [
+        "W7139012813",
+        "W7138939508"
+      ],
+      "year": 2025,
+      "date": "2025-11-03",
+      "authors": [
+        {
+          "name": "Bittencourt, João Carlos N.",
+          "canonicalName": "João Carlos N. Bittencourt",
+          "orcid": "https://orcid.org/0000-0002-4540-512X",
+          "isCorresponding": true,
+          "position": "first",
+          "openalexAuthorId": "https://openalex.org/A5040609024"
+        },
+        {
+          "name": "Costa, Daniel G.",
+          "canonicalName": "Daniel Costa",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5130012717"
+        },
+        {
+          "name": "Portugal, Paulo",
+          "canonicalName": "Paulo Portugal",
+          "orcid": "https://orcid.org/0000-0002-6386-9753",
+          "isCorresponding": false,
+          "position": "last",
+          "openalexAuthorId": "https://openalex.org/A5091913710"
+        }
+      ],
+      "abstract": "VERUS (Vulnerability Evaluation for Resilient Urban Systems) is a Python library for extracting points of interest from OpenStreetMap, clustering them based on spatial proximity and time-based vulnerability indices, and analyzing urban vulnerability patterns.",
+      "isOpenAccess": true,
+      "lastUpdated": "2026-06-01T03:03:15.112Z"
     }
   ],
-  "lastFetched": "2026-05-01T03:01:37.645Z",
-  "totalCount": 1
+  "lastFetched": "2026-06-01T03:03:15.113Z",
+  "totalCount": 2
 }
