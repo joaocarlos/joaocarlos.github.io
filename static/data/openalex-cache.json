@@ -8,7 +8,7 @@
           "name": "João Carlos N. Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -32,7 +32,7 @@
           "name": "Daniel G. Costa",
           "canonicalName": "D. M. Costa",
           "orcid": null,
-          "isCorresponding": false,
+          "isCorresponding": true,
           "position": "last",
           "openalexAuthorId": "https://openalex.org/A5103572550"
         }
@@ -100,7 +100,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.090Z",
+      "lastUpdated": "2026-07-01T03:02:13.419Z",
       "_raw": {
         "id": "https://openalex.org/W7118482098",
         "doi": "https://doi.org/10.1007/s10462-025-11469-3",
@@ -193,7 +193,7 @@
               "BR",
               "PT"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Carlos N. Bittencourt",
             "raw_affiliation_strings": [
               "CETEC, Federal University of Recôncavo da Bahia, Rua Ruy Barbosa, 710, Cruz das Almas, Bahia, 44380-000, Brazil",
@@ -311,7 +311,7 @@
             "countries": [
               "PT"
             ],
-            "is_corresponding": false,
+            "is_corresponding": true,
             "raw_author_name": "Daniel G. Costa",
             "raw_affiliation_strings": [
               "SYSTEC-ARISE, Faculty of Engineering, University of Porto, Rua Dr. Roberto Frias s/n, Porto, 4200-465, Portugal"
@@ -331,10 +331,9 @@
         "countries_distinct_count": 2,
         "institutions_distinct_count": 4,
         "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
+          "https://openalex.org/A5103572550"
         ],
         "corresponding_institution_ids": [
-          "https://openalex.org/I129192303",
           "https://openalex.org/I182534213"
         ],
         "apc_list": {
@@ -347,11 +346,11 @@
           "currency": "EUR",
           "value_usd": 3090
         },
-        "fwci": 46.1514,
+        "fwci": 38.1536,
         "has_fulltext": false,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.99653452,
+          "value": 0.9958092,
           "is_in_top_1_percent": true,
           "is_in_top_10_percent": true
         },
@@ -754,9 +753,9 @@
         },
         "sustainable_development_goals": [
           {
-            "display_name": "Sustainable cities and communities",
             "score": 0.5111441016197205,
-            "id": "https://metadata.un.org/sdg/11"
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities"
           }
         ],
         "awards": [],
@@ -768,8 +767,8 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 174,
@@ -1391,7 +1390,7 @@
             "cited_by_count": 3
           }
         ],
-        "updated_date": "2026-05-30T09:04:40.226872",
+        "updated_date": "2026-06-13T06:13:01.061226",
         "created_date": "2026-01-08T00:00:00"
       }
     },
@@ -1449,7 +1448,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.090Z",
+      "lastUpdated": "2026-07-01T03:02:13.419Z",
       "_raw": {
         "id": "https://openalex.org/W7153683531",
         "doi": null,
@@ -1706,8 +1705,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -1743,7 +1742,7 @@
           "name": "Thiago C. Jesus",
           "canonicalName": "Thiago C. Jesus",
           "orcid": "https://orcid.org/0000-0001-5299-6856",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5011761859"
         },
@@ -1822,7 +1821,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.090Z",
+      "lastUpdated": "2026-07-01T03:02:13.419Z",
       "_raw": {
         "id": "https://openalex.org/W4415969055",
         "doi": "https://doi.org/10.1109/iecon58223.2025.11221897",
@@ -1882,11 +1881,12 @@
             "countries": [
               "PT"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Thiago C. Jesus",
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Porto,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Porto,Portugal",
@@ -1923,6 +1923,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Porto,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Porto,Portugal",
@@ -1959,6 +1960,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Porto,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Porto,Portugal",
@@ -1995,6 +1997,7 @@
             "raw_affiliation_strings": [
               "Federal University of Rio Grande do Norte,PPgEEC-UFRN,Natal,Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Federal University of Rio Grande do Norte,PPgEEC-UFRN,Natal,Brazil",
@@ -2031,6 +2034,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Porto,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Porto,Portugal",
@@ -2067,6 +2071,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Porto,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Porto,Portugal",
@@ -2080,19 +2085,15 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 6,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5011761859"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I182534213"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": 0,
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.3743214,
+          "value": 0.33890813,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -2398,8 +2399,8 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 15,
@@ -2667,7 +2668,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-04-09T08:11:56.329763",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-11-06T00:00:00"
       }
     },
@@ -2679,7 +2680,7 @@
           "name": "João Carlos N. Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -2751,7 +2752,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.091Z",
+      "lastUpdated": "2026-07-01T03:02:13.419Z",
       "_raw": {
         "id": "https://openalex.org/W4415968617",
         "doi": "https://doi.org/10.1109/iecon58223.2025.11221503",
@@ -2811,11 +2812,12 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Carlos N. Bittencourt",
             "raw_affiliation_strings": [
               "Federal University of Rec&#x00F4;ncavo da Bahia,CETEC,Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Federal University of Rec&#x00F4;ncavo da Bahia,CETEC,Brazil",
@@ -2852,6 +2854,7 @@
             "raw_affiliation_strings": [
               "Federal University of Rio Grande do Norte,PPGEEC,Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Federal University of Rio Grande do Norte,PPGEEC,Brazil",
@@ -2888,6 +2891,7 @@
             "raw_affiliation_strings": [
               "State University of Feira de Santana,DTEC,Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "State University of Feira de Santana,DTEC,Brazil",
@@ -2924,6 +2928,7 @@
             "raw_affiliation_strings": [
               "Federal University of Rio Grande do Norte,DCA,Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Federal University of Rio Grande do Norte,DCA,Brazil",
@@ -2960,6 +2965,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal",
@@ -2973,19 +2979,15 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 5,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I126158947"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": 0,
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.39281726,
+          "value": 0.35339604,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -3289,8 +3291,8 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 17,
@@ -3774,7 +3776,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-04-09T08:11:56.329763",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-11-06T00:00:00"
       }
     },
@@ -3786,7 +3788,7 @@
           "name": "João Carlos N. Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -3843,7 +3845,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.091Z",
+      "lastUpdated": "2026-07-01T03:02:13.420Z",
       "_raw": {
         "id": "https://openalex.org/W7116880095",
         "doi": "https://doi.org/10.1109/isc266238.2025.11293304",
@@ -3903,7 +3905,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Carlos N. Bittencourt",
             "raw_affiliation_strings": [
               "CETEC, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil"
@@ -3996,19 +3998,15 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 3,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I126158947"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": 0,
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.64088586,
+          "value": 0.60938619,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -4344,16 +4342,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "display_name": "Sustainable cities and communities",
             "score": 0.6521139740943909,
-            "id": "https://metadata.un.org/sdg/11"
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 18,
@@ -4850,7 +4848,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-05-01T08:36:08.643496",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-12-23T00:00:00"
       }
     },
@@ -4862,7 +4860,7 @@
           "name": "João Paulo J. Peixoto",
           "canonicalName": "João Paulo J. Peixoto",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5121042998"
         },
@@ -4927,7 +4925,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.093Z",
+      "lastUpdated": "2026-07-01T03:02:13.424Z",
       "_raw": {
         "id": "https://openalex.org/W7116972433",
         "doi": "https://doi.org/10.1109/isc266238.2025.11293334",
@@ -4997,7 +4995,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Paulo J. Peixoto",
             "raw_affiliation_strings": [
               "LAPSID, Federal Institute of Education,Science and Technology of Bahia, Feira de Santana,Brazil"
@@ -5128,20 +5126,15 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5121042998"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I130913789",
-          "https://openalex.org/I21606457"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": 0,
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.59878528,
+          "value": 0.56513608,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -5491,16 +5484,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "display_name": "Sustainable cities and communities",
             "score": 0.5988869071006775,
-            "id": "https://metadata.un.org/sdg/11"
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 22,
@@ -6002,7 +5995,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-05-05T08:41:31.759640",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-12-23T00:00:00"
       }
     },
@@ -6014,7 +6007,7 @@
           "name": "João Carlos N. Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -6071,7 +6064,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.093Z",
+      "lastUpdated": "2026-07-01T03:02:13.424Z",
       "_raw": {
         "id": "https://openalex.org/W7116829861",
         "doi": "https://doi.org/10.1109/isc266238.2025.11293347",
@@ -6131,7 +6124,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Carlos N. Bittencourt",
             "raw_affiliation_strings": [
               "CETEC, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil"
@@ -6224,19 +6217,15 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 3,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I126158947"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": 0,
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.73589186,
+          "value": 0.7067728,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -6600,16 +6589,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "display_name": "Sustainable cities and communities",
             "score": 0.5376763939857483,
-            "id": "https://metadata.un.org/sdg/11"
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 18,
@@ -6974,7 +6963,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-05-01T08:36:08.643496",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-12-23T00:00:00"
       }
     },
@@ -6986,7 +6975,7 @@
           "name": "Tiago A. Amorim",
           "canonicalName": "Tiago A. Amorim",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": null
         },
@@ -7048,7 +7037,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.093Z",
+      "lastUpdated": "2026-07-01T03:02:13.425Z",
       "_raw": {
         "id": "https://openalex.org/W4415399895",
         "doi": "https://doi.org/10.1109/etfa65518.2025.11205783",
@@ -7108,11 +7097,12 @@
             "countries": [
               "PT"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Tiago A. Amorim",
             "raw_affiliation_strings": [
               "University of Porto,M.EEC, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,M.EEC, Faculty of Engineering,Portugal",
@@ -7149,6 +7139,7 @@
             "raw_affiliation_strings": [
               "Federal University of Rec&#x00F4;ncavo da Bahia,CETEC,Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Federal University of Rec&#x00F4;ncavo da Bahia,CETEC,Brazil",
@@ -7185,6 +7176,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal",
@@ -7221,6 +7213,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal",
@@ -7235,16 +7228,14 @@
         "countries_distinct_count": 2,
         "institutions_distinct_count": 4,
         "corresponding_author_ids": [],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I182534213"
-        ],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": 0,
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.41495526,
+          "value": 0.38720142,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -7522,8 +7513,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 15,
@@ -7896,7 +7887,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-04-21T08:09:41.155169",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-22T00:00:00"
       }
     },
@@ -7908,7 +7899,7 @@
           "name": "Rodrigo Santa Comba Coelho da Silva",
           "canonicalName": "Rodrigo Santa Comba Coelho da Silva",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": null
         },
@@ -7967,7 +7958,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.093Z",
+      "lastUpdated": "2026-07-01T03:02:13.425Z",
       "_raw": {
         "id": "https://openalex.org/W4415400256",
         "doi": "https://doi.org/10.1109/etfa65518.2025.11205590",
@@ -8027,11 +8018,12 @@
             "countries": [
               "PT"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Rodrigo Santa Comba Coelho da Silva",
             "raw_affiliation_strings": [
               "University of Porto,MEEC, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,MEEC, Faculty of Engineering,Portugal",
@@ -8068,6 +8060,7 @@
             "raw_affiliation_strings": [
               "Federal University of Rec&#x00F4;ncavo da Bahia,CETEC,Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Federal University of Rec&#x00F4;ncavo da Bahia,CETEC,Brazil",
@@ -8104,6 +8097,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal",
@@ -8118,21 +8112,19 @@
         "countries_distinct_count": 2,
         "institutions_distinct_count": 3,
         "corresponding_author_ids": [],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I182534213"
-        ],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 1.1699,
+        "fwci": 0.9617,
         "has_fulltext": false,
         "cited_by_count": 1,
         "citation_normalized_percentile": {
-          "value": 0.82388723,
+          "value": 0.78948583,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
         "cited_by_percentile_year": {
-          "min": 96,
+          "min": 95,
           "max": 98
         },
         "biblio": {
@@ -8421,8 +8413,8 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 21,
@@ -8903,7 +8895,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2026-04-23T09:07:50.710637",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-22T00:00:00"
       }
     },
@@ -8915,7 +8907,7 @@
           "name": "João Carlos N. Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -8950,7 +8942,7 @@
       "date": "2025-07-24",
       "doi": "https://doi.org/10.21203/rs.3.rs-7131966/v1",
       "url": "https://doi.org/10.21203/rs.3.rs-7131966/v1",
-      "citations": 0,
+      "citations": 1,
       "isOpenAccess": true,
       "oaUrl": "https://www.researchsquare.com/article/rs-7131966/latest.pdf",
       "volume": null,
@@ -9001,8 +8993,13 @@
       },
       "language": "en",
       "isRetracted": false,
-      "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.093Z",
+      "citationsPerYear": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
+      "lastUpdated": "2026-07-01T03:02:13.425Z",
       "_raw": {
         "id": "https://openalex.org/W4412640748",
         "doi": "https://doi.org/10.21203/rs.3.rs-7131966/v1",
@@ -9075,7 +9072,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Carlos N. Bittencourt",
             "raw_affiliation_strings": [
               "Federal University of Recôncavo da Bahia"
@@ -9205,17 +9202,13 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I129192303"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": null,
         "has_fulltext": true,
-        "cited_by_count": 0,
+        "cited_by_count": 1,
         "citation_normalized_percentile": null,
         "cited_by_percentile_year": null,
         "biblio": {
@@ -9628,9 +9621,9 @@
         },
         "sustainable_development_goals": [
           {
-            "display_name": "Sustainable cities and communities",
             "score": 0.49000000953674316,
-            "id": "https://metadata.un.org/sdg/11"
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities"
           }
         ],
         "awards": [
@@ -9693,8 +9686,8 @@
           }
         ],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4412640748.pdf",
@@ -9715,8 +9708,13 @@
           "https://openalex.org/W4385481870"
         ],
         "abstract_inverted_index": null,
-        "counts_by_year": [],
-        "updated_date": "2026-05-21T06:26:12.895304",
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 1
+          }
+        ],
+        "updated_date": "2026-06-28T08:01:55.173337",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -9798,7 +9796,7 @@
         "Human Mobility and Location-Based Analysis",
         "Geographic Information Systems Studies"
       ],
-      "abstract": "In recent years, there has been a notable increase in the implementation of emergency management digital solutions. While these systems are becoming increasingly prevalent in cities, they must be properly set up and adopted based on a comprehensive understanding of the spatiotemporal dynamics of urban areas. This study aims to develop and validate the VERUS (Vulnerability Evaluation for Resilient Urban Systems), a spatiotemporal clustering framework for assessing urban vulnerability based on the dynamic influence of urban infrastructures during emergencies, indicating how populations are negatively affected based on the existing urban dynamics. For that, a holistic and adaptive urban perspective is adopted centred on the influence of selected groups of PoTIs (Points of Temporal Influence). Moreover, instead of considering static influence, it also incorporates the fluctuating impact of each PoTI throughout time windows. The proposed clustering method divides the urban area into influence clusters to assess the vulnerabilities within their boundaries, taking as input open geospatial datasets like OpenStreetMap. To effectively address the issue of defining the optimal number of clusters, we evaluate various methods and suggest a combination of OPTICS and K-means to provide a reliable and adaptable clustering definition without the need for parameter adjustments. Experimental results in the cities of Porto, Lisbon, and Paris demonstrate its adaptability to diverse urban configurations, illustrating its practical feasibility by revealing varying levels of vulnerability. These insights emphasise its potential to inform knowledge-driven smart city systems, where tailored interventions can address the unique challenges of different urban environments. • Integrating density- and centroid-based clustering enhances urban analysis. • The vulnerability analysis reveals patterns influenced by infrastructure activity. • Temporal variations in human activity are modelled by profiling urban infrastructure. • The VERUS framework provides a scalable solution suitable for every city.",
+      "abstract": "In recent years, there has been a notable increase in the implementation of emergency management digital solutions. While these systems are becoming increasingly prevalent in cities, they must be properly set up and adopted based on a comprehensive understanding of the spatiotemporal dynamics of urban areas. This study aims to develop and validate the VERUS (Vulnerability Evaluation for Resilient Urban Systems), a spatiotemporal clustering framework for assessing urban vulnerability based on the dynamic influence of urban infrastructures during emergencies, indicating how populations are negatively affected based on the existing urban dynamics. For that, a holistic and adaptive urban perspective is adopted centred on the influence of selected groups of PoTIs (Points of Temporal Influence). Moreover, instead of considering static influence, it also incorporates the fluctuating impact of each PoTI throughout time windows. The proposed clustering method divides the urban area into influence clusters to assess the vulnerabilities within their boundaries, taking as input open geospatial datasets like OpenStreetMap. To effectively address the issue of defining the optimal number of clusters, we evaluate various methods and suggest a combination of OPTICS and K-means to provide a reliable and adaptable clustering definition without the need for parameter adjustments. Experimental results in the cities of Porto, Lisbon, and Paris demonstrate its adaptability to diverse urban configurations, illustrating its practical feasibility by revealing varying levels of vulnerability. These insights emphasise its potential to inform knowledge-driven smart city systems, where tailored interventions can address the unique challenges of different urban environments.",
       "venue": {
         "id": "https://openalex.org/S2764830010",
         "display_name": "International Journal of Disaster Risk Reduction",
@@ -9827,7 +9825,7 @@
           "cited_by_count": 4
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.093Z",
+      "lastUpdated": "2026-07-01T03:02:13.425Z",
       "_raw": {
         "id": "https://openalex.org/W4412451150",
         "doi": "https://doi.org/10.1016/j.ijdrr.2025.105681",
@@ -10139,11 +10137,11 @@
           "currency": "USD",
           "value_usd": 2510
         },
-        "fwci": 4.7564,
+        "fwci": 3.8696,
         "has_fulltext": false,
         "cited_by_count": 4,
         "citation_normalized_percentile": {
-          "value": 0.95217038,
+          "value": 0.93781723,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
@@ -10452,9 +10450,9 @@
         },
         "sustainable_development_goals": [
           {
-            "display_name": "Sustainable cities and communities",
             "score": 0.7699999809265137,
-            "id": "https://metadata.un.org/sdg/11"
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities"
           }
         ],
         "awards": [],
@@ -10466,8 +10464,8 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 70,
@@ -10580,8 +10578,7 @@
             61,
             93,
             176,
-            184,
-            282
+            184
           ],
           "notable": [
             7
@@ -10592,8 +10589,7 @@
           "in": [
             9,
             24,
-            198,
-            268
+            198
           ],
           "the": [
             10,
@@ -10654,8 +10650,7 @@
           ],
           "are": [
             20,
-            82,
-            271
+            82
           ],
           "becoming": [
             21
@@ -10694,8 +10689,7 @@
             174,
             180,
             186,
-            204,
-            249
+            204
           ],
           "adopted": [
             33,
@@ -10733,9 +10727,7 @@
             97,
             138,
             211,
-            244,
-            253,
-            275
+            244
           ],
           "areas.": [
             45
@@ -10763,8 +10755,7 @@
             52
           ],
           "VERUS": [
-            54,
-            279
+            54
           ],
           "(Vulnerability": [
             55
@@ -10775,8 +10766,7 @@
           "for": [
             57,
             65,
-            193,
-            286
+            193
           ],
           "Resilient": [
             58
@@ -10790,19 +10780,16 @@
           "clustering": [
             63,
             134,
-            188,
-            251
+            188
           ],
           "framework": [
-            64,
-            280
+            64
           ],
           "assessing": [
             66
           ],
           "vulnerability": [
-            68,
-            257
+            68
           ],
           "dynamic": [
             72
@@ -10876,8 +10863,7 @@
             110
           ],
           "Temporal": [
-            112,
-            266
+            112
           ],
           "Influence).": [
             113
@@ -10928,9 +10914,7 @@
             131
           ],
           "The": [
-            132,
-            256,
-            278
+            132
           ],
           "proposed": [
             133
@@ -11107,9 +11091,7 @@
             216
           ],
           "by": [
-            217,
-            262,
-            273
+            217
           ],
           "revealing": [
             218
@@ -11173,81 +11155,6 @@
           ],
           "environments.": [
             245
-          ],
-          "•": [
-            246,
-            255,
-            265,
-            277
-          ],
-          "Integrating": [
-            247
-          ],
-          "density-": [
-            248
-          ],
-          "centroid-based": [
-            250
-          ],
-          "enhances": [
-            252
-          ],
-          "analysis.": [
-            254
-          ],
-          "analysis": [
-            258
-          ],
-          "reveals": [
-            259
-          ],
-          "patterns": [
-            260
-          ],
-          "influenced": [
-            261
-          ],
-          "infrastructure": [
-            263
-          ],
-          "activity.": [
-            264
-          ],
-          "variations": [
-            267
-          ],
-          "human": [
-            269
-          ],
-          "activity": [
-            270
-          ],
-          "modelled": [
-            272
-          ],
-          "profiling": [
-            274
-          ],
-          "infrastructure.": [
-            276
-          ],
-          "provides": [
-            281
-          ],
-          "scalable": [
-            283
-          ],
-          "solution": [
-            284
-          ],
-          "suitable": [
-            285
-          ],
-          "every": [
-            287
-          ],
-          "city.": [
-            288
           ]
         },
         "counts_by_year": [
@@ -11256,7 +11163,7 @@
             "cited_by_count": 4
           }
         ],
-        "updated_date": "2026-03-27T05:58:40.876381",
+        "updated_date": "2026-06-15T08:34:33.830935",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -11356,7 +11263,7 @@
           "cited_by_count": 8
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.093Z",
+      "lastUpdated": "2026-07-01T03:02:13.425Z",
       "_raw": {
         "id": "https://openalex.org/W4410069375",
         "doi": "https://doi.org/10.3390/smartcities8030077",
@@ -11879,8 +11786,8 @@
           }
         ],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4410069375.pdf"
@@ -12624,7 +12531,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.093Z",
+      "lastUpdated": "2026-07-01T03:02:13.425Z",
       "_raw": {
         "id": "https://openalex.org/W4404356577",
         "doi": "https://doi.org/10.1007/978-3-031-73497-7_32",
@@ -12879,11 +12786,11 @@
           "value_usd": 5392
         },
         "apc_paid": null,
-        "fwci": 1.6418,
+        "fwci": 1.5916,
         "has_fulltext": false,
         "cited_by_count": 1,
         "citation_normalized_percentile": {
-          "value": 0.86676337,
+          "value": 0.86416862,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -13125,16 +13032,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "display_name": "Climate action",
             "score": 0.699999988079071,
-            "id": "https://metadata.un.org/sdg/13"
+            "id": "https://metadata.un.org/sdg/13",
+            "display_name": "Climate action"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 20,
@@ -13179,7 +13086,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2026-03-27T05:58:40.876381",
+        "updated_date": "2026-06-13T06:13:01.061226",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -13234,7 +13141,7 @@
       "date": "2024-07-26",
       "doi": "https://doi.org/10.1016/j.mex.2024.102880",
       "url": "https://doi.org/10.1016/j.mex.2024.102880",
-      "citations": 6,
+      "citations": 8,
       "isOpenAccess": true,
       "oaUrl": "http://methods-x.com/article/S2215016124003327/pdf",
       "volume": "13",
@@ -13284,14 +13191,14 @@
       "citationsPerYear": [
         {
           "year": 2026,
-          "cited_by_count": 5
+          "cited_by_count": 7
         },
         {
           "year": 2025,
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.093Z",
+      "lastUpdated": "2026-07-01T03:02:13.425Z",
       "_raw": {
         "id": "https://openalex.org/W4401046855",
         "doi": "https://doi.org/10.1016/j.mex.2024.102880",
@@ -13574,11 +13481,11 @@
           "currency": "USD",
           "value_usd": 500
         },
-        "fwci": 1.1399,
+        "fwci": 1.3929,
         "has_fulltext": true,
-        "cited_by_count": 6,
+        "cited_by_count": 8,
         "citation_normalized_percentile": {
-          "value": 0.76639454,
+          "value": 0.80058989,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -13987,7 +13894,7 @@
           },
           {
             "id": "https://openalex.org/G6830413002",
-            "display_name": "Advances in Control Design Methodologies for Safety Critical Systems Applied to Robotics",
+            "display_name": "Avanços nas metodologias de projeto de controlo para sistemas críticos de segurança aplicados à robótica",
             "funder_award_id": "PTDC/EEI-AUT/3522/2020",
             "funder_id": "https://openalex.org/F4320334779",
             "funder_display_name": "Fundação para a Ciência e a Tecnologia"
@@ -14020,8 +13927,8 @@
           }
         ],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4401046855.pdf"
@@ -14526,14 +14433,14 @@
         "counts_by_year": [
           {
             "year": 2026,
-            "cited_by_count": 5
+            "cited_by_count": 7
           },
           {
             "year": 2025,
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2026-05-06T08:25:59.206177",
+        "updated_date": "2026-06-23T13:55:30.953635",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -14545,7 +14452,7 @@
           "name": "João Carlos N. Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -14615,7 +14522,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.094Z",
+      "lastUpdated": "2026-07-01T03:02:13.426Z",
       "_raw": {
         "id": "https://openalex.org/W4401113675",
         "doi": "https://doi.org/10.1109/melecon56669.2024.10608598",
@@ -14675,11 +14582,12 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Carlos N. Bittencourt",
             "raw_affiliation_strings": [
               "Federal University of Rec&#x00F4;ncavo da Bahia,CETEC,Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Federal University of Rec&#x00F4;ncavo da Bahia,CETEC,Brazil",
@@ -14716,6 +14624,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal",
@@ -14752,6 +14661,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal",
@@ -14799,6 +14709,7 @@
             "raw_affiliation_strings": [
               "University of Porto,INEGI, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,INEGI, Faculty of Engineering,Portugal",
@@ -14813,19 +14724,15 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I126158947"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 1.5441,
+        "fwci": 1.2793,
         "has_fulltext": false,
         "cited_by_count": 4,
         "citation_normalized_percentile": {
-          "value": 0.81552657,
+          "value": 0.78591409,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -14989,8 +14896,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 18,
@@ -15516,7 +15423,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2025-12-22T23:10:17.713674",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -15528,7 +15435,7 @@
           "name": "José Miguel Ferreira",
           "canonicalName": "José Miguel Ferreira",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5111348816"
         },
@@ -15580,7 +15487,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.094Z",
+      "lastUpdated": "2026-07-01T03:02:13.426Z",
       "_raw": {
         "id": "https://openalex.org/W4403022658",
         "doi": "https://doi.org/10.1109/scfc62024.2024.10698740",
@@ -15640,11 +15547,12 @@
             "countries": [
               "PT"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "José Miguel Ferreira",
             "raw_affiliation_strings": [
               "University of Porto,FEUP, Faculty of Engineering,,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,FEUP, Faculty of Engineering,,Portugal",
@@ -15681,6 +15589,7 @@
             "raw_affiliation_strings": [
               "CETEC, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "CETEC, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil",
@@ -15717,6 +15626,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal",
@@ -15730,19 +15640,15 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 3,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5111348816"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I182534213"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": 0,
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.17524653,
+          "value": 0.16313997,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -15901,8 +15807,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 10,
@@ -16296,7 +16202,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2025-12-27T23:08:20.325037",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -16308,7 +16214,7 @@
           "name": "João Carlos N. Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -16343,7 +16249,7 @@
       "date": "2024-05-29",
       "doi": "https://doi.org/10.1109/scfc62024.2024.10698207",
       "url": "https://doi.org/10.1109/scfc62024.2024.10698207",
-      "citations": 2,
+      "citations": 3,
       "isOpenAccess": false,
       "oaUrl": null,
       "volume": null,
@@ -16372,14 +16278,14 @@
       "citationsPerYear": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2025,
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.094Z",
+      "lastUpdated": "2026-07-01T03:02:13.426Z",
       "_raw": {
         "id": "https://openalex.org/W4403022638",
         "doi": "https://doi.org/10.1109/scfc62024.2024.10698207",
@@ -16439,11 +16345,12 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Carlos N. Bittencourt",
             "raw_affiliation_strings": [
               "Federal University of Rec&#x00F4;ncavo da Bahia,CETEC,Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Federal University of Rec&#x00F4;ncavo da Bahia,CETEC,Brazil",
@@ -16480,6 +16387,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal",
@@ -16516,6 +16424,7 @@
             "raw_affiliation_strings": [
               "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,SYSTEC-ARISE, Faculty of Engineering,Portugal",
@@ -16563,6 +16472,7 @@
             "raw_affiliation_strings": [
               "University of Porto,INEGI, Faculty of Engineering,Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "University of Porto,INEGI, Faculty of Engineering,Portugal",
@@ -16577,25 +16487,21 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I126158947"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 0.6712,
+        "fwci": 0.8469,
         "has_fulltext": false,
-        "cited_by_count": 2,
+        "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.74463701,
+          "value": 0.77488688,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
         "cited_by_percentile_year": {
           "min": 91,
-          "max": 99
+          "max": 98
         },
         "biblio": {
           "volume": null,
@@ -16765,8 +16671,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 19,
@@ -17199,14 +17105,14 @@
         "counts_by_year": [
           {
             "year": 2026,
-            "cited_by_count": 1
+            "cited_by_count": 2
           },
           {
             "year": 2025,
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2026-03-08T08:50:53.379069",
+        "updated_date": "2026-06-25T08:15:23.626066",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -17323,7 +17229,7 @@
           "cited_by_count": 6
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.094Z",
+      "lastUpdated": "2026-07-01T03:02:13.426Z",
       "_raw": {
         "id": "https://openalex.org/W4396677387",
         "doi": "https://doi.org/10.1016/j.scs.2024.105477",
@@ -17579,11 +17485,11 @@
           "currency": "USD",
           "value_usd": 4210
         },
-        "fwci": 13.7367,
+        "fwci": 12.3396,
         "has_fulltext": false,
         "cited_by_count": 21,
         "citation_normalized_percentile": {
-          "value": 0.98996436,
+          "value": 0.98743319,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
@@ -17982,15 +17888,15 @@
         },
         "sustainable_development_goals": [
           {
-            "display_name": "Sustainable cities and communities",
             "score": 0.699999988079071,
-            "id": "https://metadata.un.org/sdg/11"
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities"
           }
         ],
         "awards": [
           {
             "id": "https://openalex.org/G1614854654",
-            "display_name": null,
+            "display_name": "Criação de cidades mais seguras e resilientes através da detecção e gestão de emergências urbanas com base em redes de sensores otimizadas",
             "funder_award_id": "EXPL/EEI-COM/1089/2021",
             "funder_id": "https://openalex.org/F4320334779",
             "funder_display_name": "Fundação para a Ciência e a Tecnologia"
@@ -18009,8 +17915,8 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 86,
@@ -18660,7 +18566,7 @@
             "cited_by_count": 6
           }
         ],
-        "updated_date": "2026-03-27T05:58:40.876381",
+        "updated_date": "2026-06-22T08:00:12.763002",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -18715,7 +18621,7 @@
       "date": "2024-01-11",
       "doi": "https://doi.org/10.3390/su16020640",
       "url": "https://doi.org/10.3390/su16020640",
-      "citations": 71,
+      "citations": 75,
       "isOpenAccess": true,
       "oaUrl": "https://www.mdpi.com/2071-1050/16/2/640/pdf?version=1704965720",
       "volume": "16",
@@ -18770,7 +18676,7 @@
       "citationsPerYear": [
         {
           "year": 2026,
-          "cited_by_count": 16
+          "cited_by_count": 20
         },
         {
           "year": 2025,
@@ -18781,7 +18687,7 @@
           "cited_by_count": 19
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.094Z",
+      "lastUpdated": "2026-07-01T03:02:13.426Z",
       "_raw": {
         "id": "https://openalex.org/W4390751318",
         "doi": "https://doi.org/10.3390/su16020640",
@@ -19078,11 +18984,11 @@
           "currency": "CHF",
           "value_usd": 2382
         },
-        "fwci": 43.7143,
+        "fwci": 43.9115,
         "has_fulltext": true,
-        "cited_by_count": 71,
+        "cited_by_count": 75,
         "citation_normalized_percentile": {
-          "value": 0.99926323,
+          "value": 0.99922484,
           "is_in_top_1_percent": true,
           "is_in_top_10_percent": true
         },
@@ -19487,16 +19393,16 @@
         },
         "sustainable_development_goals": [
           {
-            "display_name": "Sustainable cities and communities",
             "score": 0.46000000834465027,
-            "id": "https://metadata.un.org/sdg/11"
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4390751318.pdf"
@@ -20115,7 +20021,7 @@
         "counts_by_year": [
           {
             "year": 2026,
-            "cited_by_count": 16
+            "cited_by_count": 20
           },
           {
             "year": 2025,
@@ -20126,7 +20032,7 @@
             "cited_by_count": 19
           }
         ],
-        "updated_date": "2026-05-26T13:28:51.108037",
+        "updated_date": "2026-06-24T13:16:06.693445",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -20138,7 +20044,7 @@
           "name": "Gabriel B. Sá Alves",
           "canonicalName": "Gabriel Sá B. Alves",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5054305079"
         },
@@ -20219,7 +20125,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.094Z",
+      "lastUpdated": "2026-07-01T03:02:13.426Z",
       "_raw": {
         "id": "https://openalex.org/W4402435481",
         "doi": "https://doi.org/10.1109/rita.2024.3458850",
@@ -20299,7 +20205,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Gabriel B. Sá Alves",
             "raw_affiliation_strings": [
               "Department of Technology, State University of Feira de Santana, Feira de Santana, Brazil"
@@ -20392,19 +20298,15 @@
         "institutions": [],
         "countries_distinct_count": 1,
         "institutions_distinct_count": 3,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5054305079"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I21606457"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 0.3331,
+        "fwci": 0.3052,
         "has_fulltext": false,
         "cited_by_count": 1,
         "citation_normalized_percentile": {
-          "value": 0.6292061,
+          "value": 0.61674443,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -20631,8 +20533,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 25,
@@ -21193,7 +21095,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2026-03-27T05:58:40.876381",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -21205,7 +21107,7 @@
           "name": "João Carlos N. Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -21240,7 +21142,7 @@
       "date": "2024-01-01",
       "doi": "https://doi.org/10.1109/access.2024.3433381",
       "url": "https://doi.org/10.1109/access.2024.3433381",
-      "citations": 43,
+      "citations": 44,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.1109/access.2024.3433381",
       "volume": "12",
@@ -21283,7 +21185,7 @@
       "citationsPerYear": [
         {
           "year": 2026,
-          "cited_by_count": 11
+          "cited_by_count": 12
         },
         {
           "year": 2025,
@@ -21294,7 +21196,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.094Z",
+      "lastUpdated": "2026-07-01T03:02:13.427Z",
       "_raw": {
         "id": "https://openalex.org/W4400975104",
         "doi": "https://doi.org/10.1109/access.2024.3433381",
@@ -21374,7 +21276,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Carlos N. Bittencourt",
             "raw_affiliation_strings": [
               "CETEC, Federal University of Rec&#x00F4;ncavo da Bahia, Cruz das Almas, Brazil"
@@ -21516,12 +21418,8 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I129192303"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": {
           "value": 1850,
           "currency": "USD",
@@ -21532,11 +21430,11 @@
           "currency": "USD",
           "value_usd": 1850
         },
-        "fwci": 9.7188,
+        "fwci": 9.6241,
         "has_fulltext": false,
-        "cited_by_count": 43,
+        "cited_by_count": 44,
         "citation_normalized_percentile": {
-          "value": 0.98783031,
+          "value": 0.98767417,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
@@ -21738,16 +21636,16 @@
         },
         "sustainable_development_goals": [
           {
-            "display_name": "Sustainable cities and communities",
             "score": 0.7699999809265137,
-            "id": "https://metadata.un.org/sdg/11"
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 155,
@@ -22467,7 +22365,7 @@
         "counts_by_year": [
           {
             "year": 2026,
-            "cited_by_count": 11
+            "cited_by_count": 12
           },
           {
             "year": 2025,
@@ -22478,7 +22376,7 @@
             "cited_by_count": 3
           }
         ],
-        "updated_date": "2026-05-20T08:49:12.498775",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -22490,7 +22388,7 @@
           "name": "João Carlos Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -22569,7 +22467,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.095Z",
+      "lastUpdated": "2026-07-01T03:02:13.427Z",
       "_raw": {
         "id": "https://openalex.org/W4389045321",
         "doi": "https://doi.org/10.24840/2183-6493_009-005_002156",
@@ -22649,7 +22547,7 @@
             "countries": [
               "PT"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Carlos Bittencourt",
             "raw_affiliation_strings": [
               "University of Porto, Faculty of Engineering"
@@ -22705,19 +22603,15 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 2,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I182534213"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 0.4701,
+        "fwci": 0.4631,
         "has_fulltext": true,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.66536056,
+          "value": 0.66337245,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -23122,16 +23016,16 @@
         },
         "sustainable_development_goals": [
           {
-            "display_name": "Industry, innovation and infrastructure",
             "score": 0.5400000214576721,
-            "id": "https://metadata.un.org/sdg/9"
+            "id": "https://metadata.un.org/sdg/9",
+            "display_name": "Industry, innovation and infrastructure"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4389045321.pdf"
@@ -23574,7 +23468,7 @@
             "cited_by_count": 3
           }
         ],
-        "updated_date": "2026-05-21T06:26:12.895304",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -23637,7 +23531,7 @@
       "date": "2023-11-20",
       "doi": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
       "url": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
-      "citations": 25,
+      "citations": 26,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
       "volume": "107",
@@ -23694,7 +23588,7 @@
       "citationsPerYear": [
         {
           "year": 2026,
-          "cited_by_count": 5
+          "cited_by_count": 6
         },
         {
           "year": 2025,
@@ -23709,7 +23603,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.095Z",
+      "lastUpdated": "2026-07-01T03:02:13.427Z",
       "_raw": {
         "id": "https://openalex.org/W4388842249",
         "doi": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
@@ -24069,11 +23963,11 @@
           "currency": "USD",
           "value_usd": 3740
         },
-        "fwci": 9.2435,
+        "fwci": 9.2776,
         "has_fulltext": false,
-        "cited_by_count": 25,
+        "cited_by_count": 26,
         "citation_normalized_percentile": {
-          "value": 0.97773279,
+          "value": 0.97790759,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
@@ -24427,15 +24321,15 @@
         },
         "sustainable_development_goals": [
           {
-            "display_name": "Sustainable cities and communities",
             "score": 0.6800000071525574,
-            "id": "https://metadata.un.org/sdg/11"
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities"
           }
         ],
         "awards": [
           {
             "id": "https://openalex.org/G1614854654",
-            "display_name": "Creating safer and more resilient cities through the detection and management of urban emergencies based on optimized sensor networks",
+            "display_name": "Criação de cidades mais seguras e resilientes através da detecção e gestão de emergências urbanas com base em redes de sensores otimizadas",
             "funder_award_id": "EXPL/EEI-COM/1089/2021",
             "funder_id": "https://openalex.org/F4320334779",
             "funder_display_name": "Fundação para a Ciência e a Tecnologia"
@@ -24454,8 +24348,8 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 78,
@@ -25230,7 +25124,7 @@
         "counts_by_year": [
           {
             "year": 2026,
-            "cited_by_count": 5
+            "cited_by_count": 6
           },
           {
             "year": 2025,
@@ -25245,7 +25139,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2026-05-20T08:49:12.498775",
+        "updated_date": "2026-06-24T13:16:06.693445",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -25257,7 +25151,7 @@
           "name": "João Carlos N. Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -25330,7 +25224,7 @@
           "cited_by_count": 4
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.095Z",
+      "lastUpdated": "2026-07-01T03:02:13.427Z",
       "_raw": {
         "id": "https://openalex.org/W4388088101",
         "doi": "https://doi.org/10.1109/isc257844.2023.10293735",
@@ -25390,11 +25284,12 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Carlos N. Bittencourt",
             "raw_affiliation_strings": [
               "Center for Exact and Technological Sciences, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Center for Exact and Technological Sciences, Federal University of Rec&#x00F4;ncavo da Bahia,Brazil",
@@ -25413,6 +25308,16 @@
             },
             "institutions": [
               {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              },
+              {
                 "id": "https://openalex.org/I4210121509",
                 "display_name": "Institute of Mechanical Engineering and Industrial Mangement",
                 "ror": "https://ror.org/02pk7c879",
@@ -25421,16 +25326,6 @@
                 "lineage": [
                   "https://openalex.org/I182534213",
                   "https://openalex.org/I4210121509"
-                ]
-              },
-              {
-                "id": "https://openalex.org/I182534213",
-                "display_name": "Universidade do Porto",
-                "ror": "https://ror.org/043pwc612",
-                "country_code": "PT",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I182534213"
                 ]
               }
             ],
@@ -25443,6 +25338,7 @@
               "INEGI, University of Porto,Faculty of Engineering,Portugal",
               "Faculty of Engineering, INEGI, University of Porto, Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "INEGI, University of Porto,Faculty of Engineering,Portugal",
@@ -25499,6 +25395,7 @@
               "INESC-TEC, University of Porto,Faculty of Engineering,Portugal",
               "Faculty of Engineering, INESC-TEC, University of Porto, Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "INESC-TEC, University of Porto,Faculty of Engineering,Portugal",
@@ -25554,6 +25451,7 @@
               "INEGI, University of Porto,Faculty of Engineering,Portugal",
               "Faculty of Engineering, INEGI, University of Porto, Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "INEGI, University of Porto,Faculty of Engineering,Portugal",
@@ -25575,19 +25473,15 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I126158947"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 0.8025,
+        "fwci": 0.7586,
         "has_fulltext": false,
         "cited_by_count": 4,
         "citation_normalized_percentile": {
-          "value": 0.7419726,
+          "value": 0.7373664,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -25885,16 +25779,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "display_name": "Sustainable cities and communities",
             "score": 0.49000000953674316,
-            "id": "https://metadata.un.org/sdg/11"
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 12,
@@ -26297,7 +26191,7 @@
             "cited_by_count": 4
           }
         ],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -26309,7 +26203,7 @@
           "name": "Vitor da Silva Dias",
           "canonicalName": "Vitor da Silva Dias",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5107181245"
         },
@@ -26349,7 +26243,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.095Z",
+      "lastUpdated": "2026-07-01T03:02:13.427Z",
       "_raw": {
         "id": "https://openalex.org/W4402510102",
         "doi": "https://doi.org/10.5753/erbase.2022.228873",
@@ -26409,7 +26303,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Vitor da Silva Dias",
             "raw_affiliation_strings": [
               "UFRB"
@@ -26450,19 +26344,15 @@
         "institutions": [],
         "countries_distinct_count": 1,
         "institutions_distinct_count": 2,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5107181245"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I129192303"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": 0,
         "has_fulltext": true,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.21527612,
+          "value": 0.21496663,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -26581,8 +26471,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4402510102.pdf"
@@ -26939,7 +26829,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-05-21T06:26:12.895304",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -26951,7 +26841,7 @@
           "name": "Kevin Luís dos Santos",
           "canonicalName": "Kevin Luís dos Santos",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5014698164"
         },
@@ -27030,7 +26920,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.095Z",
+      "lastUpdated": "2026-07-01T03:02:13.427Z",
       "_raw": {
         "id": "https://openalex.org/W4312248886",
         "doi": "https://doi.org/10.37702/cobenge.2022.3840",
@@ -27090,7 +26980,7 @@
             },
             "institutions": [],
             "countries": [],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Kevin Luís dos Santos",
             "raw_affiliation_strings": [],
             "raw_orcid": null,
@@ -27160,9 +27050,7 @@
         "institutions": [],
         "countries_distinct_count": 0,
         "institutions_distinct_count": 5,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5014698164"
-        ],
+        "corresponding_author_ids": [],
         "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
@@ -27170,7 +27058,7 @@
         "has_fulltext": true,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.39313117,
+          "value": 0.39334065,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -27342,16 +27230,16 @@
         },
         "sustainable_development_goals": [
           {
-            "display_name": "Quality Education",
             "score": 0.6499999761581421,
-            "id": "https://metadata.un.org/sdg/4"
+            "id": "https://metadata.un.org/sdg/4",
+            "display_name": "Quality Education"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4312248886.pdf"
@@ -27676,7 +27564,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-05-05T08:41:31.759640",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -27688,7 +27576,7 @@
           "name": "LUIS Cardoso de Medeiros",
           "canonicalName": "LUIS Cardoso de Medeiros",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5081244578"
         },
@@ -27788,7 +27676,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.095Z",
+      "lastUpdated": "2026-07-01T03:02:13.428Z",
       "_raw": {
         "id": "https://openalex.org/W4312384372",
         "doi": "https://doi.org/10.37702/cobenge.2022.3836",
@@ -27861,16 +27749,20 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "LUIS Cardoso de Medeiros",
             "raw_affiliation_strings": [
-              "Universidade Federal do Recôncavo da Bahia",
               "VIRTUAIS DE APRENDIZAGEM",
-              "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
-              "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia"
+              "Universidade Federal do Recôncavo da Bahia",
+              "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
+              "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem"
             ],
             "raw_orcid": null,
             "affiliations": [
+              {
+                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
+                "institution_ids": []
+              },
               {
                 "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
                 "institution_ids": [
@@ -27878,18 +27770,14 @@
                 ]
               },
               {
-                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
-                "institution_ids": []
-              },
-              {
-                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
-                "institution_ids": []
-              },
-              {
                 "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
                 "institution_ids": [
                   "https://openalex.org/I129192303"
                 ]
+              },
+              {
+                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
+                "institution_ids": []
               }
             ]
           },
@@ -27934,60 +27822,6 @@
             "raw_author_name": "KEVIN Luís dos Santos",
             "raw_affiliation_strings": [
               "VIRTUAIS DE APRENDIZAGEM",
-              "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
-              "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
-              "Universidade Federal do Recôncavo da Bahia"
-            ],
-            "raw_orcid": null,
-            "affiliations": [
-              {
-                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
-                "institution_ids": []
-              },
-              {
-                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
-                "institution_ids": []
-              },
-              {
-                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
-                "institution_ids": [
-                  "https://openalex.org/I129192303"
-                ]
-              },
-              {
-                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
-                "institution_ids": [
-                  "https://openalex.org/I129192303"
-                ]
-              }
-            ]
-          },
-          {
-            "author_position": "middle",
-            "author": {
-              "id": "https://openalex.org/A5019227863",
-              "display_name": "VICTORIA Emanuela Alves Oliveira",
-              "orcid": null
-            },
-            "institutions": [
-              {
-                "id": "https://openalex.org/I129192303",
-                "display_name": "Universidade Federal do Recôncavo da Bahia",
-                "ror": "https://ror.org/057mvv518",
-                "country_code": "BR",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I129192303"
-                ]
-              }
-            ],
-            "countries": [
-              "BR"
-            ],
-            "is_corresponding": false,
-            "raw_author_name": "VICTORIA Emanuela Alves Oliveira",
-            "raw_affiliation_strings": [
-              "VIRTUAIS DE APRENDIZAGEM",
               "Universidade Federal do Recôncavo da Bahia",
               "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
               "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia"
@@ -28019,6 +27853,60 @@
           {
             "author_position": "middle",
             "author": {
+              "id": "https://openalex.org/A5019227863",
+              "display_name": "VICTORIA Emanuela Alves Oliveira",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I129192303",
+                "display_name": "Universidade Federal do Recôncavo da Bahia",
+                "ror": "https://ror.org/057mvv518",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I129192303"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "VICTORIA Emanuela Alves Oliveira",
+            "raw_affiliation_strings": [
+              "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
+              "VIRTUAIS DE APRENDIZAGEM",
+              "Universidade Federal do Recôncavo da Bahia",
+              "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
+              },
+              {
+                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
+                "institution_ids": []
+              },
+              {
+                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
+                "institution_ids": []
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
               "id": "https://openalex.org/A5053733752",
               "display_name": "LUCAS Lopes Rios da Silva",
               "orcid": null
@@ -28042,9 +27930,9 @@
             "raw_author_name": "LUCAS Lopes Rios da Silva",
             "raw_affiliation_strings": [
               "Universidade Federal do Recôncavo da Bahia",
-              "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
+              "VIRTUAIS DE APRENDIZAGEM",
               "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
-              "VIRTUAIS DE APRENDIZAGEM"
+              "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem"
             ],
             "raw_orcid": null,
             "affiliations": [
@@ -28055,7 +27943,7 @@
                 ]
               },
               {
-                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
+                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
                 "institution_ids": []
               },
               {
@@ -28065,7 +27953,7 @@
                 ]
               },
               {
-                "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
+                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
                 "institution_ids": []
               }
             ]
@@ -28110,21 +27998,19 @@
             "is_corresponding": false,
             "raw_author_name": "PAULO Fábio Figueiredo Rocha",
             "raw_affiliation_strings": [
+              "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
               "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
-              "Universidade Federal do Recôncavo da Bahia",
               "VIRTUAIS DE APRENDIZAGEM",
-              "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem"
+              "Universidade Federal do Recôncavo da Bahia"
             ],
             "raw_orcid": null,
             "affiliations": [
               {
-                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
-                "institution_ids": [
-                  "https://openalex.org/I129192303"
-                ]
+                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
+                "institution_ids": []
               },
               {
-                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
+                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
                 "institution_ids": [
                   "https://openalex.org/I129192303"
                 ]
@@ -28134,8 +28020,10 @@
                 "institution_ids": []
               },
               {
-                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
-                "institution_ids": []
+                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
               }
             ]
           },
@@ -28164,29 +28052,29 @@
             "is_corresponding": false,
             "raw_author_name": "ANDRE Luiz Carvalho Ottoni",
             "raw_affiliation_strings": [
-              "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
+              "Universidade Federal do Recôncavo da Bahia",
               "VIRTUAIS DE APRENDIZAGEM",
-              "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
-              "Universidade Federal do Recôncavo da Bahia"
+              "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
+              "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia"
             ],
             "raw_orcid": null,
             "affiliations": [
               {
-                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
-                "institution_ids": []
+                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
               },
               {
                 "raw_affiliation_string": "VIRTUAIS DE APRENDIZAGEM",
                 "institution_ids": []
               },
               {
-                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
-                "institution_ids": [
-                  "https://openalex.org/I129192303"
-                ]
+                "raw_affiliation_string": "Metodologia extensionista para o ensino virtual de Inteligência Artificial e robótica em ambientes virtuais de aprendizagem",
+                "institution_ids": []
               },
               {
-                "raw_affiliation_string": "Universidade Federal do Recôncavo da Bahia",
+                "raw_affiliation_string": "Centro de Ciências Exatas e Tecnológicas Universidade Federal do Recôncavo da Bahia Rua Rui Barbosa, 710, Centro 44380-000 -Cruz das Almas -Bahia",
                 "institution_ids": [
                   "https://openalex.org/I129192303"
                 ]
@@ -28197,19 +28085,15 @@
         "institutions": [],
         "countries_distinct_count": 1,
         "institutions_distinct_count": 8,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5081244578"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I129192303"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": 0,
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.40299598,
+          "value": 0.4032199,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -28337,8 +28221,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4312384372.pdf",
@@ -28668,7 +28552,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-05-05T08:41:31.759640",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -28680,7 +28564,7 @@
           "name": "Ejziel Sampaio Santos",
           "canonicalName": "Ejziel Sampaio Santos",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5008106550"
         },
@@ -28739,7 +28623,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.096Z",
+      "lastUpdated": "2026-07-01T03:02:13.428Z",
       "_raw": {
         "id": "https://openalex.org/W4285342612",
         "doi": "https://doi.org/10.5753/erbase.2021.20366",
@@ -28799,7 +28683,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Ejziel Sampaio Santos",
             "raw_affiliation_strings": [
               "UFRB",
@@ -28956,10 +28840,8 @@
         ],
         "institutions": [],
         "countries_distinct_count": 1,
-        "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5008106550"
-        ],
+        "institutions_distinct_count": 1,
+        "corresponding_author_ids": [],
         "corresponding_institution_ids": [
           "https://openalex.org/I129192303"
         ],
@@ -28969,7 +28851,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.20877986,
+          "value": 0.20854296,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -29129,8 +29011,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4285342612.pdf",
@@ -29432,7 +29314,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-05-21T06:26:12.895304",
+        "updated_date": "2026-06-26T08:34:08.712188",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -29444,7 +29326,7 @@
           "name": "Lucas L. R. da Silva",
           "canonicalName": "Lucas L. R. da Silva",
           "orcid": "https://orcid.org/0000-0002-2352-0282",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5027363025"
         },
@@ -29504,7 +29386,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.096Z",
+      "lastUpdated": "2026-07-01T03:02:13.428Z",
       "_raw": {
         "id": "https://openalex.org/W4285342487",
         "doi": "https://doi.org/10.5753/erbase.2021.20062",
@@ -29564,7 +29446,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Lucas L. R. da Silva",
             "raw_affiliation_strings": [
               "UFRB",
@@ -29721,10 +29603,8 @@
         ],
         "institutions": [],
         "countries_distinct_count": 1,
-        "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5027363025"
-        ],
+        "institutions_distinct_count": 1,
+        "corresponding_author_ids": [],
         "corresponding_institution_ids": [
           "https://openalex.org/I129192303"
         ],
@@ -29734,7 +29614,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.26023129,
+          "value": 0.25996264,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -29906,8 +29786,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W4285342487.pdf",
@@ -30315,7 +30195,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-05-21T06:26:12.895304",
+        "updated_date": "2026-06-26T08:34:08.712188",
         "created_date": "2022-07-14T00:00:00"
       }
     },
@@ -30327,7 +30207,7 @@
           "name": "Higor Santos de Jesus",
           "canonicalName": "Higor Santos de Jesus",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5090804618"
         },
@@ -30413,7 +30293,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.096Z",
+      "lastUpdated": "2026-07-01T03:02:13.428Z",
       "_raw": {
         "id": "https://openalex.org/W3111267421",
         "doi": "https://doi.org/10.48011/asba.v2i1.971",
@@ -30487,7 +30367,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Higor Santos de Jesus",
             "raw_affiliation_strings": [
               "Universidade Federal do Recôncavo da Bahia (UFRB)"
@@ -30690,10 +30570,8 @@
         ],
         "institutions": [],
         "countries_distinct_count": 1,
-        "institutions_distinct_count": 6,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5090804618"
-        ],
+        "institutions_distinct_count": 1,
+        "corresponding_author_ids": [],
         "corresponding_institution_ids": [
           "https://openalex.org/I129192303"
         ],
@@ -30703,7 +30581,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.2730117,
+          "value": 0.27260337,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -30829,8 +30707,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -31156,7 +31034,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-05-21T06:26:12.895304",
+        "updated_date": "2026-06-26T08:34:08.712188",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -31168,7 +31046,7 @@
           "name": "Walber C. de Jesus",
           "canonicalName": "Walber C. de Jesus",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5090981702"
         },
@@ -31296,7 +31174,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.096Z",
+      "lastUpdated": "2026-07-01T03:02:13.428Z",
       "_raw": {
         "id": "https://openalex.org/W3113358243",
         "doi": "https://doi.org/10.48011/asba.v2i1.1333",
@@ -31370,7 +31248,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Walber C. de Jesus",
             "raw_affiliation_strings": [
               "Centro de Ciências Exatas e Tecnológicas, Universidade Federal do Recôncavo da Bahia"
@@ -31758,10 +31636,8 @@
         ],
         "institutions": [],
         "countries_distinct_count": 1,
-        "institutions_distinct_count": 11,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5090981702"
-        ],
+        "institutions_distinct_count": 1,
+        "corresponding_author_ids": [],
         "corresponding_institution_ids": [
           "https://openalex.org/I129192303"
         ],
@@ -31771,7 +31647,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.20027406,
+          "value": 0.1999915,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -31926,8 +31802,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -32335,7 +32211,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-05-21T06:26:12.895304",
+        "updated_date": "2026-06-26T08:34:08.712188",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -32347,7 +32223,7 @@
           "name": "Joaquim Ranyere Santana de Oliveira",
           "canonicalName": "J. R. S. Oliveira",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5103536321"
         },
@@ -32449,7 +32325,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.096Z",
+      "lastUpdated": "2026-07-01T03:02:13.428Z",
       "_raw": {
         "id": "https://openalex.org/W3035676811",
         "doi": "https://doi.org/10.22533/at.ed.87220080611",
@@ -32497,9 +32373,10 @@
             },
             "institutions": [],
             "countries": [],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Joaquim Ranyere Santana de Oliveira",
             "raw_affiliation_strings": [],
+            "raw_orcid": null,
             "affiliations": []
           },
           {
@@ -32514,6 +32391,7 @@
             "is_corresponding": false,
             "raw_author_name": "João Carlos Nunes Bittencourt",
             "raw_affiliation_strings": [],
+            "raw_orcid": null,
             "affiliations": []
           },
           {
@@ -32528,6 +32406,7 @@
             "is_corresponding": false,
             "raw_author_name": "Deusdete Miranda Matos Junior",
             "raw_affiliation_strings": [],
+            "raw_orcid": null,
             "affiliations": []
           },
           {
@@ -32542,6 +32421,7 @@
             "is_corresponding": false,
             "raw_author_name": "Anderson Amorim do Nascimento",
             "raw_affiliation_strings": [],
+            "raw_orcid": null,
             "affiliations": []
           },
           {
@@ -32556,6 +32436,7 @@
             "is_corresponding": false,
             "raw_author_name": "Laue Rami Souza Costa de Jesus",
             "raw_affiliation_strings": [],
+            "raw_orcid": null,
             "affiliations": []
           },
           {
@@ -32570,6 +32451,7 @@
             "is_corresponding": false,
             "raw_author_name": "Georgina Gonzalez Rojas",
             "raw_affiliation_strings": [],
+            "raw_orcid": null,
             "affiliations": []
           },
           {
@@ -32584,6 +32466,7 @@
             "is_corresponding": false,
             "raw_author_name": "Rodrigo Carvalho Tutu",
             "raw_affiliation_strings": [],
+            "raw_orcid": null,
             "affiliations": []
           },
           {
@@ -32598,6 +32481,7 @@
             "is_corresponding": false,
             "raw_author_name": "Wagner Luiz Alves de Oliveira",
             "raw_affiliation_strings": [],
+            "raw_orcid": null,
             "affiliations": []
           },
           {
@@ -32612,15 +32496,14 @@
             "is_corresponding": false,
             "raw_author_name": "Silvano Moreira Junior",
             "raw_affiliation_strings": [],
+            "raw_orcid": null,
             "affiliations": []
           }
         ],
         "institutions": [],
         "countries_distinct_count": 0,
         "institutions_distinct_count": 9,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5103536321"
-        ],
+        "corresponding_author_ids": [],
         "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
@@ -32628,7 +32511,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.14355124,
+          "value": 0.03780997,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -32809,16 +32692,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "display_name": "Reduced inequalities",
             "score": 0.5600000023841858,
-            "id": "https://metadata.un.org/sdg/10"
+            "id": "https://metadata.un.org/sdg/10",
+            "display_name": "Reduced inequalities"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -32837,7 +32720,7 @@
         ],
         "abstract_inverted_index": null,
         "counts_by_year": [],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -32849,7 +32732,7 @@
           "name": "Walber C. Jesus Rocha",
           "canonicalName": "Walber C. Jesus Rocha",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5055614233"
         },
@@ -32916,7 +32799,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.096Z",
+      "lastUpdated": "2026-07-01T03:02:13.428Z",
       "_raw": {
         "id": "https://openalex.org/W3041937156",
         "doi": "https://doi.org/10.36558/rsc.v10i1.6643",
@@ -32975,7 +32858,7 @@
             },
             "institutions": [],
             "countries": [],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Walber C. Jesus Rocha",
             "raw_affiliation_strings": [],
             "raw_orcid": null,
@@ -33015,9 +32898,7 @@
         "institutions": [],
         "countries_distinct_count": 0,
         "institutions_distinct_count": 3,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5055614233"
-        ],
+        "corresponding_author_ids": [],
         "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
@@ -33025,7 +32906,7 @@
         "has_fulltext": false,
         "cited_by_count": 0,
         "citation_normalized_percentile": {
-          "value": 0.08306733,
+          "value": 0.08294118,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -33211,8 +33092,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -33609,7 +33490,7 @@
           ]
         },
         "counts_by_year": [],
-        "updated_date": "2026-04-28T14:05:53.105641",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -33722,7 +33603,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.096Z",
+      "lastUpdated": "2026-07-01T03:02:13.428Z",
       "_raw": {
         "id": "https://openalex.org/W2986411918",
         "doi": "https://doi.org/10.5151/siintec2019-45",
@@ -34343,9 +34224,9 @@
         },
         "sustainable_development_goals": [
           {
-            "display_name": "Reduced inequalities",
             "score": 0.4399999976158142,
-            "id": "https://metadata.un.org/sdg/10"
+            "id": "https://metadata.un.org/sdg/10",
+            "display_name": "Reduced inequalities"
           }
         ],
         "awards": [],
@@ -34362,8 +34243,8 @@
           }
         ],
         "has_content": {
-          "pdf": true,
-          "grobid_xml": true
+          "grobid_xml": true,
+          "pdf": true
         },
         "content_urls": {
           "pdf": "https://content.openalex.org/works/W2986411918.pdf",
@@ -34654,7 +34535,7 @@
           "name": "João Carlos Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -34809,7 +34690,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.096Z",
+      "lastUpdated": "2026-07-01T03:02:13.428Z",
       "_raw": {
         "id": "https://openalex.org/W2998133484",
         "doi": "https://doi.org/10.1109/h2rc49586.2019.00012",
@@ -34880,12 +34761,13 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "João Carlos Bittencourt",
             "raw_affiliation_strings": [
               "Federal University of Reco&#x302;ncavo da Bahia, Brazil",
               "Federal University of Recôncavo da Bahia, Cruz das Almas, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Federal University of Reco&#x302;ncavo da Bahia, Brazil",
@@ -34929,6 +34811,7 @@
               "SENAI CIMATEC, Brazil",
               "SENAI/CIMATEC, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "SENAI CIMATEC, Brazil",
@@ -34972,6 +34855,7 @@
               "SENAI CIMATEC, Brazil",
               "Super Computing Center SENAI/CIMATEC, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "SENAI CIMATEC, Brazil",
@@ -35015,6 +34899,7 @@
               "SENAI CIMATEC, Brazil",
               "Super Computing Center SENAI/CIMATEC, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "SENAI CIMATEC, Brazil",
@@ -35058,6 +34943,7 @@
               "SENAI CIMATEC, Brazil",
               "SENAI/CIMATEC, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "SENAI CIMATEC, Brazil",
@@ -35101,6 +34987,7 @@
               "SENAI CIMATEC, Brazil",
               "Super Computing Center SENAI/CIMATEC, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "SENAI CIMATEC, Brazil",
@@ -35143,6 +35030,7 @@
             "raw_affiliation_strings": [
               "Super Computing Center SENAI/CIMATEC, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Super Computing Center SENAI/CIMATEC, Salvador, Brazil",
@@ -35180,6 +35068,7 @@
               "SENAI CIMATEC, Brazil",
               "Super Computing Center SENAI/CIMATEC, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "SENAI CIMATEC, Brazil",
@@ -35223,6 +35112,7 @@
               "SENAI CIMATEC, Brazil",
               "SENAI/CIMATEC, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "SENAI CIMATEC, Brazil",
@@ -35266,6 +35156,7 @@
               "SENAI CIMATEC, Brazil",
               "SENAI/CIMATEC, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "SENAI CIMATEC, Brazil",
@@ -35309,6 +35200,7 @@
               "SENAI CIMATEC, Brazil",
               "SENAI/CIMATEC, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "SENAI CIMATEC, Brazil",
@@ -35352,6 +35244,7 @@
               "SENAI CIMATEC, Brazil",
               "Super Computing Center SENAI/CIMATEC, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "SENAI CIMATEC, Brazil",
@@ -35395,6 +35288,7 @@
               "Federal University of Bahia, Brazil",
               "Federal University of Bahia, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Federal University of Bahia, Brazil",
@@ -35414,20 +35308,15 @@
         "institutions": [],
         "countries_distinct_count": 1,
         "institutions_distinct_count": 13,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I126158947",
-          "https://openalex.org/I129192303"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 0.5833,
+        "fwci": 0.5836,
         "has_fulltext": false,
         "cited_by_count": 5,
         "citation_normalized_percentile": {
-          "value": 0.67791411,
+          "value": 0.67813765,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -35742,16 +35631,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "display_name": "Affordable and clean energy",
             "score": 0.8899999856948853,
-            "id": "https://metadata.un.org/sdg/7"
+            "id": "https://metadata.un.org/sdg/7",
+            "display_name": "Affordable and clean energy"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 23,
@@ -36177,7 +36066,7 @@
             "cited_by_count": 3
           }
         ],
-        "updated_date": "2026-04-23T09:07:50.710637",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -36237,7 +36126,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-06-01T03:03:15.097Z",
+      "lastUpdated": "2026-07-01T03:02:13.429Z",
       "_raw": {
         "id": "https://openalex.org/W2939288824",
         "doi": null,
@@ -36487,8 +36376,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -37323,7 +37212,7 @@
           "name": "Daniel G. Costa",
           "canonicalName": "Daniel G. Costa",
           "orcid": "https://orcid.org/0000-0003-3988-8476",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5068969835"
         },
@@ -37411,7 +37300,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.097Z",
+      "lastUpdated": "2026-07-01T03:02:13.429Z",
       "_raw": {
         "id": "https://openalex.org/W2782499739",
         "doi": "https://doi.org/10.1109/chilecon.2017.8229606",
@@ -37472,7 +37361,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Daniel G. Costa",
             "raw_affiliation_strings": [
               "DTEC-UEFS, State University of Feira de Santana, Feira de Santana, Brazil"
@@ -37565,19 +37454,15 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 3,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5068969835"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I21606457"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 1.3172,
+        "fwci": 1.3182,
         "has_fulltext": false,
         "cited_by_count": 9,
         "citation_normalized_percentile": {
-          "value": 0.84237859,
+          "value": 0.84247119,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -37925,16 +37810,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "display_name": "Industry, innovation and infrastructure",
             "score": 0.46000000834465027,
-            "id": "https://metadata.un.org/sdg/9"
+            "id": "https://metadata.un.org/sdg/9",
+            "display_name": "Industry, innovation and infrastructure"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 21,
@@ -38386,7 +38271,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2026-05-07T13:39:58.223016",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -38398,7 +38283,7 @@
           "name": "Nelson Alves Ferreira Neto",
           "canonicalName": "Nelson Alves Ferreira Neto",
           "orcid": "https://orcid.org/0000-0003-2278-1082",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5078104091"
         },
@@ -38483,7 +38368,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.097Z",
+      "lastUpdated": "2026-07-01T03:02:13.429Z",
       "_raw": {
         "id": "https://openalex.org/W2184065042",
         "doi": "https://doi.org/10.1109/patmos.2015.7347589",
@@ -38544,11 +38429,12 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Nelson Alves Ferreira Neto",
             "raw_affiliation_strings": [
               "Laboratório de Sistemas Integráveis e Tecnológicos, Universidade Federal da Bahia, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Laboratório de Sistemas Integráveis e Tecnológicos, Universidade Federal da Bahia, Brazil",
@@ -38585,6 +38471,7 @@
             "raw_affiliation_strings": [
               "Laboratório de Sistemas Integráveis e Tecnológicos, Universidade Federal da Bahia, Bahia, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Laboratório de Sistemas Integráveis e Tecnológicos, Universidade Federal da Bahia, Bahia, Brazil",
@@ -38621,6 +38508,7 @@
             "raw_affiliation_strings": [
               "Universidade Federal da Bahia Salvador, Bahia, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Universidade Federal da Bahia Salvador, Bahia, Brazil",
@@ -38657,6 +38545,7 @@
             "raw_affiliation_strings": [
               "Universidade Federal da Bahia, Salvador, BA, BR"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Universidade Federal da Bahia, Salvador, BA, BR",
@@ -38669,20 +38558,18 @@
         ],
         "institutions": [],
         "countries_distinct_count": 1,
-        "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5078104091"
-        ],
+        "institutions_distinct_count": 1,
+        "corresponding_author_ids": [],
         "corresponding_institution_ids": [
           "https://openalex.org/I126158947"
         ],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 0.338,
+        "fwci": 0.3506,
         "has_fulltext": false,
         "cited_by_count": 3,
         "citation_normalized_percentile": {
-          "value": 0.66410654,
+          "value": 0.67766971,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -39007,16 +38894,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "display_name": "Affordable and clean energy",
             "score": 0.4099999964237213,
-            "id": "https://metadata.un.org/sdg/7"
+            "id": "https://metadata.un.org/sdg/7",
+            "display_name": "Affordable and clean energy"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 15,
@@ -39303,7 +39190,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2026-06-26T08:34:08.712188",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -39315,7 +39202,7 @@
           "name": "Joao Carlos Bittencourt",
           "canonicalName": "João Carlos N. Bittencourt",
           "orcid": "https://orcid.org/0000-0002-4540-512X",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5040609024"
         },
@@ -39401,7 +39288,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.097Z",
+      "lastUpdated": "2026-07-01T03:02:13.429Z",
       "_raw": {
         "id": "https://openalex.org/W1927039319",
         "doi": "https://doi.org/10.1109/dsd.2015.55",
@@ -39462,12 +39349,13 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Joao Carlos Bittencourt",
             "raw_affiliation_strings": [
               "Universidade Federal da Bahia, Salvador, BA, BR",
               "Polytech. Inst., Fed. Univ. of Bahia, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Universidade Federal da Bahia, Salvador, BA, BR",
@@ -39509,6 +39397,7 @@
               "Universidade de Lisboa, Lisboa, Lisboa, PT",
               "IST, Univ. de Lisboa, Lisbon, Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Universidade de Lisboa, Lisboa, Lisboa, PT",
@@ -39550,6 +39439,7 @@
               "Polytech. Inst., Universidade Federal da Bahia, Salvador, BA, BR",
               "Polytech. Inst., Fed. Univ. of Bahia, Salvador, Brazil"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "Polytech. Inst., Universidade Federal da Bahia, Salvador, BA, BR",
@@ -39572,16 +39462,6 @@
             },
             "institutions": [
               {
-                "id": "https://openalex.org/I141596103",
-                "display_name": "University of Lisbon",
-                "ror": "https://ror.org/01c27hj86",
-                "country_code": "PT",
-                "type": "education",
-                "lineage": [
-                  "https://openalex.org/I141596103"
-                ]
-              },
-              {
                 "id": "https://openalex.org/I121345201",
                 "display_name": "Instituto de Engenharia de Sistemas e Computadores Investigação e Desenvolvimento",
                 "ror": "https://ror.org/04mqy3p58",
@@ -39590,6 +39470,16 @@
                 "lineage": [
                   "https://openalex.org/I121345201",
                   "https://openalex.org/I4210125590"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I141596103",
+                "display_name": "University of Lisbon",
+                "ror": "https://ror.org/01c27hj86",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I141596103"
                 ]
               }
             ],
@@ -39602,6 +39492,7 @@
               "INESC-ID, IST, Universidade de Lisboa, Lisbon, Portugal",
               "IST, Univ. de Lisboa, Lisbon, Portugal"
             ],
+            "raw_orcid": null,
             "affiliations": [
               {
                 "raw_affiliation_string": "INESC-ID, IST, Universidade de Lisboa, Lisbon, Portugal",
@@ -39620,19 +39511,15 @@
         "institutions": [],
         "countries_distinct_count": 2,
         "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5040609024"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I126158947"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": 0,
         "has_fulltext": false,
         "cited_by_count": 4,
         "citation_normalized_percentile": {
-          "value": 0.03650152,
+          "value": 0.039372,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -39970,8 +39857,8 @@
           }
         ],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 7,
@@ -40329,7 +40216,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2025-11-06T03:46:38.306776",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -40341,7 +40228,7 @@
           "name": "Delmar Broglio Carvalho",
           "canonicalName": "Delmar Broglio Carvalho",
           "orcid": null,
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5012322827"
         },
@@ -40428,7 +40315,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.097Z",
+      "lastUpdated": "2026-07-01T03:02:13.429Z",
       "_raw": {
         "id": "https://openalex.org/W334391379",
         "doi": null,
@@ -40486,7 +40373,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "Delmar Broglio Carvalho",
             "raw_affiliation_strings": [
               "State University of Feira De Santana"
@@ -40572,19 +40459,15 @@
         "institutions": [],
         "countries_distinct_count": 1,
         "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5012322827"
-        ],
-        "corresponding_institution_ids": [
-          "https://openalex.org/I21606457"
-        ],
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
         "apc_list": null,
         "apc_paid": null,
         "fwci": 0,
         "has_fulltext": false,
         "cited_by_count": 4,
         "citation_normalized_percentile": {
-          "value": 0.02212772,
+          "value": 0.02212859,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -40929,8 +40812,8 @@
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 6,
@@ -41242,7 +41125,7 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2026-05-17T08:19:37.847499",
+        "updated_date": "2026-06-11T09:08:48.828518",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -41254,7 +41137,7 @@
           "name": "José Amâncio Macedo Santos",
           "canonicalName": "José Amâncio Macedo Santos",
           "orcid": "https://orcid.org/0000-0002-9509-5238",
-          "isCorresponding": true,
+          "isCorresponding": false,
           "position": "first",
           "openalexAuthorId": "https://openalex.org/A5004327143"
         },
@@ -41334,7 +41217,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-06-01T03:03:15.097Z",
+      "lastUpdated": "2026-07-01T03:02:13.429Z",
       "_raw": {
         "id": "https://openalex.org/W1835217957",
         "doi": null,
@@ -41405,7 +41288,7 @@
             "countries": [
               "BR"
             ],
-            "is_corresponding": true,
+            "is_corresponding": false,
             "raw_author_name": "José Amâncio Macedo Santos",
             "raw_affiliation_strings": [
               "State University of Feira De Santana"
@@ -41534,25 +41417,23 @@
         ],
         "institutions": [],
         "countries_distinct_count": 1,
-        "institutions_distinct_count": 4,
-        "corresponding_author_ids": [
-          "https://openalex.org/A5004327143"
-        ],
+        "institutions_distinct_count": 1,
+        "corresponding_author_ids": [],
         "corresponding_institution_ids": [
           "https://openalex.org/I21606457"
         ],
         "apc_list": null,
         "apc_paid": null,
-        "fwci": 0.9839,
+        "fwci": 0.9902,
         "has_fulltext": false,
         "cited_by_count": 1,
         "citation_normalized_percentile": {
-          "value": 0.84674943,
+          "value": 0.84732105,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
         "cited_by_percentile_year": {
-          "min": 89,
+          "min": 90,
           "max": 94
         },
         "biblio": {
@@ -41744,16 +41625,16 @@
         "best_oa_location": null,
         "sustainable_development_goals": [
           {
-            "display_name": "Quality Education",
             "score": 0.6100000143051147,
-            "id": "https://metadata.un.org/sdg/4"
+            "id": "https://metadata.un.org/sdg/4",
+            "display_name": "Quality Education"
           }
         ],
         "awards": [],
         "funders": [],
         "has_content": {
-          "pdf": false,
-          "grobid_xml": false
+          "grobid_xml": false,
+          "pdf": false
         },
         "content_urls": null,
         "referenced_works_count": 0,
@@ -41965,13 +41846,13 @@
             "cited_by_count": 1
           }
         ],
-        "updated_date": "2025-10-10T17:16:08.811792",
+        "updated_date": "2026-06-26T08:34:08.712188",
         "created_date": "2025-10-10T00:00:00"
       }
     }
   ],
   "meta": {
     "count": 41,
-    "lastUpdated": "2026-06-01T03:03:15.113Z"
+    "lastUpdated": "2026-07-01T03:02:13.447Z"
   }
 }
