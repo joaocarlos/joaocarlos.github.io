@@ -29,22 +29,22 @@
       ],
       "abstract": "First released. Full Changelog: https://github.com/joaocarlos/yolo26-track-edge-benchmark/commits/v0.1.0",
       "isOpenAccess": true,
-      "lastUpdated": "2026-08-01T02:59:59.609Z"
+      "lastUpdated": "2026-09-01T06:57:21.236Z"
     },
     {
-      "openalexId": "W7139012813",
+      "openalexId": "W7138939508",
       "name": "VERUS: Vulnerability Evaluation for Resilient Urban Systems",
       "version": null,
       "title": "VERUS: Vulnerability Evaluation for Resilient Urban Systems",
       "github": null,
-      "doi": "10.5281/zenodo.19113788",
+      "doi": "10.5281/zenodo.19113787",
       "zenodoDois": [
-        "10.5281/zenodo.19113788",
-        "10.5281/zenodo.19113787"
+        "10.5281/zenodo.19113787",
+        "10.5281/zenodo.19113788"
       ],
       "openalexIds": [
-        "W7139012813",
-        "W7138939508"
+        "W7138939508",
+        "W7139012813"
       ],
       "year": 2025,
       "date": "2025-11-03",
@@ -76,9 +76,9 @@
       ],
       "abstract": "VERUS (Vulnerability Evaluation for Resilient Urban Systems) is a Python library for extracting points of interest from OpenStreetMap, clustering them based on spatial proximity and time-based vulnerability indices, and analyzing urban vulnerability patterns.",
       "isOpenAccess": true,
-      "lastUpdated": "2026-08-01T02:59:59.609Z"
+      "lastUpdated": "2026-09-01T06:57:21.236Z"
     }
   ],
-  "lastFetched": "2026-08-01T02:59:59.609Z",
+  "lastFetched": "2026-09-01T06:57:21.237Z",
   "totalCount": 2
 }
