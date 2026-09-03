@@ -107,7 +107,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.215Z",
+      "lastUpdated": "2026-09-03T19:13:21.033Z",
       "_raw": {
         "id": "https://openalex.org/W7204463720",
         "doi": "https://doi.org/10.3390/e28090960",
@@ -1351,6 +1351,1064 @@
       }
     },
     {
+      "id": "https://openalex.org/W7203751851",
+      "title": "TinyML Fault Detection in Water Pump Systems: Leveraging Acoustic Analysis on the Edge",
+      "authors": [
+        {
+          "name": "Thommas K. S. Flores",
+          "canonicalName": "Thommas K. S. Flores",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "first",
+          "openalexAuthorId": "https://openalex.org/A5122092833"
+        },
+        {
+          "name": "Thiago C. Jesus",
+          "canonicalName": "Thiago C. Jesus",
+          "orcid": "https://orcid.org/0000-0001-5299-6856",
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5011761859"
+        },
+        {
+          "name": "João Carlos N. Bittencourt",
+          "canonicalName": "João Carlos N. Bittencourt",
+          "orcid": "https://orcid.org/0000-0002-4540-512X",
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5140773374"
+        },
+        {
+          "name": "Ivanovitch Silva",
+          "canonicalName": "I. K. V. Silva",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5022132296"
+        },
+        {
+          "name": "Daniel G. Costa",
+          "canonicalName": "Daniel G. Costa",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "last",
+          "openalexAuthorId": "https://openalex.org/A5147621656"
+        }
+      ],
+      "journal": "2026 IEEE International Workshop on Metrology for Industry 4.0 &amp; IoT (MetroInd4.0 &amp; IoT)",
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-01",
+      "doi": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653144",
+      "url": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653144",
+      "citations": 0,
+      "isOpenAccess": false,
+      "oaUrl": null,
+      "volume": null,
+      "issue": null,
+      "pages": {
+        "first": "437",
+        "last": "441"
+      },
+      "keywords": [
+        "Fault detection and isolation",
+        "Edge detection",
+        "Enhanced Data Rates for GSM Evolution",
+        "Fault (geology)",
+        "Signal processing"
+      ],
+      "topics": [],
+      "abstract": null,
+      "venue": null,
+      "language": null,
+      "isRetracted": false,
+      "citationsPerYear": [],
+      "lastUpdated": "2026-09-03T19:13:21.033Z",
+      "_raw": {
+        "id": "https://openalex.org/W7203751851",
+        "doi": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653144",
+        "title": "TinyML Fault Detection in Water Pump Systems: Leveraging Acoustic Analysis on the Edge",
+        "display_name": "TinyML Fault Detection in Water Pump Systems: Leveraging Acoustic Analysis on the Edge",
+        "publication_year": 2026,
+        "publication_date": "2026-06-01",
+        "ids": {
+          "openalex": "https://openalex.org/W7203751851",
+          "doi": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653144"
+        },
+        "language": null,
+        "primary_location": {
+          "id": "doi:10.1109/metroind4.0iot69397.2026.11653144",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653144",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2026 IEEE International Workshop on Metrology for Industry 4.0 &amp; IoT (MetroInd4.0 &amp; IoT)",
+          "raw_type": "proceedings-article"
+        },
+        "type": "conference-paper",
+        "indexed_in": [
+          "crossref"
+        ],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5122092833",
+              "display_name": "Thommas K. S. Flores",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I35046152",
+                "display_name": "Universidade Federal do Rio Grande do Norte",
+                "ror": "https://ror.org/04wn09761",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I35046152"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Thommas K. S. Flores",
+            "raw_affiliation_strings": [
+              "Federal University of Rio Grande do Norte"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Rio Grande do Norte",
+                "institution_ids": [
+                  "https://openalex.org/I35046152"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5011761859",
+              "display_name": "Thiago C. Jesus",
+              "orcid": "https://orcid.org/0000-0001-5299-6856"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Thiago C. Jesus",
+            "raw_affiliation_strings": [
+              "University of Porto"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "University of Porto",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5140773374",
+              "display_name": "João Carlos N. Bittencourt",
+              "orcid": "https://orcid.org/0000-0002-4540-512X"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "João Carlos N. Bittencourt",
+            "raw_affiliation_strings": [
+              "University of Porto"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "University of Porto",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5022132296",
+              "display_name": "I. K. V. Silva",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I35046152",
+                "display_name": "Universidade Federal do Rio Grande do Norte",
+                "ror": "https://ror.org/04wn09761",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I35046152"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Ivanovitch Silva",
+            "raw_affiliation_strings": [
+              "Federal University of Rio Grande do Norte"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Rio Grande do Norte",
+                "institution_ids": [
+                  "https://openalex.org/I35046152"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5147621656",
+              "display_name": "Daniel G. Costa",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Daniel G. Costa",
+            "raw_affiliation_strings": [
+              "University of Porto"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "University of Porto",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
+          }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 2,
+        "institutions_distinct_count": 2,
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
+        "apc_list": null,
+        "apc_paid": null,
+        "fwci": null,
+        "has_fulltext": false,
+        "cited_by_count": 0,
+        "citation_normalized_percentile": null,
+        "cited_by_percentile_year": null,
+        "biblio": {
+          "volume": null,
+          "issue": null,
+          "first_page": "437",
+          "last_page": "441"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": null,
+        "topics": [],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/fault-detection-and-isolation",
+            "display_name": "Fault detection and isolation",
+            "score": 0.4643999934196472
+          },
+          {
+            "id": "https://openalex.org/keywords/edge-detection",
+            "display_name": "Edge detection",
+            "score": 0.4065000116825104
+          },
+          {
+            "id": "https://openalex.org/keywords/enhanced-data-rates-for-gsm-evolution",
+            "display_name": "Enhanced Data Rates for GSM Evolution",
+            "score": 0.40610000491142273
+          },
+          {
+            "id": "https://openalex.org/keywords/fault",
+            "display_name": "Fault (geology)",
+            "score": 0.3919999897480011
+          },
+          {
+            "id": "https://openalex.org/keywords/signal-processing",
+            "display_name": "Signal processing",
+            "score": 0.3418999910354614
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C152745839",
+            "wikidata": "https://www.wikidata.org/wiki/Q5438153",
+            "display_name": "Fault detection and isolation",
+            "level": 3,
+            "score": 0.4643999934196472
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "wikidata": "https://www.wikidata.org/wiki/Q21198",
+            "display_name": "Computer science",
+            "level": 0,
+            "score": 0.45080000162124634
+          },
+          {
+            "id": "https://openalex.org/C193536780",
+            "wikidata": "https://www.wikidata.org/wiki/Q1513153",
+            "display_name": "Edge detection",
+            "level": 4,
+            "score": 0.4065000116825104
+          },
+          {
+            "id": "https://openalex.org/C162307627",
+            "wikidata": "https://www.wikidata.org/wiki/Q204833",
+            "display_name": "Enhanced Data Rates for GSM Evolution",
+            "level": 2,
+            "score": 0.40610000491142273
+          },
+          {
+            "id": "https://openalex.org/C175551986",
+            "wikidata": "https://www.wikidata.org/wiki/Q47089",
+            "display_name": "Fault (geology)",
+            "level": 2,
+            "score": 0.3919999897480011
+          },
+          {
+            "id": "https://openalex.org/C104267543",
+            "wikidata": "https://www.wikidata.org/wiki/Q208163",
+            "display_name": "Signal processing",
+            "level": 3,
+            "score": 0.3418999910354614
+          },
+          {
+            "id": "https://openalex.org/C99498987",
+            "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+            "display_name": "Noise (video)",
+            "level": 3,
+            "score": 0.3343999981880188
+          },
+          {
+            "id": "https://openalex.org/C24890656",
+            "wikidata": "https://www.wikidata.org/wiki/Q82811",
+            "display_name": "Acoustics",
+            "level": 1,
+            "score": 0.32510000467300415
+          },
+          {
+            "id": "https://openalex.org/C62649853",
+            "wikidata": "https://www.wikidata.org/wiki/Q199687",
+            "display_name": "Remote sensing",
+            "level": 1,
+            "score": 0.295199990272522
+          },
+          {
+            "id": "https://openalex.org/C2987355568",
+            "wikidata": "https://www.wikidata.org/wiki/Q4420957",
+            "display_name": "Leak detection",
+            "level": 3,
+            "score": 0.289000004529953
+          },
+          {
+            "id": "https://openalex.org/C127313418",
+            "wikidata": "https://www.wikidata.org/wiki/Q1069",
+            "display_name": "Geology",
+            "level": 0,
+            "score": 0.27559998631477356
+          },
+          {
+            "id": "https://openalex.org/C137270730",
+            "wikidata": "https://www.wikidata.org/wiki/Q120811",
+            "display_name": "Detection theory",
+            "level": 3,
+            "score": 0.2752000093460083
+          },
+          {
+            "id": "https://openalex.org/C127413603",
+            "wikidata": "https://www.wikidata.org/wiki/Q11023",
+            "display_name": "Engineering",
+            "level": 0,
+            "score": 0.2720000147819519
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "wikidata": "https://www.wikidata.org/wiki/Q11660",
+            "display_name": "Artificial intelligence",
+            "level": 1,
+            "score": 0.25270000100135803
+          }
+        ],
+        "mesh": [],
+        "locations_count": 1,
+        "locations": [
+          {
+            "id": "doi:10.1109/metroind4.0iot69397.2026.11653144",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653144",
+            "pdf_url": null,
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "2026 IEEE International Workshop on Metrology for Industry 4.0 &amp; IoT (MetroInd4.0 &amp; IoT)",
+            "raw_type": "proceedings-article"
+          }
+        ],
+        "best_oa_location": null,
+        "sustainable_development_goals": [],
+        "awards": [],
+        "funders": [],
+        "has_content": {
+          "pdf": false,
+          "grobid_xml": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 13,
+        "referenced_works": [
+          "https://openalex.org/W2982294822",
+          "https://openalex.org/W2999563812",
+          "https://openalex.org/W3107341728",
+          "https://openalex.org/W3118369289",
+          "https://openalex.org/W3119239736",
+          "https://openalex.org/W3183355968",
+          "https://openalex.org/W4360611959",
+          "https://openalex.org/W4383678362",
+          "https://openalex.org/W4383751021",
+          "https://openalex.org/W4385491795",
+          "https://openalex.org/W4388729548",
+          "https://openalex.org/W4391004911",
+          "https://openalex.org/W4391544410"
+        ],
+        "related_works": [],
+        "abstract_inverted_index": null,
+        "counts_by_year": [],
+        "updated_date": "2026-08-21T09:56:20.448147",
+        "created_date": "2026-08-20T00:00:00"
+      }
+    },
+    {
+      "id": "https://openalex.org/W7203789317",
+      "title": "Low-Cost Calibration of a Pressure Sensor Node for eHealth Respiratory Muscle Strength Assessment",
+      "authors": [
+        {
+          "name": "Yuri Lima Dos Santos Silva",
+          "canonicalName": "Yuri Lima Dos Santos Silva",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "first",
+          "openalexAuthorId": "https://openalex.org/A5140768267"
+        },
+        {
+          "name": "João Carlos N. Bittencourt",
+          "canonicalName": "João Carlos N. Bittencourt",
+          "orcid": "https://orcid.org/0000-0002-4540-512X",
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5140773374"
+        },
+        {
+          "name": "João Soares Oliveira Neto",
+          "canonicalName": "João Soares Oliveira Neto",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5147457953"
+        },
+        {
+          "name": "Giselle Bárbara de Almeida Scaldaferri",
+          "canonicalName": "Giselle Bárbara de Almeida Scaldaferri",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5147463459"
+        },
+        {
+          "name": "Daniel Dominguez Ferraz",
+          "canonicalName": "Daniel Dominguez Ferraz",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5147583131"
+        },
+        {
+          "name": "Daniel G. Costa",
+          "canonicalName": "Daniel G. Costa",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "last",
+          "openalexAuthorId": "https://openalex.org/A5147621656"
+        }
+      ],
+      "journal": "2026 IEEE International Workshop on Metrology for Industry 4.0 &amp; IoT (MetroInd4.0 &amp; IoT)",
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-01",
+      "doi": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653177",
+      "url": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653177",
+      "citations": 0,
+      "isOpenAccess": false,
+      "oaUrl": null,
+      "volume": null,
+      "issue": null,
+      "pages": {
+        "first": "388",
+        "last": "393"
+      },
+      "keywords": [
+        "Calibration",
+        "eHealth",
+        "Pressure sensor",
+        "Node (physics)",
+        "Muscle strength",
+        "Pressure measurement"
+      ],
+      "topics": [],
+      "abstract": null,
+      "venue": null,
+      "language": null,
+      "isRetracted": false,
+      "citationsPerYear": [],
+      "lastUpdated": "2026-09-03T19:13:21.033Z",
+      "_raw": {
+        "id": "https://openalex.org/W7203789317",
+        "doi": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653177",
+        "title": "Low-Cost Calibration of a Pressure Sensor Node for eHealth Respiratory Muscle Strength Assessment",
+        "display_name": "Low-Cost Calibration of a Pressure Sensor Node for eHealth Respiratory Muscle Strength Assessment",
+        "publication_year": 2026,
+        "publication_date": "2026-06-01",
+        "ids": {
+          "openalex": "https://openalex.org/W7203789317",
+          "doi": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653177"
+        },
+        "language": null,
+        "primary_location": {
+          "id": "doi:10.1109/metroind4.0iot69397.2026.11653177",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653177",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2026 IEEE International Workshop on Metrology for Industry 4.0 &amp; IoT (MetroInd4.0 &amp; IoT)",
+          "raw_type": "proceedings-article"
+        },
+        "type": "conference-paper",
+        "indexed_in": [
+          "crossref"
+        ],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5140768267",
+              "display_name": "Yuri Lima Dos Santos Silva",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I129192303",
+                "display_name": "Universidade Federal do Recôncavo da Bahia",
+                "ror": "https://ror.org/057mvv518",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I129192303"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Yuri Lima Dos Santos Silva",
+            "raw_affiliation_strings": [
+              "Federal University of Recôncavo da Bahia"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Recôncavo da Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5140773374",
+              "display_name": "João Carlos N. Bittencourt",
+              "orcid": "https://orcid.org/0000-0002-4540-512X"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I129192303",
+                "display_name": "Universidade Federal do Recôncavo da Bahia",
+                "ror": "https://ror.org/057mvv518",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I129192303"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "João Carlos N. Bittencourt",
+            "raw_affiliation_strings": [
+              "Federal University of Recôncavo da Bahia"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Recôncavo da Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5147457953",
+              "display_name": "João Soares Oliveira Neto",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "João Soares Oliveira Neto",
+            "raw_affiliation_strings": [
+              "Federal University of Bahia"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5147463459",
+              "display_name": "Giselle Bárbara de Almeida Scaldaferri",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Giselle Bárbara de Almeida Scaldaferri",
+            "raw_affiliation_strings": [
+              "Federal University of Bahia"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5147583131",
+              "display_name": "Daniel Dominguez Ferraz",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Daniel Dominguez Ferraz",
+            "raw_affiliation_strings": [
+              "Federal University of Bahia"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5147621656",
+              "display_name": "Daniel G. Costa",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I182534213",
+                "display_name": "Universidade do Porto",
+                "ror": "https://ror.org/043pwc612",
+                "country_code": "PT",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ],
+            "countries": [
+              "PT"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Daniel G. Costa",
+            "raw_affiliation_strings": [
+              "University of Porto"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "University of Porto",
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ]
+              }
+            ]
+          }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 2,
+        "institutions_distinct_count": 3,
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
+        "apc_list": null,
+        "apc_paid": null,
+        "fwci": null,
+        "has_fulltext": false,
+        "cited_by_count": 0,
+        "citation_normalized_percentile": null,
+        "cited_by_percentile_year": null,
+        "biblio": {
+          "volume": null,
+          "issue": null,
+          "first_page": "388",
+          "last_page": "393"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": null,
+        "topics": [],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/calibration",
+            "display_name": "Calibration",
+            "score": 0.6424000263214111
+          },
+          {
+            "id": "https://openalex.org/keywords/ehealth",
+            "display_name": "eHealth",
+            "score": 0.5601000189781189
+          },
+          {
+            "id": "https://openalex.org/keywords/pressure-sensor",
+            "display_name": "Pressure sensor",
+            "score": 0.49230000376701355
+          },
+          {
+            "id": "https://openalex.org/keywords/node",
+            "display_name": "Node (physics)",
+            "score": 0.41760000586509705
+          },
+          {
+            "id": "https://openalex.org/keywords/muscle-strength",
+            "display_name": "Muscle strength",
+            "score": 0.3418000042438507
+          },
+          {
+            "id": "https://openalex.org/keywords/pressure-measurement",
+            "display_name": "Pressure measurement",
+            "score": 0.3066999912261963
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C165838908",
+            "wikidata": "https://www.wikidata.org/wiki/Q736777",
+            "display_name": "Calibration",
+            "level": 2,
+            "score": 0.6424000263214111
+          },
+          {
+            "id": "https://openalex.org/C202645933",
+            "wikidata": "https://www.wikidata.org/wiki/Q4930",
+            "display_name": "eHealth",
+            "level": 3,
+            "score": 0.5601000189781189
+          },
+          {
+            "id": "https://openalex.org/C41325743",
+            "wikidata": "https://www.wikidata.org/wiki/Q1261040",
+            "display_name": "Pressure sensor",
+            "level": 2,
+            "score": 0.49230000376701355
+          },
+          {
+            "id": "https://openalex.org/C71924100",
+            "wikidata": "https://www.wikidata.org/wiki/Q11190",
+            "display_name": "Medicine",
+            "level": 0,
+            "score": 0.4738999903202057
+          },
+          {
+            "id": "https://openalex.org/C62611344",
+            "wikidata": "https://www.wikidata.org/wiki/Q1062658",
+            "display_name": "Node (physics)",
+            "level": 2,
+            "score": 0.41760000586509705
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "wikidata": "https://www.wikidata.org/wiki/Q21198",
+            "display_name": "Computer science",
+            "level": 0,
+            "score": 0.36160001158714294
+          },
+          {
+            "id": "https://openalex.org/C2988918651",
+            "wikidata": "https://www.wikidata.org/wiki/Q1048687",
+            "display_name": "Muscle strength",
+            "level": 2,
+            "score": 0.3418000042438507
+          },
+          {
+            "id": "https://openalex.org/C80264047",
+            "wikidata": "https://www.wikidata.org/wiki/Q7424019",
+            "display_name": "Pressure measurement",
+            "level": 2,
+            "score": 0.3066999912261963
+          },
+          {
+            "id": "https://openalex.org/C89805583",
+            "wikidata": "https://www.wikidata.org/wiki/Q192940",
+            "display_name": "Accelerometer",
+            "level": 2,
+            "score": 0.2964000105857849
+          },
+          {
+            "id": "https://openalex.org/C164705383",
+            "wikidata": "https://www.wikidata.org/wiki/Q10379",
+            "display_name": "Cardiology",
+            "level": 1,
+            "score": 0.2915000021457672
+          },
+          {
+            "id": "https://openalex.org/C136229726",
+            "wikidata": "https://www.wikidata.org/wiki/Q327092",
+            "display_name": "Biomedical engineering",
+            "level": 1,
+            "score": 0.2840000092983246
+          },
+          {
+            "id": "https://openalex.org/C126322002",
+            "wikidata": "https://www.wikidata.org/wiki/Q11180",
+            "display_name": "Internal medicine",
+            "level": 1,
+            "score": 0.2720000147819519
+          },
+          {
+            "id": "https://openalex.org/C175079658",
+            "wikidata": "https://www.wikidata.org/wiki/Q7312165",
+            "display_name": "Remote patient monitoring",
+            "level": 2,
+            "score": 0.2621000111103058
+          },
+          {
+            "id": "https://openalex.org/C2779959927",
+            "wikidata": "https://www.wikidata.org/wiki/Q1048687",
+            "display_name": "Skeletal muscle",
+            "level": 2,
+            "score": 0.2615000009536743
+          },
+          {
+            "id": "https://openalex.org/C99508421",
+            "wikidata": "https://www.wikidata.org/wiki/Q2678675",
+            "display_name": "Physical medicine and rehabilitation",
+            "level": 1,
+            "score": 0.2596000134944916
+          }
+        ],
+        "mesh": [],
+        "locations_count": 1,
+        "locations": [
+          {
+            "id": "doi:10.1109/metroind4.0iot69397.2026.11653177",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653177",
+            "pdf_url": null,
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "2026 IEEE International Workshop on Metrology for Industry 4.0 &amp; IoT (MetroInd4.0 &amp; IoT)",
+            "raw_type": "proceedings-article"
+          }
+        ],
+        "best_oa_location": null,
+        "sustainable_development_goals": [],
+        "awards": [],
+        "funders": [],
+        "has_content": {
+          "pdf": false,
+          "grobid_xml": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 19,
+        "referenced_works": [
+          "https://openalex.org/W1132682502",
+          "https://openalex.org/W1964112652",
+          "https://openalex.org/W2085392039",
+          "https://openalex.org/W2096540239",
+          "https://openalex.org/W2471850952",
+          "https://openalex.org/W2596538959",
+          "https://openalex.org/W2792235509",
+          "https://openalex.org/W2796245045",
+          "https://openalex.org/W2917388343",
+          "https://openalex.org/W2920528284",
+          "https://openalex.org/W3018630587",
+          "https://openalex.org/W3158758052",
+          "https://openalex.org/W3197456399",
+          "https://openalex.org/W4200325059",
+          "https://openalex.org/W4211025614",
+          "https://openalex.org/W4304585049",
+          "https://openalex.org/W4383186039",
+          "https://openalex.org/W4386210099",
+          "https://openalex.org/W4400728032"
+        ],
+        "related_works": [],
+        "abstract_inverted_index": null,
+        "counts_by_year": [],
+        "updated_date": "2026-08-21T09:56:20.448147",
+        "created_date": "2026-08-20T00:00:00"
+      }
+    },
+    {
       "id": "https://openalex.org/W7118482098",
       "title": "On the role of AI in building generative urban intelligence",
       "authors": [
@@ -1450,7 +2508,7 @@
           "cited_by_count": 11
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.216Z",
+      "lastUpdated": "2026-09-03T19:13:21.033Z",
       "_raw": {
         "id": "https://openalex.org/W7118482098",
         "doi": "https://doi.org/10.1007/s10462-025-11469-3",
@@ -2751,6 +3809,1247 @@
       }
     },
     {
+      "id": "https://openalex.org/W7168364577",
+      "title": "A New Biomedical Device for Respiratory Muscle Assessment and Training",
+      "authors": [
+        {
+          "name": "Giselle Barbara De Almeida Scaldaferri",
+          "canonicalName": "Giselle Bárbara De Almeida Scaldaferri",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "first",
+          "openalexAuthorId": "https://openalex.org/A5140768998"
+        },
+        {
+          "name": "Yuri Lima Dos Santos Silva",
+          "canonicalName": "Yuri Lima Dos Santos Silva",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5140768267"
+        },
+        {
+          "name": "Vitoria Caldas Lordelo De Brito",
+          "canonicalName": "Vitória Caldas Lordelo De Brito",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5140905239"
+        },
+        {
+          "name": "Matheus Sales",
+          "canonicalName": "Matheus Sales",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5140870996"
+        },
+        {
+          "name": "Marcela Rodrigues De Castro",
+          "canonicalName": "Marcela Rodrigues De Castro",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5140815058"
+        },
+        {
+          "name": "Joao Carlos N. Bittencourt",
+          "canonicalName": "João Carlos N. Bittencourt",
+          "orcid": "https://orcid.org/0000-0002-4540-512X",
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5140773374"
+        },
+        {
+          "name": "Joao Soares De Oliveira Neto",
+          "canonicalName": "João Soares De Oliveira Neto",
+          "orcid": null,
+          "isCorresponding": false,
+          "position": "middle",
+          "openalexAuthorId": "https://openalex.org/A5140850412"
+        },
+        {
+          "name": "Daniel Dominguez Ferraz",
+          "canonicalName": "Daniel Dominguez Ferraz",
+          "orcid": "https://orcid.org/0000-0003-3049-0058",
+          "isCorresponding": false,
+          "position": "last",
+          "openalexAuthorId": "https://openalex.org/A5140877872"
+        }
+      ],
+      "journal": "IEEE Access",
+      "year": 2026,
+      "month": 1,
+      "date": "2026-01-01",
+      "doi": "https://doi.org/10.1109/access.2026.3713824",
+      "url": "https://doi.org/10.1109/access.2026.3713824",
+      "citations": 0,
+      "isOpenAccess": true,
+      "oaUrl": "https://doi.org/10.1109/access.2026.3713824",
+      "volume": "14",
+      "issue": null,
+      "pages": {
+        "first": "110082",
+        "last": "110096"
+      },
+      "keywords": [
+        "Training (meteorology)",
+        "Respiratory system",
+        "MEDLINE",
+        "Quadriceps muscle"
+      ],
+      "topics": [
+        "Myofascial pain diagnosis and treatment",
+        "Muscle activation and electromyography studies",
+        "Biomedical and Chemical Research"
+      ],
+      "abstract": "Maximal Inspiratory Pressure (MIP) and Maximal Expiratory Pressure (MEP) are established indicators of respiratory muscle function in clinical and research contexts. However, routine assessments often rely on analog instruments with limited digital traceability, which limits data analysis and longitudinal monitoring. To address this limitation, this study introduces a low-cost, 3D-printed portable device (3D-PPD) system for acquiring, visualizing, and locally storing pressure–time traces during maximal inspiratory and expiratory maneuvers. A pilot study assessed content validity through a two-round expert review (n=6), concurrent validity against a reference manovacuometer, and within-session and test–retest reliability in older adults (n=10) across two sessions. The total Content Validity Index (CVI) improved from 0.86 to 0.90 after device design modifications. Intraclass Correlation Coefficients (ICC) between the 3D-PPD and the reference manovacuometer ranged from 0.765 to 0.930. For the 3D-PPD, within-session ICC values ranged from 0.846 to 0.940, and test–retest ICC values ranged from 0.843 to 0.918. These results suggest that the 3D-PPD can support maximal respiratory pressure assessment with digital traceability in a pilot context, warranting further validation in larger, more diverse populations.",
+      "venue": {
+        "id": "https://openalex.org/S2485537415",
+        "display_name": "IEEE Access",
+        "issn_l": "2169-3536",
+        "issn": [
+          "2169-3536"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "language": "en",
+      "isRetracted": false,
+      "citationsPerYear": [],
+      "lastUpdated": "2026-09-03T19:13:21.035Z",
+      "_raw": {
+        "id": "https://openalex.org/W7168364577",
+        "doi": "https://doi.org/10.1109/access.2026.3713824",
+        "title": "A New Biomedical Device for Respiratory Muscle Assessment and Training",
+        "display_name": "A New Biomedical Device for Respiratory Muscle Assessment and Training",
+        "publication_year": 2026,
+        "publication_date": "2026-01-01",
+        "ids": {
+          "openalex": "https://openalex.org/W7168364577",
+          "doi": "https://doi.org/10.1109/access.2026.3713824"
+        },
+        "language": "en",
+        "primary_location": {
+          "id": "doi:10.1109/access.2026.3713824",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1109/access.2026.3713824",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2485537415",
+            "display_name": "IEEE Access",
+            "issn_l": "2169-3536",
+            "issn": [
+              "2169-3536"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Access",
+          "raw_type": "journal-article"
+        },
+        "type": "article",
+        "indexed_in": [
+          "crossref",
+          "doaj"
+        ],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://doi.org/10.1109/access.2026.3713824",
+          "any_repository_has_fulltext": false
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5140768998",
+              "display_name": "Giselle Bárbara De Almeida Scaldaferri",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Giselle Barbara De Almeida Scaldaferri",
+            "raw_affiliation_strings": [
+              "Federal University of Bahia"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5140768267",
+              "display_name": "Yuri Lima Dos Santos Silva",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I129192303",
+                "display_name": "Universidade Federal do Recôncavo da Bahia",
+                "ror": "https://ror.org/057mvv518",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I129192303"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Yuri Lima Dos Santos Silva",
+            "raw_affiliation_strings": [
+              "Federal University of Recôncavo da Bahia"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Recôncavo da Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5140905239",
+              "display_name": "Vitória Caldas Lordelo De Brito",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Vitoria Caldas Lordelo De Brito",
+            "raw_affiliation_strings": [
+              "Federal University of Bahia"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5140870996",
+              "display_name": "Matheus Sales",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Matheus Sales",
+            "raw_affiliation_strings": [
+              "Federal University of Bahia"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-7462-0374",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5140815058",
+              "display_name": "Marcela Rodrigues De Castro",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Marcela Rodrigues De Castro",
+            "raw_affiliation_strings": [
+              "Federal University of Bahia"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0003-3771-1386",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5140773374",
+              "display_name": "João Carlos N. Bittencourt",
+              "orcid": "https://orcid.org/0000-0002-4540-512X"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I129192303",
+                "display_name": "Universidade Federal do Recôncavo da Bahia",
+                "ror": "https://ror.org/057mvv518",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I129192303"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Joao Carlos N. Bittencourt",
+            "raw_affiliation_strings": [
+              "Federal University of Recôncavo da Bahia"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-4540-512X",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Recôncavo da Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I129192303"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5140850412",
+              "display_name": "João Soares De Oliveira Neto",
+              "orcid": null
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I130913789",
+                "display_name": "Instituto Federal da Bahia",
+                "ror": "https://ror.org/01tzdej37",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I130913789"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Joao Soares De Oliveira Neto",
+            "raw_affiliation_strings": [
+              "Institute of Science, Technology, and Innovation, Federal University of Bahia"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Institute of Science, Technology, and Innovation, Federal University of Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I126158947",
+                  "https://openalex.org/I130913789"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5140877872",
+              "display_name": "Daniel Dominguez Ferraz",
+              "orcid": "https://orcid.org/0000-0003-3049-0058"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I126158947",
+                "display_name": "Universidade Federal da Bahia",
+                "ror": "https://ror.org/03k3p7647",
+                "country_code": "BR",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ],
+            "countries": [
+              "BR"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Daniel Dominguez Ferraz",
+            "raw_affiliation_strings": [
+              "Federal University of Bahia"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0003-3049-0058",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Federal University of Bahia",
+                "institution_ids": [
+                  "https://openalex.org/I126158947"
+                ]
+              }
+            ]
+          }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 1,
+        "institutions_distinct_count": 3,
+        "corresponding_author_ids": [],
+        "corresponding_institution_ids": [],
+        "apc_list": {
+          "value": 2075,
+          "currency": "USD",
+          "value_usd": 2075
+        },
+        "apc_paid": {
+          "value": 2075,
+          "currency": "USD",
+          "value_usd": 2075
+        },
+        "fwci": 0,
+        "has_fulltext": false,
+        "cited_by_count": 0,
+        "citation_normalized_percentile": {
+          "value": 0.72213036,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "cited_by_percentile_year": null,
+        "biblio": {
+          "volume": "14",
+          "issue": null,
+          "first_page": "110082",
+          "last_page": "110096"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+          "id": "https://openalex.org/T12712",
+          "display_name": "Myofascial pain diagnosis and treatment",
+          "score": 0.07699999958276749,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1307",
+            "display_name": "Cell Biology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/13",
+            "display_name": "Biochemistry, Genetics and Molecular Biology"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T12712",
+            "display_name": "Myofascial pain diagnosis and treatment",
+            "score": 0.07699999958276749,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1307",
+              "display_name": "Cell Biology"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/13",
+              "display_name": "Biochemistry, Genetics and Molecular Biology"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/1",
+              "display_name": "Life Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10784",
+            "display_name": "Muscle activation and electromyography studies",
+            "score": 0.06880000233650208,
+            "subfield": {
+              "id": "https://openalex.org/subfields/2204",
+              "display_name": "Biomedical Engineering"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/22",
+              "display_name": "Engineering"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T12930",
+            "display_name": "Biomedical and Chemical Research",
+            "score": 0.056699998676776886,
+            "subfield": {
+              "id": "https://openalex.org/subfields/2746",
+              "display_name": "Surgery"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/27",
+              "display_name": "Medicine"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/4",
+              "display_name": "Health Sciences"
+            }
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/training",
+            "display_name": "Training (meteorology)",
+            "score": 0.5454999804496765
+          },
+          {
+            "id": "https://openalex.org/keywords/respiratory-system",
+            "display_name": "Respiratory system",
+            "score": 0.3246000111103058
+          },
+          {
+            "id": "https://openalex.org/keywords/medline",
+            "display_name": "MEDLINE",
+            "score": 0.2531999945640564
+          },
+          {
+            "id": "https://openalex.org/keywords/quadriceps-muscle",
+            "display_name": "Quadriceps muscle",
+            "score": 0.24609999358654022
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C71924100",
+            "wikidata": "https://www.wikidata.org/wiki/Q11190",
+            "display_name": "Medicine",
+            "level": 0,
+            "score": 0.650600016117096
+          },
+          {
+            "id": "https://openalex.org/C2777211547",
+            "wikidata": "https://www.wikidata.org/wiki/Q17141490",
+            "display_name": "Training (meteorology)",
+            "level": 2,
+            "score": 0.5454999804496765
+          },
+          {
+            "id": "https://openalex.org/C99508421",
+            "wikidata": "https://www.wikidata.org/wiki/Q2678675",
+            "display_name": "Physical medicine and rehabilitation",
+            "level": 1,
+            "score": 0.45080000162124634
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "wikidata": "https://www.wikidata.org/wiki/Q21198",
+            "display_name": "Computer science",
+            "level": 0,
+            "score": 0.36570000648498535
+          },
+          {
+            "id": "https://openalex.org/C1862650",
+            "wikidata": "https://www.wikidata.org/wiki/Q186005",
+            "display_name": "Physical therapy",
+            "level": 1,
+            "score": 0.32580000162124634
+          },
+          {
+            "id": "https://openalex.org/C534529494",
+            "wikidata": "https://www.wikidata.org/wiki/Q7891",
+            "display_name": "Respiratory system",
+            "level": 2,
+            "score": 0.3246000111103058
+          },
+          {
+            "id": "https://openalex.org/C177713679",
+            "wikidata": "https://www.wikidata.org/wiki/Q679690",
+            "display_name": "Intensive care medicine",
+            "level": 1,
+            "score": 0.27459999918937683
+          },
+          {
+            "id": "https://openalex.org/C2779473830",
+            "wikidata": "https://www.wikidata.org/wiki/Q1540899",
+            "display_name": "MEDLINE",
+            "level": 2,
+            "score": 0.2531999945640564
+          },
+          {
+            "id": "https://openalex.org/C2993908498",
+            "wikidata": "https://www.wikidata.org/wiki/Q504536",
+            "display_name": "Quadriceps muscle",
+            "level": 2,
+            "score": 0.24609999358654022
+          },
+          {
+            "id": "https://openalex.org/C51632099",
+            "wikidata": "https://www.wikidata.org/wiki/Q3985153",
+            "display_name": "Training set",
+            "level": 2,
+            "score": 0.22439999878406525
+          }
+        ],
+        "mesh": [],
+        "locations_count": 2,
+        "locations": [
+          {
+            "id": "doi:10.1109/access.2026.3713824",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1109/access.2026.3713824",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S2485537415",
+              "display_name": "IEEE Access",
+              "issn_l": "2169-3536",
+              "issn": [
+                "2169-3536"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310319808",
+              "host_organization_name": "Institute of Electrical and Electronics Engineers",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319808"
+              ],
+              "host_organization_lineage_names": [
+                "Institute of Electrical and Electronics Engineers"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "IEEE Access",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:2a165fdf4efc415885069aacfa3d2447",
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/2a165fdf4efc415885069aacfa3d2447",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "IEEE Access, Vol 14, Pp 110082-110096 (2026)",
+            "raw_type": "article"
+          }
+        ],
+        "best_oa_location": {
+          "id": "doi:10.1109/access.2026.3713824",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1109/access.2026.3713824",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2485537415",
+            "display_name": "IEEE Access",
+            "issn_l": "2169-3536",
+            "issn": [
+              "2169-3536"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Access",
+          "raw_type": "journal-article"
+        },
+        "sustainable_development_goals": [],
+        "awards": [],
+        "funders": [],
+        "has_content": {
+          "pdf": false,
+          "grobid_xml": false
+        },
+        "content_urls": null,
+        "referenced_works_count": 0,
+        "referenced_works": [],
+        "related_works": [],
+        "abstract_inverted_index": {
+          "Maximal": [
+            0,
+            5
+          ],
+          "Inspiratory": [
+            1
+          ],
+          "Pressure": [
+            2,
+            7
+          ],
+          "(MIP)": [
+            3
+          ],
+          "and": [
+            4,
+            18,
+            37,
+            57,
+            65,
+            86,
+            88,
+            120,
+            140
+          ],
+          "Expiratory": [
+            6
+          ],
+          "(MEP)": [
+            8
+          ],
+          "are": [
+            9
+          ],
+          "established": [
+            10
+          ],
+          "indicators": [
+            11
+          ],
+          "of": [
+            12
+          ],
+          "respiratory": [
+            13,
+            158
+          ],
+          "muscle": [
+            14
+          ],
+          "function": [
+            15
+          ],
+          "in": [
+            16,
+            91,
+            164,
+            171
+          ],
+          "clinical": [
+            17
+          ],
+          "research": [
+            19
+          ],
+          "contexts.": [
+            20
+          ],
+          "However,": [
+            21
+          ],
+          "routine": [
+            22
+          ],
+          "assessments": [
+            23
+          ],
+          "often": [
+            24
+          ],
+          "rely": [
+            25
+          ],
+          "on": [
+            26
+          ],
+          "analog": [
+            27
+          ],
+          "instruments": [
+            28
+          ],
+          "with": [
+            29,
+            161
+          ],
+          "limited": [
+            30
+          ],
+          "digital": [
+            31,
+            162
+          ],
+          "traceability,": [
+            32
+          ],
+          "which": [
+            33
+          ],
+          "limits": [
+            34
+          ],
+          "data": [
+            35
+          ],
+          "analysis": [
+            36
+          ],
+          "longitudinal": [
+            38
+          ],
+          "monitoring.": [
+            39
+          ],
+          "To": [
+            40
+          ],
+          "address": [
+            41
+          ],
+          "this": [
+            42,
+            44
+          ],
+          "limitation,": [
+            43
+          ],
+          "study": [
+            45,
+            70
+          ],
+          "introduces": [
+            46
+          ],
+          "a": [
+            47,
+            75,
+            83,
+            165
+          ],
+          "low-cost,": [
+            48
+          ],
+          "3D-printed": [
+            49
+          ],
+          "portable": [
+            50
+          ],
+          "device": [
+            51,
+            110
+          ],
+          "(3D-PPD)": [
+            52
+          ],
+          "system": [
+            53
+          ],
+          "for": [
+            54
+          ],
+          "acquiring,": [
+            55
+          ],
+          "visualizing,": [
+            56
+          ],
+          "locally": [
+            58
+          ],
+          "storing": [
+            59
+          ],
+          "pressure–time": [
+            60
+          ],
+          "traces": [
+            61
+          ],
+          "during": [
+            62
+          ],
+          "maximal": [
+            63,
+            157
+          ],
+          "inspiratory": [
+            64
+          ],
+          "expiratory": [
+            66
+          ],
+          "maneuvers.": [
+            67
+          ],
+          "A": [
+            68
+          ],
+          "pilot": [
+            69,
+            166
+          ],
+          "assessed": [
+            71
+          ],
+          "content": [
+            72
+          ],
+          "validity": [
+            73,
+            81
+          ],
+          "through": [
+            74
+          ],
+          "two-round": [
+            76
+          ],
+          "expert": [
+            77
+          ],
+          "review": [
+            78
+          ],
+          "(n=6),": [
+            79
+          ],
+          "concurrent": [
+            80
+          ],
+          "against": [
+            82
+          ],
+          "reference": [
+            84,
+            122
+          ],
+          "manovacuometer,": [
+            85
+          ],
+          "within-session": [
+            87,
+            132
+          ],
+          "test–retest": [
+            89,
+            141
+          ],
+          "reliability": [
+            90
+          ],
+          "older": [
+            92
+          ],
+          "adults": [
+            93
+          ],
+          "(n=10)": [
+            94
+          ],
+          "across": [
+            95
+          ],
+          "two": [
+            96
+          ],
+          "sessions.": [
+            97
+          ],
+          "The": [
+            98
+          ],
+          "total": [
+            99
+          ],
+          "Content": [
+            100
+          ],
+          "Validity": [
+            101
+          ],
+          "Index": [
+            102
+          ],
+          "(CVI)": [
+            103
+          ],
+          "improved": [
+            104
+          ],
+          "from": [
+            105,
+            125,
+            136,
+            145
+          ],
+          "0.86": [
+            106
+          ],
+          "to": [
+            107,
+            127,
+            138,
+            147
+          ],
+          "0.90": [
+            108
+          ],
+          "after": [
+            109
+          ],
+          "design": [
+            111
+          ],
+          "modifications.": [
+            112
+          ],
+          "Intraclass": [
+            113
+          ],
+          "Correlation": [
+            114
+          ],
+          "Coefficients": [
+            115
+          ],
+          "(ICC)": [
+            116
+          ],
+          "between": [
+            117
+          ],
+          "the": [
+            118,
+            121,
+            130,
+            153
+          ],
+          "3D-PPD": [
+            119,
+            154
+          ],
+          "manovacuometer": [
+            123
+          ],
+          "ranged": [
+            124,
+            135,
+            144
+          ],
+          "0.765": [
+            126
+          ],
+          "0.930.": [
+            128
+          ],
+          "For": [
+            129
+          ],
+          "3D-PPD,": [
+            131
+          ],
+          "ICC": [
+            133,
+            142
+          ],
+          "values": [
+            134,
+            143
+          ],
+          "0.846": [
+            137
+          ],
+          "0.940,": [
+            139
+          ],
+          "0.843": [
+            146
+          ],
+          "0.918.": [
+            148
+          ],
+          "These": [
+            149
+          ],
+          "results": [
+            150
+          ],
+          "suggest": [
+            151
+          ],
+          "that": [
+            152
+          ],
+          "can": [
+            155
+          ],
+          "support": [
+            156
+          ],
+          "pressure": [
+            159
+          ],
+          "assessment": [
+            160
+          ],
+          "traceability": [
+            163
+          ],
+          "context,": [
+            167
+          ],
+          "warranting": [
+            168
+          ],
+          "further": [
+            169
+          ],
+          "validation": [
+            170
+          ],
+          "larger,": [
+            172
+          ],
+          "more": [
+            173
+          ],
+          "diverse": [
+            174
+          ],
+          "populations.": [
+            175
+          ]
+        },
+        "counts_by_year": [],
+        "updated_date": "2026-08-21T09:56:20.448147",
+        "created_date": "2026-07-16T00:00:00"
+      }
+    },
+    {
       "id": "https://openalex.org/W4415968617",
       "title": "Embedded AI for Intelligent Wildfire Monitoring: A Multi-Sensor and Vision-Driven Approach",
       "authors": [
@@ -2830,7 +5129,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.216Z",
+      "lastUpdated": "2026-09-03T19:13:21.035Z",
       "_raw": {
         "id": "https://openalex.org/W4415968617",
         "doi": "https://doi.org/10.1109/iecon58223.2025.11221503",
@@ -3945,7 +6244,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.218Z",
+      "lastUpdated": "2026-09-03T19:13:21.035Z",
       "_raw": {
         "id": "https://openalex.org/W4415969055",
         "doi": "https://doi.org/10.1109/iecon58223.2025.11221897",
@@ -4861,7 +7160,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.218Z",
+      "lastUpdated": "2026-09-03T19:13:21.035Z",
       "_raw": {
         "id": "https://openalex.org/W7116829861",
         "doi": "https://doi.org/10.1109/isc266238.2025.11293347",
@@ -5829,7 +8128,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.218Z",
+      "lastUpdated": "2026-09-03T19:13:21.035Z",
       "_raw": {
         "id": "https://openalex.org/W7116880095",
         "doi": "https://doi.org/10.1109/isc266238.2025.11293304",
@@ -6909,7 +9208,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.218Z",
+      "lastUpdated": "2026-09-03T19:13:21.035Z",
       "_raw": {
         "id": "https://openalex.org/W7116972433",
         "doi": "https://doi.org/10.1109/isc266238.2025.11293334",
@@ -8043,7 +10342,7 @@
       "language": null,
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.218Z",
+      "lastUpdated": "2026-09-03T19:13:21.035Z",
       "_raw": {
         "id": "https://openalex.org/W4415399895",
         "doi": "https://doi.org/10.1109/etfa65518.2025.11205783",
@@ -8964,7 +11263,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.035Z",
       "_raw": {
         "id": "https://openalex.org/W4415400256",
         "doi": "https://doi.org/10.1109/etfa65518.2025.11205590",
@@ -10005,7 +12304,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.035Z",
       "_raw": {
         "id": "https://openalex.org/W4412640748",
         "doi": "https://doi.org/10.21203/rs.3.rs-7131966/v1",
@@ -10859,7 +13158,7 @@
           "cited_by_count": 4
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.035Z",
       "_raw": {
         "id": "https://openalex.org/W4412451150",
         "doi": "https://doi.org/10.1016/j.ijdrr.2025.105681",
@@ -12244,7 +14543,7 @@
       "date": "2025-04-29",
       "doi": "https://doi.org/10.3390/smartcities8030077",
       "url": "https://doi.org/10.3390/smartcities8030077",
-      "citations": 15,
+      "citations": 16,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.3390/smartcities8030077",
       "volume": "8",
@@ -12290,14 +14589,14 @@
       "citationsPerYear": [
         {
           "year": 2026,
-          "cited_by_count": 6
+          "cited_by_count": 7
         },
         {
           "year": 2025,
           "cited_by_count": 9
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.036Z",
       "_raw": {
         "id": "https://openalex.org/W4410069375",
         "doi": "https://doi.org/10.3390/smartcities8030077",
@@ -12541,11 +14840,11 @@
           "currency": "CHF",
           "value_usd": 2413
         },
-        "fwci": 6.4221,
+        "fwci": 6.7221,
         "has_fulltext": false,
-        "cited_by_count": 15,
+        "cited_by_count": 16,
         "citation_normalized_percentile": {
-          "value": 0.97026887,
+          "value": 0.97159641,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
@@ -13452,14 +15751,14 @@
         "counts_by_year": [
           {
             "year": 2026,
-            "cited_by_count": 6
+            "cited_by_count": 7
           },
           {
             "year": 2025,
             "cited_by_count": 9
           }
         ],
-        "updated_date": "2026-08-28T12:50:07.497085",
+        "updated_date": "2026-09-02T18:50:13.731487",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -13563,7 +15862,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.036Z",
       "_raw": {
         "id": "https://openalex.org/W4404356577",
         "doi": "https://doi.org/10.1007/978-3-031-73497-7_32",
@@ -14173,7 +16472,7 @@
       "date": "2024-07-26",
       "doi": "https://doi.org/10.1016/j.mex.2024.102880",
       "url": "https://doi.org/10.1016/j.mex.2024.102880",
-      "citations": 11,
+      "citations": 12,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.1016/j.mex.2024.102880",
       "volume": "13",
@@ -14223,14 +16522,14 @@
       "citationsPerYear": [
         {
           "year": 2026,
-          "cited_by_count": 9
+          "cited_by_count": 10
         },
         {
           "year": 2025,
           "cited_by_count": 2
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.036Z",
       "_raw": {
         "id": "https://openalex.org/W4401046855",
         "doi": "https://doi.org/10.1016/j.mex.2024.102880",
@@ -14513,11 +16812,11 @@
           "currency": "USD",
           "value_usd": 850
         },
-        "fwci": 1.2377,
+        "fwci": 1.3392,
         "has_fulltext": true,
-        "cited_by_count": 11,
+        "cited_by_count": 12,
         "citation_normalized_percentile": {
-          "value": 0.76152437,
+          "value": 0.77821042,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": false
         },
@@ -15498,14 +17797,14 @@
         "counts_by_year": [
           {
             "year": 2026,
-            "cited_by_count": 9
+            "cited_by_count": 10
           },
           {
             "year": 2025,
             "cited_by_count": 2
           }
         ],
-        "updated_date": "2026-08-28T12:50:07.497085",
+        "updated_date": "2026-09-02T07:38:04.252551",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -15587,7 +17886,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.036Z",
       "_raw": {
         "id": "https://openalex.org/W4401113675",
         "doi": "https://doi.org/10.1109/melecon56669.2024.10608598",
@@ -16571,7 +18870,7 @@
           "cited_by_count": 2
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.036Z",
       "_raw": {
         "id": "https://openalex.org/W4403022638",
         "doi": "https://doi.org/10.1109/scfc62024.2024.10698207",
@@ -17462,7 +19761,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.036Z",
       "_raw": {
         "id": "https://openalex.org/W4403022658",
         "doi": "https://doi.org/10.1109/scfc62024.2024.10698740",
@@ -18224,7 +20523,7 @@
       "date": "2024-05-06",
       "doi": "https://doi.org/10.1016/j.scs.2024.105477",
       "url": "https://doi.org/10.1016/j.scs.2024.105477",
-      "citations": 23,
+      "citations": 24,
       "isOpenAccess": true,
       "oaUrl": "https://doi.org/10.1016/j.scs.2024.105477",
       "volume": "108",
@@ -18283,7 +20582,7 @@
       "citationsPerYear": [
         {
           "year": 2026,
-          "cited_by_count": 4
+          "cited_by_count": 5
         },
         {
           "year": 2025,
@@ -18294,7 +20593,7 @@
           "cited_by_count": 6
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.036Z",
       "_raw": {
         "id": "https://openalex.org/W4396677387",
         "doi": "https://doi.org/10.1016/j.scs.2024.105477",
@@ -18550,11 +20849,11 @@
           "currency": "USD",
           "value_usd": 4340
         },
-        "fwci": 11.7517,
+        "fwci": 12.2171,
         "has_fulltext": false,
-        "cited_by_count": 23,
+        "cited_by_count": 24,
         "citation_normalized_percentile": {
-          "value": 0.98622065,
+          "value": 0.98734065,
           "is_in_top_1_percent": false,
           "is_in_top_10_percent": true
         },
@@ -19620,7 +21919,7 @@
         "counts_by_year": [
           {
             "year": 2026,
-            "cited_by_count": 4
+            "cited_by_count": 5
           },
           {
             "year": 2025,
@@ -19631,7 +21930,7 @@
             "cited_by_count": 6
           }
         ],
-        "updated_date": "2026-08-28T12:50:07.497085",
+        "updated_date": "2026-09-01T08:31:24.195828",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -19686,7 +21985,7 @@
       "date": "2024-01-11",
       "doi": "https://doi.org/10.3390/su16020640",
       "url": "https://doi.org/10.3390/su16020640",
-      "citations": 81,
+      "citations": 82,
       "isOpenAccess": true,
       "oaUrl": "https://www.mdpi.com/2071-1050/16/2/640/pdf?version=1704965720",
       "volume": "16",
@@ -19741,7 +22040,7 @@
       "citationsPerYear": [
         {
           "year": 2026,
-          "cited_by_count": 25
+          "cited_by_count": 26
         },
         {
           "year": 2025,
@@ -19752,7 +22051,7 @@
           "cited_by_count": 19
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.036Z",
       "_raw": {
         "id": "https://openalex.org/W4390751318",
         "doi": "https://doi.org/10.3390/su16020640",
@@ -20049,11 +22348,11 @@
           "currency": "CHF",
           "value_usd": 2728
         },
-        "fwci": 41.3866,
+        "fwci": 41.2392,
         "has_fulltext": true,
-        "cited_by_count": 81,
+        "cited_by_count": 82,
         "citation_normalized_percentile": {
-          "value": 0.99929109,
+          "value": 0.99928613,
           "is_in_top_1_percent": true,
           "is_in_top_10_percent": true
         },
@@ -21058,7 +23357,7 @@
         "counts_by_year": [
           {
             "year": 2026,
-            "cited_by_count": 25
+            "cited_by_count": 26
           },
           {
             "year": 2025,
@@ -21069,7 +23368,7 @@
             "cited_by_count": 19
           }
         ],
-        "updated_date": "2026-08-28T12:50:07.497085",
+        "updated_date": "2026-09-02T07:38:04.252551",
         "created_date": "2025-10-10T00:00:00"
       }
     },
@@ -21170,7 +23469,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.220Z",
+      "lastUpdated": "2026-09-03T19:13:21.036Z",
       "_raw": {
         "id": "https://openalex.org/W4400975104",
         "doi": "https://doi.org/10.1109/access.2024.3433381",
@@ -22443,7 +24742,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.220Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W4402435481",
         "doi": "https://doi.org/10.1109/rita.2024.3458850",
@@ -23508,7 +25807,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.220Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W4389045321",
         "doi": "https://doi.org/10.24840/2183-6493_009-005_002156",
@@ -24645,7 +26944,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.220Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W4388842249",
         "doi": "https://doi.org/10.1016/j.compenvurbsys.2023.102054",
@@ -26266,7 +28565,7 @@
           "cited_by_count": 4
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.220Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W4388088101",
         "doi": "https://doi.org/10.1109/isc257844.2023.10293735",
@@ -27285,7 +29584,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.220Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W4402510102",
         "doi": "https://doi.org/10.5753/erbase.2022.228873",
@@ -27963,7 +30262,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.220Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W4312248886",
         "doi": "https://doi.org/10.37702/cobenge.2022.3840",
@@ -28732,7 +31031,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.220Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W4312384372",
         "doi": "https://doi.org/10.37702/cobenge.2022.3836",
@@ -29680,7 +31979,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.220Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W4285342487",
         "doi": "https://doi.org/10.5753/erbase.2021.20062",
@@ -30560,7 +32859,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W4285342612",
         "doi": "https://doi.org/10.5753/erbase.2021.20366",
@@ -31349,7 +33648,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W3111267421",
         "doi": "https://doi.org/10.48011/asba.v2i1.971",
@@ -32230,7 +34529,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W3113358243",
         "doi": "https://doi.org/10.48011/asba.v2i1.1333",
@@ -33381,7 +35680,7 @@
       "language": "en",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.037Z",
       "_raw": {
         "id": "https://openalex.org/W3035676811",
         "doi": "https://doi.org/10.22533/at.ed.87220080611",
@@ -33857,7 +36156,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.038Z",
       "_raw": {
         "id": "https://openalex.org/W3041937156",
         "doi": "https://doi.org/10.36558/rsc.v10i1.6643",
@@ -34693,7 +36992,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.038Z",
       "_raw": {
         "id": "https://openalex.org/W2986411918",
         "doi": "https://doi.org/10.5151/siintec2019-45",
@@ -35793,7 +38092,7 @@
           "cited_by_count": 3
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.038Z",
       "_raw": {
         "id": "https://openalex.org/W2998133484",
         "doi": "https://doi.org/10.1109/h2rc49586.2019.00012",
@@ -37343,7 +39642,7 @@
       "language": "pt",
       "isRetracted": false,
       "citationsPerYear": [],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.038Z",
       "_raw": {
         "id": "https://openalex.org/W2939288824",
         "doi": null,
@@ -38518,7 +40817,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.038Z",
       "_raw": {
         "id": "https://openalex.org/W2782499739",
         "doi": "https://doi.org/10.1109/chilecon.2017.8229606",
@@ -39586,7 +41885,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.038Z",
       "_raw": {
         "id": "https://openalex.org/W2184065042",
         "doi": "https://doi.org/10.1109/patmos.2015.7347589",
@@ -40506,7 +42805,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.038Z",
       "_raw": {
         "id": "https://openalex.org/W1927039319",
         "doi": "https://doi.org/10.1109/dsd.2015.55",
@@ -41533,7 +43832,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.221Z",
+      "lastUpdated": "2026-09-03T19:13:21.038Z",
       "_raw": {
         "id": "https://openalex.org/W334391379",
         "doi": null,
@@ -42422,7 +44721,7 @@
           "cited_by_count": 1
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.222Z",
+      "lastUpdated": "2026-09-03T19:13:21.038Z",
       "_raw": {
         "id": "https://openalex.org/W1835217957",
         "doi": null,
@@ -43031,11 +45330,11 @@
     }
   ],
   "stats": {
-    "totalPapers": 41,
-    "totalCitations": 266,
+    "totalPapers": 44,
+    "totalCitations": 270,
     "hIndex": 8,
-    "openAccessCount": 19,
-    "averageCitations": 6.5,
+    "openAccessCount": 20,
+    "averageCitations": 6.1,
     "publicationsByYear": {
       "2010": 1,
       "2011": 1,
@@ -43048,10 +45347,10 @@
       "2023": 3,
       "2024": 9,
       "2025": 10,
-      "2026": 2
+      "2026": 5
     },
     "publicationsByType": {
-      "other": 41
+      "other": 44
     },
     "mostCitedPaper": {
       "id": "https://openalex.org/W4390751318",
@@ -43104,7 +45403,7 @@
       "date": "2024-01-11",
       "doi": "https://doi.org/10.3390/su16020640",
       "url": "https://doi.org/10.3390/su16020640",
-      "citations": 81,
+      "citations": 82,
       "isOpenAccess": true,
       "oaUrl": "https://www.mdpi.com/2071-1050/16/2/640/pdf?version=1704965720",
       "volume": "16",
@@ -43159,7 +45458,7 @@
       "citationsPerYear": [
         {
           "year": 2026,
-          "cited_by_count": 25
+          "cited_by_count": 26
         },
         {
           "year": 2025,
@@ -43170,7 +45469,7 @@
           "cited_by_count": 19
         }
       ],
-      "lastUpdated": "2026-09-01T06:57:21.219Z",
+      "lastUpdated": "2026-09-03T19:13:21.036Z",
       "_raw": {
         "id": "https://openalex.org/W4390751318",
         "doi": "https://doi.org/10.3390/su16020640",
@@ -43467,11 +45766,11 @@
           "currency": "CHF",
           "value_usd": 2728
         },
-        "fwci": 41.3866,
+        "fwci": 41.2392,
         "has_fulltext": true,
-        "cited_by_count": 81,
+        "cited_by_count": 82,
         "citation_normalized_percentile": {
-          "value": 0.99929109,
+          "value": 0.99928613,
           "is_in_top_1_percent": true,
           "is_in_top_10_percent": true
         },
@@ -44476,7 +46775,7 @@
         "counts_by_year": [
           {
             "year": 2026,
-            "cited_by_count": 25
+            "cited_by_count": 26
           },
           {
             "year": 2025,
@@ -44487,12 +46786,12 @@
             "cited_by_count": 19
           }
         ],
-        "updated_date": "2026-08-28T12:50:07.497085",
+        "updated_date": "2026-09-02T07:38:04.252551",
         "created_date": "2025-10-10T00:00:00"
       }
     },
-    "recentPapers": 21
+    "recentPapers": 24
   },
-  "lastFetched": "2026-09-01T06:57:21.222Z",
-  "totalCount": 41
+  "lastFetched": "2026-09-03T19:13:21.040Z",
+  "totalCount": 44
 }
