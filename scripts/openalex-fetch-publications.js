@@ -13,6 +13,7 @@ const AUTHOR_IDS = [
     "a5107181246", // Alternative ID 2
     "a5113972525", // Alternative ID 3
     "a5121092256", // Alternative ID 4
+    "a5140773374", // Alternative ID 5
 ]
 
 const PER_PAGE = 200
