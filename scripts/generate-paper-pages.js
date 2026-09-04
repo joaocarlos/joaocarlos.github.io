@@ -9,6 +9,7 @@ const PROJECT_ROOT = path.resolve(__dirname, "..")
 
 const PAPERS_DIR = path.join(PROJECT_ROOT, "content/papers")
 const PUBLICATIONS_FILE = path.join(PROJECT_ROOT, "data/publications.json")
+const SOFTWARE_FILE = path.join(PROJECT_ROOT, "data/software.json")
 
 /**
  * Extract OpenAlex ID from full URL
@@ -410,6 +411,28 @@ async function generatePaperPages() {
         // Ensure papers directory exists
         await fs.mkdir(PAPERS_DIR, { recursive: true })
 
+        // Clean up any stale paper pages for software entries
+        try {
+            const softwareData = JSON.parse(
+                await fs.readFile(SOFTWARE_FILE, "utf-8"),
+            )
+            for (const item of softwareData.software || []) {
+                const ids = [
+                    item.openalexId,
+                    ...(item.openalexIds || []),
+                ].filter(Boolean)
+                for (const id of ids) {
+                    const softwarePath = path.join(PAPERS_DIR, `${id}.md`)
+                    if (await fileExists(softwarePath)) {
+                        await fs.unlink(softwarePath)
+                        console.log(`[-] Removed software paper page: ${id}.md`)
+                    }
+                }
+            }
+        } catch {
+            // software.json might not exist yet
+        }
+
         let created = 0
         let skipped = 0
         let softwareSkipped = 0
@@ -424,6 +447,10 @@ async function generatePaperPages() {
                 console.log(
                     `[~] ${openalexId}.md - skipped (software/dataset): ${pub.title?.substring(0, 50)}`,
                 )
+                if (await fileExists(filePath)) {
+                    await fs.unlink(filePath)
+                    console.log(`[-] Removed software paper page: ${openalexId}.md`)
+                }
                 continue
             }
 
