@@ -8,18 +8,10 @@ const __dirname = path.dirname(__filename)
 const PROJECT_ROOT = path.resolve(__dirname, "..")
 
 // OpenAlex API configuration
-const AUTHOR_IDS = [
-    "a5040609024", // Alternative ID 1
-    "a5107181246", // Alternative ID 2
-    "a5113972525", // Alternative ID 3
-    "a5121092256", // Alternative ID 4
-    "a5140773374", // Alternative ID 5
-]
+const ORCID = "0000-0002-4540-512X"
 
 const PER_PAGE = 200
-const BASE_API_URL = `https://api.openalex.org/works?filter=authorships.author.id:${AUTHOR_IDS.join(
-    "|",
-)}&sort=publication_year:desc&per_page=${PER_PAGE}`
+const BASE_API_URL = `https://api.openalex.org/works?filter=author.orcid:${ORCID}&sort=publication_year:desc&per_page=${PER_PAGE}`
 
 async function fetchAllPublications() {
     const allResults = []
