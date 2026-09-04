@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      :root {
+        --bg: #1e293b;
+        --stroke: #ffffff;
+        --cap-fill: rgba(255, 255, 255, 0.12);
+        --tassel: #94a3b8;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f172a;
+          --stroke: #f8fafc;
+          --cap-fill: rgba(255, 255, 255, 0.16);
+          --tassel: #cbd5e1;
+        }
+      }
+    </style>
+    <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="15" fill="var(--bg)"/>
+
+  <!-- Academic Mortarboard Cap Icon -->
+  <g transform="translate(7, 7) scale(1.25)">
+    <!-- Mortarboard Diamond Top -->
+    <polygon points="20,8 36,16 20,24 4,16" fill="url(#capGrad)" stroke="var(--stroke)" stroke-width="2.4" stroke-linejoin="round"/>
+    
+    <!-- Underneath Skullcap Arch -->
+    <path d="M10,19 v8 c0,0 4,4 10,4 c6,0 10,-4 10,-4 v-8" fill="none" stroke="var(--stroke)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Tassel String and Bead -->
+    <path d="M36,16 v10" stroke="var(--tassel)" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="36" cy="28.5" r="2.2" fill="var(--tassel)"/>
+  </g>
+</svg>
