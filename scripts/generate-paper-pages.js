@@ -70,6 +70,176 @@ function getTopics(topics, maxCount = 5) {
 }
 
 /**
+ * Common HTML entities map (named entities).
+ */
+const NAMED_HTML_ENTITIES = {
+    "&amp;": "&",
+    "&lt;": "<",
+    "&gt;": ">",
+    "&quot;": '"',
+    "&apos;": "'",
+    "&nbsp;": " ",
+    "&copy;": "©",
+    "&reg;": "®",
+    "&trade;": "™",
+    "&ndash;": "–",
+    "&mdash;": "—",
+    "&lsquo;": "‘",
+    "&rsquo;": "’",
+    "&sbquo;": "‚",
+    "&ldquo;": "“",
+    "&rdquo;": "”",
+    "&bdquo;": "„",
+    "&laquo;": "«",
+    "&raquo;": "»",
+    "&hellip;": "…",
+    "&bull;": "•",
+    "&prime;": "′",
+    "&Prime;": "″",
+    "&deg;": "°",
+    "&plusmn;": "±",
+    "&times;": "×",
+    "&divide;": "÷",
+    "&micro;": "µ",
+    "&middot;": "·",
+    "&sect;": "§",
+    "&para;": "¶",
+    "&euro;": "€",
+    "&pound;": "£",
+    "&yen;": "¥",
+    "&cent;": "¢",
+    // Accented / Latin characters
+    "&aacute;": "á",
+    "&Aacute;": "Á",
+    "&agrave;": "à",
+    "&Agrave;": "À",
+    "&acirc;": "â",
+    "&Acirc;": "Â",
+    "&atilde;": "ã",
+    "&Atilde;": "Ã",
+    "&auml;": "ä",
+    "&Auml;": "Ä",
+    "&aring;": "å",
+    "&Aring;": "Å",
+    "&aelig;": "æ",
+    "&AElig;": "Æ",
+    "&ccedil;": "ç",
+    "&Ccedil;": "Ç",
+    "&eacute;": "é",
+    "&Eacute;": "É",
+    "&egrave;": "è",
+    "&Egrave;": "È",
+    "&ecirc;": "ê",
+    "&Ecirc;": "Ê",
+    "&euml;": "ë",
+    "&Euml;": "Ë",
+    "&iacute;": "í",
+    "&Iacute;": "Í",
+    "&igrave;": "ì",
+    "&Igrave;": "Ì",
+    "&icirc;": "î",
+    "&Icirc;": "Î",
+    "&iuml;": "ï",
+    "&Iuml;": "Ï",
+    "&ntilde;": "ñ",
+    "&Ntilde;": "Ñ",
+    "&oacute;": "ó",
+    "&Oacute;": "Ó",
+    "&ograve;": "ò",
+    "&Ograve;": "Ò",
+    "&ocirc;": "ô",
+    "&Ocirc;": "Ô",
+    "&otilde;": "õ",
+    "&Otilde;": "Õ",
+    "&ouml;": "ö",
+    "&Ouml;": "Ö",
+    "&uacute;": "ú",
+    "&Uacute;": "Ú",
+    "&ugrave;": "ù",
+    "&Ugrave;": "Ù",
+    "&ucirc;": "û",
+    "&Ucirc;": "Û",
+    "&uuml;": "ü",
+    "&Uuml;": "Ü",
+    "&yacute;": "ý",
+    "&Yacute;": "Ý",
+    "&yuml;": "ÿ",
+    // Common Greek letters
+    "&alpha;": "α",
+    "&Alpha;": "Α",
+    "&beta;": "β",
+    "&Beta;": "Β",
+    "&gamma;": "γ",
+    "&Gamma;": "Γ",
+    "&delta;": "δ",
+    "&Delta;": "Δ",
+    "&epsilon;": "ε",
+    "&Epsilon;": "Ε",
+    "&zeta;": "ζ",
+    "&Zeta;": "Ζ",
+    "&eta;": "η",
+    "&Eta;": "Η",
+    "&theta;": "θ",
+    "&Theta;": "Θ",
+    "&lambda;": "λ",
+    "&Lambda;": "Λ",
+    "&mu;": "μ",
+    "&Mu;": "Μ",
+    "&pi;": "π",
+    "&Pi;": "Π",
+    "&sigma;": "σ",
+    "&Sigma;": "Σ",
+    "&tau;": "τ",
+    "&Tau;": "Τ",
+    "&phi;": "φ",
+    "&Phi;": "Φ",
+    "&omega;": "ω",
+    "&Omega;": "Ω",
+}
+
+/**
+ * Decode HTML entities (named, decimal, hexadecimal) in a string.
+ */
+function decodeHtmlEntities(str) {
+    if (!str || typeof str !== "string") return str
+    if (!str.includes("&")) return str
+
+    let decoded = str
+    for (let i = 0; i < 2; i++) {
+        const prev = decoded
+        decoded = decoded
+            .replace(/&#x([0-9a-fA-F]+);/gi, (_, hex) => {
+                const code = parseInt(hex, 16)
+                if (code === 13) return ""
+                try {
+                    return String.fromCodePoint(code)
+                } catch {
+                    return ""
+                }
+            })
+            .replace(/&#(\d+);/g, (_, dec) => {
+                const code = parseInt(dec, 10)
+                if (code === 13) return ""
+                try {
+                    return String.fromCodePoint(code)
+                } catch {
+                    return ""
+                }
+            })
+            .replace(/&[a-zA-Z]+;/g, (match) => {
+                return NAMED_HTML_ENTITIES[match] || match
+            })
+        if (decoded === prev) break
+    }
+    try {
+        decoded = decoded.normalize("NFC")
+    } catch {
+        // fallback if normalize fails
+    }
+    return decoded
+}
+
+/**
  * Escape special characters in YAML strings
  */
 function escapeYaml(str) {
@@ -79,7 +249,8 @@ function escapeYaml(str) {
         str.includes(":") ||
         str.includes("#") ||
         str.includes("'") ||
-        str.includes('"')
+        str.includes('"') ||
+        str.includes("&")
     ) {
         return `"${str.replace(/"/g, '\\"')}"`
     }
@@ -454,8 +625,25 @@ async function generatePaperPages() {
                 continue
             }
 
-            // Skip if file already exists (preserves manual edits)
+            // If file already exists, check if it contains unescaped HTML entities and fix them
             if (await fileExists(filePath)) {
+                let existingContent = await fs.readFile(filePath, "utf-8")
+                if (/&amp;|&quot;|&#x?[0-9a-fA-F]+;/i.test(existingContent)) {
+                    let updated = decodeHtmlEntities(existingContent)
+                    updated = updated.replace(/\\&amp;/g, "\\&")
+                    updated = updated.replace(
+                        /^venue:\s*([^\n"]*&[^\n"]*)$/m,
+                        (m, val) => {
+                            return `venue: "${val.trim().replace(/"/g, '\\"')}"`
+                        },
+                    )
+                    if (updated !== existingContent) {
+                        await fs.writeFile(filePath, updated)
+                        console.log(
+                            `[*] Cleaned HTML entities in existing paper: ${openalexId}.md`,
+                        )
+                    }
+                }
                 skipped++
                 continue
             }

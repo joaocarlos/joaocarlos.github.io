@@ -26,7 +26,7 @@ languages:
                 department: "Center of Exact Sciences and Technology"
                 institution: "Federal University of Recôncavo da Bahia (UFRB)"
                 bio: |
-                    I am a professor at the Center of Exact Sciences and Technology (CETEC) at the Federal University of Recôncavo of Bahia (UFRB).
+                    My research focuses on Artificial Intelligence of Things (AIoT) solutions for smart environments, developing edge computing and machine learning systems to enhance urban resilience and emergency response.
         menus:
             main:
                 - name: "About me"
@@ -59,7 +59,7 @@ languages:
                 department: "Centro de Ciências Exatas e Tecnológicas"
                 institution: "Universidade Federal do Recôncavo da Bahia (UFRB)"
                 bio: |
-                    Sou professor no Centro de Ciências Exatas e Tecnológicas (CETEC) da Universidade Federal do Recôncavo da Bahia (UFRB).
+                    Minha pesquisa concentra-se em soluções de Inteligência Artificial das Coisas (AIoT) para ambientes inteligentes, desenvolvendo computação de borda e sistemas de aprendizado de máquina para promover resiliência urbana e resposta a emergências.
         menus:
             main:
                 - name: "Sobre"
@@ -141,7 +141,7 @@ params:
         location: "Cruz das Almas, Brazil"
         image: "/images/profile-500.jpg"
         bio: |
-            I am a professor at the Center of Exact Sciences and Technology (CETEC) at the Federal University of Recôncavo of Bahia (UFRB).
+            My research focuses on Artificial Intelligence of Things (AIoT) solutions for smart environments, developing edge computing and machine learning systems to enhance urban resilience and emergency response.
 
     # Research areas (displayed as cards on about page)
     research:

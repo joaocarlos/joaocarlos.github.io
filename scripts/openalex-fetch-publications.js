@@ -42,6 +42,176 @@ async function fetchAllPublications() {
 }
 
 /**
+ * Common HTML entities map (named entities).
+ */
+const NAMED_HTML_ENTITIES = {
+    "&amp;": "&",
+    "&lt;": "<",
+    "&gt;": ">",
+    "&quot;": '"',
+    "&apos;": "'",
+    "&nbsp;": " ",
+    "&copy;": "©",
+    "&reg;": "®",
+    "&trade;": "™",
+    "&ndash;": "–",
+    "&mdash;": "—",
+    "&lsquo;": "‘",
+    "&rsquo;": "’",
+    "&sbquo;": "‚",
+    "&ldquo;": "“",
+    "&rdquo;": "”",
+    "&bdquo;": "„",
+    "&laquo;": "«",
+    "&raquo;": "»",
+    "&hellip;": "…",
+    "&bull;": "•",
+    "&prime;": "′",
+    "&Prime;": "″",
+    "&deg;": "°",
+    "&plusmn;": "±",
+    "&times;": "×",
+    "&divide;": "÷",
+    "&micro;": "µ",
+    "&middot;": "·",
+    "&sect;": "§",
+    "&para;": "¶",
+    "&euro;": "€",
+    "&pound;": "£",
+    "&yen;": "¥",
+    "&cent;": "¢",
+    // Accented / Latin characters
+    "&aacute;": "á",
+    "&Aacute;": "Á",
+    "&agrave;": "à",
+    "&Agrave;": "À",
+    "&acirc;": "â",
+    "&Acirc;": "Â",
+    "&atilde;": "ã",
+    "&Atilde;": "Ã",
+    "&auml;": "ä",
+    "&Auml;": "Ä",
+    "&aring;": "å",
+    "&Aring;": "Å",
+    "&aelig;": "æ",
+    "&AElig;": "Æ",
+    "&ccedil;": "ç",
+    "&Ccedil;": "Ç",
+    "&eacute;": "é",
+    "&Eacute;": "É",
+    "&egrave;": "è",
+    "&Egrave;": "È",
+    "&ecirc;": "ê",
+    "&Ecirc;": "Ê",
+    "&euml;": "ë",
+    "&Euml;": "Ë",
+    "&iacute;": "í",
+    "&Iacute;": "Í",
+    "&igrave;": "ì",
+    "&Igrave;": "Ì",
+    "&icirc;": "î",
+    "&Icirc;": "Î",
+    "&iuml;": "ï",
+    "&Iuml;": "Ï",
+    "&ntilde;": "ñ",
+    "&Ntilde;": "Ñ",
+    "&oacute;": "ó",
+    "&Oacute;": "Ó",
+    "&ograve;": "ò",
+    "&Ograve;": "Ò",
+    "&ocirc;": "ô",
+    "&Ocirc;": "Ô",
+    "&otilde;": "õ",
+    "&Otilde;": "Õ",
+    "&ouml;": "ö",
+    "&Ouml;": "Ö",
+    "&uacute;": "ú",
+    "&Uacute;": "Ú",
+    "&ugrave;": "ù",
+    "&Ugrave;": "Ù",
+    "&ucirc;": "û",
+    "&Ucirc;": "Û",
+    "&uuml;": "ü",
+    "&Uuml;": "Ü",
+    "&yacute;": "ý",
+    "&Yacute;": "Ý",
+    "&yuml;": "ÿ",
+    // Common Greek letters
+    "&alpha;": "α",
+    "&Alpha;": "Α",
+    "&beta;": "β",
+    "&Beta;": "Β",
+    "&gamma;": "γ",
+    "&Gamma;": "Γ",
+    "&delta;": "δ",
+    "&Delta;": "Δ",
+    "&epsilon;": "ε",
+    "&Epsilon;": "Ε",
+    "&zeta;": "ζ",
+    "&Zeta;": "Ζ",
+    "&eta;": "η",
+    "&Eta;": "Η",
+    "&theta;": "θ",
+    "&Theta;": "Θ",
+    "&lambda;": "λ",
+    "&Lambda;": "Λ",
+    "&mu;": "μ",
+    "&Mu;": "Μ",
+    "&pi;": "π",
+    "&Pi;": "Π",
+    "&sigma;": "σ",
+    "&Sigma;": "Σ",
+    "&tau;": "τ",
+    "&Tau;": "Τ",
+    "&phi;": "φ",
+    "&Phi;": "Φ",
+    "&omega;": "ω",
+    "&Omega;": "Ω",
+}
+
+/**
+ * Decode HTML entities (named, decimal, hexadecimal) in a string.
+ */
+function decodeHtmlEntities(str) {
+    if (!str || typeof str !== "string") return str
+    if (!str.includes("&")) return str
+
+    let decoded = str
+    for (let i = 0; i < 2; i++) {
+        const prev = decoded
+        decoded = decoded
+            .replace(/&#x([0-9a-fA-F]+);/gi, (_, hex) => {
+                const code = parseInt(hex, 16)
+                if (code === 13) return ""
+                try {
+                    return String.fromCodePoint(code)
+                } catch {
+                    return ""
+                }
+            })
+            .replace(/&#(\d+);/g, (_, dec) => {
+                const code = parseInt(dec, 10)
+                if (code === 13) return ""
+                try {
+                    return String.fromCodePoint(code)
+                } catch {
+                    return ""
+                }
+            })
+            .replace(/&[a-zA-Z]+;/g, (match) => {
+                return NAMED_HTML_ENTITIES[match] || match
+            })
+        if (decoded === prev) break
+    }
+    try {
+        decoded = decoded.normalize("NFC")
+    } catch {
+        // fallback if normalize fails
+    }
+    return decoded
+}
+
+/**
  * Detect software/dataset entries that OpenAlex misclassifies as publications.
  * These are typically GitHub releases deposited on Zenodo.
  */
@@ -132,18 +302,23 @@ async function fetchPublications() {
         // Process publications
         const processedPublications = results.map((pub) => {
             // Get venue from OpenAlex (display_name or raw_source_name)
-            const venueName =
+            const rawVenue =
                 pub.primary_location?.source?.display_name ||
                 pub.primary_location?.raw_source_name ||
                 null
+            const venueName = decodeHtmlEntities(rawVenue)
 
             return {
                 id: pub.id,
-                title: pub.display_name || pub.title,
+                title: decodeHtmlEntities(pub.display_name || pub.title),
                 authors:
                     pub.authorships?.map((a) => ({
-                        name: a.raw_author_name || a.author?.display_name,
-                        canonicalName: a.author?.display_name || null,
+                        name: decodeHtmlEntities(
+                            a.raw_author_name || a.author?.display_name,
+                        ),
+                        canonicalName: decodeHtmlEntities(
+                            a.author?.display_name || null,
+                        ),
                         orcid: a.author?.orcid,
                         isCorresponding: a.is_corresponding,
                         position: a.author_position,
@@ -167,11 +342,18 @@ async function fetchPublications() {
                     first: pub.biblio?.first_page,
                     last: pub.biblio?.last_page,
                 },
-                keywords: pub.keywords?.map((k) => k.display_name) || [],
+                keywords:
+                    pub.keywords?.map((k) =>
+                        decodeHtmlEntities(k.display_name),
+                    ) || [],
                 topics:
-                    pub.topics?.slice(0, 3).map((t) => t.display_name) || [],
+                    pub.topics
+                        ?.slice(0, 3)
+                        .map((t) => decodeHtmlEntities(t.display_name)) || [],
                 abstract: pub.abstract_inverted_index
-                    ? reconstructAbstract(pub.abstract_inverted_index)
+                    ? decodeHtmlEntities(
+                          reconstructAbstract(pub.abstract_inverted_index),
+                      )
                     : null,
                 venue: pub.primary_location?.source,
                 language: pub.language,
